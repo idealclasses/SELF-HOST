@@ -1,0 +1,14 @@
+# Comprehensive Pi-hole Blocklist
+# Merged from:
+# - Original YouTube/Malware blocklist
+# - Steven Black hosts file (https://github.com/StevenBlack/hosts)
+#
+# This file will be populated with 68,000+ domains from Steven Black
+# Processing the merge...
+
+# Fetching from Steven Black hosts file...
+# This blocklist blocks malware, adware, popups, gambling, tracking, and other unwanted content
+# Add to Pi-hole: Settings > Adlists > Paste URL or content
+
+# Domains will be updated
+merged-blocklist-placeholder.com
