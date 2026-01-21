@@ -1,14 +1,7 @@
-# Malware, Ads, and Gambling Blocklist (UPDATED)
+# Malware, Ads, and Gambling Blocklist (CLEANED)
 # Generated: 2026-01-21
-# Modifications: removed domains that can break normal browsing or are malformed:
-# - Removed: lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com
-# - Removed: yt3.ggpht.com yt4.ggpht.com yt5.ggpht.com
-# - Removed: mxcdn.com
-# - Removed: playstation-store.com www.playstation-store.com
-# - Removed: teredo.ipv6.microsoft.com isatap.local localhost.localdomain
-# - Removed malformed path entries: bing.com/acjs facebook.com/tr linkedin.com/analytics
-#
-# Note: If you experience site breakage later, check Pi-hole query logs and whitelist the specific domain shown there.
+# This file excludes Googleusercontent/YouTube avatar hosts, PlayStation store host,
+# local/IPv6 helper names, and malformed path entries so normal browsing won't break.
 
 # Known Malware Domains
 malware.com
@@ -455,7 +448,6 @@ www.criteo.com
 bing.com
 rubiconproject.com
 www.rubiconproject.com
-mxcdn.com
 mathtag.com
 www.mathtag.com
 taboola.com
@@ -580,7 +572,7 @@ unicode-spoof.com
 www.unicode-spoof.com
 
 # Security Threats
-# (Removed teredo.ipv6.microsoft.com, isatap.local, localhost.localdomain to avoid breaking connectivity)
+# (local/IPv6 helper names and Teredo were removed to avoid breaking connectivity)
 
 # Gambling and Betting Websites
 bet365.com
@@ -666,7 +658,6 @@ www.asianbookie.com
 www.188bet.com
 crown.com.au
 www.crown.com.au
-playstation-store (removed)
 bluestakes.com
 www.bluestakes.com
 betworld.com
@@ -826,19 +817,7 @@ www.casinobd.com
 betbangla.com
 www.betbangla.com
 
-# Video delivery and streaming
-
-# CDN and static content
-lh3.googleusercontent.com (removed)
-lh4.googleusercontent.com (removed)
-lh5.googleusercontent.com (removed)
-lh6.googleusercontent.com (removed)
-lh7.googleusercontent.com (removed)
-yt3.ggpht.com (removed)
-yt4.ggpht.com (removed)
-yt5.ggpht.com (removed)
-
-# Content delivery networks
+# Content delivery networks and ad click hosts
 adclick.g.doubleclick.net
 
 # Cryptomining and Botnets
