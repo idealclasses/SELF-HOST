@@ -896,20 +896,6 @@ casinobd.com
 www.casinobd.com
 betbangla.com
 www.betbangla.com
-youtube.googleapis.com
-youtubeembeddedplayer.googleapis.com
-youtubei.googleapis.com
-yt-video-upload.clients6.google.com
-play.google.com
-
-# YouTube app API endpoints
-remoteconfig.googleapis.com
-mobilesdk.google.com
-www.googleapis.com
-accounts.google.com
-oauth.google.com
-ssl.google-analytics.com
-www.google-analytics.com
 
 # Video delivery and streaming
 r1---sn-*-u0cxe.googlevideo.com
