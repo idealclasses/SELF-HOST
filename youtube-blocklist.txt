@@ -491,13 +491,6 @@ ad.doubleclick.net
 ad-apac.doubleclick.net
 casale.com
 www.casale.com
-google.com/ads/measurement
-adsense.google.com
-www.adsense.google.com
-admob.google.com
-www.admob.google.com
-adwords.google.com
-www.adwords.google.com
 affiliate.amazon.com
 performance.amazon.com
 publicidad.amazon.com
@@ -582,7 +575,6 @@ unicode-spoof.com
 www.unicode-spoof.com
 
 # Security Threats
-wpad.com
 teredo.ipv6.microsoft.com
 isatap.local
 localhost.localdomain
@@ -898,16 +890,6 @@ betbangla.com
 www.betbangla.com
 
 # Video delivery and streaming
-r1---sn-*-u0cxe.googlevideo.com
-r2---sn-*-u0cxe.googlevideo.com
-r3---sn-*-u0cxe.googlevideo.com
-r4---sn-*-u0cxe.googlevideo.com
-r5---sn-*-u0cxe.googlevideo.com
-r6---sn-*-u0cxe.googlevideo.com
-r7---sn-*-u0cxe.googlevideo.com
-r8---sn-*-u0cxe.googlevideo.com
-googlevideo.com
-*.googlevideo.com
 
 # CDN and static content
 lh3.googleusercontent.com
@@ -919,33 +901,8 @@ yt3.ggpht.com
 yt4.ggpht.com
 yt5.ggpht.com
 
-# Google services used by YouTube app
-gstatic.com
-*.gstatic.com
-googleapis.com
-*.googleapis.com
-google-analytics.com
-*.google-analytics.com
-
 # Content delivery networks
-doubleclick.net
-*.doubleclick.net
-googleads.g.doubleclick.net
-
-# Additional app trackers and analytics
-crashlytics.com
-firebase.googleapis.com
-firebase-settings.crashlytics.com
-reports.crashlytics.com
-google.com
-*.google.com
-googleadservices.com
-*.googleadservices.com
-
-# Monetization and ads
-pagead.googlesyndication.com
-pagead2.googlesyndication.com
-*.googlesyndication.com
+adclick.g.doubleclick.net
 
 # Cryptomining and Botnets
 coinhive.com
