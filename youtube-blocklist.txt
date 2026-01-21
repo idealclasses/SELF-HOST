@@ -1,6 +1,6 @@
-# Malware and Popup Blocklist
+# Malware, Popup, and Gambling Blocklist
 # Add this to Pi-hole as an adlist: Settings > Adlists > Paste URL or content
-# This blocks malware, adware, popups, and tracking domains
+# This blocks malware, adware, popups, gambling, and tracking domains
 
 # Known Malware Domains
 malware.com
@@ -105,11 +105,103 @@ scam-alert.com
 fraud-detection.com
 phishing-archive.com
 
-# Additional Security Threats
+# Security Threats
 wpad.com
 teredo.ipv6.microsoft.com
 isatap.local
 localhost.localdomain
+
+# Gambling and Betting Websites
+bet365.com
+www.bet365.com
+888.com
+www.888.com
+betfair.com
+www.betfair.com
+pokerstars.com
+www.pokerstars.com
+fulltilt.com
+www.fulltilt.com
+bwin.com
+www.bwin.com
+ladbrokes.com
+www.ladbrokes.com
+betvictor.com
+www.betvictor.com
+williamhill.com
+www.williamhill.com
+bodog.com
+www.bodog.com
+betKing.com
+www.betKing.com
+draftkings.com
+www.draftkings.com
+fanduel.com
+www.fanduel.com
+caesars.com
+www.caesars.com
+mgmresorts.com
+www.mgmresorts.com
+wynn.com
+www.wynn.com
+venetian.com
+www.venetian.com
+cosmopolitanlv.com
+partypoker.com
+www.partypoker.com
+888poker.com
+www.888poker.com
+playtech.com
+www.playtech.com
+gamesys.com
+www.gamesys.com
+slotsmillion.com
+www.slotsmillion.com
+casumo.com
+www.casumo.com
+betsson.com
+www.betsson.com
+bet888.com
+www.bet888.com
+10bet.com
+www.10bet.com
+betano.com
+www.betano.com
+unibet.com
+www.unibet.com
+eurobet.com
+www.eurobet.com
+snaitech.com
+www.snaitech.com
+sisal.it
+www.sisal.it
+lottomatica.it
+www.lottomatica.it
+sportech.com
+www.sportech.com
+paddy.power
+paddypower.com
+www.paddypower.com
+betfared.com
+sports-reference.com
+odds.com
+betclic.com
+www.betclic.com
+everton.betconnect.com
+sportingbet.com
+www.sportingbet.com
+betathome.com
+www.betathome.com
+gamebookers.com
+www.gamebookers.com
+betting.com
+www.betting.com
+tipbet.com
+www.tipbet.com
+livebet.com
+www.livebet.com
+bettingexpert.com
+www.bettingexpert.com
 youtube.googleapis.com
 youtubeembeddedplayer.googleapis.com
 youtubei.googleapis.com
