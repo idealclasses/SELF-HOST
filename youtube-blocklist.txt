@@ -1,0 +1,68 @@
+# YouTube Complete Blocklist
+# Add this to Pi-hole as an adlist: Settings > Adlists > Paste URL or content
+# This blocks YouTube completely
+
+# Main YouTube domains
+youtube.com
+www.youtube.com
+m.youtube.com
+youtu.be
+www.youtu.be
+
+# YouTube subdomains and services
+accounts.youtube.com
+apis.google.com
+consent.youtube.com
+create.youtube.com
+gaming.youtube.com
+help.youtube.com
+img.youtube.com
+kids.youtube.com
+m.youtube.com
+music.youtube.com
+news.youtube.com
+pay.youtube.com
+s.youtube.com
+shorts.youtube.com
+studio.youtube.com
+support.youtube.com
+tv.youtube.com
+upload.youtube.com
+video-stats.video.google.com
+www-cdn.youtube.com
+www-player.youtube.com
+youtubei.googleapis.com
+yt.be
+
+# Related image/CDN domains
+i.ytimg.com
+i1.ytimg.com
+i2.ytimg.com
+i3.ytimg.com
+i4.ytimg.com
+s.ytimg.com
+yt3.ggpht.com
+yt4.ggpht.com
+yt5.ggpht.com
+
+# YouTube analytics and tracking
+youtube-nocookie.com
+www.youtube-nocookie.com
+youtube.googleapis.com
+youtubeembeddedplayer.googleapis.com
+youtubei.googleapis.com
+yt-video-upload.clients6.google.com
+play.google.com
+
+# Google analytics and services used by YouTube
+google.com
+www.google.com
+*.gstatic.com
+*.googleapis.com
+*.google-analytics.com
+doubleclick.net
+*.doubleclick.net
+
+# Additional third-party trackers used by YouTube
+crashlytics.com
+googleadservices.com
