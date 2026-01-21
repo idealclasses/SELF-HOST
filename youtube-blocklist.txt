@@ -54,15 +54,61 @@ youtubei.googleapis.com
 yt-video-upload.clients6.google.com
 play.google.com
 
-# Google analytics and services used by YouTube
-google.com
-www.google.com
+# YouTube app API endpoints
+remoteconfig.googleapis.com
+mobilesdk.google.com
+www.googleapis.com
+accounts.google.com
+oauth.google.com
+ssl.google-analytics.com
+www.google-analytics.com
+
+# Video delivery and streaming
+r1---sn-*-u0cxe.googlevideo.com
+r2---sn-*-u0cxe.googlevideo.com
+r3---sn-*-u0cxe.googlevideo.com
+r4---sn-*-u0cxe.googlevideo.com
+r5---sn-*-u0cxe.googlevideo.com
+r6---sn-*-u0cxe.googlevideo.com
+r7---sn-*-u0cxe.googlevideo.com
+r8---sn-*-u0cxe.googlevideo.com
+googlevideo.com
+*.googlevideo.com
+
+# CDN and static content
+lh3.googleusercontent.com
+lh4.googleusercontent.com
+lh5.googleusercontent.com
+lh6.googleusercontent.com
+lh7.googleusercontent.com
+yt3.ggpht.com
+yt4.ggpht.com
+yt5.ggpht.com
+
+# Google services used by YouTube app
+gstatic.com
 *.gstatic.com
+googleapis.com
 *.googleapis.com
+google-analytics.com
 *.google-analytics.com
+
+# Content delivery networks
 doubleclick.net
 *.doubleclick.net
+googleads.g.doubleclick.net
 
-# Additional third-party trackers used by YouTube
+# Additional app trackers and analytics
 crashlytics.com
+firebase.googleapis.com
+firebase-settings.crashlytics.com
+reports.crashlytics.com
+google.com
+*.google.com
 googleadservices.com
+*.googleadservices.com
+
+# Monetization and ads
+pagead.googlesyndication.com
+pagead2.googlesyndication.com
+*.googlesyndication.com
