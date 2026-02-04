@@ -1,0 +1,6 @@
+# Upstream M3U sources for BD channels
+# Update this file with new URLs as needed
+
+https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
+https://raw.githubusercontent.com/time2shine/IPTV/main/playlist.m3u

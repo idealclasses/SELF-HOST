@@ -2,11 +2,9 @@
 import urllib.request
 import re
 
-# List of playlist URLs
-urls = [
-    "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u",
-    "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u"
-]
+# Read upstream URLs from file
+with open('/workspaces/PI-HOLE-BLOCK/upstream_sources.txt', 'r') as f:
+    urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
 
 all_bd_entries = []
 
