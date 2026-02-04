@@ -50,7 +50,7 @@ for i in range(1, len(existing_lines), 2):
             match = re.search(r',(.+)$', channel)
             if match:
                 name = match.group(1).strip()
-                if 'BD' in name or 'Bangla' in channel or '[LIVE] BDIX' in channel:
+                if 'BD' in name:
                     existing_channels.add(name)
                     combined.extend([channel, url])
 
