@@ -1,6 +1,6 @@
 # PI-HOLE-BLOCK
 
-A collection of blocklists for Pi-hole DNS server.
+A collection of blocklists for Pi-hole DNS server and IPTV playlists.
 
 ## YouTube Complete Blocker
 
@@ -39,3 +39,52 @@ https://raw.githubusercontent.com/yourusername/PI-HOLE-BLOCK/main/youtube-blockl
 
 ### Note
 ⚠️ **Warning**: Blocking Google domains broadly may affect other Google services. If you only want to block YouTube without affecting Gmail, Google Search, etc., edit the blocklist to remove or comment out wildcard Google domain entries.
+
+## Bangladesh (BD) IPTV Channels Playlist
+
+### Overview
+A curated M3U playlist containing Bangladesh (BD) channels extracted from YouTube live streams and other IPTV sources.
+
+### Features
+- 78 unique Bangladesh channels
+- Channels from news, entertainment, and other categories
+- M3U format compatible with most IPTV players
+- Regularly updated with fresh sources
+
+### Channel List
+The playlist includes channels such as:
+- BD | EKHON TV
+- BD | Channel 24
+- BD | Ekattor TV
+- BD | Independent Television
+- BD | DBC News
+- BD | NEWS24 Television
+- BD | ATN News
+- BD | SOMOY NEWS
+- BD | News
+- And 69+ additional BD channels from various sources
+
+### How to Use
+
+1. Download the `BD_channels.m3u` file or use the raw URL
+2. Open in your preferred IPTV player (VLC, Kodi, etc.)
+3. Load the playlist and enjoy BD channels
+
+### Direct URL Method
+```
+https://raw.githubusercontent.com/idealclasses/PI-HOLE-BLOCK/main/BD_channels.m3u
+```
+
+### Sources
+- Primary: YouTube IPTV playlist (time2shine/IPTV)
+- Secondary: BDIX IPTV playlist (abusaeeidx/Mrgify-BDIX-IPTV)
+
+### Note
+⚠️ **Important**: These are YouTube-based live streams that may require:
+- A compatible media player that supports YouTube HLS
+- VPN access if geo-restricted
+- The URLs are temporary and may expire - refresh the playlist periodically
+
+### Recent Updates
+- **v1.0**: Initial BD channels extraction (9 channels from YouTube source)
+- **v1.1**: Combined with additional BD channels (78 total unique channels from multiple sources)
