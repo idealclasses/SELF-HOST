@@ -5,7 +5,7 @@ import re
 
 # Mapping of channel names to YouTube handles
 channel_mapping = {
-    "BD | EKHON TV": "@ekhontvbd",
+    "BD | EKHON TV": "@EkhonTVBD",
     "BD | Channel 24": "@channel24bd",
     "BD | Ekattor TV": "@ekattortvonline",
     "BD | Independent Television": "@independenttelevisionbd",
