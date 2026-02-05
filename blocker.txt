@@ -478,6 +478,41 @@ www.gigya.com
 exacttarget.com
 www.exacttarget.com
 
+# Additional trackers and analytics endpoints added to improve coverage
+google-analytics.com
+www.google-analytics.com
+ssl.google-analytics.com
+googletagmanager.com
+www.googletagmanager.com
+googletagservices.com
+www.googletagservices.com
+analytics.twitter.com
+analytics.facebook.com
+pixel.facebook.com
+quantserve.com
+www.quantserve.com
+adnxs.com
+www.adnxs.com
+adform.com
+www.adform.com
+adform.net
+www.adform.net
+openx.net
+www.openx.net
+adsafeprotected.com
+www.adsafeprotected.com
+mixpanel.com
+www.mixpanel.com
+hotjar.com
+www.hotjar.com
+fullstory.com
+www.fullstory.com
+amplitude.com
+www.amplitude.com
+segment.com
+cdn.segment.com
+www.cdn.segment.com
+
 # PPC and Affiliate Networks
 clk.tradedoubler.com
 clk.aff-clicks.com
