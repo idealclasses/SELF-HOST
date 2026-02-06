@@ -4,3 +4,4 @@
 https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u
 https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
 https://raw.githubusercontent.com/time2shine/IPTV/main/playlist.m3u
+https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u
