@@ -1,3 +1,10 @@
 #Upstream DNS query link
 
 link-1:https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt   # AdGuard DNS filter
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt   # AdAway Default Blocklist
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts      # StevenBlack Hosts (Pi-hole old)
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt  # AdGuard DNS Popup Hosts filter
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt  # AWAvenue Ads Rule
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt   # OISD Blocklist Small
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt  # OISD Blocklist Big
