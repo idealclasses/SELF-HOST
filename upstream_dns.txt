@@ -8,3 +8,7 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt  # AdGuard 
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt  # AWAvenue Ads Rule
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt   # OISD Blocklist Small
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt  # OISD Blocklist Big
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt  # Steven Black's List
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt  # Phishing URL Blocklist (PhishTank and OpenPhish)
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt  # Phishing Army
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt  # Malicious URL Blocklist (URLHaus)
