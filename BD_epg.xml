@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="PI-HOLE-BLOCK">
+
+  <!-- Channel definitions (tvg-id should match M3U tvg-id if used) -->
+  <channel id="atn_bangla">
+    <display-name>ATN Bangla</display-name>
+  </channel>
+  <channel id="atn_bangla_uk">
+    <display-name>ATN Bangla UK</display-name>
+  </channel>
+  <channel id="btv_hd">
+    <display-name>BTV HD</display-name>
+  </channel>
+  <channel id="akash_aath">
+    <display-name>Akash Aath</display-name>
+  </channel>
+  <channel id="ananda_tv">
+    <display-name>Ananda TV</display-name>
+  </channel>
+  <channel id="asian_tv">
+    <display-name>Asian TV</display-name>
+  </channel>
+  <channel id="sony_ten_1">
+    <display-name>Sony Ten 1</display-name>
+  </channel>
+
+  <!-- Sample programme schedule (static example for 2026-03-02 UTC) -->
+  <programme start="20260302T08000000 +0000" stop="20260302T09000000 +0000" channel="atn_bangla">
+    <title lang="en">Morning News</title>
+    <desc lang="en">Hourly news bulletin and headlines.</desc>
+  </programme>
+
+  <programme start="20260302T09000000 +0000" stop="20260302T10000000 +0000" channel="atn_bangla">
+    <title lang="en">Talk Show</title>
+    <desc lang="en">Interviews and current affairs.</desc>
+  </programme>
+
+  <programme start="20260302T08000000 +0000" stop="20260302T10000000 +0000" channel="btv_hd">
+    <title lang="en">BTV Morning</title>
+    <desc lang="en">Local news, culture and features.</desc>
+  </programme>
+
+  <programme start="20260302T10000000 +0000" stop="20260302T12000000 +0000" channel="akash_aath">
+    <title lang="en">Drama Block</title>
+    <desc lang="en">Popular serials and dramas.</desc>
+  </programme>
+
+  <programme start="20260302T08000000 +0000" stop="20260302T11000000 +0000" channel="sony_ten_1">
+    <title lang="en">Live Sports</title>
+    <desc lang="en">Live sports feed (sample entry).</desc>
+  </programme>
+
+</tv>
