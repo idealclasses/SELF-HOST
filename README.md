@@ -72,7 +72,7 @@ The playlist includes channels such as:
 
 ### Direct URL Method
 ```
-https://raw.githubusercontent.com/idealclasses/PI-HOLE-BLOCK/main/BD_channels.m3u
+https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/BD_channels.m3u
 ```
 
 ### Sources
@@ -88,3 +88,24 @@ https://raw.githubusercontent.com/idealclasses/PI-HOLE-BLOCK/main/BD_channels.m3
 ### Recent Updates
 - **v1.0**: Initial BD channels extraction (9 channels from YouTube source)
 - **v1.1**: Combined with additional BD channels (78 total unique channels from multiple sources)
+
+## EPG (Electronic Program Guide)
+
+A static XMLTV EPG is included as `BD_epg.xml`. To use an EPG with IPTV players you can:
+
+- Host `BD_epg.xml` on GitHub (push changes) and use the raw URL:
+	https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/BD_epg.xml
+- Or serve locally with a simple HTTP server:
+
+```bash
+cd /workspaces/PI-HOLE-BLOCK
+python3 -m http.server 8000
+# then use: http://<your-ip>:8000/BD_epg.xml
+```
+
+Mapping guidance:
+- If you want EPG items to match channels in `BD_channels.m3u`, add a `tvg-id` attribute to the `#EXTINF` lines with the XMLTV `channel` id (for example `tvg-id="atn_bangla"`). The `channel` ids used in `BD_epg.xml` are short names such as `atn_bangla`, `btv_hd`, `akash_aath`, etc.
+
+Optional next steps:
+- I can add `tvg-id` attributes to `BD_channels.m3u` for the top channels to enable automatic matching.
+- I can expand `BD_epg.xml` to cover 7 days or generate it from a template.
