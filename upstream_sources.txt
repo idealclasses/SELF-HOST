@@ -9,3 +9,6 @@ https://raw.githubusercontent.com/saifujjaman/bd-iptv/master/iptv-list.m3u
 https://raw.githubusercontent.com/hutho/IPTV-Playlists/main/Bd-tv-channel.m3u
 https://raw.githubusercontent.com/hutho/IPTV-Playlists/main/Bdix.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bd.m3u
+https://raw.githubusercontent.com/hutho/IPTV-Playlists/main/Bdcast.m3u
+https://raw.githubusercontent.com/Mrgify-BDIX-IPTV/playlist/main/playlist.m3u
+https://iptv-org.github.io/iptv/countries/bd.m3u
