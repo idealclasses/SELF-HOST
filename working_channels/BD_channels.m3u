@@ -349,3 +349,13 @@ https://edge2.roarzone.info:8447/roarzone/edge3/zee-cinema-hd/index.m3u8?token=0
 https://edge2.roarzone.info:8447/roarzone/edge3/zee-tv-hd/index.m3u8?token=8325b1000ccf9cb01d45189f07d3bbeae7190e8e-cae23ba353d007a73d249bf40465a9a7-1772447219-1772443619
 #EXTINF:-1 tvg-logo="https://tvassets.roarzone.info/images/zee-anmol.png" group-title="Working Channels",zee-anmol
 https://edge2.roarzone.info:8447/roarzone/edge3/zee-anmol/index.m3u8?token=38c652970c335505868786b19b9b37d11c94c84b-d7fe9ba2df5307f3435f98922a589998-1772447219-1772443619
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", 5aab TV
+http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Ayush TV
+http://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", DD Vyas
+http://playhls.media.nic.in/live/vyas-360p/index.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Desi Plus
+http://cdn2.live247stream.com/desiplus/tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", India Today
+https://feeds.intoday.in/hltapps/api/master.m3u8
