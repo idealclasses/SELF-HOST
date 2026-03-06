@@ -405,3 +405,35 @@ https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m
 http://103.161.153.165:8000/play/zeebnhd/index.m3u8
 #EXTINF:-1 tvg-id="ZeeBanglaSonar.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Working Channels",Zee Bangla Sonar (576p)
 http://103.229.254.25:7001/play/a070/index.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", 92 News
+http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Dunya News
+http://imob.dunyanews.tv/live/_definst_/dunyalive_1/chunklist_w1239250459.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Zindagi TV
+https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Arirang
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", CGTN
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", India Today
+https://feeds.intoday.in/hltapps/api/master.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", NDTV 24X7
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Bloomberg Asia
+https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Channel NewsAsia
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", AMGTV
+https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Channel Y
+http://cdn19.live247stream.com/channely/tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", 92 News
+http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Dunya News
+http://imob.dunyanews.tv/live/_definst_/dunyalive_1/chunklist_w1239250459.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Eawaz TV (CA)
+https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/chunks.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Tag TV
+http://cdn11.live247stream.com/tag/tv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="Working Channels", Zindagi TV
+https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8?checkedby:iptvcat.com
