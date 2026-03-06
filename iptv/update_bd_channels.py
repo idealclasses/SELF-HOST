@@ -8,6 +8,7 @@ from urllib.error import URLError, HTTPError
 SOURCES = [
     "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u",
     "https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u",
+    "https://iptv-org.github.io/iptv/countries/bd.m3u",
 ]
 
 USER_AGENT = 'Mozilla/5.0 (compatible; PI-HOLE-BLOCK/1.0)'
@@ -26,7 +27,7 @@ def parse_bd_entries(data, include_all=False):
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        if line.startswith('#EXTINF') and (include_all or 'BD' in line):
+        if line.startswith('#EXTINF') and (include_all or 'bd' in line.lower()):
             entry = [line + '\n']
             i += 1
             if i < len(lines):
@@ -72,7 +73,7 @@ all_entries = []
 for src in SOURCES:
     try:
         data = fetch(src)
-        include_all = 'private-zone-by-xfireflix.pages.dev' in src or 'playlist-isp-bdix' in src
+        include_all = 'private-zone-by-xfireflix.pages.dev' in src or 'playlist-isp-bdix' in src or 'iptv-org.github.io/iptv/categories' in src
         entries = parse_bd_entries(data, include_all=include_all)
         kind = 'all' if include_all else 'BD'
         print(f"Fetched {len(entries)} {kind} entries from {src}")
