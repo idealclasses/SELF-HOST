@@ -98,9 +98,10 @@ def is_whitelisted(domain):
             return True
     return False
 
-def clean_blocklist(input_file, output_file):
+def clean_blocklist(input_file, output_file, removed_file):
     """Clean the blocklist by removing whitelisted domains"""
     cleaned_domains = []
+    removed_domains = []
     removed_count = 0
 
     try:
@@ -113,6 +114,7 @@ def clean_blocklist(input_file, output_file):
 
                 if is_whitelisted(line_stripped):
                     removed_count += 1
+                    removed_domains.append(line_stripped)
                     print(f"Removed whitelisted domain: {line_stripped}")
                 else:
                     cleaned_domains.append(line)
@@ -130,13 +132,22 @@ def clean_blocklist(input_file, output_file):
         with open(output_file, 'w') as f:
             f.writelines(cleaned_domains)
 
+        # Write removed domains to separate file
+        with open(removed_file, 'w') as f:
+            f.write("# Whitelisted domains removed from blocker.txt\n")
+            f.write(f"# Total removed: {len(removed_domains)}\n")
+            f.write("# Date: 2026-03-13\n\n")
+            for domain in sorted(removed_domains):
+                f.write(domain + '\n')
+
         print(f"\nCleaning complete:")
         print(f"Removed {removed_count} whitelisted domains")
         print(f"Remaining domains: {sum(1 for l in cleaned_domains if l.strip() and not l.startswith('#'))}")
-        print(f"Output saved to: {output_file}")
+        print(f"Cleaned blocklist saved to: {output_file}")
+        print(f"Removed domains recorded in: {removed_file}")
 
     except Exception as e:
         print(f"Error cleaning blocklist: {e}")
 
 if __name__ == "__main__":
-    clean_blocklist('blocker.txt', 'blocker_cleaned.txt')
+    clean_blocklist('blocker.txt', 'blocker.txt', 'whitelisted_domains.txt')
