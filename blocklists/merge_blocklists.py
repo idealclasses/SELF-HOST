@@ -15,7 +15,66 @@ BLOCKLISTS = [
     ("OpenPhish", "https://openphish.com/feed.txt"),
 ]
 
-def download_blocklist(name, url):
+# Whitelist of domains that should NEVER be blocked (critical for normal internet usage)
+WHITELIST = {
+    # Payment processors
+    'paypal.com',
+    'stripe.com',
+    'square.com',
+    'authorize.net',
+    'braintree.com',
+    '2checkout.com',
+    'checkout.com',
+    
+    # Banks and financial institutions
+    'chase.com',
+    'bankofamerica.com',
+    'wellsfargo.com',
+    'citibank.com',
+    'citigroup.com',
+    'capitalone.com',
+    'usbank.com',
+    'pnc.com',
+    'td.com',
+    'suntrust.com',
+    'bbt.com',
+    'hsbc.com',
+    'barclays.com',
+    
+    # Credit card companies
+    'visa.com',
+    'mastercard.com',
+    'americanexpress.com',
+    'discover.com',
+    
+    # Major tech companies (core domains only)
+    'google.com',
+    'apple.com',
+    'microsoft.com',
+    'amazon.com',
+    
+    # Email providers
+    'gmail.com',
+    'outlook.com',
+    'yahoo.com',
+    'hotmail.com',
+    
+    # Government and essential services
+    'gov',
+    'edu',
+    'org',  # But only for legitimate orgs - this might be too broad
+    
+    # Expand whitelist to include common subdomains that are legitimate
+    # Analytics subdomains that are often required for sites to function
+}
+
+def is_whitelisted(domain):
+    """Check if a domain should be whitelisted (not blocked)"""
+    domain = domain.lower()
+    for whitelisted in WHITELIST:
+        if domain == whitelisted or domain.endswith('.' + whitelisted):
+            return True
+    return False
     """Download and parse a blocklist from URL"""
     domains = set()
     try:
@@ -44,7 +103,8 @@ def download_blocklist(name, url):
                 domain = parts[0] if parts else ""
             
             if domain and '.' in domain:
-                domains.add(domain.lower())
+                if not is_whitelisted(domain):
+                    domains.add(domain.lower())
         
         print(f"  ✓ Extracted {len(domains)} domains from {name}")
         return domains
@@ -77,7 +137,7 @@ try:
             line_stripped = line.strip()
             if line_stripped.startswith('#'):
                 continue
-            elif line_stripped:
+            elif line_stripped and not is_whitelisted(line_stripped):
                 current_domains.add(line_stripped.lower())
     print(f"✓ Read {len(current_domains)} domains from current blocklist")
 except Exception as e:
