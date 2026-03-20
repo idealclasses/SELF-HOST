@@ -22,3 +22,11 @@ https://raw.githubusercontent.com/iptv-org/iptv/master/streams/bd.m3u
 https://iptv-org.github.io/iptv/countries/bd.m3u
 https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/global.m3u
 https://iptv-org.github.io/iptv/categories/animation.m3u
+
+
+new links i found
+https://is.gd/ugCCtg.m3u
+https://is.gd/SvojrE.m3u
+https://raw.githubusercontent.com/Shadmanislam/bdiptv/master/BD%20IPTV.
+https://bdix-iptv.netlify.app/iptv.m3u
+https://raw.githubusercontent.com/ar-rony/smartiptv-playlist/master/MYIPTVLIST.m3u
