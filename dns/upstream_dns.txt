@@ -12,3 +12,5 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt  # Steven B
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_30.txt  # Phishing URL Blocklist (PhishTank and OpenPhish)
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt  # Phishing Army
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt  # Malicious URL Blocklist (URLHaus)
+new link
+https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
