@@ -160,3 +160,31 @@ http://10.189.188.190:8080/7654321/1234567/277
 http://10.189.188.190:8080/7654321/1234567/280
 #EXTINF:-1 tvg-id="DKNCHL" tvg-name="DISCOVERY KIDS" group-title="ALL CHANNELS" tvg-logo="http://10.189.188.190:8080/images/9616fd2adfb9bf9b4795a79500997af6.png",DISCOVERY KIDS
 http://10.189.188.190:8080/7654321/1234567/287
+#EXTINF:-1 group-title="DOCUMENTARY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/1200px-2018_Animal_Planet_logo.svg.png" ,ANIMAL PLANET HD
+https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8?v=1
+#EXTINF:-1 group-title="DOCUMENTARY" tvg-logo="https://i.ibb.co/MV3xv1y/download-1.png" ,Animal Planet HD
+https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://i.ibb.co/br8260j/20240803-103819.png" ,DISCOVERY KIDS
+https://dplus.gammacdn.workers.dev/videos/113.m3u8
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pogo_Hindi.png" ,Pogo Hindi
+https://amg01448-samsungin-pogo-samsungin-dzccl.amagi.tv/playlist/amg01448-samsungin-pogo-samsungin/playlist.m3u8
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://i.ibb.co/yBYRgLt/20240813-063955.png" ,RONGEEN TV
+https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" ,Spacetoon
+https://streams.spacetoon.com/live/stchannel/smil:livesmil.smil/playlist.m3u8
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://i.ibb.co/0D563M3/IMG-20240129-070827.png" ,𝙋𝘽𝙎 𝙆𝙄𝘿𝙎
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
+#EXTINF:-1 group-title="KIDS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYDuOawIs57oT6PcXREjNLnVUF58DK9qrsQ&s" ,Jungle Book
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 group-title="KIDS" ,Zoo Moo
+https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="APLANZ" tvg-name="ANIMAL PLANET HD" group-title="ALL CHANNELS" tvg-logo="http://10.189.188.190:8080/images/e144ad060d52d14f83504af073faa2dc.png",ANIMAL PLANET HD
+http://10.189.188.190:8080/7654321/1234567/271
+#EXTINF:-1 tvg-id="TOONLSE" tvg-name="CARTOON NETWORK HD" group-title="ALL CHANNELS" tvg-logo="http://10.189.188.190:8080/images/1ffc396cf90a22e0c981cd7636e24bdd.png",CARTOON NETWORK HD
+http://10.189.188.190:8080/7654321/1234567/277
+#EXTINF:-1 tvg-id="TOONLSE" tvg-name="CARTOON NETWORK SD" group-title="ALL CHANNELS" tvg-logo="http://10.189.188.190:8080/images/1ffc396cf90a22e0c981cd7636e24bdd.png",CARTOON NETWORK SD
+http://10.189.188.190:8080/7654321/1234567/280
+#EXTINF:-1 tvg-id="DKNCHL" tvg-name="DISCOVERY KIDS" group-title="ALL CHANNELS" tvg-logo="http://10.189.188.190:8080/images/9616fd2adfb9bf9b4795a79500997af6.png",DISCOVERY KIDS
+http://10.189.188.190:8080/7654321/1234567/287
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids", Moto Patlu
+https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8

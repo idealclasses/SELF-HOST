@@ -9,7 +9,8 @@ NEW_LINKS = [
     "https://is.gd/ugCCtg.m3u",
     "https://is.gd/SvojrE.m3u",
     "https://bdix-iptv.netlify.app/iptv.m3u",
-    "https://raw.githubusercontent.com/ar-rony/smartiptv-playlist/master/MYIPTVLIST.m3u"
+    "https://raw.githubusercontent.com/ar-rony/smartiptv-playlist/master/MYIPTVLIST.m3u",
+    "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my"
 ]
 
 WORKING_CHANNELS_DIR = Path("working_channels")
