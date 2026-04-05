@@ -14,3 +14,4 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt  # Phishing
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt  # Malicious URL Blocklist (URLHaus)
 new link
 https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
+ok

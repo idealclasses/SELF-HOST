@@ -4,24 +4,25 @@ import urllib.request
 import re
 
 USER_AGENT = 'Mozilla/5.0 (compatible; IPTV-CHECKER/1.0)'
-TIMEOUT = 5
+TIMEOUT = 10
 
 def check_url(url):
-    """Check if URL is accessible"""
+    """Check if URL is accessible and serving stream data"""
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT}, method='HEAD')
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
             code = res.getcode()
-            return 200 <= code < 300
-    except Exception:
-        # Try GET if HEAD fails
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
-                code = res.getcode()
-                return 200 <= code < 300
-        except:
+            if 200 <= code < 300:
+                # Try to read actual stream data (at least 1KB to verify it's real content)
+                try:
+                    data = res.read(1024)
+                    if len(data) > 0:
+                        return True
+                except:
+                    pass
             return False
+    except Exception as e:
+        return False
 
 def process_m3u(input_file, output_file=None):
     if output_file is None:
