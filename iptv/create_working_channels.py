@@ -52,29 +52,6 @@ def set_group_title(extinf, title):
     return extinf
 
 
-def is_url_working(url):
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT}, method='HEAD')
-        with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
-            code = res.getcode()
-            if 200 <= code < 300:
-                return True
-    except Exception:
-        try:
-            req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
-            with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
-                code = res.getcode()
-                if 200 <= code < 300:
-                    try:
-                        data = res.read(1024)
-                        return len(data) > 0
-                    except Exception:
-                        return True
-        except (HTTPError, URLError, TimeoutError, ValueError):
-            return False
-    return False
-
-
 def load_sources():
     if not UPSTREAM_SOURCES.exists():
         raise FileNotFoundError(f'{UPSTREAM_SOURCES} not found')
@@ -91,7 +68,7 @@ def write_m3u(path, entries):
             f.write(url + '\n')
 
 
-def build_playlists():
+def build_playlist():
     sources = load_sources()
     unique_entries = {}
 
@@ -107,18 +84,10 @@ def build_playlists():
         except Exception as exc:
             print(f'Failed to fetch {src}: {exc}')
 
-    output_entries = []
-    for extinf, url in unique_entries.values():
-        if is_url_working(url):
-            output_entries.append((set_group_title(extinf, 'Working Channels'), url))
-            print(f'Working: {channel_name(extinf)}')
-        else:
-            output_entries.append((extinf, url))
-            print(f'Dead: {channel_name(extinf)}')
-
+    output_entries = list(unique_entries.values())
     write_m3u(OUTPUT_FILE, output_entries)
     print(f'Wrote combined playlist: {len(output_entries)} entries to {OUTPUT_FILE}')
 
 
 if __name__ == '__main__':
-    build_playlists()
+    build_playlist()
