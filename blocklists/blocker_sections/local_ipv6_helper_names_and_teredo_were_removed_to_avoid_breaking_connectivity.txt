@@ -1,0 +1,1 @@
+# (local/IPv6 helper names and Teredo were removed to avoid breaking connectivity)

@@ -1,0 +1,25 @@
+# Split blocker.txt into section files
+# Source: blocker.txt
+# Total sections: 21
+
+known_malware_domains.txt: 88 domain lines
+popup_and_ad_networks.txt: 145 domain lines
+adware_and_pup_potentially_unwanted_programs.txt: 73 domain lines
+botnet_and_c_c_servers.txt: 56 domain lines
+exploit_kits_and_attack_servers.txt: 57 domain lines
+tracking_and_analytics_privacy_concerns.txt: 38 domain lines
+additional_trackers_and_analytics_endpoints_added_to_improve_coverage.txt: 30 domain lines
+ppc_and_affiliate_networks.txt: 28 domain lines
+phishing_and_scam_domains.txt: 55 domain lines
+security_threats.txt: 0 domain lines
+local_ipv6_helper_names_and_teredo_were_removed_to_avoid_breaking_connectivity.txt: 0 domain lines
+gambling_and_betting_websites.txt: 171 domain lines
+bangladesh_gambling_and_betting_sites.txt: 68 domain lines
+content_delivery_networks_and_ad_click_hosts.txt: 1 domain lines
+cryptomining_and_botnets.txt: 65 domain lines
+stevenblack_hosts_gambling_extension.txt: 84959 domain lines
+stevenblack_hosts_gambling_extension_2.txt: 507312 domain lines
+new_domains_added_from_upstream_sources.txt: 423724 domain lines
+youtube_ads_adrelated_domains_safe_blocking.txt: 0 domain lines
+google_advertising_services_ad_serving_only.txt: 18 domain lines
+additional_ad_networks_commonly_used_by_youtube.txt: 736085 domain lines

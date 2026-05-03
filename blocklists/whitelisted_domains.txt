@@ -748,6 +748,8 @@ ytstatic.l.google.com
 ||tt.natwest.com^
 ||tt.rbs.com^
 ||udc.yahoo.com^
+doubleclick.net
+googletagmanager.com
 ||udcm.yahoo.com^
 ||verify.authorize.net^
 ||video-stats.video.google.com^

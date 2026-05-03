@@ -3,87 +3,29 @@
 Clean blocker.txt by removing whitelisted domains that are essential for normal internet usage
 """
 
-WHITELIST = {
-    # Payment processors and gateways
-    'paypal.com',
-    'stripe.com',
-    'square.com',
-    'authorize.net',
-    'braintree.com',
-    '2checkout.com',
-    'checkout.com',
-    'adyen.com',
-    'worldpay.com',
-    'payu.com',
-    'razorpay.com',
-    'paytm.com',
-    'payoneer.com',
-    'skrill.com',
-    'neteller.com',
-    'wise.com',
-    'transferwise.com',
+import os
 
-    # Major banks
-    'chase.com',
-    'bankofamerica.com',
-    'wellsfargo.com',
-    'citibank.com',
-    'citigroup.com',
-    'capitalone.com',
-    'usbank.com',
-    'pnc.com',
-    'td.com',
-    'suntrust.com',
-    'bbt.com',
-    'hsbc.com',
-    'barclays.com',
-    'lloyds.com',
-    'santander.com',
-    'rbs.com',
-    'natwest.com',
-    'deutsche-bank.com',
-    'commerzbank.com',
-    'ing.com',
-    'rabobank.com',
+def load_whitelist(whitelist_file):
+    """Load whitelist from file"""
+    whitelist = set()
+    if os.path.exists(whitelist_file):
+        with open(whitelist_file, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    # Remove any patterns like || and ^
+                    if line.startswith('||') and line.endswith('^'):
+                        line = line[2:-1]
+                    # Handle wildcards by taking the domain part
+                    if '*' in line:
+                        # For now, just add the domain after the wildcard
+                        parts = line.split('*')
+                        if len(parts) > 1:
+                            line = parts[-1].lstrip('.')
+                    whitelist.add(line.lower())
+    return whitelist
 
-    # Credit card companies
-    'visa.com',
-    'mastercard.com',
-    'americanexpress.com',
-    'discover.com',
-    'dinersclub.com',
-
-    # Major tech companies (core domains)
-    'google.com',
-    'apple.com',
-    'microsoft.com',
-    'amazon.com',
-    'facebook.com',
-    'twitter.com',
-    'linkedin.com',
-    'instagram.com',
-
-    # Email providers
-    'gmail.com',
-    'outlook.com',
-    'yahoo.com',
-    'hotmail.com',
-    'aol.com',
-    'protonmail.com',
-
-    # Government and essential services (be careful with these)
-    # Only whitelist specific important ones
-    'irs.gov',
-    'ssa.gov',
-    'medicare.gov',
-    'medicaid.gov',
-
-    # Common CDN and infrastructure that sites depend on
-    'cloudflare.com',
-    'akamai.com',
-    'fastly.com',
-    'stackpath.com',
-}
+WHITELIST = load_whitelist('whitelisted_domains.txt')
 
 def is_whitelisted(domain):
     """Check if a domain should be whitelisted (not blocked)"""
@@ -93,9 +35,15 @@ def is_whitelisted(domain):
     if domain.startswith('||') and domain.endswith('^'):
         domain = domain[2:-1]
     
+    # Check exact match or subdomain match
+    if domain in WHITELIST:
+        return True
+    
+    # Check subdomain matches
     for whitelisted in WHITELIST:
-        if domain == whitelisted or domain.endswith('.' + whitelisted):
+        if domain.endswith('.' + whitelisted):
             return True
+    
     return False
 
 def clean_blocklist(input_file, output_file, removed_file):
@@ -150,4 +98,4 @@ def clean_blocklist(input_file, output_file, removed_file):
         print(f"Error cleaning blocklist: {e}")
 
 if __name__ == "__main__":
-    clean_blocklist('blocker.txt', 'blocker.txt', 'whitelisted_domains.txt')
+    clean_blocklist('blocker.txt', 'blocker_cleaned.txt', 'removed_domains.txt')
