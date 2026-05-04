@@ -1,0 +1,5 @@
+# Cdn Infrastructure
+# Consolidated from 1 sections
+# Total domains: 1
+
+adclick.g.doubleclick.net
