@@ -1,5 +1,0 @@
-# Network Cleanup and Local/IPv6 Helper Names
-# Rules for maintaining local network connectivity
-
-# Note: IPv6 helper names, Teredo, and local addresses are excluded
-# to prevent breaking network connectivity
