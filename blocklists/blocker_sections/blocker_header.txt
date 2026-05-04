@@ -1,4 +1,0 @@
-# Malware, Ads, and Gambling Blocklist (CLEANED)
-# Generated: 2026-01-21
-# This file excludes Googleusercontent/YouTube avatar hosts, PlayStation store host,
-# local/IPv6 helper names, and malformed path entries so normal browsing won't break.

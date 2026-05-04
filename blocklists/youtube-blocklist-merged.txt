@@ -1,6 +1,5 @@
 # Comprehensive Pi-hole Blocklist
 # Merged from:
-# - Original YouTube/Malware blocklist
 # - Steven Black hosts file (https://github.com/StevenBlack/hosts)
 #
 # This file will be populated with 68,000+ domains from Steven Black
