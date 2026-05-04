@@ -1,2 +1,0 @@
-# Content delivery networks and ad click hosts
-adclick.g.doubleclick.net
