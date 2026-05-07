@@ -1,6 +1,3 @@
-# Upstream M3U sources for BD channels
-# Update this file with new URLs as needed
-
 https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u
 https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
 https://raw.githubusercontent.com/time2shine/IPTV/main/playlist.m3u
@@ -12,10 +9,15 @@ https://iptv-org.github.io/iptv/countries/bd.m3u
 https://lupael.github.io/IPTV/running.m3u
 https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/global.m3u
 https://iptv-org.github.io/iptv/categories/animation.m3u
-
-# New links found
 https://is.gd/ugCCtg.m3u
 https://is.gd/SvojrE.m3u
 https://bdix-iptv.netlify.app/iptv.m3u
 https://raw.githubusercontent.com/ar-rony/smartiptv-playlist/master/MYIPTVLIST.m3u
 https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my
+https://raw.githubusercontent.com/manabray/bdyttv/main/youtube.m3u
+https://raw.githubusercontent.com/FunctionError/PiratesTvPlus/main/playlist.m3u
+https://raw.githubusercontent.com/imShakil/tvlink/main/tvlink.m3u
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u
+https://iptv-org.github.io/iptv/index.m3u
+https://iptv-org.github.io/iptv/index.nsfw.m3u
+https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/main/playlist.m3u

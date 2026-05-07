@@ -1,0 +1,36 @@
+# Upstream M3U IPTV Sources
+# Last Updated: 2026-05-07
+# Total Sources: 6
+# Combined Channels: 38,771
+
+# ============================================================
+# PRIMARY SOURCES (Large Channel Counts)
+# ============================================================
+
+# time2shine Master Combined - 25,711 channels (8.0 MB)
+# Comprehensive IPTV playlist with global channels
+https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
+
+# IPTV Org Combined - 12,292 channels (2.4 MB)
+# iptv-org global repository with multiple countries
+https://iptv-org.github.io/iptv/index.m3u
+
+# ============================================================
+# SECONDARY SOURCES (Regional/Specialized)
+# ============================================================
+
+# Mrgify BDIX - 627 channels (160 KB)
+# Bangladesh ISP IPTV channels
+https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u
+
+# xfireflix BDIX - 99 channels (25 KB)
+# Alternative Bangladesh ISP IPTV channels
+https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u
+
+# IPTV Org Bangladesh - 38 channels (8 KB)
+# BD-specific channels from iptv-org
+https://iptv-org.github.io/iptv/countries/bd.m3u
+
+# PlayZ TV - 4 channels (0.2 KB)
+# Promotional/work channels
+https://playztv.pages.dev/promo/master.m3u8
