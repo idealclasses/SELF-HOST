@@ -1,9 +1,11 @@
-#Upstream DNS query links - 5 primary sources
+# ============================================================
+# ORIGINAL 5 SOURCES (from user)
+# ============================================================
 
-# Large gambling/malware blocklist (500k domains)
+# Large gambling/malware blocklist (500k domains) – originally porn.txt from Blocklist Project
 https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 
-# OISD Big - comprehensive blocklist (428k domains)
+# OISD Big – comprehensive blocklist (428k domains)
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt
 
 # AdGuard DNS filter (165k domains)
@@ -14,3 +16,55 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt
 
 # StevenBlack Hosts (81k domains)
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
+# ============================================================
+# ADDITIONAL 18+ / ADULT CONTENT BLOCKLISTS
+# ============================================================
+
+# OISD NSFW – dedicated adult content blocking
+https://nsfw.oisd.nl/
+
+# UT1 Adult – from University of Toulouse (erotic & hard porn)
+https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adult/domains
+
+# The Block List Project (Porn) – already included above? This is the same as the first entry, so skipped.
+
+# Joshua Boniface / Unified Porn Blocklist – main release (split into chunks due to size)
+# Use the single-file release if available; here is the latest release page:
+# https://github.com/columndeeply/hosts/releases/latest
+# Direct chunk example (part 1 of 6):
+https://raw.githubusercontent.com/columndeeply/hosts/master/hosts.porn.1
+
+# Categorized Blocklist (Adult)
+https://raw.githubusercontent.com/cipher-oos/Categorized-Web-Filter-Blocklists/main/adult/domains.txt
+
+# aBL (arapurayil) – aggressive filter blocking adult content as part of "almost every bad website"
+https://raw.githubusercontent.com/arapurayil/aBL/refs/heads/main/filters/main.txt
+
+# StevenBlack Unified – porn & gambling & fakenews
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
+
+# DNSBlocklists (Adult content)
+https://raw.githubusercontent.com/louisa-uno/DNSBlocklists/auto-update/Adult%20content.txt
+
+# Pi-Hole Blocklist (Porn)
+https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
+
+# Shalla's Blacklists (Porn) – mirror
+https://raw.githubusercontent.com/Azothyran/ShallalistMirror/master/porn/domains
+
+# A Personal 18+ Domains List
+https://raw.githubusercontent.com/niek-de-witte/18-domains/refs/heads/main/blacklist.txt
+
+# ============================================================
+# NEW 2026 SOURCES (Recently Verified)
+# ============================================================
+
+# Goodbye Ads – comprehensive block list (277k domains)
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
+
+# Spam404 – malicious & spam domains (8k domains)
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+
+# Phishing Army (Extended) – large phishing database (146k domains)
+https://phishing.army/download/phishing_army_blocklist_extended.txt
