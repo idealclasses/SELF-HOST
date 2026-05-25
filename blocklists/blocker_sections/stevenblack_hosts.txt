@@ -16692,7 +16692,6 @@ a.guidehub.lol
 a.gupload.xyz
 a.guzhilin.com
 a.hbf23.cn
-a.hcaptcha.com
 a.heavy-r.com
 a.heizkoerper.shop
 a.hellowork.com
@@ -106397,7 +106396,6 @@ cloudflare.avicforging.com
 cloudflare.fr
 cloudflarecache.cfd
 cloudflarecdn.com
-cloudflareinsights.com
 cloudflarelab.com
 cloudflow.info
 cloudflrcdn.com
@@ -130788,7 +130786,6 @@ diafoncenter.net
 diag-wd.gridsumdissector.com
 diagmon-serviceapi.samsungdm.com
 diagnose.help
-diagnose.igstatic.com
 diagnosis.ad.intl.xiaomi.com
 diagnosis.ad.xiaomi.com
 diagnosiscontractortrophy.com
@@ -383605,7 +383602,6 @@ static.clickonometrics.pl
 static.clickscloud.net
 static.clicktripz.com
 static.clmbtech.com
-static.cloudflareinsights.com
 static.consulcesi.it
 static.content-sync.xyz
 static.contentabc.com
