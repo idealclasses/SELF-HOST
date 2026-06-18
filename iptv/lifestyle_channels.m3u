@@ -1,0 +1,423 @@
+#EXTM3U
+#EXTINF:-1 group-title="Travel" tvg-id="4KTravel" tvg-logo="https://a.jsrdn.com/hls/23064/4k-travel-tv/logo_20231219_183416_68.png",4K Travel
+https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+#EXTINF:-1 group-title="Travel" tvg-id="GO2TravelTV" tvg-logo="https://go2travel.tv/_next/image/?url=%2Flogo.png&w=64&q=75",GO2Travel TV
+https://go2thls.wns.live/hls/stream.m3u8
+#EXTINF:-1 group-title="Travel" tvg-id="InTravel" tvg-logo="https://s3.aynaott.com/storage/b35e9c1bcde3e6876892a22f91a9c4b5",InTravel
+https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Travel" tvg-id="TravelXPEnglish.eu" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png",Travel XP English EU
+https://travelxp-travelxp-1-eu.rakuten.wurl.tv/3000.m3u8
+#EXTINF:-1 group-title="Travel" tvg-id="TravelXPEnglish.nz" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png",Travel XP English NZ
+https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Homecoming" tvg-logo="https://cds1.discoveryftp.net/Movies/Bangla/2022/Homecoming/poster.jpg",Homecoming (2022)
+http://cds1.discoveryftp.net/Movies/Bangla/2022/Homecoming/Homecoming.%282022%29.1080p.SonyLiv.WEB-DL.Bengali.ESub.AAC2.0.x264~GameData.mkv?md5=3oVfzLhjLtBlnexes4kb0w&expires=1777845210
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Sweet_Home_Rebirth" tvg-logo="https://image.tmdb.org/t/p/w500/9rCBCm9cyI4JfLEhx3EncyncMR3.jpg",Home Sweet Home Rebirth (2025)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Home%20Sweet%20Home%20Rebirth%20%282025%29/Home.Sweet.Home.Rebirth.2025.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Perrengue_Fashion" tvg-logo="https://image.tmdb.org/t/p/w500/qVQ58sWH6c36D6YAQ552tHB2x97.jpg",Perrengue Fashion (2025)
+http://103.225.94.27/Infobase/hdd-3/english/Perrengue%20Fashion%20(2025)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Home" tvg-logo="https://image.tmdb.org/t/p/w500/9xIIo4FMquy5SRqn8hppyr2QadR.jpg",The Home (2025)
+http://ftp.ctgfun.com/English/The.Home.2025.1080p.WEBRip.x264%20%5BDDN%5D/The.Home.2025.1080p.WEBRip.x264%20%5BDDN%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Stranger_In_My_Home" tvg-logo="https://image.tmdb.org/t/p/w500/8rxFUdvtFwAxbyZfSBKPB2Vaal9.jpg",The Stranger In My Home (2025)
+http://cinehub24.com/ftp/Movies/hollywood/2025/The%20Stranger%20In%20My%20Home%20%282025%29/The.Stranger.In.My.Home.2025.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Family_Practice_Mysteries_Coming_Home" tvg-logo="https://image.tmdb.org/t/p/w500/kqPqEtJWT9U4EuOi1N7t26xRZJF.jpg",Family Practice Mysteries Coming Home (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Family%20Practice%20Mysteries%20Coming%20Home%20%282024%29/Family.Practice.Mysteries.Coming.Home.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Hard_Home" tvg-logo="https://image.tmdb.org/t/p/w500/a2zwexsQINEY2X3XQv6KCzBrvIH.jpg",Hard Home (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Hard%20Home%20%282024%29/Hard.Home.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Snoopy_Presents_Welcome_Home_Franklin" tvg-logo="https://image.tmdb.org/t/p/w500/pjIrYzc31kHTySiovHAt0o3qDc2.jpg",Snoopy Presents Welcome Home Franklin (2024)
+http://cinehub24.com/ftp/Movies/animation/new/Snoopy%20Presents%20Welcome%20Home%20Franklin%20%282024%29/Snoopy.Presents.Welcome.Home.Franklin.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Night_They_Came_Home" tvg-logo="https://image.tmdb.org/t/p/w500/3ot1GDhZMGTeOcI23BI7A2IlFCO.jpg",The Night They Came Home (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/The%20Night%20They%20Came%20Home%20%282024%29/The.Night.They.Came.Home.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Babylon_5_The_Road_Home" tvg-logo="https://image.tmdb.org/t/p/w500/qlXLiFKf2kvJ4K2VDBC5Z048vm3.jpg",Babylon 5 The Road Home (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Babylon%205%20The%20Road%20Home%20%282023%29/Babylon.5.The.Road.Home.2023.BLURAY.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Bono_The_Edge_A_Sort_Of_Homecoming_With_Dave_Letterman" tvg-logo="https://image.tmdb.org/t/p/w500/cyUpftk8IzR6BAhEAR8GG79A4o5.jpg",Bono The Edge A Sort Of Homecoming With Dave Letterman (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Bono%20The%20Edge%20A%20Sort%20Of%20Homecoming%20With%20Dave%20Letterman%20%282023%29/Bono.The.Edge.A.Sort.Of.Homecoming.With.Dave.Letterman.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Bringing_Christmas_Home" tvg-logo="https://image.tmdb.org/t/p/w500/uXjZ75x4hoR3FaSnGfot1PKQasV.jpg",Bringing Christmas Home (2023)
+http://103.225.94.27/Infobase/hdd-3/english/Bringing%20Christmas%20Home%20(2023)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Not_Alone" tvg-logo="https://image.tmdb.org/t/p/w500/4p543d34ULUZM4RQh6ZhvnWEZUw.jpg",Home Not Alone (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Home%20Not%20Alone%20%282023%29/Home.Not.Alone.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Wrecker" tvg-logo="https://image.tmdb.org/t/p/w500/zhG7adkD4nK9CIfMuYPPuPDg6ln.jpg",Home Wrecker (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Home%20Wrecker%20%282023%29/Home.Wrecker.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homestead" tvg-logo="https://image.tmdb.org/t/p/w500/aibubaLT6ihRtKEraGBDU82w8aA.jpg",Homestead (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Homestead%20%282023%29/Homestead.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homewrecker" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2023/Homewrecker/poster.jpg?md5=owTsPUg7Bcg9KiGxG-AAog&expires=1777844408",Homewrecker (2023)
+https://cds4.discoveryftp.net/Movies/English/2023/Homewrecker/Homewrecker.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=KhCAIfE6h572vanGtp6l1Q&expires=1777844408
+#EXTINF:-1 group-title="Movies - English" tvg-id="Vacation_Home_Nightmare" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2023/Vacation%20Home%20Nightmare/poster.jpg?md5=gdQV38pC63pDccR5AvWP1w&expires=1777844420",Vacation Home Nightmare (2023)
+https://cds4.discoveryftp.net/Movies/English/2023/Vacation%20Home%20Nightmare/Vacation.Home.Nightmare.2023.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=yB5CImVZwvOzrnvtQkCkpQ&expires=1777844420
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_For_A_Royal_Heart" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Home%20For%20A%20Royal%20Heart/poster.jpg?md5=MJhdmP55bzcJWD1R4T8dBA&expires=1777844438",Home For A Royal Heart (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Home%20For%20A%20Royal%20Heart/Home.For.A.Royal.Heart.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=vs_kjUEMlquw5mk36VCraw&expires=1777844438
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Sitters" tvg-logo="https://image.tmdb.org/t/p/w500/867rE1iXP7EQ8WLXsUqZnLFnHF3.jpg",Home Sitters (2022)
+http://103.225.94.27/Infobase/hdd-1/English/Home%20Sitters%20(2022)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Team" tvg-logo="https://image.tmdb.org/t/p/w500/zTwfMV1hm1DIrMo8BGyZKskhSPr.jpg",Home Team (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Home%20Team%20%282022%29/Home.Team.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Sitters" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Home-Sitters/poster.jpg?md5=BP1GrZsVfBJdaYRPa8QAzw&expires=1777844438",Home-Sitters (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Home-Sitters/Home-Sitters.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=zARlEFTuDhuvO8uAUs5UdA&expires=1777844438
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homecoming_The_Road_To_Mullingar" tvg-logo="https://image.tmdb.org/t/p/w500/7AbqN5bbi3Cfw5WKPiuxA6Njgrv.jpg",Homecoming The Road To Mullingar (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Homecoming%20The%20Road%20To%20Mullingar%20%282022%29/Homecoming.The.Road.To.Mullingar.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Love_Fashion_Repeat" tvg-logo="https://image.tmdb.org/t/p/w500/zIFSswSCCnIHga9rT9ZV7jwPLmx.jpg",Love Fashion Repeat (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Love%20Fashion%20Repeat%20%282022%29/Love.Fashion.Repeat.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mount_Hideaway_Mysteries_Heartache_And_Homecoming" tvg-logo="https://image.tmdb.org/t/p/w500/rclheGt04HeMD892DFbm6xWjCFJ.jpg",Mount Hideaway Mysteries Heartache And Homecoming (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Mount%20Hideaway%20Mysteries%20Heartache%20And%20Homecoming%20%282022%29/Mount.Hideaway.Mysteries.Heartache.And.Homecoming.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="North_To_Home" tvg-logo="https://image.tmdb.org/t/p/w500/5iKw3VjDs5TvuM5T2x6kSvb4fTT.jpg",North To Home (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/North%20To%20Home%20%282022%29/North.To.Home.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Project_Home" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Project%20Home/poster.jpg?md5=CpfRk8msDe21fCpxP73hjw&expires=1777844450",Project Home (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Project%20Home/Project.Home.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=Ye3Yl4l8-yhknOIM-Pa_JA&expires=1777844450
+#EXTINF:-1 group-title="Movies - English" tvg-id="Reindeer_Games_Homecoming" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Reindeer%20Games%20Homecoming/poster.jpg?md5=uKnJqUN0zRqYpiOfkWOHPQ&expires=1777844451",Reindeer Games Homecoming (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Reindeer%20Games%20Homecoming/Reindeer.Games.Homecoming.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=TsfEIiW6H5DHimRTWYyILg&expires=1777844451
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_All_Roads_Lead_To_No_Way_Home" tvg-logo="https://image.tmdb.org/t/p/w500/e2LLmI5wKIrWGAy9Of3yyWu7Szn.jpg",Spider-Man All Roads Lead To No Way Home (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Spider-Man%20All%20Roads%20Lead%20To%20No%20Way%20Home%20%282022%29/Spider-Man.All.Roads.Lead.To.No.Way.Home.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Time_For_Him_To_Come_Home_For_Christmas" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Time%20For%20Him%20To%20Come%20Home%20For%20Christmas/poster.jpg?md5=lcGv8f-rBzpnSds-xbcnNw&expires=1777844466",Time For Him To Come Home For Christmas (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Time%20For%20Him%20To%20Come%20Home%20For%20Christmas/Time.For.Him.To.Come.Home.For.Christmas.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=N-fKPnOG8h3muH6FvRJmgw&expires=1777844466
+#EXTINF:-1 group-title="Movies - English" tvg-id="Tornar_se_Um_Homem_Na_Idade_Media" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Tornar-se%20Um%20Homem%20Na%20Idade%20Media/poster.jpg?md5=lpJsRxPZvX_-t-1TBQwPWw&expires=1777844466",Tornar-se Um Homem Na Idade Media (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Tornar-se%20Um%20Homem%20Na%20Idade%20Media/Tornar-se.Um.Homem.Na.Idade.Media.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=0_TfnXVZ5FFxusGGr3Lu-Q&expires=1777844466
+#EXTINF:-1 group-title="Movies - English" tvg-id="Tyler_Perrys_A_Madea_Homecoming" tvg-logo="https://image.tmdb.org/t/p/w500/fWJXNc0Q0qIXU8O8hcUmH0iCYzu.jpg",Tyler Perrys A Madea Homecoming (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Tyler%20Perrys%20A%20Madea%20Homecoming%20%282022%29/Tyler.Perrys.A.Madea.Homecoming.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Baphomet" tvg-logo="https://image.tmdb.org/t/p/w500/1l6S3EID762dvTOrNwoCRNTESa3.jpg",Baphomet (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Baphomet%20%282021%29/Baphomet.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Coming_Home_In_The_Dark" tvg-logo="https://image.tmdb.org/t/p/w500/ubDpUo7z5Kz8HMz2qv2bS66Y9uo.jpg",Coming Home In The Dark (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Coming%20Home%20In%20The%20Dark%20%282021%29/Coming.Home.In.The.Dark.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Heart_of_the_Home" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/Heart%20of%20the%20Home/poster.jpg?md5=u-6Oe0Tkq3n7JWdETzv4sg&expires=1777844381",Heart of the Home (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/Heart%20of%20the%20Home/Heart.of.the.Home.2021.1080p.WEB-DL.DD5.1.H.264-FGT.mkv?md5=Ku1g256iR0qidGfYXOu5lw&expires=1777844381
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Sweet_Home_Alone" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/Home%20Sweet%20Home%20Alone/poster.jpg?md5=p6Xwjw_JFGOh97CbNb2lQg&expires=1777844382",Home Sweet Home Alone (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/Home%20Sweet%20Home%20Alone/Home.Sweet.Home.Alone.2021.2160p.4K.WEB.x265.10bit.HDR.AAC5.1-%5BYTS.MX%5D.mkv?md5=3lTSmo0WE-94yI4m9H9Ueg&expires=1777844382
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homeroom" tvg-logo="https://image.tmdb.org/t/p/w500/s43zgCiWVkf2agi6DedDYuQ9pT7.jpg",Homeroom (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Homeroom%20%282021%29/Homeroom.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homesick" tvg-logo="https://image.tmdb.org/t/p/w500/tUjP4DUz3WZvRsSb784OoCUT0sP.jpg",Homesick (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Homesick%20%282021%29/Homesick.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Safer_At_Home" tvg-logo="https://image.tmdb.org/t/p/w500/2mfnSVdDartB6TJ3k7Qyn0zMzKu.jpg",Safer At Home (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Safer%20At%20Home%20%282021%29/Safer.At.Home.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_No_Way_Home" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/Spider%20Man%20No%20Way%20Home/poster.jpg?md5=KEofH44fjsCdkmHaikmn2A&expires=1777844393",Spider Man No Way Home (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/Spider%20Man%20No%20Way%20Home/Spider-Man%20No%20Way%20Home%202021%20WebRip%20EXTENDED%201080p%20Hin%20Eng%20DD%205.1%20x264%20ESub%20-%20mkvCinemas.mkv?md5=CHq4HueaJuIMBQStOl4iUA&expires=1777844393
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_No_Way_Home" tvg-logo="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",Spider-Man No Way Home (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Spider-Man%20No%20Way%20Home%20%282021%29/Spider-Man%20No%20Way%20Home%20%282021%29%20IMAX%20BluRay%20%5BHindi-English%5D%201080p.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Devil_Came_Home" tvg-logo="https://image.tmdb.org/t/p/w500/nk8KCFS9BbmYXIRKO8yiC8cAVNJ.jpg",The Devil Came Home (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/The%20Devil%20Came%20Home%20%282021%29/The.Devil.Came.Home.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Time_For_Them_To_Come_Home_For_Christmas" tvg-logo="https://image.tmdb.org/t/p/w500/oV5r8NlY2qJbttdoH0kVd3q2AnI.jpg",Time For Them To Come Home For Christmas (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Time%20For%20Them%20To%20Come%20Home%20For%20Christmas%20%282021%29/Time.For.Them.To.Come.Home.For.Christmas.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Veterans_Journey_Home" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/Veterans%20Journey%20Home/poster.jpg?md5=5gilRkqWI0VjkWaY0k-Nug&expires=1777844401",Veterans Journey Home (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/Veterans%20Journey%20Home/Veterans.Journey.Home.2021.1080p.WEBRip.x264-RARBG.mp4?md5=hH1pveEpFpW3DUlm0GCBdA&expires=1777844401
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Killer_In_My_Home" tvg-logo="https://image.tmdb.org/t/p/w500/agCjfJbzg9szYeY7ujGp6CEwFfK.jpg",A Killer In My Home (2020)
+http://cinehub24.com/ftp/Movies/hollywood/2020/A%20Killer%20in%20My%20Home%20%282020%29/A.Killer.in.My.Home.2020.720p.HDTV.800MB.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Killer_In_My_Home__A_Familys_Nightmare_" tvg-logo="https://image.tmdb.org/t/p/w500/agCjfJbzg9szYeY7ujGp6CEwFfK.jpg",A Killer In My Home (A Familys Nightmare) (2020)
+http://103.225.94.27/Infobase/hdd-3/english/A%20Killer%20In%20My%20Home%20(A%20Familys%20Nightmare)%20(2020)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homeward" tvg-logo="https://image.tmdb.org/t/p/w500/eBfo1wKsE6qIbhKMFg2gJbG2QAt.jpg",Homeward (2020)
+http://cinehub24.com/ftp/Movies/animation/2011-2020/Homeward%20%282020%29/Homeward.2020.1080p.WEBRip.x264-RARBG.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Killer_Dream_Home" tvg-logo="https://image.tmdb.org/t/p/w500/oR12jepLLyX7TiFOYWxGXYywZzK.jpg",Killer Dream Home (2020)
+http://cinehub24.com/ftp/Movies/hollywood/2020/Killer%20Dream%20Home%20%282020%29/Killer.Dream.Home.2020.720p.HDTV.800MB.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Psych_2_Lassie_Come_Home" tvg-logo="https://image.tmdb.org/t/p/w500/2LXQUhkzo27jKotK7poHkNaw59B.jpg",Psych 2 Lassie Come Home (2020)
+http://cinehub24.com/ftp/Movies/hollywood/2020/Psych%202%20Lassie%20Come%20Home%20%282020%29/Psych.2.Lassie.Come.Home.2020.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="90_Feet_From_Home" tvg-logo="https://image.tmdb.org/t/p/w500/ejl4unMDRLDiccp0boIDvd9PHG3.jpg",90 Feet From Home (2019)
+http://103.225.94.27/Infobase/hdd-3/english/90%20Feet%20From%20Home%20(2019)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Dog_s_Way_Home" tvg-logo="https://image.tmdb.org/t/p/w500/pZn87R7gtmMCGGO8KeaAfZDhXLg.jpg",A Dog's Way Home (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/A%20Dog%27s%20Way%20Home%20%282019%29/A.Dog%27s.Way.Home.2019.1080p.WEBRip.x264-%5BYTS.AM%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Feeling_Of_Home" tvg-logo="https://image.tmdb.org/t/p/w500/vznqIq5ol5kSsoahY9aB7oWCLJL.jpg",A Feeling Of Home (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/A%20Feeling%20of%20Home%20%282019%29/A.Feeling.of.Home.2019.720p.WEBRip.800MB.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Homecoming_For_The_Holidays" tvg-logo="https://image.tmdb.org/t/p/w500/2o438pqI1s9JIwlz61bkdma5aFO.jpg",A Homecoming For The Holidays (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/A%20Homecoming%20for%20the%20Holidays%20%282019%29/A.Homecoming.for.the.Holidays.2019.720p.HDTV.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Annabelle_Comes_Home" tvg-logo="https://image.tmdb.org/t/p/w500/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg",Annabelle Comes Home (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/Annabelle%20Comes%20Home%20%282019%29/www.TamilMV.cz%20-%20Annabelle%20Comes%20Home%20%282019%29%20HDTC-Rip%20-%20720p%20-%20%5BTamil%20%28HQ%20Line%29%20%2B%20Eng%5D%20-%20800MB.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="No_Place_Like_Home_Redux" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjUxYmE2ZDktMmQyZi00NjJkLThmNmMtNjYyYWYyNzU1NTg0XkEyXkFqcGdeQXVyODk4NzUzNjg@._V1_SX300.jpg",No Place Like Home Redux (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/No%20Place%20Like%20Home%20Redux%20%282019%29/No.Place.Like.Home.2019.720p.WEBRip.800MB.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_Far_From_Home" tvg-logo="https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",Spider-Man Far From Home (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/S8Q01G~8/Spider-Man.Far.From.Home.2019.1080p.NEW.HDTC.V2.1XBET.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Christmas_In_Royal_Fashion" tvg-logo="https://image.tmdb.org/t/p/w500/thmq7EgtIXWDyZxzoZbWfpdLvId.jpg",A Christmas In Royal Fashion (2018)
+http://cinehub24.com/ftp/Movies/hollywood/2018/A%20Christmas%20in%20Royal%20Fashion%20%282018%29/A%20Christmas%20in%20Royal%20Fashion%20%282018%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Daddy_s_Home_2" tvg-logo="https://image.tmdb.org/t/p/w500/rF2IoKL0IFmumEXQFUuB8LajTYP.jpg",Daddy's Home 2 (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/Daddy%27s%20Home%202%20%282017%29/Daddy%27s%20Home%202%20%282017%29.MP4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Daddys_Home_2" tvg-logo="https://image.tmdb.org/t/p/w500/rF2IoKL0IFmumEXQFUuB8LajTYP.jpg",Daddys Home 2 (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/Daddys%20Home%202%20%282017%29/Daddys%20Home%202%20%282017%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Again" tvg-logo="https://image.tmdb.org/t/p/w500/pE4VHzhDZgvbx2QOllaXXPADiW1.jpg",Home Again (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/Home%20Again%20%282017%29/Home.Again.2017.1080p.10bit.BluRay.6CH.x265.HEVC-PSA.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="I_Don_t_Feel_At_Home_In_This_World_Anymore" tvg-logo="https://image.tmdb.org/t/p/w500/1stdUlXBc3nxqhdWvZ6wWWEbCQW.jpg",I Don't Feel At Home In This World Anymore (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/I%20Don%27t%20Feel%20at%20Home%20in%20This%20World%20Anymore%20%282017%29/I.Dont.Feel.at.Home.in.This.World.Anymore.2017__720p.WEBrip__E-BOX.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_Homecoming" tvg-logo="https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",Spider Man Homecoming (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/SLUN7X~U/Spider.Man.Homecoming.2017__1080p.BRrip__E-BOX.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Spider_Man_Homecoming" tvg-logo="https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",Spider-Man Homecoming (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Spider-Man%20Homecoming%20%282017%29/Spider-Man%20Homecoming%20%282017%29%20BluRay%20%5BHindi-English%5D%201080p%20ESub.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Jack_Goes_Home" tvg-logo="https://image.tmdb.org/t/p/w500/1K1Rptb0NFAi5BqtJXI6zefpTOQ.jpg",Jack Goes Home (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/Jack%20Goes%20Home%20%282016%29/Jack.Goes.Home.2016__720p.BRrip__BDPLEX.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Miss_Peregrines_Home_For_Peculiar_Children" tvg-logo="https://image.tmdb.org/t/p/w500/CIlbMFOfYDj0MP23hsIYhFGrL6.jpg",Miss Peregrines Home For Peculiar Children (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/Miss%20Peregrines%20Home%20for%20Peculiar%20Children%20%282016%29/Miss%20Peregrines%20Home%20for%20Peculiar%20Children%20%282016%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Daddy_s_Home" tvg-logo="https://image.tmdb.org/t/p/w500/fB9lALk9zKsMYWvf0bJSkJN219Z.jpg",Daddy's Home (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Daddy%27s%20Home%20%282015%29/Daddy%27s%20Home%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home" tvg-logo="https://image.tmdb.org/t/p/w500/usFenYnk6mr8C62dB1MoAfSWMGR.jpg",Home (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Home%20%282015%29/Home%20%282015%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Sweet_Hell" tvg-logo="https://image.tmdb.org/t/p/w500/a0S1ou77hJ8RAxGkpyZGbfUr2SG.jpg",Home Sweet Hell (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Home%20Sweet%20Hell%20%282015%29/Home%20Sweet%20Hell%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Sweet_Home" tvg-logo="https://image.tmdb.org/t/p/w500/2tdfWey5HoXmgM0hdXsJWGbxfR1.jpg",Sweet Home (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Sweet%20Home%20%282015%29/Sweet%20Home%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="99_Homes" tvg-logo="https://image.tmdb.org/t/p/w500/6Zul5Spndok1WriSMfiyQFbAyLY.jpg",99 Homes (2014)
+http://cinehub24.com/ftp/Movies/hollywood/2014/99%20Homes%20%282014%29/99%20Homes%20%282014%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Homesman" tvg-logo="https://image.tmdb.org/t/p/w500/eGpuOhkm1wG2AxEJShazH5NVGAO.jpg",The Homesman (2014)
+http://cinehub24.com/ftp/Movies/hollywood/2014/The%20Homesman%20%282014%29/The%20Homesman%20%282014%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Home_Run" tvg-logo="https://image.tmdb.org/t/p/w500/687pD1t23ptW7mxhA34ASLEaFrE.jpg",Home Run (2013)
+http://cinehub24.com/ftp/Movies/hollywood/2013/Home%20Run%20%282013%29/Home%20Run%20%282013%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Homefront" tvg-logo="https://image.tmdb.org/t/p/w500/xcFLM44jgl015wLe7lWC1C1bEEM.jpg",Homefront (2013)
+http://cinehub24.com/ftp/Movies/hollywood/2013/Homefront%20%282013%29/Homefront%20%282013%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Marine_Homefront" tvg-logo="https://image.tmdb.org/t/p/w500/9liEU1O0GZIZXYf9SekjH5kb8bb.jpg",The Marine Homefront (2013)
+http://cinehub24.com/ftp/Movies/hollywood/2013/The%20Marine%20Homefront%20%282013%29/The%20Marine%20Homefront%20%282013%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Beats_Rhymes_Life_The_Travels_Of_A_Tribe_Called_Quest" tvg-logo="https://image.tmdb.org/t/p/w500/kiE1jlShHK4HuBQJyLJ4c8lqMn8.jpg",Beats Rhymes Life The Travels Of A Tribe Called Quest (2011)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Beats%20Rhymes%20Life%20The%20Travels%20Of%20A%20Tribe%20Called%20Quest%20%282011%29/Beats.Rhymes.Life.The.Travels.Of.A.Tribe.Called.Quest.2011.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Jeff_Who_Lives_At_Home" tvg-logo="https://image.tmdb.org/t/p/w500/9zn7I5dmZ7IGng87gWVk9K37eq7.jpg",Jeff Who Lives At Home (2011)
+http://cinehub24.com/ftp/Movies/hollywood/2011/Jeff%2C%20Who%20Lives%20at%20Home%20%282011%29/Jeff%2C%20Who%20Lives%20at%20Home%20%282011%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Take_Me_Home_Tonight" tvg-logo="https://image.tmdb.org/t/p/w500/nInduPOusI1alDIC0UttFjDIKsO.jpg",Take Me Home Tonight (2011)
+http://cinehub24.com/ftp/Movies/hollywood/2011/Take%20Me%20Home%20Tonight%20%282011%29/Take%20Me%20Home%20Tonight%20%282011%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Followed_Home" tvg-logo="https://image.tmdb.org/t/p/w500/dtq7k0vdYv61bIzhlmssc0BNxmY.jpg",Followed Home (2010)
+http://cinehub24.com/ftp/Movies/hollywood/2010/Followed%20Home%20%282010%29%20%5B1080p%5D%20%5BYTS.AG%5D/Followed.Home.2010.1080p.BluRay.x264-%5BYTS.AG%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Gulliver_s_Travels" tvg-logo="https://image.tmdb.org/t/p/w500/qHKw1r7D1rxbUmDXnMyVXfCPCcP.jpg",Gulliver's Travels (2010)
+http://cinehub24.com/ftp/Movies/hollywood/2010/Gulliver%27s%20Travels%20%282010%29/Gullivers.Travels.720p.mkv.550mb.YIFY.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Stomp_The_Yard_2_Homecoming" tvg-logo="https://image.tmdb.org/t/p/w500/ttwEygvi7j1TNhDTvfBROEHtHEY.jpg",Stomp The Yard 2 Homecoming (2010)
+http://cinehub24.com/ftp/Movies/hollywood/2010/Stomp%20The%20Yard%202%20Homecoming%20%282010%29%20%5B1080p%5D/Stomp.The.Yard.2.Homecoming.2010.1080p.BRrip.x264.YIFY.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Traveler" tvg-logo="https://image.tmdb.org/t/p/w500/J3ewuzQwhFro0pDpdcbZ4j7MYy.jpg",The Traveler (2010)
+http://cinehub24.com/ftp/Movies/hollywood/2010/The%20Traveler%20%282010%29%20%5BBluRay%5D%20%5B1080p%5D%20%5BYTS.AM%5D/The.Traveler.2010.1080p.BluRay.x264-%5BYTS.AM%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Time_Traveler_s_Wife" tvg-logo="https://image.tmdb.org/t/p/w500/J3ewuzQwhFro0pDpdcbZ4j7MYy.jpg",The Time Traveler's Wife (2009)
+http://cinehub24.com/ftp/Movies/hollywood/2009/The%20Time%20Traveler%27s%20Wife%20%282009%29/The.Time.Traveler%27s.Wife.2009.1080p.BluRay.x264-%5BYTS.AG%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Food_Fight" tvg-logo="https://image.tmdb.org/t/p/w500/dyUan6H8VzMOjnNmJAAjAutwlwS.jpg",Food Fight (2008)
+http://cinehub24.com/ftp/Movies/hollywood/2008/Food%20Fight%20%282008%29/Food%20Fight%20%282008%29%20%5B1080p%5D%20BluRay.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Sisterhood_Of_The_Traveling_Pants_2" tvg-logo="https://image.tmdb.org/t/p/w500/bAdkVOD91jCHos4163qyVu1TFua.jpg",The Sisterhood Of The Traveling Pants 2 (2008)
+http://cinehub24.com/ftp/Movies/hollywood/2008/The%20Sisterhood%20of%20the%20Traveling%20Pants%202%20%282008%29/The%20Sisterhood%20of%20the%20Traveling%20Pants%202%20%282008%29%20%5B1080p%5D%20BluRay.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Homebound" tvg-logo="https://image.tmdb.org/t/p/w500/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",Homebound (2025)
+http://103.225.94.27/Infobase/hdd-3/hindi/Homebound%20(2025)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Aaj_Ka_Fashion_Trend" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2014/Aaj%20Ka%20Fashion%20Trend/poster.jpg",Aaj Ka Fashion Trend (2014)
+http://cds1.discoveryftp.net/Movies/Hindi/2014/Aaj%20Ka%20Fashion%20Trend/Aaj%20Ka%20Fashion%20Trend%20%282014%29.mp4?md5=bV3Wm1_zP88y2Bon20DG-w&expires=1777845281
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Fashion" tvg-logo="https://image.tmdb.org/t/p/w500/duDkmeX8eioEtMXLiy2qNuZ4nYc.jpg",Fashion (2008)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Fashion%20%282008%29/Fashion%202008%20Hindi%20720p%20BRRip%20x264%20AAC%205.1...Hon3y.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Honeymoon_Travels_Pvt__Ltd" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2007/Honeymoon%20Travels%20Pvt.%20Ltd/poster.jpg",Honeymoon Travels Pvt. Ltd (2007)
+http://cds1.discoveryftp.net/Movies/Hindi/2007/Honeymoon%20Travels%20Pvt.%20Ltd/Honeymoon%20Travels%20Pvt%20Ltd%202007%20Hindi%20720p%20DvDRip%20x264%20AC3%205.1...Hon3y.mkv?md5=8Ys8_bXeI-EJFKsL6iN1AA&expires=1777845297
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Home_Delivery" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2005/Home%20Delivery/poster.jpg",Home Delivery (2005)
+http://cds1.discoveryftp.net/Movies/Hindi/2005/Home%20Delivery/Home%20Delivery%202005%20Hindi%20HDRip%20720p%20x264%20AC3...Hon3y.mkv?md5=GinaH-afDJni__ctUlKw4A&expires=1777845303
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Home_Delivery_Aapko_Ghar_Tak" tvg-logo="https://image.tmdb.org/t/p/w500/b9J35FCOulIxcRFoTtTnJJ2rkEb.jpg",Home Delivery-Aapko Ghar Tak (2005)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Home%20Delivery-Aapko...%20Ghar%20Tak%20%282005%29/Home%20Delivery%202005%20Hindi%20HDRip%20720p%20x264%20AC3...Hon3y.mkv
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Annapoorani__Annapoorani_The_Goddess_of_Food_" tvg-logo="https://image.tmdb.org/t/p/w500/hvcSrGLCK3iaJVBc8tJZYOIohee.jpg",Annapoorani (Annapoorani The Goddess of Food) (2023)
+http://103.225.94.27/Infobase/hdd-2/Hindi%20Dub2.0/Annapoorani%20(Annapoorani%20The%20Goddess%20of%20Food)%20(2023)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="_Home" tvg-logo="https://image.tmdb.org/t/p/w500/aBMnVU5yrsP5XMBZhG8aT2w6m9u.jpg",#Home (2021)
+http://103.225.94.27/Infobase/hdd-1/HINDI%20DUBBED/%23Home%20(2021)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Hero_Dog_The_Journey_Home" tvg-logo="https://image.tmdb.org/t/p/w500/ybWtSFLVakBIVeAviZ6SsQKIuSv.jpg",Hero Dog The Journey Home (2021)
+http://cinehub24.com/ftp/Movies/hindidub/Hero%20Dog%20The%20Journey%20Home%20%282021%29/Against%20the%20Wild%20III%20-%20The%20Journey%20Home%20%282021%29%20720p%20WEB-DL%20x264%20Eng%20Subs%20%5BDual%20Audio%5D%20%5BHindi%20DD%202.0%20-%20English%20DDP%205.1%5D.mkv
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Welcome_Home" tvg-logo="https://image.tmdb.org/t/p/w500/fMhJQoMitAh0pN0fLlD7iUGcBp0.jpg",Welcome Home (2018)
+http://cinehub24.com/ftp/Movies/hindidub/Welcome%20Home%20%282018%29/Welcome%20Home.mkv
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Carole_King_Home_Again_Live_In_Central_Park" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Carole%20King%20Home%20Again%20Live%20In%20Central%20Park/poster.jpg",Carole King Home Again Live In Central Park (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Carole%20King%20Home%20Again%20Live%20In%20Central%20Park/Carole.King.Home.Again.Live.In.Central.Park.2023.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=Lj21pV40ix7CP6Unkrkl-w&expires=1777845394
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Home_for_Rent" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Home%20for%20Rent/poster.jpg",Home for Rent (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Home%20for%20Rent/Home.for.Rent.2023.1080p.HEVC.mkv?md5=xR-UMEqJsYTUSmt431Vb5A&expires=1777845396
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Poisoned_The_Dirty_Truth_About_Your_Food" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Poisoned%20The%20Dirty%20Truth%20About%20Your%20Food/poster.jpg",Poisoned The Dirty Truth About Your Food (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Poisoned%20The%20Dirty%20Truth%20About%20Your%20Food/Poisoned.The.Dirty.Truth.About.Your.Food.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=BxXAvDp0vzAmvLpRZrGFtA&expires=1777845398
+#EXTINF:-1 group-title="Movies - Other" tvg-id="A_Decent_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/A%20Decent%20Home/poster.jpg",A Decent Home (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/A%20Decent%20Home/A.Decent.Home.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=TnzgNlMJv5NKli4FCxfHog&expires=1777845368
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Diana_Life_In_Fashion" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Diana%20Life%20In%20Fashion/poster.jpg",Diana Life In Fashion (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Diana%20Life%20In%20Fashion/Diana.Life.In.Fashion.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=UUZuL_Ma96QLXCayDfKKTw&expires=1777845372
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Fashion_Reimagined" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Fashion%20Reimagined/poster.jpg",Fashion Reimagined (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Fashion%20Reimagined/Fashion.Reimagined.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=dhD3d8XdrNfR5PhLDe7uew&expires=1777845374
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Home2Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Home2Home/poster.jpg",Home2Home (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Home2Home/Home2Home.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=_ZtSSY9w6zSeS7AKNjZPjQ&expires=1777845376
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Homestay" tvg-logo="https://image.tmdb.org/t/p/w500/1ljGmV5aJBUJP45BsHNsvYKk5l1.jpg",Homestay (2022)
+http://cinehub24.com/ftp/Movies/korean/Homestay%20%282022%29/Homestay.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Last_Flight_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Last%20Flight%20Home/poster.jpg",Last Flight Home (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Last%20Flight%20Home/Last.Flight.Home.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=C-eSZsOfp9Gh-FxISC_P3A&expires=1777845379
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Travelin_Band_Creedence_Clearwater_Revival_At_The_Royal_Albert_Hall" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Travelin%20Band%20Creedence%20Clearwater%20Revival%20At%20The%20Royal%20Albert%20Hall/poster.jpg",Travelin Band Creedence Clearwater Revival At The Royal Albert Hall (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Travelin%20Band%20Creedence%20Clearwater%20Revival%20At%20The%20Royal%20Albert%20Hall/Travelin.Band.Creedence.Clearwater.Revival.At.The.Royal.Albert.Hall.2022.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=2F7poVE6ZbsZvEZpodtanQ&expires=1777845389
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Coffin_Homes__Gwai_Tung_Nei_Jyu_" tvg-logo="https://image.tmdb.org/t/p/w500/jZI58QUU3jQIYNM4n9SFdFzkwa5.jpg",Coffin Homes (Gwai Tung Nei Jyu) (2021)
+http://103.225.94.27/Infobase/hdd-1/China/Coffin%20Homes%20(Gwai%20Tung%20Nei%20Jyu)%20(2021)%201080p%20BluRay.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Home_Sweet_Home" tvg-logo="https://image.tmdb.org/t/p/w500/t5RxZfhMEloJdTB4wcsYiCAsUPV.jpg",Home Sweet Home (2021)
+http://cinehub24.com/ftp/Movies/korean/Home%20Sweet%20Home%20%282021%29/Home.Sweet.Home.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Inside_KFC_Fast_Food_Secrets" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/Inside%20KFC%20Fast%20Food%20Secrets/poster.jpg",Inside KFC Fast Food Secrets (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/Inside%20KFC%20Fast%20Food%20Secrets/Inside.KFC.Fast.Food.Secrets.2021.1080p.HDTV.H264-DARKFLiX.mkv?md5=yTl5dWMl-dd61HEah46gXg&expires=1777845434
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Food_Luck" tvg-logo="https://image.tmdb.org/t/p/w500/tc5ZW8oWWWHNu6dkP3UQ0cjjT1L.jpg",Food Luck (2020)
+http://cinehub24.com/ftp/Movies/korean/Food%20Luck%20%282020%29/Food.Luck.2020.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Home_Stay" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2020/Home%20Stay/poster.jpg",Home Stay (2020)
+http://cds1.discoveryftp.net/Movies/Others/2020/Home%20Stay/Home.Stay.2020.1080p.AMZN.WEB-DL.DDP2.0.H.264-EVO.mkv?md5=iH2OfV5Q4FSXPUwesBF4HA&expires=1777845404
+#EXTINF:-1 group-title="Movies - Other" tvg-id="I_Was_at_Home_But" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2019/I%20Was%20at%20Home%20But/poster.jpg",I Was at Home But (2019)
+http://cds1.discoveryftp.net/Movies/Others/2019/I%20Was%20at%20Home%20But/i.was.at.home.but.2019.1080p.bluray.x264-scare.mkv?md5=HSuzmB20Kt4_VedznbKhUg&expires=1777845413
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Iceman_The_Time_Traveller" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/Iceman%20The%20Time%20Traveller/poster.jpg",Iceman The Time Traveller (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/Iceman%20The%20Time%20Traveller/Iceman%20The%20Time%20Traveller%20%282018%29%201080p%20BluRay.mkv?md5=e7bzVOEl6fBE9aRMYFQaJQ&expires=1777845419
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Long_Way_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/Long%20Way%20Home/poster.jpg",Long Way Home (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/Long%20Way%20Home/Long.Way.Home.2018.PORTUGUESE.1080p.WEBRip.x264-VXT.mp4?md5=hiUB7M2VOlpOvMHSFtdxLQ&expires=1777845420
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Sunset_in_My_Hometown" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/Sunset%20in%20My%20Hometown/poster.jpg",Sunset in My Hometown (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/Sunset%20in%20My%20Hometown/Sunset.In.My.Hometown.2018.KOREAN.1080p.WEBRip.x264-VXT.mp4?md5=bEcjIyHH1eGlxwubRjFWNg&expires=1777845423
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Kung_Fu_Traveler" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2017/Kung%20Fu%20Traveler/poster.jpg",Kung Fu Traveler (2017)
+http://cds1.discoveryftp.net/Movies/Others/2017/Kung%20Fu%20Traveler/Kung.Fu.Traveler.2017.720p.AMZN.WEB-DL.800MB.MkvCage.mkv?md5=dQhmVWwC6fzWY3aC0iMNdQ&expires=1777845443
+#EXTINF:-1 group-title="Movies - Other" tvg-id="A_Girl_Walks_Home_Alone_at_Night" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2014/A%20Girl%20Walks%20Home%20Alone%20at%20Night/poster.jpg",A Girl Walks Home Alone at Night (2014)
+http://cds1.discoveryftp.net/Movies/Others/2014/A%20Girl%20Walks%20Home%20Alone%20at%20Night/A.Girl.Walks.Home.Alone.at.Night.2014.720p.WEB-DL.750MB.MkvCage.mkv?md5=PUnW8uPIX6AYmsfsUTIz0Q&expires=1777845450
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Coming_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2014/Coming%20Home/poster.jpg",Coming Home (2014)
+http://cds1.discoveryftp.net/Movies/Others/2014/Coming%20Home/Coming.Home.2014.720p.BRRip.950MB.MkvCage.mkv?md5=C7JreK5JczxqZaD6EXlyPQ&expires=1777845451
+#EXTINF:-1 group-title="Movies - Other" tvg-id="On_the_Way_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2011/On%20the%20Way%20Home/poster.jpg",On the Way Home (2011)
+http://cds1.discoveryftp.net/Movies/Others/2011/On%20the%20Way%20Home/On.the.Way.Home.2011.1080p.AMZN.WEB-DL.DDP2.0.H.264-PLiSSKEN.mkv?md5=Art9yjFxyOpXXJp32UBT4g&expires=1777845467
+#EXTINF:-1 group-title="Movies - Other" tvg-id="No_Direction_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2005/No%20Direction%20Home/poster.jpg",No Direction Home (2005)
+http://cds1.discoveryftp.net/Movies/Others/2005/No%20Direction%20Home/BBC.Arena.2005.Bob.Dylan.No.Direction.Home.720p.HDTV.x264.AAC.MVGroup.org.mkv?md5=0MJG5w-WGELUfQAHU-HKxw&expires=1777845475
+#EXTINF:-1 group-title="Movies - Other" tvg-id="I_m_Going_Home" tvg-logo="https://image.tmdb.org/t/p/w500/sh0VEL1VyTsSMJpw8yFBbugQ9BF.jpg",I'm Going Home (2001)
+http://cinehub24.com/ftp/Movies/french/I%27m%20Going%20Home%20%282001%29/Je%20Rentre%20%C3%A0%20la%20Maison%28I%27m%20Going%20Home%29.2001.DVDRip.x264-mfcorrea.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Road_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2000/The%20Road%20Home/poster.jpg",The Road Home (2000)
+http://cds1.discoveryftp.net/Movies/Others/2000/The%20Road%20Home/The.Road.Home.1999.Mandarin.DVDRip.XViD-Eselworx.avi?md5=dROwNxceCZ0jHX3X4utC2A&expires=1777845491
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Where_is_the_Friends_Home" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2000/Where%20is%20the%20Friends%20Home/poster.jpg",Where is the Friends Home (2000)
+http://cds1.discoveryftp.net/Movies/Others/2000/Where%20is%20the%20Friends%20Home/Where%20is%20my%20friend%27s%20home%201987-%20Abbas%20Kiarostami.mp4?md5=BibYoLKduSAMCgYViwKf1Q&expires=1777845492
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",4K TRAVEL TV (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8?ads.vf=ndSxSDe4vbu
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4K Travel TV (1080p)
+https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos (720p)
+https://jmp2.uk/plu-69172f1699758a0f03459c5b.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos (720p)
+https://jmp2.uk/plu-69143e3abb69fb3258ba4944.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos (720p)
+https://jmp2.uk/plu-69143e7b0d121b44adfa1ff9.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos
+https://jmp2.uk/plu-69143de2a570568f53230cab.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos
+https://jmp2.uk/plu-690dc8ed1ee9b6ac66607ce2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",America's Funniest Home Videos
+https://jmp2.uk/plu-691cf0410a78a9ce61ad2121.m3u8
+#EXTINF:-1 tvg-id="AFV.us@SD" tvg-logo="https://i.imgur.com/TOB9vmW.png" group-title="Comedy",America’s Funniest Home Videos (1080p)
+https://d1mp1kdk5zi1ie.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="AtHomewithFamilyHandyman.us@SD" tvg-logo="https://i.imgur.com/WfKlGbX.png" group-title="Series",At Home with Family Handyman (720p)
+https://d1ik2p49apxqjf.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="AutenticTravel.de@SD" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png" group-title="Lifestyle",Autentic Travel (1080p)
+https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Best of Bobby Flay by Food Network (720p)
+https://jmp2.uk/plu-68bb167e00a2f063fdf7ee8f.m3u8
+#EXTINF:-1 tvg-id="BiznetLifestyle.id@SD" tvg-logo="https://i.imgur.com/XqUfQKA.png" group-title="Lifestyle",Biznet Lifestyle (1080p)
+http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
+#EXTINF:-1 tvg-id="CCTVWomensFashion.cn@SD" tvg-logo="https://i.imgur.com/FVbP0aP.png" group-title="Lifestyle",CCTV-Women's Fashion (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Chef vs Chef by Food Network (720p)
+https://jmp2.uk/plu-68bb16a500a2f063fdf89f8c.m3u8
+#EXTINF:-1 tvg-id="ChinaTravel.cn@SD" tvg-logo="https://i.imgur.com/vSgY3CD.png" group-title="Culture;Documentary;Travel",China Travel (1080p)
+https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Chip & Jo: Feels Like Home by Magnolia Network (720p)
+https://jmp2.uk/plu-68bb16e7f89c82a68bcc4397.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Delicious Eats by Food Network (720p)
+https://jmp2.uk/plu-68bb16ba3efb41cd971f3ce6.m3u8
+#EXTINF:-1 tvg-id="DensFoodChannel.id@SD" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501416_tvchannels_v1.jpg" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Cooking",Dens Food Channel [Geo-blocked]
+https://op-group1-swiftservehd-1.dens.tv/h/h221/index.m3u8
+#EXTINF:-1 tvg-id="DensLifeStyle.id@SD" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501284_tvchannels_v1.jpg" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Dens Life & Style [Geo-blocked]
+https://op-group1-swiftservehd-1.dens.tv/h/h222/index.m3u8
+#EXTINF:-1 tvg-id="DensPlay.id@SD" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1687501248_tvchannels_v1.jpg" http-referrer="https://www.dens.tv/" http-user-agent="Mozilla/5.0 Windows NT 10.0; Win64; x64 AppleWebKit/537.36 KHTML, like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Dens Play [Geo-blocked]
+https://op-group1-swiftservehd-1.dens.tv/h/h225/index.m3u8
+#EXTINF:-1 tvg-id="DroneTV.us@SD" tvg-logo="https://i.ibb.co/S71C9RJC/dronetv.webp" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Relax;Travel",DroneTV (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/playlist.m3u8?ads.vf=CdxJHukE0Om
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Extreme Makeover Home Edition
+https://jmp2.uk/plu-6661739641af6400080cd8f1.m3u8
+#EXTINF:-1 tvg-id="FashionLifeStyle.ru@SD" tvg-logo="https://i.imgur.com/ETmpllL.png" group-title="Lifestyle",FASHION & LIFESTYLE (1080p)
+http://31.148.48.15/Fashion_One_HD/index.m3u8
+#EXTINF:-1 tvg-id="FashionFinds.us@SD" tvg-logo="https://i.imgur.com/GvDRZgq.png" group-title="Lifestyle;Shop",Fashion Finds (720p)
+https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8
+#EXTINF:-1 tvg-id="FashionTV.ua@SD" tvg-logo="https://i.imgur.com/Bk7W39G.png" group-title="Lifestyle",Fashion TV
+https://iptv.prosto.tv/ch582/tracks-v2a1/mono.m3u8?21yo=1&e=1783350200&id=742347&ip=178.136.40.86&live=1&secret=vu2y5m72&st=RRhh01CY6iYIRs_Kyoc3lw
+#EXTINF:-1 tvg-id="FashionBox.nl@HD" tvg-logo="https://i.imgur.com/Taqj4yi.png" group-title="Lifestyle",FashionBox (1080p)
+https://iptv.prosto.tv/ch369/index.m3u8
+#EXTINF:-1 tvg-id="FashionBox.nl@SD" tvg-logo="https://i.imgur.com/Taqj4yi.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Lifestyle",FashionBox
+https://webtvstream.bhtelecom.ba/hls6/fashion_box.m3u8
+#EXTINF:-1 tvg-id="FashionTVEurope.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Lifestyle",FashionTV Europe (1080p)
+https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Lifestyle",FashionTV Paris L'Original (1080p)
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="FashionTVSecrets.fr@HD" tvg-logo="https://i.ibb.co/fVGJyCC8/w512.png" group-title="Lifestyle",FashionTV Secrets (1080p)
+https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_APPNAME=[ADS.APP_NAME]&AV_APPPKGNAME=[ADS.APP_BUNDLE]&AV_APPSTOREURL=[ADS.APP_STORE_URL]&AV_CCPA=[ADS.US_PRIVACY]&AV_CLIENT_SECTION=ftv_secrets&AV_CONSENT=[ADS.GDPR_CONSENT]&AV_CONTENT_CAT=IAB7&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_EPISODE=&AV_CONTENT_GENRE=fashion+and+lifestyle&AV_CONTENT_ID=[ADS.VIDAA_ADS_CONTENTID]&AV_CONTENT_KEYWORDS=&AV_CONTENT_LANGUAGE=en&AV_CONTENT_LENGTH=&AV_CONTENT_NETWORK=&AV_CONTENT_PROVIDER=FTV&AV_CONTENT_RATING=R&AV_CONTENT_SEASON=&AV_CONTENT_SERIES=&AV_CONTENT_TITLE=&AV_CONTENT_URL=&AV_DNT=[ADS.DNT]&AV_GDPR=[ADS.GDPR]&AV_HEIGHT=[ADS.H]&AV_IDFA=[ADS.IFA]&AV_IFA_TYPE=[ADS.IFA_TYPE]&AV_LANGUAGE=[ADS.DEVICE_LANGUAGE]&AV_OSVERS=[ADS.DEVICE_OSV]&AV_RTB_DEVICE_TYPE=[ADS.DEVICE_TYPE]&AV_VAUTH=[ADS.VAUTH]&AV_WIDTH=[ADS.W]&Content_Id=[ADS.ADS_CONTENTID]&ads.vidaa_ads_param=1191723366&cb=[CACHEBUSTER]&content_channel_name=ftv+-fashiontv+Secrets&content_livestream=1
+#EXTINF:-1 tvg-id="FoodFood.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png" group-title="Cooking;Lifestyle",Food Food (576p)
+https://mumt03.tangotv.in/FOODFOOD/index.m3u8
+#EXTINF:-1 tvg-id="FoodTime.ru@SD" tvg-logo="https://i.imgur.com/gxCYAwH.png" group-title="Cooking",FoodTime (1080p)
+http://31.148.48.15/Eda_Premium_HD/index.m3u8
+#EXTINF:-1 tvg-id="GEMFood.tr@SD" tvg-logo="https://i.imgur.com/SMtSinK.png" group-title="Cooking",GEM Food
+https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="GlobalFashionChannel.us@SD" tvg-logo="https://i.imgur.com/s4eGYEP.jpg" group-title="Lifestyle",Global Fashion Channel (1080p)
+https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
+#EXTINF:-1 tvg-id="Go2Travel.us@SD" tvg-logo="https://go2travel.tv/wp-content/uploads/2022/11/go2-logo.png" group-title="Travel",Go2Travel (1080p)
+https://go2thls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GoTraveler.us@SD" tvg-logo="https://i.imgur.com/IaRcN1G.png" group-title="Travel",GoTraveler (720p) [Geo-blocked]
+https://amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv/playlist/amg09501-quester-gotraveler-klowdtvus/playlist.m3u8
+#EXTINF:-1 tvg-id="HomeShopping.kr@SD" tvg-logo="https://i.imgur.com/IcexRXG.png" group-title="Shop",Home & Shopping (720p)
+https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Home Cooking by Food Network
+https://jmp2.uk/plu-68bb16916523408b14bac7f8.m3u8
+#EXTINF:-1 tvg-id="HomePlus.ir@SD" tvg-logo="" group-title="Movies",Home Plus
+https://homeplushls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Home Refresh (720p) [Geo-blocked]
+https://pb-wedgbca8p66er.akamaized.net/playlist.m3u8
+#EXTINF:-1 tvg-id="HomeMadeNation.us@SD" tvg-logo="https://i.imgur.com/IdGNIoB.png" group-title="Series",Home.Made.Nation (1080p)
+https://3238c44f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV9MaXZlbHlQbGFjZV9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="HomebaseTV.za@SD" tvg-logo="https://i.imgur.com/MaLNfJG.png" group-title="Religious",Homebase TV (576p) [Not 24/7]
+https://webstreaming-2.viewmedia.tv/web_022/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Homeful.ca@US" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="Undefined",Homeful (1080p)
+https://amg00090-blueantcanada-amg00090c4-samsung-au-819.playouts.now.amagi.tv/playlist/amg00090-blueantfast-homefulworldwide-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Homerun TV
+https://streams2.sofast.tv/WiseM3U8_29/sofast/cleanhls/master.m3u8
+#EXTINF:-1 tvg-id="HomesUnderHammer.us@UK" tvg-logo="https://i.imgur.com/P5Haaln.png" group-title="Series",Homes Under The Hammer (720p)
+https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="HyundaiHomeShopping.kr@SD" tvg-logo="https://i.imgur.com/NJpECmq.png" group-title="Shop",Hyundai Home Shopping (720p)
+https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8
+#EXTINF:-1 tvg-id="HyundaiHomeShoppingPlusShop.kr@SD" tvg-logo="https://i.imgur.com/DoNOuZE.png" group-title="Shop",Hyundai Home Shopping Plus (720p)
+https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png" group-title="Travel",InTravel (1080p)
+https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="JilinLifestyleChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/jlshpd.jpg" group-title="Lifestyle",Jilin Lifestyle Channel
+https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/0a76740c72b74fabae611845aa21e06a/index.m3u8
+#EXTINF:-1 tvg-id="Journy.us@SD" tvg-logo="https://i.imgur.com/1JNrLxq.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Travel",Journy (720p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/journy/playlist.m3u8?ads.vf=QFdKH3fCQ5m
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",K Food by CJ ENM (1080p)
+https://dmxcualdgbo80.cloudfront.net/b2c874a8_68b3_49cb_9435_0264a4d32e4a/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="KaloopyTV.us@SD" tvg-logo="https://i.imgur.com/XPyOTZF.jpeg" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Lifestyle",Kaloopy (720p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8?ads.vf=rcUK9fMyEw0
+#EXTINF:-1 tvg-id="LifeStyleTV.se@SD" tvg-logo="https://i.imgur.com/0mreWrM.jpg" group-title="Religious",LifeStyleTV (1080p)
+https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8
+#EXTINF:-1 tvg-id="LotteHomeShopping.kr@SD" tvg-logo="https://i.imgur.com/dJeNehc.png" group-title="Shop",Lotte Home Shopping (720p)
+https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8
+#EXTINF:-1 tvg-id="MidpenMediaCenterChannel30.us@SD" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Culture",Midpen Media Center Arts Issues and Lifestyles Channel 30 (720p)
+https://5c2974786200d.streamlock.net/live-chan30/ngrp:ch30_all/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Million Dollar Dream Home (1080p) [Geo-blocked]
+https://pb-tc6lcocnesxgi.akamaized.net/playlist.m3u8
+#EXTINF:-1 tvg-id="NSHomeShopping.kr@SD" tvg-logo="https://i.imgur.com/Q9xsDQo.png" group-title="Shop",NS Home Shopping (720p)
+https://livestream.nsmall.com/IPHONE/nsmallMobile.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",O Homem que veio do Céu
+https://jmp2.uk/plu-62052d3b4eeb740007fbe125.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",PBS Food (1080p)
+https://d3w43rc3ob044a.cloudfront.net/PBS_Food.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-logo="https://i.imgur.com/A6GXhta.png" group-title="Lifestyle",PBS Travel (1080p)
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="PersianaTravel.fr@SD" tvg-logo="" group-title="Documentary",Persiana Travel
+https://ptravelhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFood.de@DACH" tvg-logo="https://images.pluto.tv/channels/5dc280c9aa218c0009724b4b/colorLogoPNG_1769092247484.png" group-title="Cooking;Documentary",Pluto TV Food
+https://jmp2.uk/plu-5dc280c9aa218c0009724b4b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFood.de@UK" tvg-logo="https://images.pluto.tv/channels/5dc280c9aa218c0009724b4b/colorLogoPNG_1769092247484.png" group-title="Cooking;Documentary",Pluto TV Food
+https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8
+#EXTINF:-1 tvg-id="PlutoTVHometownDrama.us@SD" tvg-logo="https://images.pluto.tv/channels/69d6c7befde57cd5ba0160c3/colorLogoPNG_1777488284970.png" group-title="Series",Pluto TV Hometown Drama
+https://jmp2.uk/plu-69d6c7befde57cd5ba0160c3.m3u8
+#EXTINF:-1 tvg-id="PlutoTVKFOOD.us@BR" tvg-logo="https://images.pluto.tv/channels/633ee9ba83c08f00076b60a6/colorLogoPNG.png" group-title="Cooking;Lifestyle",Pluto TV KFOOD
+https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
+#EXTINF:-1 tvg-id="Revry.us@SD" tvg-logo="https://i.imgur.com/XuTUaq4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Lifestyle",Revry (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry/playlist.m3u8?ads.vf=qWDpCZ1Hina
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Smash Food [Geo-blocked]
+http://80.79.6.221:25461/smash/public/9
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tastemade Home (1080p)
+https://d3ca4qxsdzlrju.cloudfront.net/Tastemade_Home.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tastemade Home (1080p) [Geo-blocked]
+https://amg00047-tastemade-amg00047c2-cineverse-us-1357.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadehome-cineverseus/playlist.m3u8
+#EXTINF:-1 tvg-id="TastemadeTravel.us@SD" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade Travel (1080p)
+https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Travel & Food TV (720p)
+https://nrpus.bozztv.com/36bay2/gusa-moviemagictv/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Travel Escapes (1080p)
+https://videoelephantlimited-travelescapes-1-us.ohlscdn.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelTV.bg@SD" tvg-logo="https://i.imgur.com/5xllfed.png" group-title="Travel",Travel TV (576p)
+https://streamer103.neterra.tv/travel/live.m3u8
+#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@SD" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="Travel",Travel+Adventure (1080p)
+http://31.148.48.15/Travel_Adventure_HD/index.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@4KHDR" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Travel",Travelxp 4K HDR (2160p) [Geo-blocked]
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Travelxp France (720p)
+https://travelxp-travelxp-4-fr.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Travelxp Germany (720p)
+https://travelxp-travelxp-2-de.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Travelxp.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png" group-title="Travel",Travelxp HD (1080p) [Geo-blocked]
+https://amg00416-amg00416c9-samsung-in-4882.playouts.now.amagi.tv/playlist/amg00416-travelxp-travelxphd-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Travelxp Spain (720p)
+https://travelxp-travelxp-5-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelxpTamil.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Travel_XP_Tamil.png" group-title="Travel",Travelxp Tamil (576p)
+http://103.72.101.252:8080/live/814.m3u8
+#EXTINF:-1 tvg-id="TVSTravelNetwork.us@SD" tvg-logo="https://i.imgur.com/vSFf5Ce.png" group-title="Travel",TVS Travel Network (720p) [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
+#EXTINF:-1 tvg-id="UAFashionTV.ua@SD" tvg-logo="https://i.imgur.com/e0YfI90.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Lifestyle",UA Fashion TV (1080p)
+https://iptv.prosto.tv/ch216/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WBTV Travel and Adventure (720p) [Geo-blocked]
+https://live-manifest.production-public.tubi.io/live/399519f7-b848-4c8e-aaac-884546a1d916/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WBTV Welcome Home (720p) [Geo-blocked]
+https://live-manifest.production-public.tubi.io/live/edb986fe-9600-4f83-8b6d-8593986f2f3a/playlist.m3u8
+#EXTINF:-1 tvg-id="DomashniyInternational.ru@SD" tvg-logo="https://i.imgur.com/nf7GRXb.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Lifestyle",Домашний International (720p)
+https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8

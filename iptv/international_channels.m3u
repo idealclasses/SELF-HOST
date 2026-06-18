@@ -1,0 +1,239 @@
+#EXTM3U
+#EXTINF:-1 group-title="Bangla" tvg-id="BengaliBeats" tvg-logo="https://tplay.live/originals/bengali-beats/bengali-beats.png",MU | Bengali Beats
+https://tplay.live/originals/bengali-beats/index.m3u8
+#EXTINF:-1 group-title="Music" tvg-id="ArabicaTV" tvg-logo=" ",AR | Arabica TV
+http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Bengali_Beauty" tvg-logo="https://cds1.discoveryftp.net/Movies/Bangla/2018/Bengali%20Beauty/poster.jpg",Bengali Beauty (2018)
+http://cds1.discoveryftp.net/Movies/Bangla/2018/Bengali%20Beauty/Bengali%20Beauty%20%282018%29%20720p%20HDRip.mkv?md5=7DjvsRw92FWBE4yn8Q1uXg&expires=1777845212
+#EXTINF:-1 group-title="Movies - English" tvg-id="A_Nice_Indian_Boy" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2025/A%20Nice%20Indian%20Boy/poster.jpg?md5=kisqKvnOczb366o3tMOfnQ&expires=1777844364",A Nice Indian Boy (2025)
+https://cds4.discoveryftp.net/Movies/English/2025/A%20Nice%20Indian%20Boy/A.Nice.Indian.Boy.2025.1080p.WEB-DL.Hindi.5.1-English.5.1.ESub.x264-Dual.mkv?md5=4xWm7QWwjgYAfDq3TK_DYw&expires=1777844364
+#EXTINF:-1 group-title="Movies - English" tvg-id="French_Lover" tvg-logo="https://image.tmdb.org/t/p/w500/bLqPpqNoKbNbXysIeft1tLIl6KB.jpg",French Lover (2025)
+http://103.225.94.27/Infobase/hdd-3/english/French%20Lover%20(2025)%20(Hindi%20&%20English)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Sorcerer_Heavenly_Master_Dark_Hades___Chinese_",Sorcerer Heavenly Master Dark Hades ( Chinese) (2025)
+http://cinehub24.com/ftp/Movies/hollywood/2026/Sorcerer%20Heavenly%20Master%20Dark%20Hades%20%28Hindi%20%2B%20Chinese%29%202025/Sorcerer%20Heavenly%20Master%20Dark%20Hades%20%282025%29%20%28Hindi%20%26%20Chinese%29%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Huesera_The_Bone_Woman__SPANISH_" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Huesera%20The%20Bone%20Woman%20%20%5BSPANISH%5D/poster.jpg?md5=uE-bIe1_eEpQoi6bG4hpeg&expires=1777844438",Huesera The Bone Woman [SPANISH] (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Huesera%20The%20Bone%20Woman%20%20%5BSPANISH%5D/Huesera.The.Bone.Woman.2022.SPANISH.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=F7Tgj1nbVjpLSUSVrO4npw&expires=1777844438
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mike_Epps_Indiana_Mike" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Mike%20Epps%20Indiana%20Mike/poster.jpg?md5=Pig9KBNjKYO0XXlXoDf3Pw&expires=1777844445",Mike Epps Indiana Mike (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Mike%20Epps%20Indiana%20Mike/Mike.Epps.Indiana.Mike.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=Q1AIHxeZWdf9IO2Lex1-9g&expires=1777844445
+#EXTINF:-1 group-title="Movies - English" tvg-id="Une_Femme_De_Notre_Temps__FRENCH_" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Une%20Femme%20De%20Notre%20Temps%20%20%5BFRENCH%5D/poster.jpg?md5=BPub_JfYvgMpdgjEcHM8bg&expires=1777844467",Une Femme De Notre Temps [FRENCH] (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Une%20Femme%20De%20Notre%20Temps%20%20%5BFRENCH%5D/Une.Femme.De.Notre.Temps.2022.FRENCH.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=yVCJ9HcA3ZQxmkPfrb6sBQ&expires=1777844467
+#EXTINF:-1 group-title="Movies - English" tvg-id="Chinese_Doctors" tvg-logo="https://image.tmdb.org/t/p/w500/8fhiqls7ucXalfqE3JaIL2MC6Oo.jpg",Chinese Doctors (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Chinese%20Doctors%20%282021%29/Chinese.Doctors.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Chinese_Speaking_Vampires" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/Chinese%20Speaking%20Vampires/poster.jpg?md5=G_Nd6HW9gS35lmCnGOlaxg&expires=1777844375",Chinese Speaking Vampires (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/Chinese%20Speaking%20Vampires/Chinese.Speaking.Vampires.2021.1080p.WEBRip.x264-RARBG.mp4?md5=XrZ3PoQ53_WY_PIwCW0kKw&expires=1777844375
+#EXTINF:-1 group-title="Movies - English" tvg-id="India_Sweets_And_Spices" tvg-logo="https://image.tmdb.org/t/p/w500/2cUczTzLq1F99Pgiw6BWFsKnD7J.jpg",India Sweets And Spices (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/India%20Sweets%20And%20Spices%20%282021%29/India.Sweets.And.Spices.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_French_Dispatch" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/The%20French%20Dispatch/poster.jpg?md5=vJYBPYqKKKYMqUPrPIEuZw&expires=1777844396",The French Dispatch (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/The%20French%20Dispatch/The.French.Dispatch.2021.1080p.BluRay.H264.AAC-RARBG.mp4?md5=fW-siRKHV5QuZSX_dCVRIA&expires=1777844396
+#EXTINF:-1 group-title="Movies - English" tvg-id="Wild_Indian" tvg-logo="https://image.tmdb.org/t/p/w500/yhOpkNvgW1ZzmEpR4iqxKwKKShL.jpg",Wild Indian (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Wild%20Indian%20%282021%29/Wild.Indian.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Russian_Bride" tvg-logo="https://image.tmdb.org/t/p/w500/6Mv09q2IHhG6YPPffgnESQw2fcn.jpg",The Russian Bride (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/The%20Russian%20Bride%20%282019%29/The%20Russian%20Bride%20%282019%29%20%5B1080p%5D%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Sui_Dhaaga_Made_In_India" tvg-logo="https://image.tmdb.org/t/p/w500/dit1yb4Z5WBtCFqn7Bl3oN8l7A1.jpg",Sui Dhaaga Made In India (2018)
+http://cinehub24.com/ftp/Movies/hollywood/2018/Sui%20Dhaaga%20-%20Made%20in%20India%20%282018%29/Sui%20Dhaaga.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="USS_Indianapolis_Men_Of_Courage" tvg-logo="https://image.tmdb.org/t/p/w500/aREeJV7avhlLnCicVG3fBjXiaW1.jpg",USS Indianapolis Men Of Courage (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/USS%20Indianapolis%20Men%20of%20Courage%20%282016%29/USS_Indianapolis_Men_of_Courage_2016_6CH_1080p_x265_BrRip_30nama_30NAMA.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="7_Chinese_Brothers" tvg-logo="https://image.tmdb.org/t/p/w500/k1vtozOhbk76ZmBJzKfmv1pev9i.jpg",7 Chinese Brothers (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/7%20Chinese%20Brothers%20%282015%29/7%20Chinese%20Brothers%20%282015%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Miss_India_America" tvg-logo="https://image.tmdb.org/t/p/w500/gXSk6BA1ELFU8u9KdYLmWQr2B8w.jpg",Miss India America (2015)
+http://103.225.94.27/Infobase/hdd-3/english/Miss%20India%20America%20(2015)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Dead_2_India" tvg-logo="https://image.tmdb.org/t/p/w500/dF6AP6eo0EvKRZQu64uXOQzIRPW.jpg",The Dead 2 India (2013)
+http://cinehub24.com/ftp/Movies/hollywood/2013/The%20Dead%202%20India%20%282013%29/The%20Dead%202%20India%20%282013%29.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="All_India_Rank" tvg-logo="https://image.tmdb.org/t/p/w500/xPV6gfhmybAUg8TebT9PKlV8EkE.jpg",All India Rank (2023)
+http://cinehub24.com/ftp/Movies/bollywood/2024/All%20India%20Rank%20%282023%29/All%20India%20Rank.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Rakshak___India_s_Braves" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2023/Rakshak%20-%20India%27s%20Braves/poster.jpg",Rakshak - India's Braves (2023)
+http://cds1.discoveryftp.net/Movies/Hindi/2023/Rakshak%20-%20India%27s%20Braves/Rakshak.Indias.Braves.2023.1080p.AMZN.WEB-DL.AAC2.0.H.264-Telly.mkv?md5=GoR4DYzJGHgr4O9hVi-rng&expires=1777845241
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Rakshak_Indias_Braves" tvg-logo="https://image.tmdb.org/t/p/w500/yVBVV9CjlcHGYBJy5LqJOfs1KTB.jpg",Rakshak Indias Braves (2023)
+http://103.225.94.27/Infobase/hdd-2/hindi2.0/Rakshak%20Indias%20Braves%20(2023)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="The_Great_Indian_Family" tvg-logo="https://image.tmdb.org/t/p/w500/9Gxe853oX3URrNj8PKGfvoBF3tx.jpg",The Great Indian Family (2023)
+http://103.225.94.27/Infobase/hdd-2/hindi2.0/The%20Great%20Indian%20Family%20(2023)%201080p%20DVDRip.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="India_Lockdown" tvg-logo="https://image.tmdb.org/t/p/w500/rR8lTcL81n5oHtxmGHMWxag0XOc.jpg",India Lockdown (2022)
+http://103.225.94.27/Infobase/hdd-1/Hindi/India%20Lockdown%20(2022)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Bhuj_The_Pride_of_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2021/Bhuj%20The%20Pride%20of%20India/poster.jpg",Bhuj The Pride of India (2021)
+http://cds1.discoveryftp.net/Movies/Hindi/2021/Bhuj%20The%20Pride%20of%20India/BHUJ%20-%20THE%20PRIDE%20OF%20INDIA%20%282021%29%20-%20Hindi%20-%20WEBRip%20-%201080p%20%20-%201.6GB%20-%20ESub%20%20-%20QRips.mkv?md5=9iINsRUMExzgvWfHXcUCDQ&expires=1777845251
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="French_Biriyani" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2020/French%20Biriyani/poster.jpg",French Biriyani (2020)
+http://cds1.discoveryftp.net/Movies/Hindi/2020/French%20Biriyani/French.Biriyani.2020.1080p.AMZN.WEB-DL.DD%2B5.1.H.265-Telly.mkv?md5=EzNgS-kQzua1xbBkgxRKdQ&expires=1777845269
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Miss_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2020/Miss%20India/poster.jpg",Miss India (2020)
+http://cds1.discoveryftp.net/Movies/Hindi/2020/Miss%20India/Miss%20India%202020%20Hindi%20Duubd%201080P%20WEB-DL%20H264%20AAC%20ESUB%20-%20Top10Torrent.site.mkv?md5=1gnh1BPffd29Apu_SLrZVA&expires=1777845270
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="India_s_Most_Wanted" tvg-logo="https://image.tmdb.org/t/p/w500/p8vy15IqBvGx13kfM0ZqQC4xBDI.jpg",India's Most Wanted (2019)
+http://cinehub24.com/ftp/Movies/bollywood/2019/India%27s%20Most%20Wanted%20%282019%29/Indias%20Most%20Wanted%20%282019%29%20HDRip%20720p.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Indias_Most_Wanted" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2019/Indias%20Most%20Wanted/poster.jpg",Indias Most Wanted (2019)
+http://cds1.discoveryftp.net/Movies/Hindi/2019/Indias%20Most%20Wanted/India%27s%20Most%20Wanted%20%282019%29%201080p%20Hindi%20Proper%20WEB-DL.mkv?md5=7tnpIuLhFvj3xGWi75aY_A&expires=1777845256
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Why_Cheat_India" tvg-logo="https://image.tmdb.org/t/p/w500/cljRxxAOlmsmt1GOKymbNZNTHBF.jpg",Why Cheat India (2019)
+http://cinehub24.com/ftp/Movies/bollywood/2019/Why%20Cheat%20India%20%282019%29/Why.Cheat.India.2019.1080p.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Indian_Never_Again_Nirbhaya" tvg-logo="https://m.media-amazon.com/images/M/MV5BMmQwMjQyM2QtNjM1ZC00ZTllLTk1ZTEtNGU2MjM1NTNjNDBkXkEyXkFqcGdeQXVyMjEzNzg4NjU@._V1_SX300.jpg",Indian Never Again Nirbhaya (2018)
+http://cinehub24.com/ftp/Movies/bollywood/2021/Indian%20Never%20Again%20Nirbhaya%20%282018%29/Indian%20Never%20Again%20Nirbhaya%20%282018%29%20Hindi%20720p%20HDRip%20x264%20AAC.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="The_Indian_Post_Graduate" tvg-logo="https://image.tmdb.org/t/p/w500/wf37EzjbM9OmOcALBKX4UNSmvCL.jpg",The Indian Post Graduate (2018)
+http://cinehub24.com/ftp/Movies/bollywood/2018/The%20Indian%20Post%20Graduate%20%282018%29/The%20Indian%20Post%20Graduate%20%282018%29%20Hindi%20720p%20HDRip%20x264%20AAC%20%5BMovCr%5D.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Angry_Indian_Goddesses" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2015/Angry%20Indian%20Goddesses/poster.jpg",Angry Indian Goddesses (2015)
+http://cds1.discoveryftp.net/Movies/Hindi/2015/Angry%20Indian%20Goddesses/Angry%20Indian%20Goddesses%202015%20Hindi%201080p%20BluRay%20x264%20DTS-HDMA%205.1%20-%20Hon3y.mkv?md5=RXEucDPUlsa70w1o2Rdg-Q&expires=1777845276
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Wake_Up_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2014/Wake%20Up%20India/poster.jpg",Wake Up India (2014)
+http://cds1.discoveryftp.net/Movies/Hindi/2014/Wake%20Up%20India/Wake%20Up%20India%20%282014%29.mkv?md5=gqjzRXOn-Yiov7ne6plarQ&expires=1777845286
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Spanish_Beauty__A_Beautiful_Wife_" tvg-logo="https://image.tmdb.org/t/p/w500/kTfrtrBjmJABhC0micyNUEjzyv4.jpg",Spanish Beauty (A Beautiful Wife) (2010)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Spanish%20Beauty%20%28A%20Beautiful%20Wife%29%20%282010%29/Spanish%20Beauty%20-%20DVDRip%20-%20XviD%20-%201CDRip%20-%20%5BDDR%5D.avi
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Quick_Gun_Murugun_Misadventures_Of_An_Indian_Cowboy" tvg-logo="https://image.tmdb.org/t/p/w500/btD3ANVRVZMhL85RCnOCRqQ5Rx0.jpg",Quick Gun Murugun-Misadventures Of An Indian Cowboy (2009)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Quick%20Gun%20Murugun-Misadventures%20of%20an%20Indian%20Cowboy%20%282009%29/Part%202%20%5BFT%20BD.NET%5D.avi
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Y_M_I_Yeh_Mera_India" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTYxNTE0NDQtZGUwZC00Y2ZmLWIxMzQtOTRmZjQ3MmI2NjVmXkEyXkFqcGc@._V1_SX300.jpg",Y M I Yeh Mera India (2008)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Y.M.I.%20Yeh%20Mera%20India%20%282008%29/Y.M.I.%20-%20Yeh%20Mera%20India%20%282008%29.avi
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Y_M_I__Yeh_Mera_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2008/Y.M.I.%20Yeh%20Mera%20India/poster.jpg",Y.M.I. Yeh Mera India (2008)
+http://cds1.discoveryftp.net/Movies/Hindi/2008/Y.M.I.%20Yeh%20Mera%20India/Y.M.I.%20-%20Yeh%20Mera%20India%20%282008%29.avi?md5=pgcCGwaJTvyd3nwtcO_i6Q&expires=1777845294
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Chak_De__India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2007/Chak%20De%21%20India/poster.jpg",Chak De! India (2007)
+http://cds1.discoveryftp.net/Movies/Hindi/2007/Chak%20De%21%20India/Chak%20De%20India%202007%20Hindi%201080p%20Blu-Ray%20x264%20DD%205.1%20MSubs-HDSector.mkv?md5=CNXS5w0v55NitNuvtNQmqw&expires=1777845296
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Chakde_India",Chakde India (2007)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Chakde%21%20India%20%282007%29/Chakde%21%20India%20%282007%29%20720p.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="INDIAN" tvg-logo="https://image.tmdb.org/t/p/w500/kMoS0caFjAsEJFX5HrbMGd4g51T.jpg",INDIAN (2001)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/INDIAN%20%282001%29/Indian%20-%20Bokashoka.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Lagaan_Once_Upon_A_Time_In_India" tvg-logo="https://image.tmdb.org/t/p/w500/z82yWJJ6MJzBjGMfioNcs3KnY5U.jpg",Lagaan-Once Upon A Time In India (2001)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Lagaan-Once%20Upon%20a%20Time%20in%20India%20%282001%29/Lagaan%20%282001%29.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Oh_Darling_Yeh_Hai_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/1900/Oh%20Darling%20Yeh%20Hai%20India/poster.jpg",Oh Darling Yeh Hai India (1995)
+http://cds1.discoveryftp.net/Movies/Hindi/1900/Oh%20Darling%20Yeh%20Hai%20India/Oh%20Darling%20Yeh%20Hai%20India-%281995%29-NF-WebDL-1080p-x264-DDP%202.0-Esub.mp4?md5=2YwrvlPxIqaO7l-xdZRVvw&expires=1777845349
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Mr_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/1900/Mr%20India/poster.jpg",Mr India (1987)
+http://cds1.discoveryftp.net/Movies/Hindi/1900/Mr%20India/Mr.%20India%20%281987%29%20Hindi%20720p.BluRay.x264-Pahe.in.mkv?md5=PDEwnhnitvN0ZlfX64Sk-g&expires=1777845348
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Mother_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/1900/Mother%20India/poster.jpg",Mother India (1957)
+http://cds1.discoveryftp.net/Movies/Hindi/1900/Mother%20India/Mother%20India-WebDL-1080p-x264-AAC-2.0.mp4?md5=nqQ-acTry_cdE8M8ewWfSA&expires=1777845347
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indian_Institute_Of_Zombies" tvg-logo="https://image.tmdb.org/t/p/w500/zSiNbahfCoezs5LQYNtJrvczngM.jpg",Indian Institute Of Zombies (2026) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Indian%20Institute%20of%20Zombies%20%282026%29/MovieLinkBD.com%20-%20Indian.Institute.of.Zombies.2026.1080p.Hindi.AAC.HDTC.h264.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indiana_Jones_4_And_The_Kingdom_Of_The_Crystal_Skul" tvg-logo="https://image.tmdb.org/t/p/w500/56As6XEM1flWvprX4LgkPl8ii4K.jpg",Indiana Jones 4 And The Kingdom Of The Crystal Skul (2008) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Indiana%20Jones%204%20and%20the%20Kingdom%20of%20the%20Crystal%20Skul%20%282008%29/Indiana.Jones.And.The.Kingdom.of.the.Crystal.Skull.2008.%5BMovieLinkBD.Com%5D%20720p.BluRay.HIN-ENG.x264.ESubs.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indiana_Jones_And_The_Dial_Of_Destiny" tvg-logo="https://image.tmdb.org/t/p/w500/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",Indiana Jones And The Dial Of Destiny (2023) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Indiana%20Jones%20and%20the%20Dial%20of%20Destiny%20%282023%29/Indiana.Jones.and.the.Dial.of.Destiny.2023%20%5BMovieLinkBD.Com%5D.%20720p.10Bit.BluRay.Hindi.English.Esubs..mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indiana_Jones_And_The_Last_Crusade" tvg-logo="https://image.tmdb.org/t/p/w500/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",Indiana Jones And The Last Crusade (1989) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Indiana%20Jones%20and%20the%20Last%20Crusade%20%281989%29/Indiana%20Jones%203%20and%20The%20Last%20Crusade%201989%20BluRay%20Dual%20Audio%20%5BHindi%205.1%20%2B%20English%205.1%5D%20720p%20x264%20AAC%20ESub%20-%20MovieLinkBD.com.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indiana_Jones_And_The_Temple_Of_Doom" tvg-logo="https://image.tmdb.org/t/p/w500/gpdVNUaa4LhRMLfJOPj1AZdhAZ3.jpg",Indiana Jones And The Temple Of Doom (1984) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Indiana%20Jones%20and%20the%20Temple%20of%20Doom%20%281984%29/Indiana.Jones.And.The.Temple.Of.Doom.1984.720P.Bluray.Hindi.English.Msubs.MovieLinkBD.com..mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Revenge__Venganza____Spanish_",Revenge (Venganza) ( Spanish) (2026)
+http://cinehub24.com/ftp/Movies/hindidub/Revenge%20%28Venganza%29%20%28Hindi%20%2B%20Spanish%29%202026/Revenge%20%28Venganza%29%20%282026%29%20%28Hindi%20%26%20Spanish%29%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indian_2" tvg-logo="https://image.tmdb.org/t/p/w500/fPoiIfqmVfNYZRVUtfTSyuAj8Tw.jpg",Indian 2 (2024)
+http://cinehub24.com/ftp/Movies/hindidub/Indian%202%20%282024%29/Indian%202.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indian_2_Zero_Tolerance" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2024/Indian%202%20Zero%20Tolerance/poster.jpg",Indian 2 Zero Tolerance (2024)
+http://cds1.discoveryftp.net/Movies/Tamil/2024/Indian%202%20Zero%20Tolerance/Indian%202%20Zero%20Tolerance.2024.1080p.WEB-DL.Hindi.5.1-Tamil.5.1.ESub.x264-Dual.mkv?md5=fedlzpEAC47ngcit1xaAyA&expires=1777845509
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Naa_Peru_Surya_Naa_Illu_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2018/Naa%20Peru%20Surya%20Naa%20Illu%20India/poster.jpg",Naa Peru Surya Naa Illu India (2018)
+http://cds1.discoveryftp.net/Movies/Tamil/2018/Naa%20Peru%20Surya%20Naa%20Illu%20India/Naa%20Peru%20Surya%2C%20Naa%20Illu%20India%20%282018%29%20WEB-DL%201080p%20AVC%20Telugu%2BTamil%2BHindi%20%2B%20Mallayam%5BMB%5D.mkv?md5=YxjDYsuQynyZJmPiv8Pzhw&expires=1777845522
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Indian_Soldier_Never_on_Holiday" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2015/Indian%20Soldier%20Never%20on%20Holiday/poster.jpg",Indian Soldier Never on Holiday (2015)
+http://cds1.discoveryftp.net/Movies/Tamil/2015/Indian%20Soldier%20Never%20on%20Holiday/Indian%20Soldier%20Never%20on%20Holiday%20%282015%29%20Hindi%20Dubbed%20720p%20WEBHDRip%20x264%20AAC%20E-Subs%20-%20LOKI.mkv?md5=XK_acQRGLuNLpuXtrDCwPA&expires=1777845540
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Russian_Hackers" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Russian%20Hackers/poster.jpg",Russian Hackers (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Russian%20Hackers/Russian.Hackers.2022.1080p.AMZN.WEB-DL.DD2.0.H.264-Cinefeel.mkv?md5=LE9jTQY-1xa1dYXpzxVzhA&expires=1777845383
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Kakegurui_Part_2_Desperate_Russian_Roulette" tvg-logo="https://image.tmdb.org/t/p/w500/ooO14QVGs9MWid8ItKra26jeQUP.jpg",Kakegurui Part 2 Desperate Russian Roulette (2021)
+http://cinehub24.com/ftp/Movies/korean/Kakegurui%20Part%202%20Desperate%20Russian%20Roulette%20%282021%29/Kakegurui.Part.2.Desperate.Russian.Roulette.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Beatles_and_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/The%20Beatles%20and%20India/poster.jpg",The Beatles and India (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/The%20Beatles%20and%20India/The.Beatles.and.India.2021.1080p.WEBRip.x264-RARBG.mp4?md5=KGIdMQnunuqx9pL6FuJIrA&expires=1777845438
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Great_Indian_Kitchen" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/The%20Great%20Indian%20Kitchen/poster.jpg",The Great Indian Kitchen (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/The%20Great%20Indian%20Kitchen/The%20Great%20Indian%20Kitchen%20%282021%29%201080p%20Malayalam%20WEB-DL%20AVC%20AAC%202.4GB%20HC-ESub.mkv?md5=PMVnOkYxW4TH9Poezk78hg&expires=1777845439
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Indias_Wild_Leopards" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2020/Indias%20Wild%20Leopards/poster.jpg",Indias Wild Leopards (2020)
+http://cds1.discoveryftp.net/Movies/Others/2020/Indias%20Wild%20Leopards/Indias.Wild.Leopards.2020.WEBRip.x264-ION10.mp4?md5=RshbDbEJdIzBKvb1Gd_jpQ&expires=1777845404
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Inside_the_Russian_Info_War_Machine" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/Inside%20the%20Russian%20Info%20War%20Machine/poster.jpg",Inside the Russian Info War Machine (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/Inside%20the%20Russian%20Info%20War%20Machine/Inside.the.Russian.Info.War.Machine.2018.720p.WEBRip.800MB.x264-GalaxyRG.mkv?md5=qXeNFD33F111lkrT2F4icg&expires=1777845419
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Buddies_In_India" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2017/Buddies%20In%20India/poster.jpg",Buddies In India (2017)
+http://cds1.discoveryftp.net/Movies/Others/2017/Buddies%20In%20India/Buddies%20In%20India%20%282017%29%20HDRip%20-%20720p%20-%20Original%20%5BTel%20%2B%20Tam%20%2B%20Hin%20%2B%20Eng%5D.mkv?md5=OEGYY_rMRlQmKufaJx0ulQ&expires=1777845441
+#EXTINF:-1 group-title="Movies - Other" tvg-id="A_Chinese_Odyssey_Part_Three" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2016/A%20Chinese%20Odyssey%20Part%20Three/poster.jpg",A Chinese Odyssey Part Three (2016)
+http://cds1.discoveryftp.net/Movies/Others/2016/A%20Chinese%20Odyssey%20Part%20Three/A%20Chinese%20Odyssey%20Part%20Three%20%282016%29%20720p.mkv?md5=oIyZMTEu0xZj1A4sie0d6g&expires=1777845424
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Chinese_Zodiac" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2012/Chinese%20Zodiac/poster.jpg",Chinese Zodiac (2012)
+http://cds1.discoveryftp.net/Movies/Others/2012/Chinese%20Zodiac/Chinese.Zodiac.2012.720p.BluRay.x264.YIFY.mp4?md5=RwaMhiIJ0ylmaFvVfWhlrw&expires=1777845456
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Sexual_Chronicles_of_a_French_Family" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2012/Sexual%20Chronicles%20of%20a%20French%20Family/poster.jpg",Sexual Chronicles of a French Family (2012)
+http://cds1.discoveryftp.net/Movies/Others/2012/Sexual%20Chronicles%20of%20a%20French%20Family/Sexual.Chronicles.of.a.French.Family.2012.UNCUT%20Bluray%20DTS%20DD5%201%20H265%20HEVC%20~JOY~%20.mkv?md5=t9u-iX3ANLboKkEfxlB5DA&expires=1777845458
+#EXTINF:-1 group-title="Movies - Other" tvg-id="A_Chinese_Fairy_Tale" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2011/A%20Chinese%20Fairy%20Tale/poster.jpg",A Chinese Fairy Tale (2011)
+http://cds1.discoveryftp.net/Movies/Others/2011/A%20Chinese%20Fairy%20Tale/A%20Chinese%20Fairy%20Tale%20%282011%29%20BRrip.avi?md5=xvGfVUJgKJ4DCiHZMgzFZg&expires=1777845466
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Russian_Dolls" tvg-logo="https://image.tmdb.org/t/p/w500/3jB22Ii6FuE6YEMn1BHzsXaFUPm.jpg",Russian Dolls (2005)
+http://cinehub24.com/ftp/Movies/french/Russian%20Dolls%20%282005%29/Russian.Dolls.2005.720p%20BRrip.sujaidr%20.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="What_Every_Frenchwoman_Wants" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2000/What%20Every%20Frenchwoman%20Wants/poster.jpg",What Every Frenchwoman Wants (2000)
+http://cds1.discoveryftp.net/Movies/Others/2000/What%20Every%20Frenchwoman%20Wants/What.Every.French.woman.Wants.1986.BLUERAY%20RIP%201080P%2010bit%20H265%20HEVC%20E%20SUBS~JOY~.mkv?md5=OztlKZ05R5KpQ6HvfCZzRw&expires=1777845492
+#EXTINF:-1 tvg-id="3ABNFrench.us@SD" tvg-logo="https://i.imgur.com/B5gsM7m.png" group-title="Religious",3ABN French
+https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="WRTV61.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png" group-title="News",ABC 6 Indianapolis IN (WRTV) (720p)
+https://aegis-cloudfront-1.tubi.video/bc9ff1c7-4dc1-4e36-9ef0-25b28c595ada/playlist.m3u8
+#EXTINF:-1 tvg-id="ABNTVIndia.us@SD" tvg-logo="https://i.imgur.com/VcZn60X.png" group-title="Religious",ABN TV India (540p)
+https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
+#EXTINF:-1 tvg-id="AngelTV.in@Chinese" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Chinese (720p)
+https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
+#EXTINF:-1 tvg-id="AngelTV.in@Russian" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Russian (720p)
+https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
+#EXTINF:-1 tvg-id="AngelTV.in@Spanish" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Religious",Angel TV Spanish (720p)
+https://janya-digimix.akamaized.net/vglive-sk-351398/spanish/ngrp:angelspanish_all/playlist.m3u8
+#EXTINF:-1 tvg-id="AnimaxAsia.sg@India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" group-title="Animation",Animax Asia India (1080p) [Geo-blocked]
+https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="ArabicaTV.lb@SD" tvg-logo="https://i.imgur.com/sTOoDy1.png" group-title="Music",Arabica TV (720p)
+http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
+#EXTINF:-1 tvg-id="AwaazIndiaTV.in@SD" tvg-logo="https://i.imgur.com/eKQs51V.png" group-title="News",Awaaz India TV (720p) [Not 24/7]
+https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
+#EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Religious",CGNTV Chinese (1080p)
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+#EXTINF:-1 tvg-id="CGTNArabic.cn@SD" tvg-logo="https://i.imgur.com/AkFFrS7.png" group-title="News",CGTN Arabic (1080p) [Not 24/7]
+https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+#EXTINF:-1 tvg-id="DDIndia.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" group-title="General",DD India (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8
+#EXTINF:-1 tvg-id="DW.de@Arabic" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="News",DW Arabic (1080p)
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
+#EXTINF:-1 tvg-id="DW.de@Russian" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="News",DW Russian (1080p)
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
+#EXTINF:-1 tvg-id="EWTN.us@Spanish" tvg-logo="https://i.imgur.com/sua70RO.png" group-title="Religious",EWTN Spanish (720p) [Geo-blocked]
+https://cdn3.wowza.com/1/TUI5dU5ucnUxdGFD/ZFlVeGRl/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ French (720p)
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_FRANCE_24/images/LOGO_HD/image.png" group-title="News",France 24 Arabic (1080p)
+https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@French" tvg-logo="https://i.imgur.com/u8N6uoj.png" group-title="News",France 24 French (1080p)
+https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="GodStandsTV.pk@Arabic" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="Religious",God Stands TV Arabic
+https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8
+#EXTINF:-1 tvg-id="GodStandsTV.pk@Chinese" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="Religious",God Stands TV Chinese
+https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
+#EXTINF:-1 tvg-id="GospelTVIndia.in@SD" tvg-logo="https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png" group-title="Religious",Gospel TV India (720p)
+https://server.livelegitpro.in:9899/gospeltv/index.m3u8
+#EXTINF:-1 tvg-id="HopeChannelIndia.in@SD" tvg-logo="https://i.imgur.com/wPzPUrK.png" group-title="Religious",Hope Channel India (576p)
+https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8
+#EXTINF:-1 tvg-id="IndiaAhead.in@SD" tvg-logo="https://i.imgur.com/hBkTmf9.png" group-title="News",India Ahead (576p)
+https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",India Daily 24x7 (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8?ads.vf=gZKszyLINNq
+#EXTINF:-1 tvg-id="IndiaDailyLive.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Daily_24x7.png" group-title="News",India Daily Live (1080p)
+https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
+#EXTINF:-1 tvg-id="IndiaToday.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TODAY/images/LOGO_HD/image.png" group-title="News",India Today (720p)
+https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-293160/master.m3u8
+#EXTINF:-1 tvg-id="IndiaTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INDIA_TV/images/LOGO_HD/image.png" group-title="News",India TV (720p)
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
+#EXTINF:-1 tvg-id="IndiaTVAapKiAdalat.in@SD" tvg-logo="https://play-lh.googleusercontent.com/2IlBX3IQHna8g4g-56vwGWb14K38spcviIh3i7uJCJ32ydfhcKZdOsacgijPkPeerEA" group-title="Documentary;News",India TV Aap Ki Adalat (1080p) [Geo-blocked]
+https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaVoice.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Voice.png" group-title="News",India Voice (576p)
+https://mumt04.tangotv.in/INDIAVOICE/index.m3u8
+#EXTINF:-1 tvg-id="IqraaArabic.sa@SD" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="Religious",Iqraa Arabic (1080p) [Not 24/7]
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8
+#EXTINF:-1 tvg-id="LLBNTVArabic.us@SD" tvg-logo="https://i.imgur.com/fbrQpC4.png" group-title="Religious",Lighting Lives Blessing Nations TV Arabic (LLBN) (480p)
+https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8
+#EXTINF:-1 tvg-id="LLBNTVChinese.us@SD" tvg-logo="https://i.imgur.com/C0jUDMn.png" group-title="Religious",Lighting Lives Blessing Nations TV Chinese (LLBN) (480p)
+https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
+#EXTINF:-1 tvg-id="LoveWorldArabic.ng@SD" tvg-logo="https://i.imgur.com/KYMjRjK.png" group-title="Religious",LoveWorld Arabic (360p)
+https://go5lm6a6dawb-hls-live.5centscdn.com/lwarabic/53132d996b4263ec0d7b602292c46eaf.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="MarjaeyatTVArabic.iq@SD" tvg-logo="https://i.imgur.com/LsYYkUI.png" group-title="Religious",Marjaeyat TV Arabic (1080p)
+https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma@SD" tvg-logo="https://i.imgur.com/3YsZPY6.jpeg" group-title="News",Medi 1 TV Arabic (1080p)
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+#EXTINF:-1 tvg-id="MotorvisionPlus.de@SD" tvg-logo="https://i.imgur.com/5cs5GkJ.png" group-title="Auto",Motorvision.tv (French)
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047
+#EXTINF:-1 tvg-id="NDTVIndia.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NDTV_INDIA/images/LOGO_HD/image.png" group-title="News",NDTV India (720p)
+http://103.213.31.109:90/StarUtsavMovies/playlist.m3u8
+#EXTINF:-1 tvg-id="PeaceTVChinese.ae@SD" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg" group-title="Religious",Peace TV Chinese (1080p)
+https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFrenchCollection.de@FR" tvg-logo="https://images.pluto.tv/channels/62f3e0522443200008c567d7/colorLogoPNG.png" group-title="Entertainment",Pluto TV French Collection
+https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Pluto TV Laughs in Spanish
+https://jmp2.uk/plu-69a554179a3f3bb488c7d2be.m3u8
+#EXTINF:-1 tvg-id="PressTVFrench.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="News",Press TV French (1080p)
+https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTArabic.ru@SD" tvg-logo="https://i.imgur.com/G8vGrn1.png" group-title="News",RT Arabic (1080p) [Geo-blocked]
+https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
+#EXTINF:-1 tvg-id="RTIndia.in@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" group-title="News",RT India (1080p)
+https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
+#EXTINF:-1 tvg-id="Sat7Arabic.cy@SD" tvg-logo="https://i.imgur.com/BzDjQeQ.png" group-title="Undefined",Sat 7 Arabic (240p)
+https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="SpacetoonArabic.ae@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" http-referrer="https://spacetoon.com" group-title="Animation;Kids",Spacetoon Arabic (576p)
+https://live-uae.spacetoongo.com/ST_Live_UAE/hls/index.m3u8
+#EXTINF:-1 tvg-id="TheQIndia.us@SD" tvg-logo="https://dtil.tmsimg.com/assets/s144002_ld_h15_aa.png?lock=720x540" group-title="Undefined",The Q India (576p)
+https://mumt05.tangotv.in/THEQ/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",The Spanish Family Channel (1080p)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/5ZVSPT4VKTGB7IPEEXY3/hls3/now,-1m/m.m3u8?ads.vf=UtVyMW5aNGK
+#EXTINF:-1 tvg-id="TVBRICSChinese.cn@SD" tvg-logo="https://i.imgur.com/896132Z.png" group-title="General",TV BRICS Chinese (1080p)
+https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBRICSRussian.ru@SD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Russian (1080p)
+https://rusbrics.mediacdn.ru/cdn/brics/russian/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Spanish (1080p)
+https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8

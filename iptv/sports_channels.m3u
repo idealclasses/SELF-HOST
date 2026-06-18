@@ -1,0 +1,945 @@
+#EXTM3U
+#EXTINF:-1 group-title="International News" tvg-id="ABCSportin90Seconds" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/86/ABC_News_2021_%28stacked%29.svg",ABC Sport in 90 Seconds
+https://c.mjh.nz/sport_in_90_seconds
+#EXTINF:-1 group-title="Educational" tvg-id="SonyBBCEarthHD" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",Sony BBC Earth HD
+https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Bein Sports 1 Max" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg",---FIFA(Bein Sports 1 Max)---
+http://str2.v3v3v.xyz:2082/live/rokhsi25_951396/POm6KqnW/146122.ts
+#EXTINF:-1 group-title="Sports" tvg-id="Bein Sports Direct" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/BeIN_Sports_logo_%28horizontal_version%29.svg",---FIFA(Bein Sports Direct)---
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="D Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/DSports_logo_2022.svg",---FIFA(D Sports)---
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="TNT Sports Premium" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2f/TNT_Sports_Premium_24.svg",---FIFA(TNT Sports Premium)---
+https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Tudn Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg",---FIFA(Tudn Sports)---
+https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="TVP Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg",---FIFA(TVP Sports)---
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="TYC Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg",---FIFA(TYC Sports)---
+https://1nyaler.streamhostingcdn.top/stream/84/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Unite8 Sports 2 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4e/Screenshot_2026-06-10_002235.png",---FIFA(Unite8 Sports 2 HD)---
+http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="ddsports.in" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",---Live(DD Sports)---
+https://cdn-6.pishow.tv/live/13/master.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="BeiNSportsExtra" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png",--Live(beIN SPORTS XTRA)--
+https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Europe Sports 1 HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/93/Eurosport_1_%28II%29.svg",--Live(Euro Sport 1)--
+http://151.80.18.177:86/Eurosport_HD/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="LIVEFOOTBALL",--Live(FOOTBALL)--
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="CricketGold" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png",CR | Cricket Gold
+https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="FoxCricket501" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg",CR | Fox Cricket 501 HD
+http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="starsports1hindi.in" tvg-logo="https://static.epg.best/cn/StarSports1.cn.png",CR | Star Sports 1 Hindi
+https://starsportshindiii.pages.dev/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Bahrain Sports 1" tvg-logo="https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",FB | Bahrain Sports 1
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="BleavFootball" tvg-logo="https://a.jsrdn.com/hls/23091/bleav-football/logo_20231219_184637_64.png",FB | Bleav Football
+https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="MORE THEN SPORTS TV" tvg-logo="https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",FB | MORE THEN SPORTS TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Oman Sports TV" tvg-logo="https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",FB | Oman Sports TV
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="ORFSport+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ORF_Sport_%2B_Logo_2024.svg/2560px-ORF_Sport_%2B_Logo_2024.svg.png",FB | ORF Sport+ HD
+http://212.186.45.34:9981/stream/channelid/906723447?profile=pass
+#EXTINF:-1 group-title="Sports" tvg-id="MMA TV" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/9cb9b4ff-2958-4179-bd0b-bc9a44888cc7",FIGHT | MMA TV
+https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Golf Network" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/aef93e60-809c-4253-8a6f-012ad4a18842",GOLF | Golf Network
+https://streams2.sofast.tv/ptnr-sportstribal/genre-Sports/lang-English/ctgr-Sport/title-Golf_Network/sofastplayout/b7500c3f-bd94-4725-abfd-2644e004132c/manifest.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="GOLFPASS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB400000145_20240924T225013SQUARE.png",GOLF | GOLFPASS
+https://d2icntm6fhxrry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-egqimi4i6n3rh/master.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Unbeaten" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/09fa93ff-a539-4d81-bbbf-da599e11e77c",GOLF | Unbeaten (Worldwide)
+https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="3167764d-9154-4dda-a0cc-713ca5dee5d3" tvg-logo="https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",MIXER | KTV Sport Plus
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="9f230f21-7a07-4b80-b845-77f9327ddad3" tvg-logo="https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",MIXER | NBC Sports
+https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="SportsFirstTV" tvg-logo="http://dds.oncast.me/img/logo/sp6.png",MIXER | Sports First TV
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="Sports Fishing" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/4f11d7b4-99e6-447e-b517-10dbb827a67c",MIXER | Sports Fishing
+https://amg00585-amg00585c12-sportstribal-emea-5521.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-sportsfishing-sportstribalemea/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="SportsGrid" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg",MIXER | SportsGrid
+https://sportsgrid-tribal.amagi.tv/playlistR432p.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="TraceSportsStars" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/Trace_Sport_Stars_%282022%29.svg",MIXER | Trace Sports Stars
+https://trace-sportstars-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="World of Freesports" tvg-logo="https://media.unreel.me/prod/sportsplus/logo/ef4c576d-49fb-4997-afe1-55f0b11d7982",MIXER | World of Freesports
+https://amg01866-mainstreammedia-freesportsinc-sportstribal-b3zdo.amagi.tv/ts-eu-w1-n2/playlist/amg01866-mainstreammedia-freesportsinc-sportstribal/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="538b24c3-9493-44d5-be7c-482b51734f2c" tvg-logo="https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",MIXER | Xtrem Sports
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="BEKSportsWest.us" tvg-logo="https://appcmsprod.viewlift.com/eae092c0-d256-11ed-9371-6da166a39e0f/images/bek-tv-plus-web-logo-noc-1280X728.png",OTHER | BEK TV Sports West
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="3f01188b-bba8-44ed-a75a-2662c108450c" tvg-logo="https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",RACING | speed sports 1
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-id="RugbyPass TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB330000144_20250624T020553SQUARE.png",RugbyPass TV
+https://97bf7b92.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9SdWdieVBhc3NUVl9ITFM/playlist.m3u8?ads.wurl_channel=1872&ads.wurl_name=RugbyPassTV&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
+#EXTINF:-1 group-title="Sports" tvg-id="Tennis TV Classics" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/ea15b263-636c-4536-9a75-bde70ab88423",TENNIS | Tennis TV Classics
+https://amg01470-amg01470c1-freelivesports-emea-9021.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01470-atpmediaoperationsltdfast-tennistvclassics-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Borunbabur_Bondhu" tvg-logo="https://cds1.discoveryftp.net/Movies/Bangla/2020/Borunbabur%20Bondhu/poster.jpg",Borunbabur Bondhu (2020)
+http://cds1.discoveryftp.net/Movies/Bangla/2020/Borunbabur%20Bondhu/Borunbabur%20Bondhu%20%282020%29%20Bengali%20720p%20HDRip%20x264%20AAC%201GB%283kmovies.com%29.mkv?md5=mpwUl762fAwgPLAZAMVJug&expires=1777845207
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Bornoporichoy_A_Grammar_Of_Death" tvg-logo="https://cds1.discoveryftp.net/Movies/Bangla/2019/Bornoporichoy%20A%20Grammar%20Of%20Death/poster.jpg",Bornoporichoy A Grammar Of Death (2019)
+http://cds1.discoveryftp.net/Movies/Bangla/2019/Bornoporichoy%20A%20Grammar%20Of%20Death/Bornoporichoy%20%20A%20Grammar%20Of%20Death%20%282019%29%201080p%20WEBDL.mkv?md5=HCV5Xj7N2Cv5NkqKlcMiYw&expires=1777845208
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Bornoporichoy_A_Grammar_Of_Death" tvg-logo="https://image.tmdb.org/t/p/w500/70wtwb8qP2V2l1Fg7n5rYu4PCKL.jpg",Bornoporichoy-A Grammar Of Death (2019)
+http://cinehub24.com/ftp/Movies/indianbangla/2000-2020/Bornoporichoy-A%20Grammar%20Of%20Death%20%282019%29/Bornoporichoy-A%20Grammar%20Of%20Death%20%282019%29%20Bengali%20720p%20WEBRip%20x264%20AAC%205.1%20ESub%20-%20mkvCinemas.mkv
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Jaanbaaz" tvg-logo="https://image.tmdb.org/t/p/w500/1ui7ciB0ztK1egkMhiZTzEXfE10.jpg",Jaanbaaz (2019)
+http://cinehub24.com/ftp/Movies/indianbangla/2000-2020/Jaanbaaz%20%282019%29/Jaanbaaz%202019%20Bangla%20Full%20Movie%20720p%20HDRip%20700MB.mp4
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Dhanbad_Blues" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGYyMjAxODQtM2M4MC00OTBmLThiOTctYmRkOGM5YmIzYWViXkEyXkFqcGdeQXVyOTQ0MDUwOTM@._V1_SX300.jpg",Dhanbad Blues (2018)
+http://cinehub24.com/ftp/Movies/indianbangla/2000-2020/Dhanbad%20Blues%20%282018%29/Dhanbad%20Blues%20%282018%29.mp4
+#EXTINF:-1 group-title="Movies - Bangla" tvg-id="Thammar_Boyfriend" tvg-logo="https://cds1.discoveryftp.net/Movies/Bangla/2016/Thammar%20Boyfriend/poster.jpg",Thammar Boyfriend (2016)
+http://cds1.discoveryftp.net/Movies/Bangla/2016/Thammar%20Boyfriend/Thammar%20Boyfriend%20%28Bengali%20Movie%29%20-%20HD%20Rip.mkv?md5=bW1RWaPpB4pVoMlCfNZOXg&expires=1777845217
+#EXTINF:-1 group-title="Movies - English" tvg-id="Roommates" tvg-logo="https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",Roommates (2026)
+http://ftp.ctgfun.com/English/Roommates.2026.1080p.WEBRip.x264%20%5BDDN%5D/Roommates.2026.1080p.WEBRip.x264%20%5BDDN%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="F1_The_Movie" tvg-logo="https://image.tmdb.org/t/p/w500/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",F1 The Movie (2025)
+http://ftp.ctgfun.com/English/F1.The.Movie.2025.1080p.WEBRip.x264%20%5BDDN%5D/F1.The.Movie.2025.1080p.WEBRip.x264%20%5BDDN%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Influencers" tvg-logo="https://image.tmdb.org/t/p/w500/xhIeXsIybA0rgQ6xLfy2yqFFWZf.jpg",Influencers (2025)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Influencers%20%282025%29/Influencers.2025.720p.WEBRip.x264.AAC-%5BYTS.LT%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Married_To_El_Chapo_Emma_Coronel_Speaks" tvg-logo="https://image.tmdb.org/t/p/w500/6SvOpLBHo4E1CjAfzfZczUYY02i.jpg",Married To El Chapo Emma Coronel Speaks (2025)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Married%20To%20El%20Chapo%20Emma%20Coronel%20Speaks%20%282025%29/Married.To.El.Chapo.Emma.Coronel.Speaks.2025.720p.WEBRip.x264.AAC-%5BYTS.LT%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="MMA_Cop" tvg-logo="https://image.tmdb.org/t/p/w500/zha2hXQTUzvxwy0ayBedACS6jHx.jpg",MMA Cop (2025)
+http://103.225.94.27/Infobase/hdd-3/english/MMA%20Cop%20(2025)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Backlash_2025" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2025/WWE%20Backlash%202025/poster.jpg?md5=TCynJjPGKZVWnCBQnKw5AQ&expires=1777844368",WWE Backlash 2025 (2025)
+https://cds4.discoveryftp.net/Movies/English/2025/WWE%20Backlash%202025/WWE.Backlash.2025.1080p.WEB.DL.Hindi.2.0.English.2.0.ESub.x264.Dual.mkv?md5=cX-_tgOOw1QvkheuZUd-fA&expires=1777844368
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___04_18__720p_WEBRip",WWE Friday Night SmackDown ( 04 18) 720p WEBRip (2025)
+http://103.225.94.27/Infobase/hdd-3/english/WWE%20Friday%20Night%20SmackDown%20(2025.04.18)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___07_11__720p_WEBRip",WWE Friday Night SmackDown ( 07 11) 720p WEBRip (2025)
+http://103.225.94.27/Infobase/hdd-3/english/WWE%20Friday%20Night%20SmackDown%20(2025.07.11)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___04_28__720p_WEBRip",WWE Monday Night Raw ( 04 28) 720p WEBRip (2025)
+http://103.225.94.27/Infobase/hdd-3/english/WWE%20Monday%20Night%20Raw%20(2025.04.28)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_SummerSlam_2025_Saturday" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2025/WWE%20SummerSlam%202025%20Saturday/poster.jpg?md5=5Zrx9rY4nkJoqCoC76cEXA&expires=1777844368",WWE SummerSlam 2025 Saturday (2025)
+https://cds4.discoveryftp.net/Movies/English/2025/WWE%20SummerSlam%202025%20Saturday/WWE_SummerSlam_2025_Saturday_1080p_WEB_DL_Hindi_2_0_English_2_0_ESub_x264_Dual.mkv?md5=_h44WMLfyexbntdo0mRfdw&expires=1777844368
+#EXTINF:-1 group-title="Movies - English" tvg-id="Dirty_Dilemma" tvg-logo="https://image.tmdb.org/t/p/w500/9fTpcOwrdXRK31CRtDRv9bSA066.jpg",Dirty Dilemma (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Dirty%20Dilemma%20%282024%29/Dirty.Dilemma.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Emma_And_Eddie_A_Working_Couple" tvg-logo="https://image.tmdb.org/t/p/w500/feVCjER9R2bU8qflI3DEPH2oE80.jpg",Emma And Eddie A Working Couple (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Emma%20And%20Eddie%20A%20Working%20Couple%20%282024%29/Emma.And.Eddie.A.Working.Couple.2024.REPACK.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Emmanuelle" tvg-logo="https://image.tmdb.org/t/p/w500/kFq1ffM4ruQmWH6C3SjVWJoqMi6.jpg",Emmanuelle (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2025/Emmanuelle%20%282024%29/Emmanuelle.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Immaculate" tvg-logo="https://image.tmdb.org/t/p/w500/zyopv7D5j7cfswG0NYiA14qAdPC.jpg",Immaculate (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Immaculate%20%282024%29/Immaculate.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Little_Emma" tvg-logo="https://image.tmdb.org/t/p/w500/x1zZnDu0Y0JdozO8tnVuG8Ua1aX.jpg",Little Emma (2024)
+http://cinehub24.com/ftp/Movies/animation/new/Little%20Emma%20%282024%29/Little.Emma.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mommas_Boy" tvg-logo="https://image.tmdb.org/t/p/w500/zfNo7pHHcDnT4yD1KCkDQ3EPHA2.jpg",Mommas Boy (2024)
+http://cinehub24.com/ftp/Movies/hollywood/2024/Mommas%20Boy%20%282024%29/Mommas.Boy.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Caught_Out_Crime_Corruption_Cricket" tvg-logo="https://image.tmdb.org/t/p/w500/5JJaqFHA3WrVoaDmqXXATgb2LqC.jpg",Caught Out Crime Corruption Cricket (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Caught%20Out%20Crime.%20Corruption.%20Cricket%20%282023%29/Caught.Out.Crime..Corruption..Cricket.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Cricket_Antoinette" tvg-logo="https://image.tmdb.org/t/p/w500/fBSLAMH5vczIWgzpa9x7Z52F4QH.jpg",Cricket Antoinette (2023)
+http://cinehub24.com/ftp/Movies/animation/new/Cricket%20Antoinette%20%282023%29/Cricket.Antoinette.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mafia_Mamma" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2023/Mafia%20Mamma/poster.jpg?md5=petF88T49QdsZHcwPAXcUA&expires=1777844411",Mafia Mamma (2023)
+https://cds4.discoveryftp.net/Movies/English/2023/Mafia%20Mamma/Mafia.Mamma.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=f70OXSA_OroCOW-AvjCEYg&expires=1777844411
+#EXTINF:-1 group-title="Movies - English" tvg-id="Tell_Momma_Not_To_Worry" tvg-logo="https://image.tmdb.org/t/p/w500/lWOCDrPFlfCmmq1uGnpbKGuE9VS.jpg",Tell Momma Not To Worry (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Tell%20Momma%20Not%20To%20Worry%20%282023%29/Tell.Momma.Not.To.Worry.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Under_His_Influence" tvg-logo="https://image.tmdb.org/t/p/w500/n51Hv1JSrWAjqIhKsNzMI42ZsT7.jpg",Under His Influence (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/Under%20His%20Influence%20%282023%29/Under.His.Influence.2023.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Under_The_Influence" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2023/Under%20The%20Influence/poster.jpg?md5=GKhr1HimQWJNonTcE49aHw&expires=1777844420",Under The Influence (2023)
+https://cds4.discoveryftp.net/Movies/English/2023/Under%20The%20Influence/Under.The.Influence.2023.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=UNhwxO9xzushkBhJOxcNjQ&expires=1777844420
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___02_03__1080p_HDTV",WWE Friday Night SmackDown ( 02 03) 1080p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2023.02.03)%201080p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___02_10__720p_WEBRip",WWE Friday Night SmackDown ( 02 10) 720p WEBRip (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2023.02.10)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___02_17__1080p_HDTV",WWE Friday Night SmackDown ( 02 17) 1080p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2023.02.17)%201080p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___01_16__720p_HDTV",WWE Monday Night Raw ( 01 16) 720p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2023.01.16)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___01_30__720p_HDTV",WWE Monday Night Raw ( 01 30) 720p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2023.01.30)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___02_06__1080p_HDTV",WWE Monday Night Raw ( 02 06) 1080p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2023.02.06)%201080p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___02_13__1080p_HDTV",WWE Monday Night Raw ( 02 13) 1080p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2023.02.13)%201080p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___02_20__720p_HDTV",WWE Monday Night Raw ( 02 20) 720p HDTV (2023)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2023.02.20)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Money_In_The_Bank" tvg-logo="https://image.tmdb.org/t/p/w500/sdEWpXglRDjlDIvSJF8qKiHKn4p.jpg",WWE Money In The Bank (2023)
+http://cinehub24.com/ftp/Movies/hollywood/2023/WWE%20Money%20In%20The%20Bank%20%282023%29/WWE.Money.In.The.Bank.2023.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="De_Openbaring" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/De%20Openbaring/poster.jpg?md5=YmWF1-1bEeM8oTHp4Y57ow&expires=1777844431",De Openbaring (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/De%20Openbaring/De.Openbaring.2022.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4?md5=4PRZn_u4-9KVV1BuQfCE7A&expires=1777844431
+#EXTINF:-1 group-title="Movies - English" tvg-id="Deinfluencer" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Deinfluencer/poster.jpg?md5=Tbdoqw01ml__qkZerBU88w&expires=1777844432",Deinfluencer (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Deinfluencer/Deinfluencer.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=W_aoUME0rODMZcb5ErXJoQ&expires=1777844432
+#EXTINF:-1 group-title="Movies - English" tvg-id="Dilemma" tvg-logo="https://image.tmdb.org/t/p/w500/qDCDu6CoJg4gGTTWgitfuJv46o2.jpg",Dilemma (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Dilemma%20%282022%29/Dilemma.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Dragonflies" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Dragonflies/poster.jpg?md5=EhbahGZS7zH5ULDtaYmIIA&expires=1777844433",Dragonflies (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Dragonflies/Dragonflies.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=XnUljPdzNg9wBdlxGzdHCQ&expires=1777844433
+#EXTINF:-1 group-title="Movies - English" tvg-id="Fantasy_Football" tvg-logo="https://image.tmdb.org/t/p/w500/lC99lme4UplMUICswlA4mfe5GNx.jpg",Fantasy Football (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Fantasy%20Football%20%282022%29/Fantasy.Football.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Fatal_Influence_Like__Follow__Survive" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Fatal%20Influence%20Like.%20Follow.%20Survive/poster.jpg?md5=6aGGvMXJMZH6Wktt62J0PA&expires=1777844434",Fatal Influence Like. Follow. Survive (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Fatal%20Influence%20Like.%20Follow.%20Survive/Fatal.Influence.Like..Follow..Survive..2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=HFJ1L7VLw3QNY58mMf4nKg&expires=1777844434
+#EXTINF:-1 group-title="Movies - English" tvg-id="Immanence" tvg-logo="https://image.tmdb.org/t/p/w500/6LSDQPjtDpkMLfGzzYhKAjrNn9V.jpg",Immanence (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Immanence%20%282022%29/Immanence.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Lost_Transport" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Lost%20Transport/poster.jpg?md5=l8-2c3aNVHW_3M7QCEWpdA&expires=1777844442",Lost Transport (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Lost%20Transport/Lost.Transport.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=Stt5WWmKEc1pgnuijufp4Q&expires=1777844442
+#EXTINF:-1 group-title="Movies - English" tvg-id="My_Perfect_Roommate" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/My%20Perfect%20Roommate/poster.jpg?md5=O_Mxts4iFAibQPJHeRhWZw&expires=1777844446",My Perfect Roommate (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/My%20Perfect%20Roommate/My.Perfect.Roommate.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=Vo6JDFGDVw-UEMbjBaP9cQ&expires=1777844446
+#EXTINF:-1 group-title="Movies - English" tvg-id="Pinball_The_Man_Who_Saved_The_Game" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/Pinball%20The%20Man%20Who%20Saved%20The%20Game/poster.jpg?md5=MV2go6mMYIouijWjtVpDBw&expires=1777844449",Pinball The Man Who Saved The Game (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/Pinball%20The%20Man%20Who%20Saved%20The%20Game/Pinball.The.Man.Who.Saved.The.Game.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=gl_Qkd4MVjfTYL_XVnG7EA&expires=1777844449
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Commando" tvg-logo="https://image.tmdb.org/t/p/w500/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",The Commando (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2021/The%20Commando%20%282022%29/The.Commando.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Immaculate_Room" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/The%20Immaculate%20Room/poster.jpg?md5=PfqmwXhtAeMAQ9As7zZsaw&expires=1777844459",The Immaculate Room (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/The%20Immaculate%20Room/The.Immaculate.Room.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=xtc1Un5sy4KpcfJ-iJal5g&expires=1777844459
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Soccer_Football_Movie" tvg-logo="https://image.tmdb.org/t/p/w500/sWoYDNPNZs5MtzPbirXV73tIHrA.jpg",The Soccer Football Movie (2022)
+http://cinehub24.com/ftp/Movies/animation/new/The%20Soccer%20Football%20Movie%20%282022%29/The.Soccer.Football.Movie.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Umma" tvg-logo="https://image.tmdb.org/t/p/w500/moLnqJmZ00i2opS0bzCVcaGC0iI.jpg",Umma (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/Umma%20%282022%29/Umma.2022.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Clash_At_The_Castle" tvg-logo="https://image.tmdb.org/t/p/w500/aBoJ0oqH59YwHWRZjOsvQVTtaVt.jpg",WWE Clash At The Castle (2022)
+http://cinehub24.com/ftp/Movies/hollywood/2022/WWE%20Clash%20At%20The%20Castle%20%282022%29/WWE.Clash.At.The.Castle.2022.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Extreme_Rules" tvg-logo="https://image.tmdb.org/t/p/w500/e6pWvwBAFq5madOJHgmA7BKPuER.jpg",WWE Extreme Rules (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Extreme%20Rules%20(2022)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_Smackdown___06_17__720p_WEBRip",WWE Friday Night Smackdown ( 06 17) 720p WEBRip (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20Smackdown%20(2022.06.17)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___08_19__720p_HDTV",WWE Friday Night SmackDown ( 08 19) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.08.19)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___08_26__720p_HDTV",WWE Friday Night SmackDown ( 08 26) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.08.26)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___09_02__720p_HDTV",WWE Friday Night SmackDown ( 09 02) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.09.02)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___09_09__720p_HDTV",WWE Friday Night SmackDown ( 09 09) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.09.09)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___09_23__720p_HDTV",WWE Friday Night SmackDown ( 09 23) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.09.23)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___09_30__720p_HDTV",WWE Friday Night SmackDown ( 09 30) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.09.30)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_Smackdown___10_07__720p_WEBRip",WWE Friday Night Smackdown ( 10 07) 720p WEBRip (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20Smackdown%20(2022.10.07)%20720p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___10_14__720p_HDTV",WWE Friday Night SmackDown ( 10 14) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.10.14)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___10_21__720p_HDTV",WWE Friday Night SmackDown ( 10 21) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.10.21)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___11_11__720p_HDTV",WWE Friday Night SmackDown ( 11 11) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.11.11)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___12_01__720p_HDTV",WWE Friday Night SmackDown ( 12 01) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.12.01)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Friday_Night_SmackDown___12_16__1080p_HDTV",WWE Friday Night SmackDown ( 12 16) 1080p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Friday%20Night%20SmackDown%20(2022.12.16)%201080p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___08_15__720p_HDTV",WWE Monday Night Raw ( 08 15) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2022.08.15)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___09_19__720p_HDTV",WWE Monday Night Raw ( 09 19) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2022.09.19)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___10_03__720p_HDTV",WWE Monday Night Raw ( 10 03) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2022.10.03)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___10_10__720p_HDTV",WWE Monday Night Raw ( 10 10) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2022.10.10)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Monday_Night_Raw___10_17__720p_HDTV",WWE Monday Night Raw ( 10 17) 720p HDTV (2022)
+http://103.225.94.27/Infobase/hdd-1/English/WWE%20Monday%20Night%20Raw%20(2022.10.17)%20720p%20HDTV.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Survivor_Series_WarGames" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2022/WWE%20Survivor%20Series%20WarGames/poster.jpg?md5=-wFsbj0YH3Isz6QuXuHDQg&expires=1777844469",WWE Survivor Series WarGames (2022)
+https://cds4.discoveryftp.net/Movies/English/2022/WWE%20Survivor%20Series%20WarGames/WWE.Survivor.Series.WarGames.2022.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4?md5=N-JPnb9ZqLDCWgBmUU3b_Q&expires=1777844469
+#EXTINF:-1 group-title="Movies - English" tvg-id="Biography_WWE_Legends_Biography_Rowdy_Roddy_Piper",Biography WWE Legends Biography Rowdy Roddy Piper (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Biography%20WWE%20Legends%20Biography%20Rowdy%20Roddy%20Piper%20%282021%29/Biography.WWE.Legends.Biography.Rowdy.Roddy.Piper.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Biography_WWE_Legends_Biography_Shawn_Michaels",Biography WWE Legends Biography Shawn Michaels (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Biography%20WWE%20Legends%20Biography%20Shawn%20Michaels%20%282021%29/Biography.WWE.Legends.Biography.Shawn.Michaels.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Blood_Brothers_Malcolm_X_Muhammad_Ali" tvg-logo="https://image.tmdb.org/t/p/w500/kdOXdPIgbbCHXb51tWJZ0r8kZfe.jpg",Blood Brothers Malcolm X Muhammad Ali (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Blood%20Brothers%20Malcolm%20X%20Muhammad%20Ali%20%282021%29/Blood.Brothers.Malcolm.X.Muhammad.Ali.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="College_Sports_Inc" tvg-logo="https://cds4.discoveryftp.net/Movies/English/2021/College%20Sports%20Inc/poster.jpg?md5=2ruIhtmtmURcmK3XzRs0xA&expires=1777844375",College Sports Inc (2021)
+https://cds4.discoveryftp.net/Movies/English/2021/College%20Sports%20Inc/College.Sports.Inc.2021.1080p.WEB.h264-BAE.mkv?md5=Eep_jw8QiEisZFU_C3T1lw&expires=1777844375
+#EXTINF:-1 group-title="Movies - English" tvg-id="Conflicted" tvg-logo="https://image.tmdb.org/t/p/w500/eDjJbZA6szKFRKwgKj06vqiBd3q.jpg",Conflicted (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Conflicted%20%282021%29/Conflicted.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Love_Stories_In_Sunflower_Valley" tvg-logo="https://image.tmdb.org/t/p/w500/9bxZpfxjqwDQqeE69u63LJ3x5lr.jpg",Love Stories In Sunflower Valley (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Love%20Stories%20In%20Sunflower%20Valley%20%282021%29/Love.Stories.In.Sunflower.Valley.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Soccer_Mom_Madam" tvg-logo="https://image.tmdb.org/t/p/w500/lGREjvMuvgac6FuJROALC2AFAqV.jpg",Soccer Mom Madam (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/Soccer%20Mom%20Madam%20%282021%29/Soccer.Mom.Madam.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Influencer" tvg-logo="https://image.tmdb.org/t/p/w500/3xVWCNDAgr01G1Lkjd7F9sAGOc4.jpg",The Influencer (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/The%20Influencer%20%282021%29/The.Influencer.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Struggle_II_The_Delimma",The Struggle II The Delimma (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/The%20Struggle%20II%20The%20Delimma%20%282021%29/The.Struggle.II.The.Delimma.2021.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_Royal_Rumble" tvg-logo="https://image.tmdb.org/t/p/w500/pfwcQwARh7Gt2f8JEPxxiscqkpo.jpg",WWE Royal Rumble (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/WWE%20Royal%20Rumble%20%282021%29/WWE.Royal.Rumble.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_SummerSlam" tvg-logo="https://image.tmdb.org/t/p/w500/4cBIaAzqnEadyeh0k61mJam3FOn.jpg",WWE SummerSlam (2021)
+http://cinehub24.com/ftp/Movies/hollywood/2021/WWE%20SummerSlam%20%282021%29/WWE.SummerSlam.2021.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Emma" tvg-logo="https://image.tmdb.org/t/p/w500/uHpHzbHLSsVmAuuGuQSpyVDZmDc.jpg",Emma (2020)
+http://cinehub24.com/ftp/Movies/hollywood/2020/Emma%20%282020%29/Emma..2020.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Tommaso" tvg-logo="https://image.tmdb.org/t/p/w500/qLRp3j8KVlk2LI0pw9M1OFUJzKQ.jpg",Tommaso (2020)
+http://cinehub24.com/ftp/Movies/hollywood/2020/Tommaso%20%282020%29/Tommaso.2020.720p.WEBRip.800MB.x264-GalaxyRG.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="General_Commander" tvg-logo="https://image.tmdb.org/t/p/w500/tarle8uNAqiQfCTY95U0Oj1DxIU.jpg",General Commander (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/General%20Commander%20%282019%29/General%20Commander.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Midsommar_I" tvg-logo="https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",Midsommar I (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/Midsommar%20%28I%29%20%282019%29/Midsommar.2019.DiRECTORS.CUT.1080p.BluRay.1800MB.DD5.1.x264-GalaxyRG.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Influence" tvg-logo="https://image.tmdb.org/t/p/w500/xGUMfHIiEzuNVGeRAggLprzo1gG.jpg",The Influence (2019)
+http://cinehub24.com/ftp/Movies/hollywood/2019/The%20Influence%20%282019%29/The%20Influence%20%282019%29%20%5BWEBRip%5D%20%5B1080p%5D.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Hunting_Emma" tvg-logo="https://image.tmdb.org/t/p/w500/sPPOiZbyIOgx2jZegAPk447k64g.jpg",Hunting Emma (2018)
+http://cinehub24.com/ftp/Movies/hollywood/2018/Hunting%20Emma%20%282018%29/Hunting%20Emma%20%282018%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mamma_Mia_Here_We_Go_Again" tvg-logo="https://image.tmdb.org/t/p/w500/aWicerX4Y7n7tUwRAVHsVcBBpj2.jpg",Mamma Mia Here We Go Again (2018)
+http://cinehub24.com/ftp/Movies/hollywood/2018/Mamma%20Mia%20Here%20We%20Go%20Again%20%282018%29/Mamma%20Mia%20Here%20We%20Go%20Again%20%282018%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Commando_2" tvg-logo="https://image.tmdb.org/t/p/w500/hD1p8FAcs7zx4C81crvpSTvefMO.jpg",Commando 2 (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/Commando%202%20%282017%29/Commando%202%20%7B2017%7D%20DVDRip%20XviD%20AC3%205.1%20ESubs%20%7BTeam%20DUS%7D%20-%20jnmjy.avi
+#EXTINF:-1 group-title="Movies - English" tvg-id="Slamma_Jamma" tvg-logo="https://image.tmdb.org/t/p/w500/neKzLN7UaFzwP3H1r0FyYVtMGTh.jpg",Slamma Jamma (2017)
+http://cinehub24.com/ftp/Movies/hollywood/2017/Slamma%20Jamma%20%282017%29/Slamma.Jamma.2017__HDCAMrip__E-BOX.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Emma_s_Chance" tvg-logo="https://image.tmdb.org/t/p/w500/fYQPVBmw3F8CYOVDhSnzZGCPrDU.jpg",Emma's Chance (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/Emma%27s%20Chance%20%282016%29/Emmas.Chance.2016__720p.WEBrip__BDPLEX.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="Kill_Command" tvg-logo="https://image.tmdb.org/t/p/w500/xn6t1nYJaUMmudnHHiK390AORNu.jpg",Kill Command (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/Kill%20Command%20%282016%29/Kill%20Command%20%282016%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Scooby_Doo_And_WWE_Curse_Of_The_Speed_Demon" tvg-logo="https://image.tmdb.org/t/p/w500/wRrvPis7C8YfbOBuuyUoZel7MC4.jpg",Scooby-Doo And WWE Curse Of The Speed Demon (2016)
+http://cinehub24.com/ftp/Movies/animation/2011-2020/Scooby-Doo%21%20And%20WWE%20Curse%20Of%20The%20Speed%20Demon%20%282016%29/Scooby-Doo%21%20And%20WWE%20Curse%20Of%20The%20Speed%20Demon.2016.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Sinbad_And_The_War_Of_The_Furies" tvg-logo="https://image.tmdb.org/t/p/w500/cQgIfMgn9XxbsqdORAQpE6sGkEj.jpg",Sinbad And The War Of The Furies (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/Sinbad%20and%20the%20War%20of%20the%20Furies%20%282016%29/Sinbad.and.the.War.of.the.Furies.2016.720p.BluRay.x264-FOXM_BDPLEX.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Wrong_Roommate" tvg-logo="https://image.tmdb.org/t/p/w500/9X7TPTQ37lY9cogEYbcs9VrdRym.jpg",The Wrong Roommate (2016)
+http://cinehub24.com/ftp/Movies/hollywood/2016/The%20Wrong%20Roommate%20%282016%29/The%20Wrong%20Roommate%20%282016%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Chain_Of_Command" tvg-logo="https://image.tmdb.org/t/p/w500/xUHN0DIWS7fs3bMjg6RktQksK9v.jpg",Chain Of Command (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Chain%20of%20Command%20%282015%29/Chain%20of%20Command%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Muhammad_The_Messenger_Of_God" tvg-logo="https://image.tmdb.org/t/p/w500/dSlPUIM2ONpxtsFBtY3O6hRF0pi.jpg",Muhammad The Messenger Of God (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/Muhammad%20-The%20Messenger%20of%20God%20%282015%29/Muhammad%20-The%20Messenger%20of%20God%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Flintstones_And_WWE_Stone_Age_Smackdown" tvg-logo="https://image.tmdb.org/t/p/w500/sEC1hwyG7pJaUazMtiroc31e3gK.jpg",The Flintstones And WWE Stone Age Smackdown (2015)
+http://cinehub24.com/ftp/Movies/animation/2011-2020/The%20Flintstones%20and%20WWE%20Stone%20Age%20Smackdown%20%282015%29/The%20Flintstones%20and%20WWE%20Stone%20Age%20Smackdown%20%282015%29.mkv
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Transporter_Refueled" tvg-logo="https://image.tmdb.org/t/p/w500/71kaQfdrMy0LHSeLRADsvlDGCgb.jpg",The Transporter Refueled (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/The%20Transporter%20Refueled%20%282015%29/The%20Transporter%20Refueled%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="WWE_TLC_Tables_Ladders___Chairs" tvg-logo="https://image.tmdb.org/t/p/w500/jjIqSFky2kXSechsBomkeTTgOg4.jpg",WWE TLC Tables Ladders & Chairs (2015)
+http://cinehub24.com/ftp/Movies/hollywood/2015/WWE%20TLC%20Tables%2C%20Ladders%20%26%20Chairs%20%282015%29/WWE%20TLC%20Tables%2C%20Ladders%20%26%20Chairs%20%282015%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Sinbad_The_Fifth_Voyage" tvg-logo="https://image.tmdb.org/t/p/w500/pJyu3IXK8eljAlbEpExJ7PQWioX.jpg",Sinbad The Fifth Voyage (2014)
+http://cinehub24.com/ftp/Movies/hollywood/2014/Sinbad%20The%20Fifth%20Voyage%20%282014%29/Sinbad%20The%20Fifth%20Voyage%20%282014%29.avi
+#EXTINF:-1 group-title="Movies - English" tvg-id="Mr_Hockey_The_Gordie_Howe_Story" tvg-logo="https://image.tmdb.org/t/p/w500/tS13WfN5lzzv3U4bf4l3WZCDuIQ.jpg",Mr Hockey The Gordie Howe Story (2013)
+http://cinehub24.com/ftp/Movies/hollywood/2013/Mr%20Hockey%20The%20Gordie%20Howe%20Story%20%282013%29/Mr%20Hockey%20The%20Gordie%20Howe%20Story%20%282013%29.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Big_Mommas_Like_Father_Like_Son" tvg-logo="https://image.tmdb.org/t/p/w500/n1GSxFcDaZ6lMVf21M0KloPfuhu.jpg",Big Mommas Like Father Like Son (2011)
+http://cinehub24.com/ftp/Movies/hollywood/2011/Big%20Mommas%20Like%20Father%2C%20Like%20Son%20%282011%29/Big%20Mommas%20Like%20Father%2C%20Like%20Son%202011.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="Dragonball_Evolution" tvg-logo="https://image.tmdb.org/t/p/w500/sunS9xhPnFNP5wlOWrvbpBteAB.jpg",Dragonball Evolution (2009)
+http://cinehub24.com/ftp/Movies/hollywood/2009/Dragonball%20Evolution%20%282009%29/Dragonball.Evolution.2009.720p.BluRay.x264.YIFY.mp4
+#EXTINF:-1 group-title="Movies - English" tvg-id="The_Fifth_Commandment" tvg-logo="https://image.tmdb.org/t/p/w500/fTGr7lGtLIpnXM2JZkx3EUyzFIN.jpg",The Fifth Commandment (2008)
+http://cinehub24.com/ftp/Movies/hollywood/2008/The%20Fifth%20Commandment%20%282008%29/The%20Fifth%20Commandment%20%282008%29%20%5B1080p%5D%20BluRay.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Thamma" tvg-logo="https://image.tmdb.org/t/p/w500/udkbDwBbysCGEydt0FHnl9dVO2k.jpg",Thamma (2025)
+http://103.225.94.27/Infobase/hdd-3/hindi/Thamma%20(2025)%201080p%20DVDRip.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Butta_Bomma__ButtaBomma_" tvg-logo="https://image.tmdb.org/t/p/w500/9h3yEeMgdISHwU3gJOUC3oWrqUV.jpg",Butta Bomma (ButtaBomma) (2023)
+http://103.225.94.27/Infobase/hdd-3/hindi/Butta%20Bomma%20(ButtaBomma)%20(2023)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Astakarmma" tvg-logo="https://image.tmdb.org/t/p/w500/6az1H2l7lHSBDJgyuXarhvKC8cK.jpg",Astakarmma (2022)
+http://cinehub24.com/ftp/Movies/bollywood/2022/Astakarmma%20%282022%29/Tantrakarma%20%282022%29%20Hindi%20720p%20WEBRip%20x264%20AAC%20ESub~1.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Nikamma" tvg-logo="https://image.tmdb.org/t/p/w500/5t3gD5epzIuRH5L86nOF95yDUZY.jpg",Nikamma (2022)
+http://cinehub24.com/ftp/Movies/bollywood/2022/Nikamma%20%282022%29/Nikamma.2022.720p.NF.WebRip.DDP5.1.x264-themoviesboss.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Ammaa_Ki_Boli" tvg-logo="https://image.tmdb.org/t/p/w500/wBLZ0ZPTYLnbSdJLPefJqr2WGfB.jpg",Ammaa Ki Boli (2021)
+http://cinehub24.com/ftp/Movies/bollywood/2021/Ammaa%20Ki%20Boli%20%282021%29/Amma%20Ki%20Boli%202021%20x264%20720p%20WebHD%20Esub%20Hindi%20THE%20GOPI%20SAHI.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Asli_Cricket" tvg-logo="https://image.tmdb.org/t/p/w500/ra3XEhoG1f4N9ZtsVx9uOKPxQ30.jpg",Asli Cricket (2021)
+http://cinehub24.com/ftp/Movies/bollywood/2022/Asli%20Cricket%20%282021%29/Asli%20Cricket%20%282022%29.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Bahut_Hua_Sammaan" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2020/Bahut%20Hua%20Sammaan/poster.jpg",Bahut Hua Sammaan (2020)
+http://cds1.discoveryftp.net/Movies/Hindi/2020/Bahut%20Hua%20Sammaan/Bahut.Hua.Sammaan.2020.1080p.DSNP.WEB-DL.DD%2B5.1.x265.mkv?md5=l-6j-V4hjK_C6n9BOiAXlQ&expires=1777845269
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Commando_3" tvg-logo="https://image.tmdb.org/t/p/w500/ryepW3Rjhorhtv7f4VuM6ETSUo8.jpg",Commando 3 (2019)
+http://cinehub24.com/ftp/Movies/bollywood/2019/Commando%203/Commando%203%20%282019%29%20Hindi%20720p%20PreDVDRip%20x264%20AAC%20-%20CineVood.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Tennis_Buddies" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2019/Tennis%20Buddies/poster.jpg",Tennis Buddies (2019)
+http://cds1.discoveryftp.net/Movies/Hindi/2019/Tennis%20Buddies/Tennis%20Buddies%202019%20Hindi%20720p%20HDRip.mkv?md5=ixr056JeNqmCyyj-qF1ySw&expires=1777845258
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Anbanavan_Asaradhavan_Adangadhavan" tvg-logo="https://cds1.discoveryftp.net/Movies/Hindi/2017/Anbanavan%20Asaradhavan%20Adangadhavan/poster.jpg",Anbanavan Asaradhavan Adangadhavan (2017)
+http://cds1.discoveryftp.net/Movies/Hindi/2017/Anbanavan%20Asaradhavan%20Adangadhavan/Anbanavan%20Asaradhavan%20Adangadhavan%20%282017%29%20UNCUT%20720p%20HDRip%20x264%20ESub%20%5BDual%20Audio%5D%5BHindi%20DD2.0%2BTamil%20DD5.1%5D.mkv?md5=ntsqnMTRglKyU-6rGvzwWg&expires=1777845264
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Commando_2" tvg-logo="https://image.tmdb.org/t/p/w500/9RZfZxIqyom7XVtXlHKnlNezZua.jpg",Commando-2 (2017)
+http://cinehub24.com/ftp/Movies/bollywood/2017/Commando-2%20%282017%29/Commando.2.2017__DVDrip.mkv
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Ranbanka" tvg-logo="https://image.tmdb.org/t/p/w500/bh7SHKigi3Cv6K6Jhd6GwRHPKu7.jpg",Ranbanka (2015)
+http://cinehub24.com/ftp/Movies/bollywood/2016/Ranbanka%20%282015%29/Ranbanka%20%282015%29%20%5B1080p%5D.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Commando" tvg-logo="https://image.tmdb.org/t/p/w500/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",Commando (2013)
+http://cinehub24.com/ftp/Movies/bollywood/2000-2014/Commando%20%282013%29/Commando%202013%20Hindi%20720p%20DvDrip%20x264%20ESub...Hon3y.mp4
+#EXTINF:-1 group-title="Movies - Hindi" tvg-id="Himmatwala" tvg-logo="https://image.tmdb.org/t/p/w500/9TXrTPi2SQR4rjUOG4UdECtW61s.jpg",Himmatwala (1998)
+http://103.225.94.27/Infobase/hdd-3/hindi/Himmatwala%20(1998)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Influencer" tvg-logo="https://image.tmdb.org/t/p/w500/mtXV301BF7pqwvRjsWhQo6sD10F.jpg",Influencer (2022) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Influencer%20%282022%29/MovieLinkBD.com%20-%20Influencer.2022.720p.Dual%5BHindi-English%5D.AAC.BluRay.h264.ESub.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Motu_Patlu_Ka_Goa_Dhammal" tvg-logo="https://image.tmdb.org/t/p/w500/8gsLgugWG74ofCOh5HZQXSEPUK.jpg",Motu Patlu Ka Goa Dhammal (2026) 🆕
+http://cinehub24.com/ftp/Movies/hindidub/Motu%20Patlu%20Ka%20Goa%20Dhammal%20%282026%29/MovieLinkBD.com%20-%20Motu.Patlu.Ka.Goa.Dhamaal.2026.1080p.Multi%5BHindi-Bangla-Tamil-Telugu-Malayalam-Kannada-Marathi%5D.AAC.HEVC.h265.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Nimma_Vasthugalige_Neeve_Javaabdaararu" tvg-logo="https://image.tmdb.org/t/p/w500/bhVgR4Rq4UCzwreNFMh1GpBuKfy.jpg",Nimma Vasthugalige Neeve Javaabdaararu (2025)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Nimma%20Vasthugalige%20Neeve%20Javaabdaararu%20%282025%29%20Kannada%20HQ%20PreDVD%20-%20720p%20-%20x264%20%5BDDN%5D/Nimma%20Vasthugalige%20Neeve%20Javaabdaararu%20%282025%29%20Kannada%20HQ%20PreDVD%20-%20720p%20-%20x264%20%5BDDN%5D.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Bommai_Nayagi" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2023/Bommai%20Nayagi/poster.jpg",Bommai Nayagi (2023)
+http://cds1.discoveryftp.net/Movies/Tamil/2023/Bommai%20Nayagi/Bommai%20Nayagi%202023%20Dual%20WEBRip%201080p%20Hindi%20%28HQ%20Dub%29%20%2B%20Tamil%20x264%20AAC%20%5BSkymoviesHD%5D.mkv?md5=oDn_8STTVtX5LkyXLC4INQ&expires=1777845499
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Butta_Bomma" tvg-logo="https://image.tmdb.org/t/p/w500/9h3yEeMgdISHwU3gJOUC3oWrqUV.jpg",Butta Bomma (2023)
+http://ftp.ctgfun.com/Indian/South%20Indian%20Movies/Butta%20Bomma%20%282023%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D/Butta%20Bomma%20%282023%29%20Hindi%20Telugu%20720p%20WEBRip%20x264%20ESub%20%5BDDN%5D.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Aa_Ammayi_Gurinchi_Meeku_Cheppali" tvg-logo="https://image.tmdb.org/t/p/w500/A6y1kPTeGswSzAie1XTisDV6TB2.jpg",Aa Ammayi Gurinchi Meeku Cheppali (2022)
+http://103.225.94.27/Infobase/hdd-1/HINDI%20DUBBED/Aa%20Ammayi%20Gurinchi%20Meeku%20Cheppali%20(2022)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Thimmarusu_Assignment_Vali" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2021/Thimmarusu%20Assignment%20Vali/poster.jpg",Thimmarusu Assignment Vali (2021)
+http://cds1.discoveryftp.net/Movies/Tamil/2021/Thimmarusu%20Assignment%20Vali/Thimmarusu.2021.1080p.HDRip.HINDI.HQ.DUB.x264-HDHub4u.Ninja.mkv?md5=0yUEds2Tgcs0n8IVIJYDuw&expires=1777845516
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Ammammagarillu" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2018/Ammammagarillu/poster.jpg",Ammammagarillu (2018)
+http://cds1.discoveryftp.net/Movies/Tamil/2018/Ammammagarillu/Ammammagarillu%20%282018%29%20UNCUT%20720p%20HDRip%20x264%20%5BDual%20Audio%5D%5BHindi%20DD2.0%2BTelugu%202.0%5D.mkv?md5=luUB7bjZsNbv7yDRijpG7Q&expires=1777845519
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Operation_Alamelamma" tvg-logo="https://image.tmdb.org/t/p/w500/yC8YpwnvvCzmDAqaitZmHx4IV6Z.jpg",Operation Alamelamma (2017)
+http://103.225.94.27/Infobase/hdd-2/Hindi%20Dub2.0/Operation%20Alamelamma%20(2017)%201080p%20WEBDL.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Himmatwar" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2016/Himmatwar/poster.jpg",Himmatwar (2016)
+http://cds1.discoveryftp.net/Movies/Tamil/2016/Himmatwar/Himmatwar%20%282016%29%20HINDI%20-%20720p%20-%20WEB%20HD%20-%20x264%20-%20AAC%20-%20Team%20IcTv.mkv?md5=11j8Of5f9x34RGK4TLud2A&expires=1777845536
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Okka_Ammayi_Thappa" tvg-logo="https://image.tmdb.org/t/p/w500/7gPeSYVReHQ6aKHHlskoEQbzC7a.jpg",Okka Ammayi Thappa (2016)
+http://103.225.94.27/Infobase/hdd-2/Hindi%20Dub2.0/Okka%20Ammayi%20Thappa%20(2016)%201080p%20WEBRip.mp4
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Veeri_Veeri_Gummadi_Pandu" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2016/Veeri%20Veeri%20Gummadi%20Pandu/poster.jpg",Veeri Veeri Gummadi Pandu (2016)
+http://cds1.discoveryftp.net/Movies/Tamil/2016/Veeri%20Veeri%20Gummadi%20Pandu/Veeri%20Veeri%20Gummadi%20Pandu%20%282016%29%20720p%20UNCUT%20HDRip%20x264%20%5BDual%20Audio%5D%20%5BHindi%20DD%202.0%20-%20Telugu%20DD%202.0%5D.mkv?md5=_OUGd8y8m5aYMurq2vvQow&expires=1777845539
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Iddarammayilatho" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2013/Iddarammayilatho/poster.jpg",Iddarammayilatho (2013)
+http://cds1.discoveryftp.net/Movies/Tamil/2013/Iddarammayilatho/Dangerous%20Khiladi%202%20%28Iddarammayilatho%29%20Hindi%20Dubbed%20Full%20Movie.mp4?md5=j26msxrj4YBfeIvv0e-Ezw&expires=1777845548
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Seethamma_Vakitlo_Sirimalle_Chettu" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2013/Seethamma%20Vakitlo%20Sirimalle%20Chettu/Sabse%20Badhkar%20Hum%202%20%28Seethamma%20Vakitlo%20Sirimalle%20Chettu%29%20Hindi%20Dubbed%20Full%20Movie-poster.jpg",Seethamma Vakitlo Sirimalle Chettu (2013)
+http://cds1.discoveryftp.net/Movies/Tamil/2013/Seethamma%20Vakitlo%20Sirimalle%20Chettu/Seethamma%20Vakitlo%20Sirimalle%20Chettu%20%282013%29%20720p%20UNCUT%20BRRip%20x264%20Eng%20Subs%20%5BDual%20Audio%5D%5BHindi%2BTelugu%5D.mkv?md5=r6uS5iq3T-RZJl8vUT6bmw&expires=1777845549
+#EXTINF:-1 group-title="Movies - Hindi Dubbed" tvg-id="Jaanbaaz_Khiladi" tvg-logo="https://cds1.discoveryftp.net/Movies/Tamil/2010/Jaanbaaz%20Khiladi/poster.jpg",Jaanbaaz Khiladi (2010)
+http://cds1.discoveryftp.net/Movies/Tamil/2010/Jaanbaaz%20Khiladi/Jaanbaaz%20Khiladi%20%20%28Komaram%20Puli%29%202010%20480p%20DVDRip%20Hindi%20Dubbed%20By%20Raja%20Ahtasham.mkv?md5=woUaMfTO9xgCEqDG-44mWw&expires=1777845552
+#EXTINF:-1 group-title="Movies - Other" tvg-id="WWE_Elimination_Chamber" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2026/WWE%20Elimination%20Chamber/poster.jpg",WWE Elimination Chamber (2026)
+http://cds1.discoveryftp.net/Movies/Others/2026/WWE%20Elimination%20Chamber/WWE.Elimination.Chamber.2026.1080p.WEB-DL.Hindi.2.0-English.2.0.x264-Dual.mkv?md5=dP89HY36FbSAp-JeHyN8fA&expires=1777845367
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Bad_Influence" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2025/Bad%20Influence/poster.jpg",Bad Influence (2025)
+http://cds1.discoveryftp.net/Movies/Others/2025/Bad%20Influence/Bad.Influence.2025.1080p.WEB.DL.Hindi.5.1.English.5.1.ESub.x264.Dual.mkv?md5=XjQ6cGYN-ZkYTWdwhMLGsQ&expires=1777845362
+#EXTINF:-1 group-title="Movies - Other" tvg-id="WWE_Crown_Jewel_2025" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Crown%20Jewel%202025/poster.jpg",WWE Crown Jewel 2025 (2025)
+http://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Crown%20Jewel%202025/WWE.Crown.Jewel.2025.1080p.WEB-DL.Hindi.2.0-English.2.0.ESub.x264-Dual.mkv?md5=LgmTwj-IufKVs6U2LFEEjA&expires=1777845367
+#EXTINF:-1 group-title="Movies - Other" tvg-id="WWE_Evolution" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Evolution/poster.jpg",WWE Evolution (2025)
+http://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Evolution/WWE.Evolution.2025.1080p.WEB-DL.Hindi.2.0-English.2.0.ESub.x264-Dual.mkv?md5=X6DnGOLY2HJyR83FAM8Lag&expires=1777845366
+#EXTINF:-1 group-title="Movies - Other" tvg-id="WWE_Night_of_Champions" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Night%20of%20Champions/poster.jpg",WWE Night of Champions (2025)
+http://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Night%20of%20Champions/WWE.Night.of.Champions.2025.1080p.WEB-DL.Hindi.2.0-English.2.0.ESub.x264.mkv?md5=pikRgQPaECAoHixV4SFC9w&expires=1777845366
+#EXTINF:-1 group-title="Movies - Other" tvg-id="WWE_Saturday_Night_s_Main_Event_XLII___John_Cena_s_Final_Match" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Saturday%20Night%27s%20Main%20Event%20XLII%20-%20John%20Cena%27s%20Final%20Match/poster.jpg",WWE Saturday Night's Main Event XLII - John Cena's Final Match (2025)
+http://cds1.discoveryftp.net/Movies/Others/2025/WWE%20Saturday%20Night%27s%20Main%20Event%20XLII%20-%20John%20Cena%27s%20Final%20Match/WWE.Saturday.Nights.Main.Event.13.Dec.2025.1080p.WEB-DL.Hindi.2.0-English.2.0.x264-HDHub4u.Ms.mkv?md5=C6KxTst8d6duW76DNVcjag&expires=1777845366
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Caught_Out_Crime__Corruption__Cricket" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Caught%20Out%20Crime.%20Corruption.%20Cricket/poster.jpg",Caught Out Crime. Corruption. Cricket (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Caught%20Out%20Crime.%20Corruption.%20Cricket/Caught.Out.Crime.Corruption.Cricket.2023.1080p.WEBRip.x264-RARBG.mp4?md5=nMJz0c-BesudOmq3mnKRtQ&expires=1777845394
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Destination_NBA_A_G_League_Odyssey" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Destination%20NBA%20A%20G%20League%20Odyssey/poster.jpg",Destination NBA A G League Odyssey (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Destination%20NBA%20A%20G%20League%20Odyssey/Destination.NBA.A.G.League.Odyssey.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=fKx7iilL760A_X8jzZcUqA&expires=1777845394
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Game_On_The_Unstoppable_Rise_Of_Womens_Sport" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Game%20On%20The%20Unstoppable%20Rise%20Of%20Womens%20Sport/poster.jpg",Game On The Unstoppable Rise Of Womens Sport (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Game%20On%20The%20Unstoppable%20Rise%20Of%20Womens%20Sport/Game.On.The.Unstoppable.Rise.Of.Womens.Sport.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=m9U3O5WhiLN1NMeAlHAYeA&expires=1777845395
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Untold_Johnny_Football" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2023/Untold%20Johnny%20Football/poster.jpg",Untold Johnny Football (2023)
+http://cds1.discoveryftp.net/Movies/Others/2023/Untold%20Johnny%20Football/Untold.Johnny.Football.2023.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=K5emnnHfhkjs2JcbgvXv_Q&expires=1777845401
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Anbarivu" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Anbarivu/poster.jpg",Anbarivu (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Anbarivu/Anbarivu%20%282022%29%20%5BMalayalam%20-%201080p%20HQ%20HDRip%20-%20x264%20-%20DD5.1%20%28192%20Kbps%29%20-%20x264%20-%202.6GB%20-%20ESubs%5D.mkv?md5=HYds6cfxMTddpCRNOm0U-Q&expires=1777845368
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Super_Greed_The_Fight_For_Football" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Super%20Greed%20The%20Fight%20For%20Football/poster.jpg",Super Greed The Fight For Football (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Super%20Greed%20The%20Fight%20For%20Football/Super.Greed.The.Fight.For.Football.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=SwnB1Q3X0htdfhbJix42Hw&expires=1777845385
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Sydney_Football_Stadium_Our_Place" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/Sydney%20Football%20Stadium%20Our%20Place/poster.jpg",Sydney Football Stadium Our Place (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/Sydney%20Football%20Stadium%20Our%20Place/Sydney.Football.Stadium.Our.Place.2022.1080p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4?md5=3visfMIhy62twnXJeTmfXA&expires=1777845385
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Climate_Baby_Dilemma" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/The%20Climate%20Baby%20Dilemma/poster.jpg",The Climate Baby Dilemma (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/The%20Climate%20Baby%20Dilemma/The.Climate.Baby.Dilemma.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=k908w8se8_yVI8h_-r84og&expires=1777845386
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Figo_Affair_The_Transfer_that_Changed_Football" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2022/The%20Figo%20Affair%20The%20Transfer%20that%20Changed%20Football/poster.jpg",The Figo Affair The Transfer that Changed Football (2022)
+http://cds1.discoveryftp.net/Movies/Others/2022/The%20Figo%20Affair%20The%20Transfer%20that%20Changed%20Football/The.Figo.Affair.The.Transfer.That.Changed.Football.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4?md5=brmBoR2jUlb7jfG25IjgFw&expires=1777845386
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Dhummas" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/Dhummas/poster.jpg",Dhummas (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/Dhummas/Dhummas.2021.1080p.AMZN.WEB-DL.DDP5.1.HEVC-Telly.mkv?md5=TpvGeItvFa3tuZZeZ8U9Ew&expires=1777845432
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Exhibition_on_Screen_Sunflowers" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/Exhibition%20on%20Screen%20Sunflowers/poster.jpg",Exhibition on Screen Sunflowers (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/Exhibition%20on%20Screen%20Sunflowers/Exhibition.on.Screen.Sunflowers.2021.1080p.NOW.WEB-DL.AAC2.0.H.264-QOQ.mkv?md5=Zy_jZBNesU4ReV6thyhQUQ&expires=1777845433
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Day_Sports_Stood_Still" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2021/The%20Day%20Sports%20Stood%20Still/poster.jpg",The Day Sports Stood Still (2021)
+http://cds1.discoveryftp.net/Movies/Others/2021/The%20Day%20Sports%20Stood%20Still/The.Day.Sports.Stood.Still.2021.WEBRip.x264-ION10.mp4?md5=HHmGeHpsehL2Obh-1b2WeA&expires=1777845439
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Commando_Ninja" tvg-logo="https://image.tmdb.org/t/p/w500/8wmAxMKNWhEuF14FL1X4I92YQsW.jpg",Commando Ninja (2018)
+http://cinehub24.com/ftp/Movies/french/Commando%20Ninja%20%282018%29/Commando%20Ninja%20%282018%29%20%5BBRRip%5D%20%5BXviD%5D%20%5BAC-3%5D%20%5BLektor%20PL%5D%20%5BH-1%5D.mp4
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Ente_Ummante_Peru" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/Ente%20Ummante%20Peru/poster.jpg",Ente Ummante Peru (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/Ente%20Ummante%20Peru/Ente%20Ummante%20Peru%20%282018%29%20Malayalam%201080p%20HD%20AVC%20AC3%205.1%20x264%201.4GB%20ESubs.mkv?md5=HPnulmZfWLuUPcCzC54ZBw&expires=1777845419
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Footballest" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2018/The%20Footballest/poster.jpg",The Footballest (2018)
+http://cds1.discoveryftp.net/Movies/Others/2018/The%20Footballest/The%20Footballest%20%282018%29%201080p%20BluRay.mkv?md5=SKw_lujdVPIw5buXRAcknw&expires=1777845423
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Soccer_Killer" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2017/Soccer%20Killer/poster.jpg",Soccer Killer (2017)
+http://cds1.discoveryftp.net/Movies/Others/2017/Soccer%20Killer/Soccer.Killer.2017.HD720P.X264.AAC.Mandarin.CHS.mp4?md5=bTajCMtttHBpe5wukZ6OFQ&expires=1777845444
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Dacbarquement_immacdiat" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2016/Dacbarquement%20immacdiat/poster.jpg",Dacbarquement immacdiat (2016)
+http://cds1.discoveryftp.net/Movies/Others/2016/Dacbarquement%20immacdiat/Debarquement.Immediat.2016.FRENCH.720p.WEB-DL.700MB.MkvCage.mkv?md5=JCzqpqHDGrFbtYa4wSSjXg&expires=1777845425
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Jan_Dara_Pathommabot" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2012/Jan%20Dara%20Pathommabot/poster.jpg",Jan Dara Pathommabot (2012)
+http://cds1.discoveryftp.net/Movies/Others/2012/Jan%20Dara%20Pathommabot/Jan.Dara.Pathommabot.2012.Uncut.BluRay.720p.x264-%5BMkvking.com%5D.mkv?md5=FwwvBqspAWac10o8CX3cbQ&expires=1777845456
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Sunflower" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2006/Sunflower/poster.jpg",Sunflower (2006)
+http://cds1.discoveryftp.net/Movies/Others/2006/Sunflower/Sunflower.2006.Korean.HDTV.720p.x264.AAC-DDL.mp4?md5=yQoR59Rl-659ZT_I4whtvQ&expires=1777845473
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Shaolin_Soccer" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2001/Shaolin%20Soccer/poster.jpg",Shaolin Soccer (2001)
+http://cds1.discoveryftp.net/Movies/Others/2001/Shaolin%20Soccer/Shaolin.Soccer.2001.1080p.BluRay.x264-%5BYTS.AM%5D.mp4?md5=eoSYhg6fu5idyRsJWJpjsw&expires=1777845482
+#EXTINF:-1 group-title="Movies - Other" tvg-id="From_Mr_Gunnar_Papphammar" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2000/From%20Mr%20Gunnar%20Papphammar/poster.jpg",From Mr Gunnar Papphammar (2000)
+http://cds1.discoveryftp.net/Movies/Others/2000/From%20Mr%20Gunnar%20Papphammar/From.Mr.Gunnar.Papphammar.1981.SWEDISH.1080p.NF.WEB-DL.DDP2.0.x264-PAAI.mkv?md5=zA9nV1uk1sWT0XMjFplkgA&expires=1777845485
+#EXTINF:-1 group-title="Movies - Other" tvg-id="The_Devil_and_the_Ten_Commandments" tvg-logo="https://cds1.discoveryftp.net/Movies/Others/2000/The%20Devil%20and%20the%20Ten%20Commandments/poster.jpg",The Devil and the Ten Commandments (2000)
+http://cds1.discoveryftp.net/Movies/Others/2000/The%20Devil%20and%20the%20Ten%20Commandments/The.Devil.and.the.Ten.Commandments.1962.FRENCH.1080p.BluRay.x264.FLAC.2.0-EDPH.mkv?md5=7no5zCEQ8VorwI1cytbnuw&expires=1777845490
+#EXTINF:-1 group-title="Movies - Other" tvg-id="Last_Year_At_Marienbad" tvg-logo="https://image.tmdb.org/t/p/w500/syIJCqiSkGRJTlyaBtyI5jqPtE7.jpg",Last Year At Marienbad (1961)
+http://cinehub24.com/ftp/Movies/french/Last%20Year%20at%20Marienbad%20%281961%29/Last%20Year%20at%20Marienbad%20%281961%29%20720p_BRrip_sUN_sujaidr.mkv
+#EXTINF:-1 group-title="SPORTS" tvg-id="Sport.TV1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a2/Sporttv-1.svg",---FIFA(Sport.TV 1)---
+https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8
+#EXTINF:-1 tvg-id="30AGolfKingdom.us@SD" tvg-logo="https://i.imgur.com/Lv53nh4.png" group-title="Sports",30A Golf Kingdom (720p)
+https://30a-tv.com/feeds/vidaa/golf.m3u8
+#EXTINF:-1 tvg-id="ACISportTV.it@SD" tvg-logo="https://i.imgur.com/U8cHMOt.png" group-title="Sports",ACI Sport TV (1080p)
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#EXTINF:-1 tvg-id="ACLCornholeTV.us@SD" tvg-logo="https://i.imgur.com/lBIq2ZD.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",ACL Cornhole TV (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/aclco.m3u8?ads.vf=Sl3XhzpgcOy
+#EXTINF:-1 tvg-id="Adjarasport1.ge@SD" tvg-logo="https://i.imgur.com/SVV5xHC.png" group-title="Sports",Adjarasport 1
+https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8
+#EXTINF:-1 tvg-id="Africa24Sport.fr@SD" tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="News;Sports",Africa 24 Sport (1080p)
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="AlIraqiaSport.iq@SD" tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="Sports",Al Iraqia Sport (720p)
+https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
+#EXTINF:-1 tvg-id="AlAimmaTV.iq@SD" tvg-logo="https://alaimma.tv/alaimma-logo.png" group-title="Religious",Al-Aimma TV (1080p)
+https://alaimma.tv/live/index.m3u8
+#EXTINF:-1 tvg-id="AlfaSport.cy@SD" tvg-logo="https://i.imgur.com/vhMPYIW.png" group-title="Sports",Alfa Sport (1080p) [Not 24/7]
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx
+#EXTINF:-1 tvg-id="AmmanTV.jo@SD" tvg-logo="https://i.imgur.com/5l7kw0b.png" group-title="General",Amman TV (720p)
+https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
+#EXTINF:-1 tvg-id="AntenaSport.ro@SD" tvg-logo="https://cdn.as.ro/wp-content/themes/antenasport/images/icons-as/as.svg" group-title="Sports",AntenaSport (1280p) [Not 24/7]
+https://hls.rundletv.eu.org/LIVE$AntenaSport/6.m3u8/Level/300720051?end=END&start=LIVE
+#EXTINF:-1 tvg-id="ArenaFight.rs@SD" tvg-logo="https://i.imgur.com/5abTrJU.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Fight (1080p)
+https://nl1.nghk.ai/ArenaFight/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport1.ba@SD" tvg-logo="https://i.imgur.com/RJrJGbW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 1 (1080p)
+https://nl1.nghk.ai/ArenaSport1BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport1.hr@SD" tvg-logo="https://i.imgur.com/RJrJGbW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 1 (720p)
+https://nl1.nghk.ai/AS1HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport1.rs@SD" tvg-logo="https://i.imgur.com/RJrJGbW.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 1 (1080p)
+https://nl1.nghk.ai/ArenaSport1HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport1Premium.rs@SD" tvg-logo="https://i.imgur.com/csv6YsL.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 1 Premium (720p)
+https://nl1.nghk.ai/ArenaPremium1HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport2.ba@SD" tvg-logo="https://i.imgur.com/aqlECBj.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 2 (1080p)
+https://nl1.nghk.ai/ArenaSport2BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport2.hr@SD" tvg-logo="https://i.imgur.com/aqlECBj.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 2 (720p)
+https://nl1.nghk.ai/AS2HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport2.rs@SD" tvg-logo="https://i.imgur.com/aqlECBj.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 2 (1080p)
+https://nl1.nghk.ai/ArenaSport2HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport2Premium.rs@SD" tvg-logo="https://i.imgur.com/ztOmQ7P.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 2 Premium (1080p)
+https://nl1.nghk.ai/ArenaPremium2HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport3.ba@SD" tvg-logo="https://i.imgur.com/3r3burN.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 3 (720p)
+https://nl1.nghk.ai/ArenaSport3BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport3.hr@SD" tvg-logo="https://i.imgur.com/3r3burN.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 3 (1080p)
+https://nl1.nghk.ai/AS3HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport3.rs@SD" tvg-logo="https://i.imgur.com/3r3burN.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 3 (720p)
+https://nl1.nghk.ai/ArenaSport3HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport3Premium.rs@SD" tvg-logo="https://i.imgur.com/gpqemLf.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 3 Premium (1080p)
+https://nl1.nghk.ai/ArenaPremium3HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport4.ba@SD" tvg-logo="https://i.imgur.com/h1XhGkz.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 4 (1080p)
+https://nl1.nghk.ai/ArenaSport4BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport4.hr@SD" tvg-logo="https://i.imgur.com/h1XhGkz.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 4 (1080p)
+https://nl1.nghk.ai/AS4HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport4.rs@SD" tvg-logo="https://i.imgur.com/h1XhGkz.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 4 (1080p)
+https://nl1.nghk.ai/ArenaSport4HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport4Premium.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 4 Premium (1080p)
+https://nl1.nghk.ai/SK1SRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport5.hr@SD" tvg-logo="https://i.imgur.com/036qMgu.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 5 (720p)
+https://nl1.nghk.ai/AS5HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport5.rs@SD" tvg-logo="https://i.imgur.com/036qMgu.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 5 (1080p)
+https://nl1.nghk.ai/ArenaSport5HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport5BH.ba@HD" tvg-logo="https://i.imgur.com/036qMgu.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 5 BH (1080p)
+https://nl1.nghk.ai/ArenaSport5BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport5Premium.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 5 Premium
+https://nl1.nghk.ai/SK2SRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport6.hr@SD" tvg-logo="https://i.imgur.com/Z5PE4vx.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 6 (720p)
+https://nl1.nghk.ai/AS6HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport6.rs@SD" tvg-logo="https://i.imgur.com/Z5PE4vx.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 6 (1080p)
+https://nl1.nghk.ai/ArenaSport6HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport7.hr@SD" tvg-logo="https://i.imgur.com/0fgvOrR.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 7 (720p)
+https://nl1.nghk.ai/AS7HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport7.rs@SD" tvg-logo="https://i.imgur.com/0fgvOrR.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 7 (720p)
+https://nl1.nghk.ai/ArenaSport7HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport8.hr@SD" tvg-logo="https://i.imgur.com/Wk9dr78.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 8 (1080p)
+https://nl1.nghk.ai/AS8HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport8.rs@SD" tvg-logo="https://i.imgur.com/Wk9dr78.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 8 (720p)
+https://nl1.nghk.ai/ArenaSport8HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport9.hr@SD" tvg-logo="https://i.imgur.com/riMTqTu.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 9 (1080p)
+https://nl1.nghk.ai/AS9HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport9.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 9 (720p)
+https://nl1.nghk.ai/ArenaSport9HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport10.hr@SD" tvg-logo="https://i.imgur.com/oMiS7D3.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 10 (720p)
+https://nl1.nghk.ai/AS10HRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSport10.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport 10 (720p)
+https://nl1.nghk.ai/ArenaSport10HD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSportAdrenalin.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport Adrenalin (1080p)
+https://nl1.nghk.ai/SK3SRHD/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSportPremium1BH.ba@HD" tvg-logo="https://imgur.com/csv6YsL" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport Premium 1 BH (1080p)
+https://nl1.nghk.ai/ArenaPremium1BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSportPremium2BH.ba@HD" tvg-logo="https://imgur.com/ztOmQ7P" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport Premium 2 BH (720p)
+https://nl1.nghk.ai/ArenaPremium2BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSportPremium3BH.ba@HD" tvg-logo="https://i.imgur.com/gpqemLf.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport Premium 3 BH (720p)
+https://nl1.nghk.ai/ArenaPremium3BH/index.m3u8
+#EXTINF:-1 tvg-id="ArenaSportTenis.rs@SD" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Arena Sport Tenis (720p)
+https://nl1.nghk.ai/SK4SRHD/index.m3u8
+#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports",AS3 Sport TV (1080p)
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Auto Motor Sport
+https://jmp2.uk/plu-5f760c3d41aa2d0007bfde19.m3u8
+#EXTINF:-1 tvg-id="AwapaSportsTV.sv@SD" tvg-logo="https://i.imgur.com/MNw5cJH.jpg" group-title="Sports",Awapa Sports TV (1080p) [Not 24/7]
+https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
+#EXTINF:-1 tvg-id="BahrainSports1.bh@SD" tvg-logo="https://i.imgur.com/fBpLsbC.png" group-title="Sports",Bahrain Sports 1 (720p) [Not 24/7]
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 tvg-id="BahrainSports2.bh@SD" tvg-logo="https://i.imgur.com/ZkuZmIo.png" group-title="Sports",Bahrain Sports 2 (720p) [Not 24/7]
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSportsUSA.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="Sports",beIN Sports USA (720p)
+http://23.237.104.106:8080/USA_BEIN/index.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="Sports",beIN SPORTS XTRA (1080p)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="Sports",beIN Sports XTRA en Espanol (1080p)
+https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",beIN SPORTS Xtra en Español (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8?ads.vf=SylQdpcCl2O
+#EXTINF:-1 tvg-id="BEKSports.us@West" tvg-logo="https://i.imgur.com/1l3t5jd.png" group-title="Sports",BEK TV Sports West (720p)
+https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BellatorMMA.us@SD" tvg-logo="https://i.imgur.com/VBKoLHk.png" group-title="Sports",Bellator MMA
+https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",Bleav Football (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bleav-football/playlist.m3u8?ads.vf=MSzrK3wFsnu
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Bleav Football (1080p)
+https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",Canal 15 ILCE Summa Sabres (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Sports",Canal+ Sport (1080p)
+http://151.80.18.177:86/Canal+_sport_HD/index.m3u8
+#EXTINF:-1 tvg-id="CBCSport.az@HD" tvg-logo="https://i.imgur.com/3mEdjuq.png" group-title="Sports",CBC Sport HD [Geo-blocked]
+https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
+#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="Sports",CBS Sports Golazo Network (720p)
+https://proped3fhg87.airspace-cdn.cbsivideo.com/golazo-live-dai/master/golazo-live-dai.m3u8
+#EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Sports",CBS Sports HQ (1080p) [Geo-blocked]
+https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8
+#EXTINF:-1 tvg-id="CCTVGolfTennis.cn@HD" tvg-logo="https://i.imgur.com/iqJJTmH.png" group-title="Sports",CCTV-Golf & Tennis (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTVStormFootball.cn@HD" tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="Sports",CCTV-Storm Football (1080p)
+http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="ClaroSports.mx@SD" tvg-logo="https://i.imgur.com/n0kd17r.png" http-referrer="https://www.clarosports.com/" group-title="Sports",Claro Sports (720p)
+https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
+#EXTINF:-1 tvg-id="CricketGold.au@SD" tvg-logo="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" group-title="Sports",Cricket Gold (1080p)
+https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
+#EXTINF:-1 tvg-id="CTSport.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png" group-title="Sports",ČT Sport (720p)
+http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="DDSports.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="Sports",DD Sports SD (1080p)
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-id="DhammaTV.id@SD" tvg-logo="https://dhammaweb.tv/wp-content/uploads/2018/08/cropped-dhammatv-3.png" group-title="Religious",Dhamma TV (720p) [Not 24/7]
+https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+#EXTINF:-1 tvg-id="DigiSport1.ro@SD" tvg-logo="https://i.imgur.com/5zMxDYq.png" group-title="Sports",Digi Sport 1 [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2523/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport1.ro@HD" tvg-logo="https://i.imgur.com/5zMxDYq.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Digi Sport 1 HD
+https://dokagents.site/live/digisport1/mono.m3u8
+#EXTINF:-1 tvg-id="DigiSport2.ro@SD" tvg-logo="https://i.imgur.com/KWDUi3v.png" group-title="Sports",Digi Sport 2 [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/2522/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport2.ro@HD" tvg-logo="https://i.imgur.com/KWDUi3v.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Digi Sport 2 HD
+https://dokagents.site/live/digisport2/mono.m3u8
+#EXTINF:-1 tvg-id="DigiSport3.ro@SD" tvg-logo="https://i.imgur.com/T1ci5UK.png" group-title="Sports",Digi Sport 3 [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/2524/index.m3u8
+#EXTINF:-1 tvg-id="DigiSport3.ro@HD" tvg-logo="https://i.imgur.com/T1ci5UK.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Digi Sport 3 HD
+https://dokagents.site/live/digisport3/mono.m3u8
+#EXTINF:-1 tvg-id="DigiSport4.ro@SD" tvg-logo="https://i.imgur.com/Knj9I6f.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Digi Sport 4
+https://dokagents.site/live/digisport4/mono.m3u8
+#EXTINF:-1 tvg-id="DirecTVSports.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Sports",DirecTV Sports (1080p)
+https://latam-cache-sv2-cdn.latamlive.net/DS1_ENC_LIVE/index.mpd
+#EXTINF:-1 tvg-id="DSportsUruguay.uy@SD" tvg-logo="https://i.imgur.com/2PoEm1x.png" group-title="Sports",DSports Uruguay
+https://cors-proxy.cooks.fyi/http://147.135.114.221:8001/play/a00m/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Dyn Sport Mix (720p)
+https://jmp2.uk/plu-6866525c8a412a0e95c438b4.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Earth: Final Conflict
+https://jmp2.uk/plu-66f1331f9409630008077623.m3u8
+#EXTINF:-1 tvg-id="Equalympic.ua@SD" tvg-logo="https://i.imgur.com/ixSj4H7.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Equalympic (1080p)
+https://iptv.prosto.tv/ch215/index.m3u8
+#EXTINF:-1 tvg-id="ERTSports1.gr@HD" tvg-logo="https://i.imgur.com/EsczO2H.png" group-title="Sports",ERT Sports 1 (1080p)
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertsports_mpeg.2ts
+#EXTINF:-1 tvg-id="ERTSports2.gr@HD" tvg-logo="https://i.imgur.com/b2SNQPi.png" group-title="Sports",ERT Sports 2 (1080p)
+http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts
+#EXTINF:-1 tvg-id="ESPN8TheOcho.us@ESPN8TheOchoHD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png" group-title="Sports",ESPN8 The Ocho (1080p)
+https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png" group-title="Sports",ESPN Deportes (360p)
+http://origin.thetvapp.to/hls/espn-deportes/mono.m3u8
+#EXTINF:-1 tvg-id="Esport3.es@Originals" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png" group-title="Public;Sports",Esport3 (1080p) [Not 24/7]
+https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 tvg-id="Esport3.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png" group-title="Public;Sports",Esport3 (1080p) [Geo-blocked]
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
+#EXTINF:-1 tvg-id="ExtremeSportsChannelPolska.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Extreme Sports Channel Polska
+http://81.15.109.89:8001/play/ExtremeSports
+#EXTINF:-1 tvg-id="F1Channel.ie@US" tvg-logo="https://i.imgur.com/cjXzWsI.png" group-title="Sports",F1 Channel (1080p) [Geo-blocked]
+https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="F10HD.bo@SD" tvg-logo="https://i.imgur.com/OEsT0KN.png" group-title="General",F10 HD [Geo-blocked]
+https://tv2.bitstreaming.net:3235/multi_live/play.m3u8
+#EXTINF:-1 tvg-id="FastFunBox.ru@SD" tvg-logo="https://spiintl.com/data/files/kcfinderUploadDir/images/logo/fastandfunbox-logo.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",Fast&FunBox (1080p)
+https://iptv.prosto.tv/ch120/index.m3u8
+#EXTINF:-1 tvg-id="FightBox.nl@SD" tvg-logo="https://i.imgur.com/mRsnztA.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" group-title="Sports",FightBox
+https://webtvstream.bhtelecom.ba/hls7/fightbox.m3u8
+#EXTINF:-1 tvg-id="FloHockey.us@HD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" group-title="Sports",FloHockey 24/7 (1080p)
+https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",FOX Sports (1080p)
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",FOX Sports (1080p) [Geo-blocked]
+https://amg02855-foxsports-amg02855c1-xumo-us-1755.playouts.now.amagi.tv/Fox-Sports-AmazonNews/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Fox Sports (720p)
+https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Sports",FOX Sports (720p)
+https://jmp2.uk/plu-5a74b8e1e22a61737979c6bf.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://i.imgur.com/O9BapV9.png" group-title="Sports",Fox Sports 1 (1280p)
+https://cors-proxy.cooks.fyi/http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="Sports",Fox Sports 2 (480p)
+https://tvsen7.aynaott.com/foxsports2/index.m3u8
+#EXTINF:-1 tvg-id="FTFSports.us@SD" tvg-logo="https://i.imgur.com/yvUjOI3.png" group-title="Sports",FTF Sports (720p)
+https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
+#EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="Sports",fubo Sports Network (1080p)
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="FUELTV.pt@US" tvg-logo="https://i.imgur.com/I8mviBy.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",FUEL TV (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/playlist.m3u8?ads.vf=gbdyvfXODOK
+#EXTINF:-1 tvg-id="GEMSport.tr@SD" tvg-logo="https://www.gemgroup.tv/assets/images/channels/icon_34.png" group-title="Sports",GEM Sport
+https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GFN Football (1080p)
+https://e562e489.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9HRk5Tb2NjZXJfSExT/manifest.m3u8
+#EXTINF:-1 tvg-id="GloryKickboxing.us@Poland" tvg-logo="https://i.imgur.com/tS7Ub7i.png" group-title="Sports",GLORY Kickboxing (720p)
+https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" group-title="Sports",Golf Channel Latin America
+http://181.114.57.246:4000/play/BHGDIhvdyuw/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",Golf Network (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/golf-network/manifest.m3u8?ads.vf=JfEbVnzdK_W
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GolfPass (1080p)
+https://d2icntm6fhxrry.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",GolfPass (720p)
+https://jmp2.uk/plu-65493029ab052400089e9d2f.m3u8
+#EXTINF:-1 tvg-id="HardKnocks.ca@SD" tvg-logo="https://i.imgur.com/nt9B6jx.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",Hard Knocks (1080p)
+https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8?ads.vf=6pOF6kgy418
+#EXTINF:-1 tvg-id="HorizonSports.us@SD" tvg-logo="https://i.imgur.com/w2JzGSy.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",Horizon Sports (720p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8?ads.vf=A5pc7nNS254
+#EXTINF:-1 tvg-id="ImmaculataTV.ch@SD" tvg-logo="https://i.imgur.com/8WsYVpt.png" group-title="Religious",Immaculata TV (720p)
+https://g5nl63z8lpq6-hls-live.5centscdn.com/tvistream/a5586d8ea3b7b021120a05c60dc59876.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="JordanSport.jo@SD" tvg-logo="https://i.imgur.com/2EmrZPQ.png" group-title="Sports",Jordan Sport (1080p)
+http://93.184.10.248/JordanSport/index.m3u8
+#EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-logo="https://i.imgur.com/M1Ee79b.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",KOZOOM TV (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=CAJPqH6STD0
+#EXTINF:-1 tvg-id="KSASports1.sa@SD" tvg-logo="https://i.imgur.com/ONKNOAp.png" group-title="Sports",KSA Sports 1 (1080p)
+https://aloula-redirect.vercel.app/9/playlist.m3u8
+#EXTINF:-1 tvg-id="KSASports2.sa@SD" tvg-logo="https://i.imgur.com/v8ULLqg.png" group-title="Sports",KSA Sports 2 (1080p)
+https://aloula-redirect.vercel.app/10/playlist.m3u8
+#EXTINF:-1 tvg-id="KSASports3.sa@SD" tvg-logo="https://i.imgur.com/BXfCvez.png" group-title="Sports",KSA Sports 3 (1080p)
+https://aloula-redirect.vercel.app/16/playlist.m3u8
+#EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="Sports",KTV Sport (1080p)
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="KTVSportPlus.kw@SD" tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="Sports",KTV Sport Plus (1080p)
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Leaderboard Sports News (1080p)
+https://amg02703-amg02703c20-samsung-au-9093.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="M4Sport.hu@SD" tvg-logo="https://i.imgur.com/TQ4uJZk.png" group-title="Sports",M4 Sport
+http://88.212.15.19/live/m4_hun/index.m3u8
+#EXTINF:-1 tvg-id="MNetSport.mk@SD" tvg-logo="https://i.imgur.com/7k8ar1Z.png" group-title="Sports",M-Net Sport (720p)
+http://ares.mnet.mk/hls/mnet-sport.m3u8
+#EXTINF:-1 tvg-id="MAXSports.id@SD" tvg-logo="https://images.maxstream.tv/sites/default/files/entry/0_1u20u1ok/landscape_carousel_xxhdpi.webp" http-referrer="maxstream.tv/tv-channels" group-title="Sports",MAX Sports
+https://indihuy.streamized.net/atm/DASH/useesport/manifest.mpd
+#EXTINF:-1 tvg-id="MEGOGOSport.ua@SD" tvg-logo="https://i.imgur.com/5JmT4mW.png" group-title="Sports",MEGOGO Sport [Geo-blocked]
+http://471ccec7.tvclub.xyz/iptv/BUYS9YTNABMC25/31612/index.m3u8
+#EXTINF:-1 tvg-id="MidpenMediaCenterChannel28.us@SD" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="Education",Midpen Media Center Youth Education and Sports Channel 28 (720p)
+https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
+#EXTINF:-1 tvg-id="MMATVcom.ru@SD" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="Sports",MMA TV.com (1080p)
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+#EXTINF:-1 tvg-id="MMATV.us@SD" tvg-logo="https://i.imgur.com/Qxco1eW.png" group-title="Sports",MMA-TV (576p)
+http://31.148.48.15/M1_Global/index.m3u8
+#EXTINF:-1 tvg-id="MNBSport.mn@SD" tvg-logo="https://i.imgur.com/z854PC3.png" group-title="Sports",MNB Sport (1080p)
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="Sports",More Than Sports TV (1080p)
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",MSG SportsZone (720p)
+https://d2a31kzot4f8t3.cloudfront.net/v1/amc_msgsportszone_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="MultivisionSports.gt@SD" tvg-logo="https://i.imgur.com/wLjSSo2.jpg" group-title="Sports",Multivisión Sports (720p) [Not 24/7]
+https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",Namma Bangalore (576p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/namma-bangalore/index.m3u8?ads.vf=eSzAQfnJzCG
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",NBA FAST Channel (720p)
+https://live-manifest.production-public.tubi.io/live/553b8d5e-fd2a-4a61-bdfa-73b34c299d75/playlist.m3u8
+#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="Sports",NBA TV (1080p) [Geo-blocked]
+https://amg00556-amg00556c3-firetv-us-6060.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBATVCanada.ca@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a4/NBA_TV_Canada_2020.png" group-title="Sports",NBA TV Canada (1080p)
+http://user.scalecdn.co:8080/live/54706135/09221986/3092.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="Sports",NBC Sports NOW (1080p)
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-id="NFLChannel.us@SD" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="Sports",NFL Channel (1080p) [Geo-blocked]
+https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-id="OFTVOffenbach.de@SD" tvg-logo="https://i.imgur.com/WAcxCJr.png" group-title="General",OF-TV Offenbach (720p)
+https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8
+#EXTINF:-1 tvg-id="OmanSportsTV.om@SD" tvg-logo="https://i.imgur.com/1omi7p8.png" group-title="Sports",Oman Sports TV (1080p) [Not 24/7]
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="OneGolf.pk@SD" tvg-logo="https://i.imgur.com/7JhaEW5.png" group-title="Sports",One Golf (720p)
+http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+#EXTINF:-1 tvg-id="PFLMMA.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png" group-title="Sports",PFL MMA (720p)
+https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVESports.us@LatAm" tvg-logo="https://images.pluto.tv/channels/5ff3934600d4c7000733ff49/colorLogoPNG.png" group-title="Sports",Pluto TV E-Sports
+https://jmp2.uk/plu-5ff3934600d4c7000733ff49.m3u8
+#EXTINF:-1 tvg-id="PlutoTVEsportes.us@BR" tvg-logo="" group-title="Sports",Pluto TV Esportes
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSport.de@IT" tvg-logo="https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG_1746816937164.png" group-title="Sports",Pluto TV Sport
+https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSport.se@DK" tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sports",Pluto TV Sport
+https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSport.se@NO" tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sports",Pluto TV Sport
+https://jmp2.uk/plu-6357f33cb51d2d00077927c6.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSport.se@SE" tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sports",Pluto TV Sport
+https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
+#EXTINF:-1 tvg-id="PolsatSport1.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Polsat_Sport_1_2024.svg/500px-Polsat_Sport_1_2024.svg.png" group-title="Undefined",Polsat Sport 1 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7296/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport2.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Polsat_Sport_2_2024.svg/500px-Polsat_Sport_2_2024.svg.png" group-title="Undefined",Polsat Sport 2 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7310/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSport3.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Polsat_Sport_3_2024.svg/500px-Polsat_Sport_3_2024.svg.png" group-title="Undefined",Polsat Sport 3 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7303/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportFight.pl@SD" tvg-logo="https://i.imgur.com/8x1FV3o.png" group-title="Sports",Polsat Sport Fight (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7311/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" tvg-logo="https://i.imgur.com/hy1SKE0.png" group-title="Sports",Polsat Sport Premium 1 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7304/index.m3u8
+#EXTINF:-1 tvg-id="PolsatSportPremium2.pl@SD" tvg-logo="https://i.imgur.com/myyWeXY.png" group-title="Sports",Polsat Sport Premium 2 (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7305/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",Powersports World (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/powersports-world/pwrsp.m3u8?ads.vf=6Tj0ccfKg3S
+#EXTINF:-1 tvg-id="PremierSports.ph@SD" tvg-logo="https://i.imgur.com/BURPHzI.png" group-title="Sports",Premier Sports (1080p)
+https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PremierSports2.ph@SD" tvg-logo="https://i.imgur.com/UQeXWd2.png" group-title="Sports",Premier Sports 2 (1080p)
+https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
+#EXTINF:-1 tvg-id="PROSportInternational.my@SD" tvg-logo="" group-title="Sports",PRO Sport International
+https://proshls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PTVSports.pk@SD" tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Sports",PTV Sports (1080p)
+http://103.250.28.74:8000/play/a019/index.m3u8
+#EXTINF:-1 tvg-id="QazSport.kz@SD" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" group-title="Sports",QazSport (480p) [Geo-blocked]
+https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTurrialbaTVSports.cr@SD" tvg-logo="https://i.imgur.com/2ZcUXbE.png" http-referrer="https://iblups.com/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Sports",Radio Turrialba TV Sports (720p)
+https://sc2.escuela4.com/live/92974f62a8d5e5caf8f6d1c98fe9b2615f2238c5.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Rai Sport 2
+http://originstream12.rai.it/italy/raisport2_1200/master.m3u8
+#EXTINF:-1 tvg-id="RaiSport.it@HD" tvg-logo="https://i.imgur.com/6PEevOM.png" group-title="Sports",Rai Sport HD (1080p)
+https://srv1.adriatelekom.com/RaiSport/index.m3u8
+#EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" tvg-logo="https://i.imgur.com/BaEyZto.png" group-title="Sports",Realitatea Sportiva (720p)
+https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Retake E-sport Live (720p)
+https://jmp2.uk/plu-66fd1338ec9d6d00081e0443.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Retake E-sport Live (720p)
+https://jmp2.uk/plu-69a162eb762ae48b4302fb7c.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Retake E-sport Live
+https://jmp2.uk/plu-69a164f76c0414a7ec68de54.m3u8
+#EXTINF:-1 tvg-id="RightNowTV.us@SD" tvg-logo="https://i.imgur.com/OxbIla4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Entertainment;Sports",Right Now Tv (720p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/playlist.m3u8?ads.vf=XXIrbw6_Odq
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Roku Sports Channel (1080p)
+https://d3ialx0k0mla2a.cloudfront.net/Roku_Sports_Channel.m3u8
+#EXTINF:-1 tvg-id="RTSHSport.al@SD" tvg-logo="https://i.imgur.com/J6NKXyJ.png" group-title="Sports",RTSH Sport (1080p)
+http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
+#EXTINF:-1 tvg-id="RugbyPassTV.uk@SD" tvg-logo="" group-title="Undefined",Rugby Pass TV (720p)
+https://jmp2.uk/plu-66f137cb483d460008ece053.m3u8
+#EXTINF:-1 tvg-id="SSport.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png" group-title="Sports",S Sport
+https://bcovlive-a.akamaihd.net/540fcb034b144b848e7ff887f61a293a/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-id="SSport2.tr@SD" tvg-logo="https://i.imgur.com/2jIItAy.png" group-title="Sports",S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-id="SanMarinoRTVSport.sm@SD" tvg-logo="https://i.imgur.com/PGm944g.png" group-title="Sports",San Marino RTV Sport (720p)
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+#EXTINF:-1 tvg-id="SharjahSports.ae@SD" tvg-logo="https://i.imgur.com/CsEElsJ.png" group-title="Sports",Sharjah Sports (1080p) [Geo-blocked]
+https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Shooting Sports Life (1080p)
+https://linear-1312.frequency.stream/dist/stirr/1312/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="Sports",Sony Sports Ten 3 Hindi (576p)
+http://103.229.254.25:7001/play/a09q/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Speed Sport 1 (1080p)
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",SPIEGEL TV Konflikte
+https://jmp2.uk/plu-65b9268fc798e800085add89.m3u8
+#EXTINF:-1 tvg-id="Sport.uz@SD" tvg-logo="https://i.imgur.com/2WJE9CM.png" group-title="Sports",Sport
+https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Sport1.hu@SD" tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Sports",Sport 1 (1280p)
+http://46.149.191.217:9005/play/a017
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sport Fishing TV (1080p)
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
+#EXTINF:-1 tvg-id="SportKlub.pl@SD" tvg-logo="https://i.imgur.com/DpJUrlr.png" group-title="Sports",Sport Klub (1080p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/2521/index.m3u8
+#EXTINF:-1 tvg-id="SportTV1.pt@SD" tvg-logo="https://i.imgur.com/YWic36u.png" group-title="Sports",Sport TV1
+https://test.946985.filegear-sg.me/proxy/b57707d48ea3395e
+#EXTINF:-1 tvg-id="SportTV5.pt@SD" tvg-logo="https://i.imgur.com/4w4vuad.png" group-title="Sports",Sport TV5
+https://test.946985.filegear-sg.me/proxy/2e5a3cb38f72a6dd
+#EXTINF:-1 tvg-id="SportTV7.pt@SD" tvg-logo="https://i.imgur.com/2HmCAm5.png" group-title="Sports",Sport TV7
+https://test.946985.filegear-sg.me/proxy/a8c7608240dec023
+#EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports",Sportitalia (1080p)
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="Sportitalia24.it@SD" tvg-logo="https://i.imgur.com/RSwnoLn.png" group-title="Sports",Sportitalia 24 (720p) [Geo-blocked]
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sportitalia Live 24
+https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SportitaliaMotori.it@SD" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Motori (720p) [Geo-blocked]
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Solocalcio (1080p)
+https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sportoutdoor.tv
+https://gto2000-sportoutdoortv-1-it.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SportsConnect.za@SD" tvg-logo="https://i.imgur.com/0sNWg54.png" group-title="Sports",Sports Connect (720p)
+https://streamdot.broadpeak.io/cff02a74da64d1459391ce1f72d58f1a/afxpstr/SportsConnect/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Sports First (1080p)
+https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Undefined",Sports First TV (1080p)
+https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8?ads.vf=IqoHUzAjl6S
+#EXTINF:-1 tvg-id="SportsTV.tr@SD" tvg-logo="https://i.imgur.com/tGTVcVe.jpg" group-title="Sports",Sports TV (720p) [Geo-blocked]
+https://live.sportstv.com.tr/hls/low/sportstv.m3u8
+#EXTINF:-1 tvg-id="SportsGrid.us@SD" tvg-logo="https://i.imgur.com/ulGKX30.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",SportsGrid (1080p)
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/master.m3u8?ads.vf=8ukz5gCI8vu
+#EXTINF:-1 tvg-id="SportsTVPlus.us@SD" tvg-logo="https://i.imgur.com/EyCDhgN.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",SportsTVPlus (1080p)
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8?ads.vf=SqsoCl37PjC
+#EXTINF:-1 tvg-id="SporTV.br@SD" tvg-logo="https://i.postimg.cc/gr9x3z71/Spor-TV-2021.png" group-title="Sports",SporTV (1280p)
+https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 tvg-id="SporTV2.br@SD" tvg-logo="https://i.imgur.com/pBiUnb2.png" group-title="Sports",SporTV 2 (1280p)
+https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 tvg-id="SporTV2Alternativo.br@SD" tvg-logo="https://i.imgur.com/aoMlRgP.png" group-title="Sports",SporTV 2 Alternativo (720p)
+https://stm.sinalmycn.com/19025/video.m3u8
+#EXTINF:-1 tvg-id="SporTV3.br@SD" tvg-logo="https://i.imgur.com/mWOR8pi.png" group-title="Sports",SporTV 3 (1080p)
+https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 tvg-id="SporTVAlternativo.br@SD" tvg-logo="https://i.imgur.com/8M5dLEb.png" group-title="Sports",SporTV Alternativo (720p)
+https://stm.sinalmycn.com/19024/video.m3u8
+#EXTINF:-1 tvg-id="StarSports1.in@SD" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 (720p)
+https://tvsen7.aynaott.com/sspts1/index.m3u8
+#EXTINF:-1 tvg-id="StarSports1.in@HD" tvg-logo="https://i.imgur.com/E5jjKHI.png" group-title="Sports",Star Sports 1 HD (1080p)
+http://103.253.18.58:8000/play/a00m
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png" group-title="Sports",Star Sports 1 Hindi (576p)
+http://103.253.18.58:8000/play/a03o
+#EXTINF:-1 tvg-id="StarSports2.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png" group-title="Sports",Star Sports 2 HD (720p)
+https://tvsen7.aynaott.com/ssport2hd/index.m3u8
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" tvg-logo="https://i.imgur.com/kHerF19.png" group-title="Sports",Star Sports 2 Hindi HD (1080p)
+http://103.157.248.140:8000/play/a01m/index.m3u8
+#EXTINF:-1 tvg-id="SuperTennis.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png" group-title="Sports",SuperTennis (1080p)
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+#EXTINF:-1 tvg-id="SuspilneDonbas.ua@SD" tvg-logo="https://i.imgur.com/GPXrpJC.png" group-title="General",Suspilne. Donbas
+https://iptv.prosto.tv/ch191/tracks-v1a1/mono.m3u8?21yo=1&e=1783350581&id=742347&ip=178.136.40.86&live=1&secret=vu2y5m72&st=FOBLjQZsAj97omf627Quzg
+#EXTINF:-1 tvg-id="SuspilneSport.ua@SD" tvg-logo="https://i.imgur.com/16IhU0M.png" group-title="Sports",Suspilne. Sport
+https://iptv.prosto.tv/ch112/tracks-v2a1/mono.m3u8?21yo=0&e=1783247457&id=921233&ip=178.136.40.86&live=1&secret=9szoe89y&st=jPS6nYqNZLDECF8uSDa74g
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",T2 Tennis Channel (1080p)
+https://ttc-tennischannelus-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TSports.bd@SD" tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports (720p)
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8
+#EXTINF:-1 tvg-id="talkSPORT.uk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="Sports",talkSPORT (1080p)
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="TDMSports.mo@SD" tvg-logo="https://i.imgur.com/AsWLf8S.png" group-title="Sports",TDM Sports Ch. 93 (720p)
+https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Sports",Ten Sports Pakistan
+http://121.91.61.106:8000/play/a04h/index.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="Sports",Tennis Channel (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tennis Channel 2 (1080p) [Geo-blocked]
+https://pb-vuh0zokcxo4al.akamaized.net/T2.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tennis Channel Germany (720p)
+https://tennischanneldeu-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tennis+ (1080p)
+https://amg01935-amg01935c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Tennis+ (720p) [Geo-blocked]
+https://amg01935-amg01935c1-amgplt0002.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0002/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us@Plus2" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="Sports",TennisChannel 2 (720p)
+https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",The NBA Channel (720p)
+https://jmp2.uk/plu-6792c30abc03978b9b8bb832.m3u8
+#EXTINF:-1 tvg-id="TigoSports.cr@SD" tvg-logo="https://i.imgur.com/UrsLSRs.png" group-title="Sports",Tigo Sports (720p) [Geo-blocked]
+https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8
+#EXTINF:-1 tvg-id="TigoSports.gt@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports (1080p)
+http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTf_5weWAERKDgrt9JpvlAiI/m3u8
+#EXTINF:-1 tvg-id="TigoSports.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports (720p)
+https://live.enhdtv.com:8081/8160/index.m3u8
+#EXTINF:-1 tvg-id="TigoSports.sv@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports TV El Salvador (720p) [Geo-blocked]
+https://channel03.tigosports.com.sv/out/v1/31f36d52d558475ca18799d8ca5e4b40/index.m3u8
+#EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports+
+http://45.170.130.224:8000/play/a04i/index.m3u8
+#EXTINF:-1 tvg-id="TNCSports.bz@SD" tvg-logo="https://i.imgur.com/jT2VFzA.jpeg" group-title="Sports",TNC Sports (1080p)
+https://streamer1.nexgen.bz/TNC_SPORTS/index.m3u8
+#EXTINF:-1 tvg-id="TRSport.it@SD" tvg-logo="https://i.imgur.com/ELXmaqg.png" group-title="Sports",TR Sport (480p)
+https://livetr.teleromagna.it/mia/live/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports",Trace Sport Stars (Australia) (1080p)
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TurkmenistanSport.tm@SD" tvg-logo="https://i.imgur.com/n6vITLu.png" group-title="Sports",Türkmenistan Sport (406p) [Not 24/7]
+https://alpha.tv.online.tm/hls/ch004.m3u8
+#EXTINF:-1 tvg-id="tv9Telemaremma.it@HD" tvg-logo="https://i.imgur.com/3WAyf6H.png" group-title="News",tv9 Telemaremma (576p)
+https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/2095a288-1384-ed2e-5da0-278ccbb72295.m3u8
+#EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" tvg-logo="https://i.imgur.com/Nd5axnS.png" group-title="Entertainment",TV Golfo Uraba
+https://stmv7.voxtvhd.com.br/golfo/golfo/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMsportPlus.mt@SD" tvg-logo="https://i.imgur.com/YIreFti.png" group-title="Sports",TVMsport+ (1080p)
+https://stream.smashmalta.com:25463/live/webplayer/livestream/29.m3u8
+#EXTINF:-1 tvg-id="TVPSport.pl@SD" tvg-logo="https://i.imgur.com/JUZDOCO.png" group-title="Sports",TVP Sport (1080p)
+https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd
+#EXTINF:-1 tvg-id="TVRSport.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/960px-TVR_Sport_Logo_2023.svg.png" group-title="General;Sports",TVR Sport
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8
+#EXTINF:-1 tvg-id="TVRISport.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRI_Sport_2022.svg/960px-TVRI_Sport_2022.svg.png" group-title="Sports",TVRI Sport (720p)
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:-1 tvg-id="TVSBoxing.us@SD" tvg-logo="https://i.imgur.com/30ZoF75.png" group-title="Sports",TVS Boxing (360p)
+https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
+#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" tvg-logo="https://i.imgur.com/auR0Mi6.png" group-title="Sports",TVS Classic Sports (360p)
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+#EXTINF:-1 tvg-id="TVSPinballNetwork.us@SD" tvg-logo="https://i.imgur.com/HHmc14i.png" group-title="Kids",TVS Pinball Network (480p)
+https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
+#EXTINF:-1 tvg-id="TVSSports.us@SD" tvg-logo="https://i.imgur.com/Lwwq62E.png" group-title="Sports",TVS Sports (720p) [Not 24/7]
+https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
+#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" tvg-logo="" group-title="Sports",TVS Sports Bureau (720p)
+https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="Sports",TVS Women Sports (720p)
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
+#EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports USA
+http://45.170.130.224:8000/play/a020/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",U&Transport (1080p) [Geo-blocked]
+https://amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk-36uja.amagi.tv/playlist/amg00886-uktvmedialimite-uktvplayfullthrottle-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",U&Transport (720p)
+https://jmp2.uk/plu-64c0d6765dc1660008a3e033.m3u8
+#EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="Sports",Unbeaten Sports Channel (1080p)
+https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
+#EXTINF:-1 tvg-id="VSportGolf.se@SD" tvg-logo="https://i.imgur.com/wCw8Pmz.png" group-title="Sports",V Sport Golf [Not 24/7]
+http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8
+#EXTINF:-1 tvg-id="vijuPlusSport.ru@SD" tvg-logo="https://i.imgur.com/fXESG0l.png" group-title="Sports",viju+ Sport
+https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="W14DKD145.us@SD" tvg-logo="https://i.imgur.com/D4mZ8ll.png" group-title="Sports",W14DK-D 14.5 All Sports Television Network
+https://2-fss-2.streamhoster.com/pl_118/204972-2205186-1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WBTV HBO Boxing (1080p) [Geo-blocked]
+https://live-manifest.production-public.tubi.io/live/9fe78734-1db2-49b4-af7b-3c89f5f256ad/playlist.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="Sports",Willow Sports (1080p)
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 tvg-id="WinSports.co@SD" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Sports",Win Sports (1080p)
+http://190.60.40.34:8001/play/a0ef
+#EXTINF:-1 tvg-id="WomensSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/rhIwUcQ.png" group-title="Undefined",Women's Sports Network (1080p)
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8
+#EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="Sports",World of Freesports (1080p)
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.us@US" tvg-logo="https://i.imgur.com/98kLMjj.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Sports",World Poker Tour (1080p)
+https://d3w4n3hhseniak.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8?ads.vf=EHEabFVWNva
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",WWE Superstar Central (1080p)
+https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Xtrem Sports (1080p)
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Yahoo! Sports Network (1080p)
+https://d7vulbd7rxo7j.cloudfront.net/Yahoo_Sports_Network.m3u8
+#EXTINF:-1 tvg-id="ZoyTVSports1.bo@SD" tvg-logo="https://i.imgur.com/0YHztGq.png" group-title="Sports",Zoy TV Sports 1 (1080p) [Not 24/7]
+https://mio.zoymilton.com/ZoyEventos/index.m3u8
+#EXTINF:-1 tvg-id="AstrahanRuSport.ru@SD" tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Sports",Астрахань.Ru Sport (720p)
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" tvg-logo="https://i.imgur.com/vhyMb9D.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Sports",Матч! Планета (720p)
+https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8
+#EXTINF:-1 tvg-id="TSports.bd@SD" tvg-logo="https://i.imgur.com/2JzlorD.png" group-title="Sports",T Sports (720p)
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8

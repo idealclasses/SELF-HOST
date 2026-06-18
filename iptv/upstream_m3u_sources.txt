@@ -1,17 +1,17 @@
 # Upstream M3U IPTV Sources
-# Last Updated: 2026-05-07
+# Last Updated: 2026-06-18
 # Total Sources: 6
-# Combined Channels: 38,771
+# Combined Channels: ~38,500+
 
 # ============================================================
 # PRIMARY SOURCES (Large Channel Counts)
 # ============================================================
 
-# time2shine Master Combined - 25,711 channels (8.0 MB)
+# time2shine Master Combined - ~25,600+ channels (7.93 MB)
 # Comprehensive IPTV playlist with global channels
 https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/combined.m3u
 
-# IPTV Org Combined - 12,292 channels (2.4 MB)
+# IPTV Org Combined - ~12,200+ channels (2.47 MB)
 # iptv-org global repository with multiple countries
 https://iptv-org.github.io/iptv/index.m3u
 
@@ -19,7 +19,7 @@ https://iptv-org.github.io/iptv/index.m3u
 # SECONDARY SOURCES (Regional/Specialized)
 # ============================================================
 
-# Mrgify BDIX - 627 channels (160 KB)
+# Mrgify BDIX - 627 channels (160 KB) - ⚠️ Status: HTTP 302 Redirect
 # Bangladesh ISP IPTV channels
 https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u
 
@@ -27,7 +27,7 @@ https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/raw/main/playlist.m3u
 # Alternative Bangladesh ISP IPTV channels
 https://private-zone-by-xfireflix.pages.dev/playlist-isp-bdix.m3u
 
-# IPTV Org Bangladesh - 38 channels (8 KB)
+# IPTV Org Bangladesh - 38 channels (0.01 MB)
 # BD-specific channels from iptv-org
 https://iptv-org.github.io/iptv/countries/bd.m3u
 
