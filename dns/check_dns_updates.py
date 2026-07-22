@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
+from pathlib import Path
 import urllib.request
 from urllib.error import URLError, HTTPError
 import time
 import sys
 
-USER_AGENT = 'Mozilla/5.0 (compatible; PI-HOLE-BLOCK/1.0)'
+USER_AGENT = 'Mozilla/5.0 (compatible; SELF-HOST/1.0)'
 TIMEOUT = 10
 
 def read_upstream_sources(file_path):
@@ -94,8 +95,9 @@ def main():
     print("DNS UPSTREAM SOURCES UPDATE CHECK")
     print("=" * 70)
     
-    # Read upstream sources
-    upstream_file = '/workspaces/PI-HOLE-BLOCK/upstream_dns.txt'
+    # Read upstream sources from this repo
+    base_dir = Path(__file__).resolve().parent
+    upstream_file = base_dir / 'upstream_dns.txt'
     sources = read_upstream_sources(upstream_file)
     
     if not sources:
@@ -115,14 +117,35 @@ def main():
     print(f"\n{'=' * 70}")
     print(f"Total unique domains from upstream sources: {len(all_upstream_domains)}")
     
-    # Read current blocklist
-    try:
-        blocker_file = '/workspaces/PI-HOLE-BLOCK/blocker.txt'
+    # Read current blocklist if available
+    current_domains = set()
+    blocker_file = None
+    candidate_blockers = [
+        base_dir.parent / 'blocklists' / 'blocker.txt',
+        base_dir.parent / 'blocklists' / 'blocker_original.txt',
+        base_dir.parent / 'blocklists' / 'blocker_cleaned.txt',
+        base_dir.parent / 'blocklists' / 'blocker_medium.txt',
+    ]
+    for candidate in candidate_blockers:
+        if candidate.exists():
+            blocker_file = candidate
+            break
+
+    if blocker_file:
         current_domains = read_current_blocklist(blocker_file)
-        print(f"Current domains in blocker.txt: {len(current_domains)}")
-    except Exception as e:
-        print(f"Error reading blocker.txt: {e}")
-        current_domains = set()
+        print(f"Current domains in {blocker_file}: {len(current_domains)}")
+    else:
+        print("No local blocklist file found; only generating upstream_blocklist.txt")
+
+    # Write aggregated upstream blocklist
+    output_file = base_dir / 'upstream_blocklist.txt'
+    with open(output_file, 'w', encoding='utf-8') as out_f:
+        out_f.write('# Aggregated upstream domain list generated from dns/upstream_dns.txt\n')
+        out_f.write(f'# Sources: {len(sources)}\n')
+        out_f.write('# Broken sources are excluded.\n')
+        for domain in sorted(all_upstream_domains):
+            out_f.write(domain + '\n')
+    print(f"Wrote aggregated upstream blocklist to {output_file}")
     
     # Find new domains
     new_domains = all_upstream_domains - current_domains
@@ -130,39 +153,41 @@ def main():
     print(f"NEW DOMAINS FOUND: {len(new_domains)}")
     print(f"{'=' * 70}\n")
     
-    if new_domains:
-        # Sort and display new domains
-        sorted_new = sorted(new_domains)
-        print("Top 50 new domains:")
-        for i, domain in enumerate(sorted_new[:50], 1):
-            print(f"  {i:3d}. {domain}")
-        
-        if len(sorted_new) > 50:
-            print(f"\n... and {len(sorted_new) - 50} more")
-        
-        # Ask if user wants to update blocker.txt
-        print(f"\n{'=' * 70}")
-        print(f"Would you like to add these {len(new_domains)} new domains to blocker.txt?")
-        print("(This will append to the existing file)")
-    else:
-        print("✓ No new domains found. Your blocker.txt is up to date!")
+    if not new_domains:
+        print("✓ No new domains found. Your local blocklist is up to date!")
         print(f"{'=' * 70}\n")
         return
+
+    # Sort and display new domains
+    sorted_new = sorted(new_domains)
+    print("Top 50 new domains:")
+    for i, domain in enumerate(sorted_new[:50], 1):
+        print(f"  {i:3d}. {domain}")
     
-    # Option to save
-    response = input("\nAdd new domains to blocker.txt? (y/n): ").strip().lower()
-    if response == 'y':
-        try:
-            with open('/workspaces/PI-HOLE-BLOCK/blocker.txt', 'a') as f:
-                f.write('\n# New domains added from upstream sources\n')
-                for domain in sorted_new:
-                    f.write(domain + '\n')
-            print(f"\n✓ Added {len(new_domains)} new domains to blocker.txt")
-        except Exception as e:
-            print(f"✗ Error writing to blocker.txt: {e}")
+    if len(sorted_new) > 50:
+        print(f"\n... and {len(sorted_new) - 50} more")
+
+    if blocker_file:
+        print(f"\n{'=' * 70}")
+        print(f"Would you like to add these {len(new_domains)} new domains to {blocker_file.name}?")
+        print("(This will append to the existing file)")
+
+        response = input(f"\nAdd new domains to {blocker_file.name}? (y/n): ").strip().lower()
+        if response == 'y':
+            try:
+                with open(blocker_file, 'a', encoding='utf-8') as f:
+                    f.write('\n# New domains added from upstream sources\n')
+                    for domain in sorted_new:
+                        f.write(domain + '\n')
+                print(f"\n✓ Added {len(new_domains)} new domains to {blocker_file}")
+            except Exception as e:
+                print(f"✗ Error writing to {blocker_file}: {e}")
+        else:
+            print("\nUpdate cancelled.")
     else:
-        print("\nUpdate cancelled.")
-    
+        print("No local blocklist file available to update automatically.")
+        print(f"Use {output_file} or add one of these domains to your preferred local blocklist manually.")
+
     print(f"{'=' * 70}\n")
 
 if __name__ == '__main__':

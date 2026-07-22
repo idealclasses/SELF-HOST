@@ -25,7 +25,8 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://nsfw.oisd.nl/
 
 # UT1 Adult – from University of Toulouse (erotic & hard porn)
-https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adult/domains
+# https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adult/domains
+#   (broken 2026-07-22: 404 Not Found)
 
 # The Block List Project (Porn) – already included above? This is the same as the first entry, so skipped.
 
@@ -33,10 +34,12 @@ https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adult/d
 # Use the single-file release if available; here is the latest release page:
 # https://github.com/columndeeply/hosts/releases/latest
 # Direct chunk example (part 1 of 6):
-https://raw.githubusercontent.com/columndeeply/hosts/master/hosts.porn.1
+# https://raw.githubusercontent.com/columndeeply/hosts/master/hosts.porn.1
+#   (broken 2026-07-22: 404 Not Found)
 
 # Categorized Blocklist (Adult)
-https://raw.githubusercontent.com/cipher-oos/Categorized-Web-Filter-Blocklists/main/adult/domains.txt
+# https://raw.githubusercontent.com/cipher-oos/Categorized-Web-Filter-Blocklists/main/adult/domains.txt
+#   (broken 2026-07-22: 404 Not Found)
 
 # aBL (arapurayil) – aggressive filter blocking adult content as part of "almost every bad website"
 https://raw.githubusercontent.com/arapurayil/aBL/refs/heads/main/filters/main.txt
@@ -54,7 +57,8 @@ https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/Azothyran/ShallalistMirror/master/porn/domains
 
 # A Personal 18+ Domains List
-https://raw.githubusercontent.com/niek-de-witte/18-domains/refs/heads/main/blacklist.txt
+# https://raw.githubusercontent.com/niek-de-witte/18-domains/refs/heads/main/blacklist.txt
+#   (broken 2026-07-22: 404 Not Found)
 
 # ============================================================
 # NEW 2026 SOURCES (Recently Verified)
