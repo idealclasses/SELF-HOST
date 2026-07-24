@@ -1,6 +1,9 @@
-/* 1. IMPORTS & FONTS
-   - Override this to customise font of abyss for your setup. */
+/* ================================================= */
+/* ========== ULTIMATE JELLYFIN THEME ============= */
+/* ========== Abyss + Red Glass Morphism ========== */
+/* ================================================= */
 
+/* 1. IMPORTS & FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 @font-face {
@@ -24,39 +27,46 @@
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-
     -webkit-font-feature-settings: 'liga';
     font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
-/* 2. THEME VARIABLES
-   — Override these to customise abyss for your setup. */
+/* ================================================= */
+/* 2. ULTIMATE THEME VARIABLES */
+/* Red Glass Colors + Abyss Structure ============ */
+/* ================================================= */
 
 :root {
-    /* Primary accent colour — used for highlights, active states, progress bars.
-       Format: R, G, B (no rgb() wrapper) so opacity variants work cleanly. */
-    --abyss-accent: 245, 245, 247;
-
-    /* Corner rounding applied globally */
+    /* Red Glass Morphism Color Scheme */
+    --primary-color: #1a0a0a;        /* Dark red background */
+    --secondary-color: #ffffff;      /* White text */
+    --accent-color: #ff3333;         /* Red accent */
+    --accent-light: #ff6666;         /* Light red */
+    --accent-soft: rgba(255, 51, 51, 0.15);
+    --accent-glow: rgba(255, 51, 51, 0.4);
+    --glass-dark: rgba(255, 255, 255, 0.05);
+    --glass-light: rgba(255, 255, 255, 0.1);
+    
+    /* Abyss Compatibility Variables */
+    --abyss-accent: 255, 51, 51;     /* Red Glass red in RGB format */
     --abyss-radius: 12px;
-
-    /* Fixed defaults */
-
-    /* Indicator pill background (episode count, etc.) */
     --abyss-indicator: 55, 55, 55;
-
-    /* Backgorund for drawers and dialogs */
     --abyss-glass-tint: 42, 42, 42;
-
-    /* Custom cubic-bezier */
     --abyss-ease: cubic-bezier(0.16, 1, 0.3, 1);
     --abyss-ease-snappy: cubic-bezier(0.4, 0.0, 0.2, 1);
+    
+    /* Logo */
+    --logo-url: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');
+    
+    /* Animation */
+    --transition-default: all 0.3s ease;
 }
 
-
-/* 3. BASE / GLOBAL */
+/* ================================================= */
+/* 3. BASE / GLOBAL STYLES ======================== */
+/* ================================================= */
 
 #reactRoot {
     scrollbar-gutter: stable;
@@ -68,6 +78,7 @@ body {
     font-style: normal;
     font-variation-settings: "GRAD" 0;
     overscroll-behavior: none;
+    background: linear-gradient(135deg, #1a0a0a 0%, #2d0f0f 100%) !important;
 }
 
 .material-icons {
@@ -87,7 +98,15 @@ body {
 }
 
 * {
-    scrollbar-color: rgba(var(--abyss-accent), 0.8) #0000 !important;
+    scrollbar-color: var(--accent-color) #0000 !important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 ::-webkit-scrollbar-track-piece {
@@ -99,8 +118,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(var(--abyss-accent), 0.8) !important;
-    border-radius: var(--abyss-radius);
+    background: linear-gradient(180deg, var(--accent-color), var(--accent-light));
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, var(--accent-light), var(--accent-color));
 }
 
 fieldset {
@@ -108,72 +131,52 @@ fieldset {
     border-radius: 0.4em;
 }
 
-progress {
-    border-radius: var(--abyss-radius);
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(var(--abyss-accent), 0.22);
+/* ================================================= */
+/* 4. ANIMATIONS ================================== */
+/* ================================================= */
+
+@keyframes logoGlow {
+    0% { filter: drop-shadow(0 0 5px var(--accent-glow)); }
+    50% { filter: drop-shadow(0 0 15px var(--accent-glow)); }
+    100% { filter: drop-shadow(0 0 5px var(--accent-glow)); }
 }
 
-progress::-webkit-progress-bar {
-    border-radius: var(--abyss-radius);
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 0px solid rgba(var(--abyss-accent), 0.22);
+@keyframes sidebarGlow {
+    0% { box-shadow: 0 0 8px rgba(255, 51, 51, 0.3); }
+    50% { box-shadow: 0 0 18px rgba(255, 51, 51, 0.6); }
+    100% { box-shadow: 0 0 8px rgba(255, 51, 51, 0.3); }
 }
 
-progress::-moz-progress-bar {
-    border-radius: var(--abyss-radius);
-    background-color: rgba(var(--abyss-accent), 0.75);
+@keyframes ballBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
 }
 
-progress::-webkit-progress-value {
-    border-radius: var(--abyss-radius);
-    background-color: rgba(var(--abyss-accent), 0.75);
+@keyframes lds-ring {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
-.taskProgressOuter,
-.taskProgressInner {
-    border-radius: var(--abyss-radius) !important;
+/* ================================================= */
+/* 5. FOCUS & SELECTION STATES =================== */
+/* ================================================= */
+
+*:focus {
+    outline: 2px solid var(--accent-color) !important;
 }
 
-.taskProgressOuter {
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(var(--abyss-accent), 0.22);
-}
-
-.taskProgressInner,
-#videoOsdPage .sliderMarker.watched {
-    background: rgba(var(--abyss-accent), 1) !important;
-}
-
-#videoOsdPage .sliderMarker.unwatched {
-    background: hsl(0deg 0% 30%) !important;
-}
-
-.mdl-slider-background-flex {
-    background: hsl(0deg 0% 30%) !important;
-}
-
-#divRunningTasks span {
-    color: rgba(var(--abyss-accent), 0.75) !important;
-}
-
-#scheduledTasksPage span {
-    color: rgba(var(--abyss-accent), 0.75) !important;
-}
-
-/* Override browser default blue focus/selection colour */
 ::selection {
-    background: rgba(var(--abyss-accent), 0.25);
-    color: rgb(var(--abyss-accent));
+    background: rgba(255, 51, 51, 0.25);
+    color: rgb(255, 51, 51);
 }
 
 ::-moz-selection {
-    background: rgba(var(--abyss-accent), 0.25);
-    color: rgb(var(--abyss-accent));
+    background: rgba(255, 51, 51, 0.25);
+    color: rgb(255, 51, 51);
 }
 
 :focus-visible {
-    outline-color: rgba(var(--abyss-accent), 0.6) !important;
+    outline-color: rgba(255, 51, 51, 0.6) !important;
 }
 
 input:focus,
@@ -184,2140 +187,691 @@ select:focus,
 .emby-select:focus,
 .emby-select-withcolor:focus,
 .checkboxOutline:focus {
-    border-color: rgba(var(--abyss-accent), 0.4) !important;
+    border-color: rgba(255, 51, 51, 0.4) !important;
 }
 
 input[type="checkbox"]:checked,
 input[type="radio"]:checked {
-    accent-color: rgb(var(--abyss-accent));
+    accent-color: rgb(255, 51, 51);
 }
 
-/* Override Chromium/Electron blue accent globally */
 * {
-    accent-color: rgb(var(--abyss-accent));
+    accent-color: rgb(255, 51, 51);
 }
 
-/* 4. TYPOGRAPHY */
+/* ================================================= */
+/* 6. PROGRESS & INDICATORS ====================== */
+/* ================================================= */
 
-.headerTabs.sectionTabs {
-    text-size-adjust: 110%;
-    font-size: 110%;
-    padding-top: 8px;
-    margin-top: -2em;
-    width: fit-content;
-    max-width: 95vw;
-    align-self: center !important;
-    border-radius: 50px;
-}
-
-.pageTitle {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: x-large;
-    opacity: 0.8;
-    font-weight: 500;
-    border-radius: 12px;
-}
-
-.pageTitle:not(:empty) {
-    padding: 0 12px;
-}
-
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-    display: none !important;
-}
-
-
-#tvRecommendedPage .pageTitle,
-#moviesPage .pageTitle,
-#musicRecommendedPage .pageTitle,
-#itemDetailPage .pageTitle {
-    display: none !important;
-}
-
-#videoOsdPage .pageTitle {
-    display: flex !important;
-}
-
-.sectionTitle {
-    font-weight: 600;
-}
-
-.homeScreenSettingsContainer .sectionTitle,
-#quickConnectPreferencesPage .sectionTitle,
-.settingsContainer .sectionTitle {
-    font-size: xx-large;
-}
-
-#favoritesTab .sectionTitle,
-.homeSectionsContainer .sectionTitle {
-    margin-left: .4em !important;
-    margin-top: .2em !important;
-    margin-bottom: .2em !important;
-}
-
-.sectionTitleTextButton>.material-icons {
-    margin: 0;
-}
-
-.sectionTitleTextButton:not(.padded-left) {
-    padding: 4px 12px 6px 6px !important;
-    margin-left: -6px !important;
+progress {
     border-radius: var(--abyss-radius);
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(255, 51, 51, 0.22);
 }
 
-.sectionTitleTextButton>.sectionTitle {
-    margin-right: 16px;
+progress::-webkit-progress-bar {
+    border-radius: var(--abyss-radius);
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 0px solid rgba(255, 51, 51, 0.22);
 }
 
-.inputLabel,
-.selectLabel,
-.checkboxLabel {
-    font-weight: 500;
+progress::-moz-progress-bar {
+    border-radius: var(--abyss-radius);
+    background-color: rgba(255, 51, 51, 0.75);
 }
 
-.cardText {
-    padding: .06em .5em 0 .06em;
-    font-weight: 200;
-    font-size: medium;
-    opacity: 0.8;
+progress::-webkit-progress-value {
+    border-radius: var(--abyss-radius);
+    background-color: rgba(255, 51, 51, 0.75);
 }
 
-.cardText-first {
-    margin-top: 4px !important;
-    font-weight: 600;
-    font-size: larger !important;
-    opacity: 1 !important;
+.taskProgressOuter,
+.taskProgressInner {
+    border-radius: var(--abyss-radius) !important;
 }
 
-.cardTextCentered,
-.cardTextCentered>.textActionButton {
-    text-align: left !important;
+.taskProgressOuter {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(255, 51, 51, 0.22);
 }
 
-.itemName {
-    margin: .5em 0 !important;
+.taskProgressInner,
+#videoOsdPage .sliderMarker.watched {
+    background: rgb(255, 51, 51) !important;
 }
 
-.starIcon {
-    color: rgba(var(--abyss-accent), .8);
+#videoOsdPage .sliderMarker.unwatched {
+    background: hsl(0deg 0% 30%) !important;
 }
 
-.dialog {
-    font-weight: 500;
+.mdl-slider-background-flex {
+    background: hsl(0deg 0% 30%) !important;
 }
 
-.formDialogHeaderTitle {
-    font-weight: bold !important;
-    margin-left: 0 !important;
+#divRunningTasks span,
+#scheduledTasksPage span {
+    color: rgba(255, 51, 51, 0.75) !important;
 }
 
-#dialogToc {
-    overflow: clip;
-    display: flex;
-    flex-direction: column;
+/* ================================================= */
+/* 7. LAYOUT COMPONENTS - HEADER ================== */
+/* ================================================= */
+
+.skinHeader, div.header {
+    background: rgba(255, 51, 51, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(255, 51, 51, 0.3) !important;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3) !important;
+    position: relative;
+    transition: var(--transition-default);
+    height: 115px !important;
+    padding: 8px 15px !important;
 }
 
-#dialogToc .toc {
-    overflow-y: scroll;
+/* Replace default Jellyfin logo */
+.headerLogo {
+    background-image: var(--logo-url) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 180px !important;
+    height: 50px !important;
+    filter: brightness(1.2) contrast(1.3);
+    transition: var(--transition-default);
+    animation: logoGlow 3s infinite ease-in-out;
+    position: relative !important;
+    z-index: 1 !important;
 }
 
-#dialogToc .toc li {
-    margin-bottom: 12px;
+.headerLogo:hover {
+    transform: scale(1.05);
+    animation-duration: 1.5s;
+    filter: brightness(1.4) drop-shadow(0 0 15px rgba(255, 51, 51, 0.8));
 }
 
-
-/* 5. LAYOUT & STRUCTURE */
-
-/* Header */
-.headerTop {
-    padding: 2em 0 !important;
+.headerLogo img {
+    opacity: 0 !important;
 }
 
-.skinHeader {
-    background-color: transparent;
-    display: flex !important;
-    justify-items: center !important;
-    align-self: center !important;
-    justify-content: center !important;
+/* Login Page Logo */
+.loginPage .headerLogo {
+    width: 250px !important;
+    height: 70px !important;
+    margin: 0 auto 30px !important;
 }
 
-.skinHeader.semiTransparent {
-    background-color: transparent;
-}
+/* ================================================= */
+/* 8. LAYOUT COMPONENTS - SIDEBAR ================= */
+/* ================================================= */
 
-.skinHeader-withBackground::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 8em;
-    pointer-events: none;
-    background: none;
-    z-index: 1;
-}
-
-.headerLeft,
-.headerRight {
-    padding: 0 31px;
-    align-items: center;
-}
-
-.headerUserButtonRound {
-    border-radius: 50px !important;
-}
-
-/* Main content */
-.withSectionTabs .backdropImage {
-    -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-    filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-}
-
-body:has(#itemDetailPage) .backdropImage {
-    -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-    filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-}
-
-.backdropContainer {
-    width: 100vw;
-    height: 100vh;
-    overflow: visible;
-}
-
-.backgroundContainer.withBackdrop {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-
-
-/* Navigation / drawer */
-.editPageSidebar,
 .mainDrawer {
-    background-color: rgba(var(--abyss-glass-tint), 0.69);
-    margin: 24px 0;
-    border-radius: 32px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: solid 1px rgba(245, 245, 247, 0.2) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-right: 1px solid rgba(255, 51, 51, 0.2) !important;
+    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.1);
 }
 
-.mainDrawer.drawer-open {
-    margin: 24px;
-}
-
-.sidebarHeader {
-    margin: 0.9em 0 0.2em;
-    letter-spacing: 0.02em;
-    opacity: 0.5;
-    font-weight: 600;
-}
-
-[dir=ltr] .sidebarHeader {
-    padding-left: 0.8em;
-}
-
-.emby-tabs {
-    border-radius: 50px;
-}
-
-.emby-tabs-slider {
-    border-radius: 50px;
-    padding: 5px 2.5px;
-    overflow: auto;
-    scrollbar-width: none;
-    background-color: rgba(var(--abyss-glass-tint), 0.9);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(87, 87, 87, 0.18);
-}
-
-/* Engines without scrollbar-width support (Chromium <121, e.g. JMP) */
-.emby-tabs-slider::-webkit-scrollbar {
-    display: none;
-}
-
-.navMenuOptionText {
-    margin-top: 0;
-    font-weight: 500;
-    font-size: large;
-}
-
-.navMenuOptionIcon,
-.listItemIcon {
-    background: #cccccf69;
-    border-radius: 50px;
-    padding: 10px;
-}
-
-[dir=ltr] .navMenuOptionIcon {
-    margin-right: 0.75em;
-}
-
-[dir=ltr] .listItemIcon {
-    background: #cccccf69 !important;
-    border-radius: 50px !important;
-    padding: 10px !important;
-}
-
-[dir=ltr] .navMenuOption {
-    padding: 0.5em 0.9em !important;
-    margin-bottom: 2px !important;
+.navMenuItem {
     border-radius: 12px !important;
-}
-
-.scrollContainer {
-    padding: 36px 12px 0 12px;
-}
-
-/* Footer */
-.appfooter {
-    background: rgba(0, 0, 0, 0.9);
-    margin: 24px;
-    border-radius: 24px;
-}
-
-/* Backdrop / detail ribbon */
-.itemBackdrop {
-    height: 31vh !important;
-    display: inherit;
-}
-
-.layout-desktop .detailRibbon {
-    background: rgba(0, 0, 0, .2) !important;
-    margin-top: 0;
-    padding-top: .5em;
-    padding-bottom: .5em;
-}
-
-.itemBackdrop::after {
-    background: rgba(0, 0, 0, .5) !important;
-}
-
-/* Detail logo */
-.detailLogo {
-    display: none;
-}
-
-#itemDetailPage .detailLogo {
-    position: static;
-    margin-left: 32.5%;
-    display: block;
-    filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-    -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
-    flex-shrink: 0;
-    background-position: 0 50%;
-    margin-top: -18vh;
-    margin-bottom: 2vh;
-}
-
-/* Infobanner */
-.infoBanner {
-    background: #101010;
-}
-
-/* Blurhash canvas */
-.blurhash-canvas {
-   -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-    filter: opacity(60%) saturate(60%);
-}
-
-/* Default card backgrounds */
-.defaultCardBackground1 {
-    background-color: #0a0a0a;
-}
-
-.defaultCardBackground2 {
-    background-color: #141414;
-}
-
-.defaultCardBackground3 {
-    background-color: #212121;
-}
-
-.defaultCardBackground4 {
-    background-color: #333333;
-}
-
-.defaultCardBackground5 {
-    background-color: #666666;
-}
-
-/* Hide card text in My Media section */
-.homeSectionsContainer .verticalSection:has([data-type="CollectionFolder"]) .cardText {
-    display: none !important;
-}
-
-.homeSectionsContainer {
-    padding: 0 7px !important;
-}
-
-#indexPage:has(.featurediframe) #favoritesTab {
-    margin-top: 7.5rem !important;
-}
-
-
-
-/* Disable theme selectors - managed by Abyss */
-
-.selectContainer:has(#selectTheme),
-.selectDashboardThemeContainer {
-    cursor: not-allowed !important;
-}
-
-/* Lock theme selectors only when dark theme is active */
-.selectContainer:has(#selectTheme option[value="dark"]:checked),
-.selectContainer:has(#selectDashboardTheme option[value="dark"]:checked) {
-    cursor: not-allowed !important;
-}
-
-.selectContainer:has(#selectTheme option[value="dark"]:checked) #selectTheme,
-.selectContainer:has(#selectDashboardTheme option[value="dark"]:checked) #selectDashboardTheme {
-    pointer-events: none !important;
-    opacity: 0.4 !important;
-}
-
-.selectContainer:has(#selectTheme option[value="dark"]:checked) #selectTheme+.selectArrow,
-.selectContainer:has(#selectDashboardTheme option[value="dark"]:checked) #selectDashboardTheme+.selectArrow {
-    opacity: 0.4 !important;
-}
-
-
-/* 6. COMPONENTS */
-
-/* Buttons & Interactive */
-
-.raised,
-.fab,
-a[data-role="button"] {
-    background: rgba(40, 40, 40, 0.8) !important;
-    transition: background 0.37s var(--abyss-ease),
-        color 0.37s var(--abyss-ease),
-        border-color 0.37s var(--abyss-ease),
-        box-shadow 0.37s var(--abyss-ease) !important;
-}
-
-.raised:hover,
-.fab:hover,
-a[data-role="button"]:hover {
-    background: rgba(var(--abyss-accent), 0.5) !important;
-}
-
-.raised:hover,
-.fab:hover,
-.navMenuOption:hover,
-.listItem:hover,
-.actionSheetMenuItem:hover,
-.css-17c09up:hover {
-    background: rgb(var(--abyss-accent)) !important;
-    color: #121212;
-    font-weight: 700;
-}
-
-.listItem-content:hover {
-    color: #121212;
-}
-
-.actionSheetMenuItem {
-    border-radius: var(--abyss-radius) !important;
-}
-
-.actionSheetContent {
-    padding: .7em .6em !important;
-}
-
-.cardContent.cardImageContainer {
-    box-shadow: 0 0 3px rgba(200, 200, 200, 0.35) inset;
-}
-
-.paper-icon-button-light:hover,
-.paper-icon-button-light:hover:not(:disabled) {
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-.paper-icon-button-light {
-    border-radius: var(--abyss-radius);
-}
-
-.emby-button.show-focus:focus {
-    background: rgba(var(--abyss-accent), 0.5) !important;
-}
-
-.paper-icon-button-light.show-focus:focus {
-    color: rgb(var(--abyss-accent)) !important;
-}
-
-.emby-tab-button {
-    padding: 0.5em 1.5em;
-    margin: 0 2.5px;
-    border-radius: 50px;
-}
-
-.emby-tab-button-active {
-    background: rgb(var(--abyss-accent));
-    color: #121212;
-    border-radius: 50px;
-}
-
-.emby-tab-button-active:hover {
-    color: #121212 !important;
-}
-
-.button-flat:hover {
-    background: rgba(0, 0, 0, 0.4);
-    color: rgb(var(--abyss-accent)) !important;
-}
-
-.detailButton {
-    border-radius: var(--abyss-radius);
-    max-width: 15vw !important;
-}
-
-.button-submit {
-    position: sticky;
-    bottom: 24px;
-    margin-top: 48px !important;
-    box-shadow: 0 0 24px 2px rgba(var(--abyss-accent), 0.2);
-    z-index: 2;
-}
-
-/* Active / played / link states */
-.paper-icon-button-light:hover,
-.raised.homeLibraryButton:hover,
-.button-flat:hover,
-.playstatebutton-icon-played,
-.ratingbutton-icon-withrating,
-.paper-icon-button-light:hover:not(:disabled),
-.emby-tab-button:hover,
-.selectLabelFocused,
-.inputLabelFocused,
-.textareaLabelFocused,
-.buttonActive,
-.button-link {
-    color: rgb(var(--abyss-accent));
-}
-
-#itemDetailPage .button-link {
-    color: inherit !important;
-}
-
-.ratingbutton-icon-withrating {
-    color: rgb(249, 38, 114) !important;
-}
-
-/* Theme user setting tab buttons */
-div[data-role="controlgroup"] a.ui-btn-active {
-    background: rgba(0, 0, 0, 0.5) !important;
-    color: white !important;
-}
-
-div[data-role="controlgroup"] a[data-role="button"] {
-    display: table-cell !important;
-    margin: 0 !important;
-}
-
-/* Home Library Buttons */
-
-.homeLibraryButton {
-    min-width: 12em;
-    margin: 0.4em;
-    width: auto !important;
-}
-
-.raised.homeLibraryButton {
-    background: rgba(0, 0, 0, 0.3) !important;
-    transition: background 0.37s var(--abyss-ease),
-        border-color 0.37s var(--abyss-ease),
-        box-shadow 0.37s var(--abyss-ease);
-    border: solid 1px rgba(var(--abyss-accent), 0) !important;
-}
-
-.raised.homeLibraryButton:hover {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-
-/* Dialogs & Overlays */
-
-.playerStats-stats,
-.upNextContainer,
-.dialog,
-.toast {
-    border-radius: 24px !important;
-}
-
-.iconOsd {
-    right: 24px;
-    top: 8.5%;
-    border-radius: 18px !important;
-}
-
-.iconOsdIcon {
-    margin: .5em .63em 0 .63em;
-}
-
-.iconOsdProgressOuter {
-    margin: 1.5em .25em 0.35em;
-}
-
-.formDialogHeader {
-    border-top-left-radius: var(--abyss-radius);
-    border-top-right-radius: var(--abyss-radius);
-}
-
-.formDialogFooter {
-    border-bottom-left-radius: var(--abyss-radius);
-    border-bottom-right-radius: var(--abyss-radius);
-}
-
-.formDialogFooter-clear,
-.formDialogHeader-clear,
-.innerCardFooterClear {
-    background-color: transparent !important;
-}
-
-.formDialogContent {
-    margin-bottom: 6.2em;
-}
-
-.dialogContentInner {
-    padding: .5em 1em 1em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-/* Cards */
-
-.visualCardBox,
-.cardImageContainer {
-    box-shadow: none;
-}
-
-.cardBox-bottompadded {
-    margin-bottom: 0.6em !important;
-}
-
-.cardOverlayContainer {
-    border-radius: var(--abyss-radius) !important;
-    border: solid 1px rgba(var(--abyss-accent), 0.0) !important;
-    transition: border-color 0.15s var(--abyss-ease) !important;
-}
-
-.button-submit,
-.cardOverlayContainer:hover,
-.dialog,
-.toast,
-.upNextContainer,
-.playerStats-stats,
-.raised.homeLibraryButton:hover {
-    border: solid 1px rgba(245, 245, 247, 0.2) !important;
-}
-
-.cardPadder {
-    background-color: #0000 !important;
-    box-shadow: none !important;
-    border-radius: var(--abyss-radius) !important;
-}
-
-.card.show-animation:focus>.cardBox {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: transform 0.37s var(--abyss-ease) !important;
-}
-
-
-
-/* Card Indicators */
-
-.cardIndicators,
-.listItemIndicators {
-    right: .225em;
-    top: .225em;
-    padding: 2px;
-}
-
-.mediaSourceIndicator {
-    left: 0.5em;
-    top: 0.5em;
-    background: rgba(0, 0, 0, 0.4);
-    box-shadow: none;
-    border-radius: var(--abyss-radius);
-}
-
-.innerCardFooter {
-    margin: .5em;
-    background: rgba(0, 0, 0, 0.4);
-    box-shadow: none;
-}
-
-.countIndicator {
-    background: rgba(var(--abyss-indicator), 0.8);
-    box-shadow: none;
+    margin: 8px 8px !important;
+    transition: var(--transition-default);
+    position: relative !important;
+    z-index: 1 !important;
+    color: var(--secondary-color) !important;
+    font-weight: 500 !important;
+}
+
+.navMenuItem:hover {
+    background: rgba(255, 51, 51, 0.15) !important;
+    transform: translateX(4px);
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3);
+    color: var(--accent-color) !important;
+}
+
+.navMenuItem.active {
+    background: rgba(255, 51, 51, 0.25) !important;
+    border-left: 3px solid var(--accent-color) !important;
+    box-shadow: inset 0 0 20px rgba(255, 51, 51, 0.2), 0 0 15px rgba(255, 51, 51, 0.4);
+    animation: sidebarGlow 2.5s infinite;
+    color: var(--accent-color) !important;
+}
+
+/* ================================================= */
+/* 9. INTERACTIVE ELEMENTS - BUTTONS ============== */
+/* ================================================= */
+
+button,
+.emby-button {
+    background: rgba(255, 51, 51, 0.1) !important;
+    color: var(--accent-color) !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
     border-radius: 10px !important;
-    padding: 4px;
-    font-weight: bolder;
+    transition: var(--transition-default);
+    font-weight: 600 !important;
+    backdrop-filter: blur(10px) !important;
 }
 
-.playedIndicator {
-    background: rgba(0, 0, 0, 0.4);
-    box-shadow: none;
+button:hover,
+.emby-button:hover {
+    background: rgba(255, 51, 51, 0.25) !important;
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 20px rgba(255, 51, 51, 0.6), inset 0 0 20px rgba(255, 51, 51, 0.1);
+    transform: scale(1.05);
+    color: var(--accent-light) !important;
+}
+
+/* ================================================= */
+/* 10. INTERACTIVE ELEMENTS - SEARCH ============== */
+/* ================================================= */
+
+div.searchBox {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
     border-radius: 10px !important;
-    padding: 4px;
-    font-weight: bolder;
+    color: var(--accent-color) !important;
+    backdrop-filter: blur(10px) !important;
 }
 
-.cardOverlayButton-br.cardIndicators {
-    bottom: 0;
-    position: absolute;
+div.searchBox input {
+    color: var(--accent-color) !important;
+    background: transparent !important;
 }
 
-/* Indicators & Progress */
-
-.missingIndicator,
-.unairedIndicator {
-    background: #ae3030eb;
-    padding: .3em .6em;
-    color: #fff;
-}
-
-.transcodingProgress>div,
-.itemProgressBarForeground {
-    background-color: rgba(var(--abyss-accent), 0.3);
-}
-
-.playbackProgress>div {
-    background-color: rgba(var(--abyss-accent), 0.75);
-}
-
-.backgroundProgress>div {
-    background: rgba(0, 0, 0, 0);
-    background-color: #0000;
-}
-
-.itemProgressBar {
-    background: rgba(0, 0, 0, 0.25);
-}
-
-/* Sliders */
-
-.mdl-slider-background-lower {
-    background-color: rgb(var(--abyss-accent));
-}
-
-.mdl-slider::-moz-range-thumb {
-    border-radius: var(--abyss-radius);
-    background: rgb(var(--abyss-accent));
-}
-
-.mdl-slider::-ms-thumb {
-    border-radius: var(--abyss-radius);
-    background: rgb(var(--abyss-accent));
-}
-
-.mdl-slider::-webkit-slider-thumb {
-    border-radius: var(--abyss-radius);
-    background: rgb(var(--abyss-accent));
-}
-
-.sliderMarker {
-    width: 3px;
-    border-radius: 2px;
-}
-
-/* Toggle Switches */
-
-.mdl-switch__input:checked+.mdl-switch__label+.mdl-switch__trackContainer>.mdl-switch__track {
-    background: rgba(var(--abyss-accent), 0.5);
-}
-
-.mdl-switch__input:checked+.mdl-switch__label+.mdl-switch__trackContainer>.mdl-switch__thumb {
-    background: rgb(var(--abyss-accent));
-}
-
-/* Spinner */
-
-.mdl-spinner__layer-1 {
-    border-color: rgb(var(--abyss-accent));
-}
-
-.mdl-spinner__layer-2 {
-    border-color: rgba(128, 128, 128, 1);
-}
-
-.mdl-spinner__layer-3 {
-    border-color: rgba(40, 40, 40, 1);
-}
-
-.mdl-spinner__layer-4 {
-    border-color: rgba(0, 0, 0, 1);
-}
-
-/* Progress Ring */
-
-.progressring-spiner {
-    border-color: rgb(var(--abyss-accent));
-    border-width: .35em;
-}
-
-.progressring {
-    margin: .4em;
-}
-
-.progressring-bg {
-    display: none;
-}
-
-/* Lists */
-
-.listItem {
-    padding-left: 1em;
-    margin-bottom: 2px !important;
-}
-
-.listItem bdi:first-of-type {
-    font-weight: 500;
-    font-variation-settings: "wght" 500;
-    transition:
-        color 0.3s ease,
-        font-variation-settings 0.3s ease;
-}
-
-.listItem bdi p {
-    font-weight: 400 !important;
-    font-variation-settings: "wght" 400 !important;
-}
-
-.listItem:hover bdi:first-of-type {
-    font-weight: 600;
-    font-variation-settings: "wght" 600;
-}
-
-.listItem:hover bdi p,
-.listItem:hover bdi p::before {
-    font-weight: 400 !important;
-    font-variation-settings: "wght" 400 !important;
-}
-
-.listItem-border {
-    border-color: rgba(var(--abyss-accent), 0) !important;
-}
-
-.listItemIcon {
-    background: #0000 !important;
-    border-radius: var(--abyss-radius) !important;
-}
-
-.listItem-indexnumberleft {
-    margin: 1em;
-}
-
-.listItemImageButton {
-    margin: auto;
-    font-size: 1.6em !important;
-    border-radius: var(--abyss-radius) !important;
-}
-
-.listItemImageButton-icon {
-    padding: 0;
-}
-
-.listItemImageButton:hover {
-    color: rgb(var(--abyss-accent));
-}
-
-.secondary.listItem-overview.listItemBodyText {
-    height: unset !important;
-    margin: 0;
-}
-
-.listItem:hover,
-.listItem:hover .secondary,
-.listItem:hover .listItem-secondaryText,
-.listItem:hover p,
-.listItem:hover span,
-.listItem:hover div,
-.listItem:hover .runtime,
-.listItem:hover .starIcon::before,
-.listItem:hover .starRatingContainer,
-.listItem:hover .listItem-overview {
-    color: #121212b7 !important;
-}
-
-.listItem:hover,
-.listItem:hover .listItemBodyText {
-    color: #121212 !important;
-}
-
-.listItem:hover .material-icons,
-.listItem:hover .listItemImageButton {
-    color: #121212 !important;
+div.searchBox input::placeholder {
+    color: rgba(255, 51, 51, 0.5) !important;
 }
 
-.listItem:hover .countIndicator,
-.listItem:hover .playedIndicator {
-    background: rgba(0, 0, 0, 0.15) !important;
-    color: #121212 !important;
-}
-
-.listItem:hover .itemProgressBarForeground {
-    background-color: rgba(18, 18, 18, 0.6) !important;
-}
-
-.listItem:hover .itemProgressBar {
-    background: rgba(18, 18, 18, 0.2) !important;
-}
-
-.listItem:hover .ratingbutton-icon-withrating {
-    color: rgb(249, 38, 114) !important;
-}
-
-.listItem:hover .listItemImageButton-icon {
-    color: rgba(255, 255, 255, 0.9) !important;
-}
-
-/* Form Inputs */
-#homeScreenPreferencesPage,
-#languagePreferencesPage {
-    & form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    & .button-submit {
-        width: 97%;
-        align-self: center !important;
-    }
-}
-
-#quickConnectPreferencesPage .inputContainer {
-    text-align: center;
-}
-
-.emby-input,
-.emby-textarea {
-    padding: .4em .55em;
-}
-
-.emby-textarea {
-    font-family: monospace;
-    font-size: 10pt;
-}
-
-.emby-select {
-    padding: .35em 1.9em .35em .35em;
-}
-
-.selectArrow {
-    margin-top: 1.05em;
-}
-
-.itemSelectionPanel,
-.checkboxOutline,
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor,
-.checkboxOutline:focus,
-.emby-input:focus,
-.emby-textarea:focus,
-.emby-select-withcolor:focus {
-    border: 1px solid rgba(40, 40, 40, 0.8);
-}
-
-.checkboxOutline {
-    border-color: rgba(var(--abyss-accent), 0.3) !important;
-    transition: background 0.2s var(--abyss-ease),
-        border-color 0.2s var(--abyss-ease);
-}
-
-input[type="checkbox"]:checked~.checkboxOutline,
-input[type="checkbox"]:checked+.checkboxOutline {
-    background: rgb(var(--abyss-accent)) !important;
-    border-color: rgb(var(--abyss-accent)) !important;
-}
-
-.checkboxIcon {
-    color: #121212 !important;
-}
-
-input[type="checkbox"]:focus~.checkboxOutline,
-input[type="checkbox"]:focus+.checkboxOutline {
-    outline: 2px solid rgba(var(--abyss-accent), 0.4) !important;
-    outline-offset: 2px;
-}
-
-#txtQuickConnectCode {
-    font-size: xxx-large;
-    font-weight: 900;
-    letter-spacing: 12px;
-    text-align: center;
-    margin-top: 12px;
-}
-
-/* Paper / Table */
-
-.sessionCardFooter {
-    border: none;
-}
-
-#user_usage_report_table,
-.detailTable {
-    background: rgba(0, 0, 0, .5);
-}
-
-.detailTableBodyRow-shaded {
-    background: #0000 !important;
-}
-
-/* Sync Play */
-
-.syncPlayIconCircle {
-    color: rgb(var(--abyss-accent)) !important;
-    text-shadow: none !important;
-}
-
-/* Subtitle Preview */
-
-.subtitleappearance-preview {
-    background: linear-gradient(140deg, rgb(var(--abyss-accent)), #111) !important;
-}
-
-.subtitleappearance-preview #sliderVertical {
-    margin: 24px !important;
-}
-
-.subtitle {
-    padding-left: 0 !important;
-}
-
-/* Others */
-#userProfilePage .readOnlyContent,
-.readOnlyContent .verticalSection,
-#languagePreferencesPage .settingsContainer .verticalSection,
-.subtitleAppearanceSection,
-.homeScreenSettingsContainer .perLibrarySettings,
-.homeScreenSettingsContainer .verticalSection-extrabottompadding {
-    padding: 16px;
-    background-color: rgba(var(--abyss-glass-tint), 0.69);
-    border-radius: 32px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: solid 1px rgba(245, 245, 247, 0.2) !important;
-}
-
-.homeScreenSettingsContainer .verticalSection-extrabottompadding .verticalSection {
-    padding: 0 !important;
-    border-radius: 0;
-    background: none !important;
-    box-shadow: none;
-    border: none !important;
-}
-
-.homeScreenSettingsContainer .perLibrarySettings {
-    margin-bottom: 36px !important;
-}
-
-.homeScreenSettingsContainer .paperList {
-    padding: 12px;
-    background-color: rgba(var(--abyss-glass-tint), 0.69);
-    border-radius: 24px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    margin: 0 !important;
-}
-
-.readOnlyContent .adminSection {
-    border-radius: 32px 32px 6px 6px !important;
-    margin-bottom: 12px !important;
-}
-
-.readOnlyContent .userSection {
-    border-radius: 6px 6px 32px 32px !important;
-}
-
-.readOnlyContent .userSection .sectionTitle {
-    padding-top: 0 !important;
-}
-
-#userProfilePage .readOnlyContent {
-    padding: 0 !important;
-}
-
-#userProfilePage .readOnlyContent div {
-    align-items: baseline !important;
-    margin-right: 12px !important;
-}
-
-#image,
-#uploadImage {
-    border-radius: 24px !important;
-    margin: 12px !important;
-}
-
-#quickConnectPreferencesPage {
-    justify-items: center;
-}
+/* ================================================= */
+/* 11. PLAYER CONTROLS ============================= */
+/* ================================================= */
 
-.itemSelectionPanel {
+.videoOsdBottom {
+    background: rgba(26, 10, 10, 0.8) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border-radius: 14px !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    max-width: 70% !important;
+    margin: 0 auto 20px !important;
     padding: 12px !important;
 }
 
-.selectionCommandsPanel {
-    padding: 1.5em 24px !important;
+.slider {
+    background: rgba(255, 255, 255, 0.1) !important;
+    height: 4px !important;
+    border-radius: 2px !important;
 }
 
-[dir=ltr] .playerStats-stats {
-    padding: 1em 3em 2em 2em;
+.sliderTrack {
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
+    height: 4px !important;
+    border-radius: 2px !important;
+    box-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
 }
 
-
-.playerStats-stat {
-    align-items: baseline;
+.sliderHandle {
+    background: radial-gradient(circle, var(--accent-light), var(--accent-color)) !important;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.8);
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    animation: ballBounce 1s ease-in-out infinite;
 }
 
-.playerStats-stat-header {
-    font-size: medium !important;
+/* Control Buttons */
+.videoOsdBottom button,
+.videoOsdBottom .emby-button {
+    background: rgba(255, 51, 51, 0.1) !important;
+    color: var(--accent-color) !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
+    border-radius: 6px !important;
+    transition: var(--transition-default);
 }
 
-.playerStats-stat-label {
-    opacity: 0.5;
-    padding-bottom: 2px;
+.videoOsdBottom button:hover,
+.videoOsdBottom .emby-button:hover {
+    background: rgba(255, 51, 51, 0.25) !important;
+    color: var(--accent-light) !important;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.8);
 }
 
-.playerStats-stat-value {
-    font-family: monospace;
-    font-size: medium;
+/* Time & Labels */
+.videoOsdBottom .osdTimeText,
+.videoOsdBottom .osdText {
+    color: var(--accent-color) !important;
+    font-weight: 600 !important;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+    font-size: 16px !important;
 }
 
-.playerStats-closeButton {
-    margin: 10px;
+/* Volume Slider */
+.videoOsdBottom .volumeSlider .sliderTrack {
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
+    box-shadow: 0 0 8px rgba(255, 51, 51, 0.5);
 }
 
-[dir="ltr"] .upNextContainer {
-    margin: 0px 2em 10.4em 0px;
+.videoOsdBottom .volumeSlider .sliderHandle {
+    background: var(--accent-light) !important;
+    box-shadow: 0 0 12px rgba(255, 51, 51, 0.8);
 }
 
-#castCollapsible,
-#scenesCollapsible,
-#similarCollapsible,
-.moreFromSeasonSection {
+/* ================================================= */
+/* 12. MODALS & DIALOGS =========================== */
+/* ================================================= */
+
+.dialog,
+.drawer,
+.menu {
+    background: rgba(26, 10, 10, 0.8) !important;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
+    border-radius: 14px !important;
+    color: var(--secondary-color) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* ================================================= */
+/* 13. TEXT STYLING ================================ */
+/* ================================================= */
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color) !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+    font-weight: 700 !important;
+}
+
+label, .info-text {
+    color: var(--secondary-color) !important;
+    font-weight: 500 !important;
+}
+
+/* Links */
+a, a:visited, a:active {
+    color: var(--accent-color) !important;
+}
+
+a:hover {
+    color: var(--accent-light) !important;
+    text-shadow: 0 0 10px rgba(255, 51, 51, 0.8);
+}
+
+/* SVG Elements */
+svg, svg path {
+    fill: var(--accent-color) !important;
+    stroke: var(--accent-color) !important;
+}
+
+/* ================================================= */
+/* 14. UTILITY COMPONENTS ========================= */
+/* ================================================= */
+
+/* Dividers */
+hr, .divider {
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 51, 51, 0.3),
+        transparent
+    ) !important;
+    border: none !important;
+    height: 1px !important;
+}
+
+/* Badges */
+.badge {
+    background: rgba(255, 51, 51, 0.2) !important;
+    color: var(--accent-color) !important;
+    font-weight: 700 !important;
+    box-shadow: 0 0 12px rgba(255, 51, 51, 0.5);
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
+}
+
+/* Ratings/Stars */
+.rating, .stars {
+    color: var(--accent-color) !important;
+    text-shadow: 0 0 6px rgba(255, 51, 51, 0.5);
+}
+
+/* Progress Bars */
+.progress, progress {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: var(--accent-color) !important;
+}
+
+.progress-bar {
+    background: linear-gradient(
+        90deg,
+        var(--accent-color),
+        var(--accent-light)
+    ) !important;
+    box-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
+}
+
+/* Alerts and Notifications */
+.alert, .notification {
+    background: rgba(255, 51, 51, 0.1) !important;
+    border-left: 3px solid var(--accent-color) !important;
+    color: var(--secondary-color) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Loading Spinner */
+.lds-ring div,
+.spinner {
+    border-color: var(--accent-color) transparent transparent transparent !important;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+/* ================================================= */
+/* 15. FOOTER & BRANDING =========================== */
+/* ================================================= */
+
+.footer,
+.pageFooter {
+    background: rgba(26, 10, 10, 0.7) !important;
+    backdrop-filter: blur(20px) !important;
+    border-top: 1px solid rgba(255, 51, 51, 0.2) !important;
+}
+
+/* Footer Logo */
+.pageFooter:before {
+    content: '' !important;
+    display: block !important;
+    background-image: var(--logo-url) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 120px !important;
+    height: 35px !important;
+    margin: 0 auto 15px !important;
+    opacity: 0.8;
+    filter: drop-shadow(0 0 8px rgba(255, 51, 51, 0.5));
+}
+
+/* Bigger Logo Image Fix */
+.pageTitleWithLogo.pageTitleWithDefaultLogo {
+    background-image: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png') !important;
+    background-size: 100% auto !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    width: 275px !important;
+    height: 50px !important;
+    margin-left: 15px !important;
+    display: inline-block !important;
+    text-indent: -9999px;
+}
+
+/* Hide default Jellyfin SVG/text completely */
+.pageTitleWithLogo.pageTitleWithDefaultLogo svg,
+.pageTitleWithLogo.pageTitleWithDefaultLogo img {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+/* ================================================= */
+/* 16. LOGIN PAGE ================================== */
+/* ================================================= */
+
+/* Login Container - Red Glass Theme */
+.loginContainer {
+    background: rgba(26, 10, 10, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+/* Login Page Background */
+.loginPage {
+    background: rgba(26, 10, 10, 0.95) !important;
+    position: relative;
     overflow: hidden;
 }
 
-.playstatebutton-icon-played::before {
-    background-color: rgba(var(--abyss-accent), 0.8);
-    border-radius: 8px;
-    color: #000;
+/* Subtle grid pattern on login background */
+.loginPage:after {
+    content: '' !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background-image: 
+        linear-gradient(rgba(255, 51, 51, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 51, 51, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
 }
 
-/* 7. ROUNDED CORNERS */
-
-.missingIndicator,
-.unairedIndicator,
-.detailTable,
-.primaryImageWrapper>img,
-.toast,
-.paperList,
-.cardContent,
-.sessionNowPlayingInnerContent,
-.subtitleappearance-preview,
-.listItemImage,
-.listItemImageButton,
-.listItemButton,
-.listItem,
-.cardImage,
-.fab,
-.raised,
-.multiSelectCheckboxOutline,
-.itemSelectionPanel,
-.cardContent-button,
-.cardContent-shadow,
-.itemDetailImage,
-.cardImageContainer,
-.listItemIcon,
-.blurhash-canvas,
-.countIndicator,
-.playedIndicator,
-.listItem-border,
-.visualCardBox,
-.chapterThumbTextContainer,
-.chapterThumbContainer,
-.chapterThumb,
-.emby-input,
-.emby-textarea,
-.nowPlayingPageImage,
-.upNextDialog-poster-img,
-.cardOverlayButtonIcon,
-.innerCardFooter {
-    border-radius: var(--abyss-radius) !important;
+/* Login Form Box */
+.loginForm, .form-container {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 51, 51, 0.3) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px) !important;
 }
 
-.osdPoster img {
-    border-radius: var(--abyss-radius);
-    border: none;
-}
-
-div[data-role="controlgroup"] a[data-role="button"]:first-child {
-    border-bottom-left-radius: var(--abyss-radius);
-    border-top-left-radius: var(--abyss-radius);
-}
-
-div[data-role="controlgroup"] a[data-role="button"]:last-child {
-    border-bottom-right-radius: var(--abyss-radius);
-    border-top-right-radius: var(--abyss-radius);
-}
-
-#dashboardPage .cardContent,
-#dashboardPage .sessionNowPlayingInnerContent {
-    border-radius: var(--abyss-radius) var(--abyss-radius) 0 0 !important;
-}
-
-#divVirtualFolders .cardImageContainer,
-#divVirtualFolders .cardContent {
-    border-radius: var(--abyss-radius) var(--abyss-radius) 0 0 !important;
-}
-
-#userProfilesPage .cardImage,
-#userProfilesPage .cardContent {
-    border-radius: var(--abyss-radius) var(--abyss-radius) 0 0 !important;
-}
-
-[dir=ltr] .emby-select,
-#inputTextColor,
-.checkboxOutline {
+/* Login Input Fields */
+.loginForm input,
+.loginForm input[type="text"],
+.loginForm input[type="password"],
+.loginForm input[type="email"] {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 51, 51, 0.2) !important;
+    color: var(--accent-color) !important;
     border-radius: 8px !important;
+    backdrop-filter: blur(10px) !important;
 }
 
-.dialog-fullscreen {
+.loginForm input::placeholder {
+    color: rgba(255, 51, 51, 0.4) !important;
+}
+
+.loginForm input:focus {
+    background: rgba(255, 51, 51, 0.1) !important;
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.5), inset 0 0 10px rgba(255, 51, 51, 0.1) !important;
+}
+
+/* Login Button */
+.loginForm button,
+.loginFormSubmitButton {
+    background: linear-gradient(135deg, rgba(255, 51, 51, 0.2), rgba(255, 51, 51, 0.1)) !important;
+    color: var(--accent-color) !important;
+    border: 1px solid rgba(255, 51, 51, 0.4) !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    padding: 12px 30px !important;
     border-radius: 8px !important;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3);
+    backdrop-filter: blur(10px) !important;
 }
 
-.upNextContainer,
-.playerStats,
-.playerStats-stats {
-    border-radius: 24px !important;
+.loginForm button:hover,
+.loginFormSubmitButton:hover {
+    box-shadow: 0 0 25px rgba(255, 51, 51, 0.8), inset 0 0 15px rgba(255, 51, 51, 0.2);
+    transform: scale(1.05);
+    color: var(--accent-light) !important;
 }
 
-.detailImageContainer .cardImageContainer,
-.detailImageContainer .card {
-    border-radius: 24px !important;
-}
-
-/* 8. MEDIA PLAYER */
-
-.nowPlayingPageImage {
-    border: none;
-}
-
-.osdPoster img {
-    border-radius: var(--abyss-radius);
-    border: none;
-}
-
-.startTimeText,
-.endTimeText {
-    width: 3.4em;
-    display: block;
+/* Login Disclaimer Styling */
+.loginDisclaimer {
+    background: rgba(255, 51, 51, 0.08);
+    border: 1px solid rgba(255, 51, 51, 0.3);
+    border-radius: 10px;
+    padding: 18px;
+    margin: 20px auto;
+    max-width: 500px;
+    color: var(--accent-color);
+    font-size: 14px;
+    line-height: 1.6;
     text-align: center;
+    box-shadow: 0 0 15px rgba(255, 51, 51, 0.2);
+    backdrop-filter: blur(10px);
+    font-weight: 500;
 }
 
-.osdTitle {
-    margin-left: 0.5em;
+.loginDisclaimer:hover {
+    box-shadow: 0 0 25px rgba(255, 51, 51, 0.5);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+    border-color: var(--accent-color);
 }
 
-.skinHeader.osdHeader {
-    height: 5em;
+/* ================================================= */
+/* 17. RESPONSIVE LAYOUTS =========================== */
+/* ================================================= */
+
+/* TV Layout Specific */
+.layout-tv .navMenuItem {
+    font-size: 115%;
+    font-weight: 600;
 }
 
-.osdTextContainer {
-    margin: 0 !important;
-    margin-top: 0.2em !important;
-    padding-left: 0.5em !important;
-    padding-right: 0.5em !important;
+.layout-tv .videoOsdBottom {
+    padding: 14px !important;
 }
 
-.nowPlayingBarCurrentTime {
-    width: 6em;
+/* TV Logo */
+.layout-tv .headerLogo {
+    width: 220px !important;
+    height: 60px !important;
 }
 
-.upNextDialog-countdownText {
-    color: rgb(var(--abyss-accent));
+/* Mobile Logo */
+@media (max-width: 768px) {
+    .headerLogo {
+        width: 140px !important;
+        height: 40px !important;
+    }
+
+    .loginPage .headerLogo {
+        width: 180px !important;
+        height: 50px !important;
+    }
+
+    .mainDrawer {
+        border-right: 1px solid rgba(255, 51, 51, 0.2) !important;
+    }
 }
 
-.iconOsdProgressInner {
-    background: rgb(var(--abyss-accent));
+/* No Logo Fallback */
+.headerLogo:not([style*="background-image"]) {
+    background: linear-gradient(
+        90deg,
+        var(--accent-color),
+        var(--accent-light)
+    ) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    text-align: center !important;
+    line-height: 50px !important;
 }
 
-/* Chapter thumb */
-.chapterThumb {
-    height: 14vh;
-    min-width: 14vh;
-    box-shadow: 0 0 1.9vh #000;
-}
+/* ================================================= */
+/* 18. JELLYFIN-ENHANCED PLUGIN SUPPORT ========== */
+/* ================================================= */
 
-.chapterThumbText {
-    font-size: 1em;
-}
-
-.chapterThumbTextContainer {
-    right: auto;
-    bottom: 4px;
-    padding: .25em 0.7em;
-}
-
-.chapterThumbContainer {
-    box-shadow: 0 0 1.9vh #000;
-}
-
-.sliderBubble {
-    background: #0000;
-    -webkit-transform: translate3d(-50%, -108%, 0);
-    transform: translate3d(-50%, -108%, 0);
-}
-
-/* Playing Bar */
-.nowPlayingBarTop {
-    margin-top: 24px;
-}
-
-.videoOsdBottom .osdControls,
-.nowPlayingBar {
-    border-radius: 24px;
+#jellyfin-enhanced-panel {
+    background-color: rgba(42, 42, 42, 0.69) !important;
+    margin: 24px 0;
+    border-radius: 32px !important;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    padding: 12px;
+    border: 1px solid rgba(255, 51, 51, 0.2) !important;
+    backdrop-filter: blur(15px) !important;
 }
 
-.nowPlayingBar .nowPlayingImage {
-    width: 2.91em;
-    border-radius: 8px;
+#jellyfin-enhanced-panel>div:first-of-type {
+    border-bottom: none !important;
+    background: transparent !important;
 }
 
-.nowPlayingBarPositionContainer {
-    top: -1.5em;
-    padding: 0 8px;
+#jellyfin-enhanced-panel .panel-main-content {
+    background: rgba(42, 42, 42, 0.69) !important;
 }
 
-.nowPlayingBarInfoContainer {
-    margin-left: 8px;
+#jellyfin-enhanced-panel .tabs {
+    padding: 4px !important;
+    background-color: rgba(42, 42, 42, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(87, 87, 87, 0.18);
+    border-radius: 50px;
+    margin: 8px 56px;
 }
 
-.videoOsdBottom {
-    padding: 0 !important;
-    margin: 24px !important;
-    border-radius: 24px;
+#jellyfin-enhanced-panel .tab-button {
+    border-radius: 50px;
+    border-bottom: none !important;
     background: none !important;
 }
 
-.osdTimeText {
-    margin-left: 0 !important;
-    opacity: 0.5;
+#jellyfin-enhanced-panel .tab-button.active {
+    border-radius: 50px;
+    border-bottom: none !important;
+    background: rgb(255, 51, 51) !important;
+    color: black !important;
 }
 
-/* Track selector */
-.trackSelections .selectContainer .detailTrackSelect {
-    padding: .5em 1.9em .5em .5em;
+#jellyfin-enhanced-panel h3,
+#jellyfin-enhanced-panel summary {
+    color: rgb(255, 51, 51) !important;
+    border-bottom-color: rgb(255, 51, 51) !important;
 }
 
-.trackSelections .selectContainer .selectArrowContainer .selectArrow {
-    margin-top: .2em;
+#jellyfin-enhanced-panel #clearTranslationCacheButton,
+#jellyfin-enhanced-panel #releaseNotesBtn {
+    background: rgba(255, 51, 51, 0.5) !important;
+    border-color: rgb(255, 51, 51) !important;
 }
 
-.trackSelections .selectContainer {
-    align-items: center;
+#jellyfin-enhanced-panel div[style*="border-left"],
+#jellyfin-enhanced-panel .style-preset[style*="border: 2px solid"] {
+    border-left-color: rgb(255, 51, 51) !important;
+    border-color: rgb(255, 51, 51) !important;
 }
 
-/* Slider track rounding */
-.mdl-slider-background-flex,
-.mdl-slider-background-flex-inner,
-.mdl-slider-background-upper,
-.mdl-slider-background-lower {
-    border-radius: 2px;
+#jellyfin-enhanced-panel input[type="checkbox"],
+#jellyfin-enhanced-panel input[type="range"] {
+    accent-color: rgb(255, 51, 51) !important;
 }
 
-
-/* 9. DASHBOARD & ADMIN */
-
-.dashboardSection h3 {
-    margin: .5em 0em .5em .5em;
-}
-
-.dashboardSection .sectionTitleTextButton>.material-icons.material-icons {
-    margin-top: .5em;
-    margin-bottom: .5em;
-    margin-right: .2em;
-}
-
-#dashboardPage .playbackProgress>div {
-    background-color: rgba(var(--abyss-accent), 0.75) !important;
-}
-
-#dashboardPage .transcodingProgress>div {
-    background-color: rgba(var(--abyss-accent), 0.35) !important;
-}
-
-.css-4yt2of {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-right: 1px solid rgba(var(--abyss-accent), 0.12);
-}
-
-.navMenuOption-selected,
-.css-17c09up.Mui-selected {
-    color: rgb(var(--abyss-accent));
-}
-
-
-/* 10. ITEM DETAIL PAGE */
-
-.mainDetailButtons {
-    font-size: 120%;
-}
-
-#itemDetailPage .itemName.infoText.parentNameLast {
-    display: none;
-}
-
-.hide+.detailPageWrapperContainer .itemName {
-    display: block !important;
-}
-
-#itemDetailPage .button-link {
-    color: inherit !important;
-}
-
-.sectionTitleTextButton:hover {
-    color: transparent;
-}
-
-/* Progress bars on item pages */
-#indexPage .innerCardFooterClear,
-.libraryPage .innerCardFooterClear,
-#itemDetailPage .innerCardFooterClear {
-    background-color: transparent !important;
-    box-shadow: none;
-}
-
-#indexPage .itemProgressBarForeground,
-.libraryPage .itemProgressBarForeground,
-#itemDetailPage .itemProgressBarForeground,
-#indexPage .itemProgressBar,
-.libraryPage .itemProgressBar,
-#itemDetailPage .itemProgressBar {
-    border-radius: var(--abyss-radius);
-}
-
-#indexPage .itemProgressBarForeground,
-.libraryPage .itemProgressBarForeground,
-#itemDetailPage .itemProgressBarForeground {
-    background-color: rgba(var(--abyss-accent), 0.95) !important;
-}
-
-#indexPage .itemProgressBar,
-.libraryPage .itemProgressBar,
-#itemDetailPage .itemProgressBar {
-    height: 7px;
-    background: rgba(0, 0, 0, 0.4);
-    margin: .5em .8em;
-}
-
-
-/* 11. LOGIN PAGE */
-
-#loginPage {
-    background-size: cover !important;
-}
-
-#loginPage .readOnlyContent,
-#loginPage form {
-    max-width: 22em;
-}
-
-#loginPage h1 {
-    display: none;
-}
-
-#loginPage .padded-left.padded-right.padded-bottom-page {
-    margin-top: 8em;
-}
-
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-    margin-top: 0.8em;
-    background: rgba(var(--abyss-accent), 0.0) !important;
-}
-
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button:hover {
-    color: rgb(var(--abyss-accent)) !important;
-}
-
-.manualLoginForm {
-    border-radius: 24px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: solid 1px rgba(245, 245, 247, 0.2) !important;
-    padding: 24px 12px 7px;
-    margin-bottom: 24px;
-}
-
-
-/* 12. CAST THUMBNAILS (responsive sizing) */
-
-@media all and (min-width: 131.25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 6.3vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(6.3vw - 0.6em) !important;
-        height: calc(6.3vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 120em) and (max-width: 131.25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 6.4vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(6.4vw - 0.6em) !important;
-        height: calc(6.4vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 100em) and (max-width: 120em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 7.6vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(7.6vw - 0.6em) !important;
-        height: calc(7.6vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 87.5em) and (max-width: 100em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 9.3vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(9.3vw - 0.6em) !important;
-        height: calc(9.3vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 75em) and (max-width: 87.5em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 10.5vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(10.5vw - 0.6em) !important;
-        height: calc(10.5vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 50em) and (max-width: 75em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 15vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(15vw - 0.6em) !important;
-        height: calc(15vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 43.75em) and (max-width: 50em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 20.1vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(20.1vw - 0.6em) !important;
-        height: calc(20.1vw - 0.6em) !important;
-    }
-}
-
-@media all and (min-width: 25em) and (max-width: 43.75em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 31.2vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(31.2vw - 0.6em) !important;
-        height: calc(31.2vw - 0.6em) !important;
-    }
-
-    .innerCardFooterClear {
-        padding-right: 24px !important;
-    }
-}
-
-@media (max-width: 1024px) and (orientation: landscape) and (max-height: 500px) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 31.2vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(31.2vw - 0.6em) !important;
-        height: calc(31.2vw - 0.6em) !important;
-    }
-
-    .innerCardFooterClear {
-        padding-right: 24px !important;
-    }
-}
-
-@media all and (max-width: 25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 40vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(40vw - 0.6em) !important;
-        height: calc(40vw - 0.6em) !important;
-    }
-}
-
-
-/* 13. RESPONSIVE / MEDIA QUERIES */
-
-/* Mobile layout tweaks */
-.layout-mobile .detailPagePrimaryContainer {
-    background: transparent;
-}
-
-.layout-mobile .adminDrawerLogo {
-    border-bottom: none;
-}
-
-.layout-mobile .itemBackdrop {
-    margin-top: 4rem;
-}
-
-.layout-mobile .detailLogo {
-    display: none !important;
-}
-
-.layout-mobile .sectionTitleTextButton>.material-icons {
-    padding-top: .2em;
-}
-
-.layout-mobile .listItemImageButton {
-    background: rgba(0, 0, 0, 0);
-}
-
-.layout-mobile .sectionTitle {
-    padding-top: 0em;
-}
-
-.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
-    display: block;
-}
-
-/* Desktop layout */
-.layout-desktop .detailImageContainer .card {
-    position: fixed !important;
-    top: 10% !important;
-}
-
-.layout-mobile .detailImageContainer .card {
-    position: absolute !important;
-}
-
-.layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
-    padding-top: 0em;
+.genre-overlay-container *,
+.rating-overlay-container *,
+.quality-overlay-container *,
+.language-overlay-container * {
+    border-radius: 12px !important;
 }
 
-.withSectionTabs .headerTop {
-    width: 100% !important;
-    align-self: center !important;
+.language-overlay-container {
+    left: 12px !important;
+    bottom: 12px !important;
+    border-radius: 12px !important;
 }
 
-@media (max-width: 100em) {
-    .withSectionTabs .headerTop {
-        padding-bottom: 0;
-    }
+.quality-overlay-container {
+    left: 12px !important;
+    top: 12px !important;
+    border-radius: 12px !important;
 }
 
-@media all and (min-width: 75em) {
-    .cardOverlayFab-primary {
-        background-color: #00000000;
-    }
+/* ================================================= */
+/* 19. MISC ENHANCEMENTS ============================ */
+/* ================================================= */
 
-    .cardOverlayButtonIcon {
-        background-color: #00000000 !important;
-    }
-
-    .cardOverlayContainer {
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .headerTabs.sectionTabs {
-        margin-top: -4.9em !important;
-    }
-}
-
-@media all and (max-width: 75em) {
-    .cardOverlayFab-primary {
-        background-color: #00000000;
-    }
-
-    .cardOverlayButtonIcon {
-        background-color: #00000000 !important;
-    }
-
-    .cardOverlayContainer {
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .cardOverlayButton {
-        padding: 0.25em;
-    }
-}
-
-@media all and (max-width: 26em) {
-    .homeLibraryButton {
-        min-width: 45%;
-        width: auto !important;
-    }
-
-    .pageTitle {
-        font-size: medium !important;
-        font-weight: 500;
-        padding: 0 6px !important;
-    }
-
-    .sectionTitle {
-        font-size: 1.2em;
-        font-weight: 500;
-    }
-
-    .headerLeft,
-    .headerRight {
-        padding: 0 12px;
-    }
-
-    .detailImageContainer .cardImageContainer,
-    .detailImageContainer .card {
-        border-radius: 12px !important;
-    }
-
-    .emby-tab-button {
-        padding: 0.4em 1.2em;
-    }
-
-    .paper-icon-button-light>.material-icons {
-        font-size: 1.4em !important;
-    }
-
-    .paper-icon-button-light {
-        padding: 8px;
-    }
-
-    .btnPause {
-        position: fixed !important;
-        left: 42vw;
-        transform: translateY(-45vh);
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-height: 26em) and (orientation: landscape) {
-    .pageTitle {
-        font-size: large !important;
-    }
-
-    .btnPause {
-        position: fixed !important;
-        left: 42vw;
-        transform: translateY(-45vh);
-        font-size: 2em;
-        backdrop-filter: blur(15px) !important;
-        background-color: rgba(var(--abyss-glass-tint), 0.69) !important;
-        border-radius: 20px !important;
-    }
-
-    body:has(#indexPage.homePage:not(.hide)) .headerTabs.sectionTabs {
-        margin-top: -4.9em !important;
-    }
-}
-
-@media all and (min-width: 100em) {
-    .button-flat {
-        margin: .2em !important;
-        padding: .85em !important;
-    }
-
-    .listItemImage.listItemImage-large.itemAction.lazy {
-        height: 160px !important;
-    }
-
-    .listItem-content {
-        height: unset !important;
-    }
-}
-
-@media all and (max-width: 100em) {
-    .mainDetailButtons {
-        font-size: 155%;
-    }
-
-    .listItemImage.listItemImage-large.itemAction.lazy {
-        height: 160px !important;
-    }
-
-    .listItem-content {
-        height: unset !important;
-    }
-
-    .secondary.listItem-overview.listItemBodyText {
-        height: unset !important;
-        margin: 0;
-    }
-
-    #indexPage .itemProgressBar,
-    .libraryPage .itemProgressBar,
-    #itemDetailPage .itemProgressBar {
-        margin-right: .8em;
-    }
-}
-
-@media (min-aspect-ratio: 1.98/1) {
-    .detailImageContainer .card {
-        width: 21vw !important;
-    }
-
-    .detailRibbon {
-        padding-left: 28.45vw !important;
-    }
-
-    .detailPagePrimaryContent {
-        padding-left: 28.45vw !important;
-    }
-
-    .detailPageContent {
-        padding-left: 28.45vw !important;
-    }
-}
-
-@media (min-aspect-ratio: 2.7/1) {
-    .detailImageContainer .card {
-        width: 16vw !important;
-    }
-
-    .detailRibbon {
-        padding-left: 23.45vw !important;
-    }
-
-    .detailPagePrimaryContent {
-        padding-left: 23.45vw !important;
-    }
-
-    .detailPageContent {
-        padding-left: 23.45vw !important;
-    }
-}
-
-/* Backdrop filter support */
-@supports (backdrop-filter: blur(15px)) {
-
-    .manualLoginForm,
-    .dialog,
-    .iconOsd,
-    .mainDrawer,
-    .toast,
-    .emby-tabs-slider,
-    .videoOsdBottom .osdControls,
-    .readOnlyContent .verticalSection,
-    .button-submit,
-    .upNextContainer,
-    .selectionCommandsPanel,
-    .playerStats-stats,
-    .appfooter {
-        backdrop-filter: blur(15px) !important;
-        background-color: rgba(var(--abyss-glass-tint), 0.69) !important;
-    }
-
-    .raised.cancel.block.btnForgotPassword.emby-button,
-    .btnQuick,
-    .pageTitle,
-    .videoOsdBottom,
-    .headerButton {
-        backdrop-filter: blur(15px) !important;
-    }
-
-    .paper-icon-button-light:hover,
-    #itemDetailPage .itemProgressBar,
-    #dashboardPage .backgroundProgress>div {
-        backdrop-filter: blur(4px);
-    }
-
-    .indicator {
-        backdrop-filter: blur(2px);
-    }
-
-    @media all and (max-width: 75em) {
-        .cardOverlayButtonIcon {
-            background-color: rgba(0, 0, 0, 0.35) !important;
-            backdrop-filter: blur(4px);
-        }
-    }
-
-    #indexPage .itemProgressBar,
-    .libraryPage .itemProgressBar,
-    #itemDetailPage .itemProgressBar {
-        backdrop-filter: blur(4px);
-        background: rgba(0, 0, 0, 0.35) !important;
-    }
-
-    body:has(.nowPlayingBar) .backgroundContainer.withBackdrop {
-        backdrop-filter: blur(15px);
-    }
-}
-
-/* Item container margins */
-.itemsContainer>.card>.cardBox {
-    margin-left: 0.6em !important;
-    margin-right: 0.8em;
-}
-
-/* Episode list image sizing */
-.listItemImage.listItemImage-large.itemAction.lazy {
-    transition: filter 0.15s var(--abyss-ease);
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-/* 14. SEARCH PAGE */
-
-.searchSuggestionsList .emby-button {
-    color: rgba(var(--abyss-accent), 0.6);
-    font-weight: 100;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-align: left;
-}
-
-#searchTextInput {
-    font-weight: bold;
-    font-size: 24px;
-    padding: 12px 18px;
-    letter-spacing: 1.1px;
-}
-
-.searchFieldsInner .inputLabel {
-    display: none;
-}
-
-.searchfields-icon {
-    align-self: center !important;
-}
-
-.verticalSection.searchSuggestions .sectionTitle {
-    display: none;
-}
-
-.verticalSection.searchSuggestions {
-    text-align: left !important;
-    padding: 12px 0 0 0 !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: calc(100vh - 190px);
-    overflow: hidden;
-}
-
-.searchSuggestionsList {
-    width: fit-content;
-    min-width: min(908px, calc(100vw - 70px));
-    padding-left: 50px;
-    box-sizing: border-box;
-    overflow-y: auto;
-    max-height: 100%;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(var(--abyss-accent), 0.5) transparent;
-}
-
-.searchSuggestionsList::-webkit-scrollbar {
-    width: 4px;
-}
-
-.searchSuggestionsList::-webkit-scrollbar-thumb {
-    background: rgba(var(--abyss-accent), 0.5);
-    border-radius: var(--abyss-radius);
-}
-
-.searchSuggestionsList::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-#searchPage .scrollSlider {
-    overflow: hidden !important;
-}
-
-.noItemsMessage.centerMessage {
-    font-weight: 100 !important;
-    font-size: 36px;
-    letter-spacing: 1.2px;
-    opacity: 0.8;
-}
-
-.centerMessage {
-    padding: 2em 0 !important;
-}
-
-@media all and (max-width: 50em) {
-    .searchSuggestionsList {
-        min-width: calc(100vw - 80px);
-        padding-left: 44px;
-    }
-}
-
-/* 15. ANIMATIONS & KEYFRAMES */
-
-.playstatebutton-icon-played::before,
-.cardOverlayContainer,
-.cardOverlayButtonIcon,
-.cardOverlayButton,
-.paper-icon-button-light,
-.emby-tab-button,
-.emby-tab-button-active,
-.button-flat,
-.navMenuOption,
-.listItem,
-.actionSheetMenuItem {
-    transition: background 0.37s var(--abyss-ease),
-        color 0.37s var(--abyss-ease),
-        border-color 0.37s var(--abyss-ease),
-        border-radius 0.37s var(--abyss-ease),
-        opacity 0.37s var(--abyss-ease),
-        box-shadow 0.37s var(--abyss-ease),
-        transform 0.37s var(--abyss-ease) !important;
-}
-
-.mainDrawer {
-    transition: transform 0.18s var(--abyss-ease-snappy),
-        left 0.18s var(--abyss-ease-snappy),
-        width 0.18s var(--abyss-ease-snappy) !important;
-}
-
-/* Favourite button heart animation — all contexts */
-@keyframes abyss-heart-pop {
-    0% {
-        transform: scale(1);
-    }
-
-    40% {
-        transform: scale(1.3);
-    }
-
-    70% {
-        transform: scale(0.95);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes abyss-heart-glow {
-    0% {
-        filter: drop-shadow(0 0 0px rgba(249, 38, 114, 0));
-    }
-
-    40% {
-        filter: drop-shadow(0 0 10px rgba(249, 38, 114, 0.9));
-    }
-
-    100% {
-        filter: drop-shadow(0 0 0px rgba(249, 38, 114, 0));
-    }
-}
-
-.ratingbutton-withrating .material-icons.favorite {
-    animation: abyss-heart-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) normal none,
-        abyss-heart-glow 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) normal none;
-}
-
-/* Section entrance animations, all pages */
-@keyframes abyss-section-fade-up {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+/* Additional SVG styling for consistency */
+svg, svg path {
+    fill: var(--accent-color) !important;
+    stroke: var(--accent-color) !important;
 }
 
-.verticalSection:nth-child(1) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.05s;
+/* Consistent glowing effects */
+[class*="icon"], [class*="button"], [class*="interactive"] {
+    transition: var(--transition-default);
 }
 
-.verticalSection:nth-child(2) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.1s;
-}
-
-.verticalSection:nth-child(3) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.15s;
-}
-
-.verticalSection:nth-child(4) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.2s;
-}
-
-.verticalSection:nth-child(5) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.25s;
-}
-
-.verticalSection:nth-child(6) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.3s;
-}
-
-.verticalSection:nth-child(7) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.35s;
-}
-
-.verticalSection:nth-child(8) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.4s;
-}
-
-.verticalSection:nth-child(n+9) {
-    animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.45s;
-}
+/* End of Ultimate Jellyfin Theme */
