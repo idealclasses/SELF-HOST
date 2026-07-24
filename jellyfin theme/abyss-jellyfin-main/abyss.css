@@ -38,7 +38,6 @@
     /* Primary accent colour — used for highlights, active states, progress bars.
        Format: R, G, B (no rgb() wrapper) so opacity variants work cleanly. */
     --abyss-accent: 255, 51, 51;
-    --logo-url: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');
 
     /* Corner rounding applied globally */
     --abyss-radius: 12px;
@@ -224,21 +223,7 @@ input[type="radio"]:checked {
     padding: 0 12px;
 }
 
-/* Logo Styling - Red Glass Theme */
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-    display: inline-block !important;
-    background-image: var(--logo-url) !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    width: 275px !important;
-    height: 50px !important;
-    text-indent: -9999px;
-    filter: brightness(1.2) contrast(1.3);
-}
-
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo svg,
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo img {
     display: none !important;
 }
 
