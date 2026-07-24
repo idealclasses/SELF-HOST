@@ -39,28 +39,23 @@
 /* ================================================= */
 
 :root {
-    /* Red Glass Morphism Color Scheme */
-    --primary-color: #1a0a0a;        /* Dark red background */
-    --secondary-color: #ffffff;      /* White text */
-    --accent-color: #ff3333;         /* Red accent */
-    --accent-light: #ff6666;         /* Light red */
+    --primary-color: #1a0a0a;
+    --secondary-color: #ffffff;
+    --accent-color: #ff3333;
+    --accent-light: #ff6666;
     --accent-soft: rgba(255, 51, 51, 0.15);
     --accent-glow: rgba(255, 51, 51, 0.4);
     --glass-dark: rgba(255, 255, 255, 0.05);
     --glass-light: rgba(255, 255, 255, 0.1);
     
-    /* Abyss Compatibility Variables */
-    --abyss-accent: 255, 51, 51;     /* Red Glass red in RGB format */
+    --abyss-accent: 255, 51, 51;
     --abyss-radius: 12px;
     --abyss-indicator: 55, 55, 55;
     --abyss-glass-tint: 42, 42, 42;
     --abyss-ease: cubic-bezier(0.16, 1, 0.3, 1);
     --abyss-ease-snappy: cubic-bezier(0.4, 0.0, 0.2, 1);
     
-    /* Logo */
     --logo-url: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');
-    
-    /* Animation */
     --transition-default: all 0.3s ease;
 }
 
@@ -510,12 +505,7 @@ svg, svg path {
 
 /* Dividers */
 hr, .divider {
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255, 51, 51, 0.3),
-        transparent
-    ) !important;
+    background: linear-gradient(90deg, transparent, rgba(255, 51, 51, 0.3), transparent) !important;
     border: none !important;
     height: 1px !important;
 }
@@ -542,11 +532,7 @@ hr, .divider {
 }
 
 .progress-bar {
-    background: linear-gradient(
-        90deg,
-        var(--accent-color),
-        var(--accent-light)
-    ) !important;
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
     box-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
 }
 
@@ -759,11 +745,7 @@ hr, .divider {
 
 /* No Logo Fallback */
 .headerLogo:not([style*="background-image"]) {
-    background: linear-gradient(
-        90deg,
-        var(--accent-color),
-        var(--accent-light)
-    ) !important;
+    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     color: transparent !important;
