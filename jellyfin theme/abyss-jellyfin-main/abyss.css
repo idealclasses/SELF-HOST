@@ -68,6 +68,7 @@ body {
     font-style: normal;
     font-variation-settings: "GRAD" 0;
     overscroll-behavior: none;
+    background: linear-gradient(135deg, rgba(26, 10, 10, 0.95), rgba(45, 15, 15, 0.95)) !important;
 }
 
 .material-icons {
