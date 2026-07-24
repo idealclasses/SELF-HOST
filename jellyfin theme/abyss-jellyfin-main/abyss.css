@@ -38,7 +38,7 @@
     /* Primary accent colour — used for highlights, active states, progress bars.
        Format: R, G, B (no rgb() wrapper) so opacity variants work cleanly. */
     --abyss-accent: 255, 51, 51;
-    --logo-url: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');
+    --logo-url: url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/images/Copilot_20260127_010822.png');
 
     /* Corner rounding applied globally */
     --abyss-radius: 12px;
