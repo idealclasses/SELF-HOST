@@ -245,14 +245,15 @@ input[type="radio"]:checked {
     justify-content: flex-start !important;
     width: auto !important;
     min-width: 280px !important;
-    height: 70px !important;
-    padding: 0 1rem 0 92px !important;
+    height: 70px !important;             /* area height */
+    padding: 0 1rem 0 92px !important;   /* spacing for text */
     background-image: var(--logo-url) !important;
-    background-size: auto 70% !important;
+    background-size: 350px auto !important; /* force logo image bigger */
     background-repeat: no-repeat !important;
     background-position: left center !important;
     text-indent: -9999px;
 }
+
 
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
     content: '';
