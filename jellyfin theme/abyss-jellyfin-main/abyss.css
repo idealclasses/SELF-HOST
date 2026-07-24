@@ -5,7 +5,6 @@
 
 /* 1. IMPORTS & FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
-
 @font-face {
     font-family: 'Material Icons Round';
     font-style: normal;
@@ -14,846 +13,113 @@
 }
 
 /* Force rendering on icon elements across the theme */
-.material-icons-round,
-.material-symbols-rounded,
-[class*="material-icons"] {
-    font-family: 'Material Icons Round' !important;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-}
+.material-icons-round,.material-symbols-rounded,[class*="material-icons"]{font-family:'Material Icons Round'!important;font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';font-feature-settings:'liga';-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* ================================================= */
 /* 2. ULTIMATE THEME VARIABLES */
 /* Red Glass Colors + Abyss Structure ============ */
 /* ================================================= */
 
-:root {
-    --primary-color: #1a0a0a;
-    --secondary-color: #ffffff;
-    --accent-color: #ff3333;
-    --accent-light: #ff6666;
-    --accent-soft: rgba(255, 51, 51, 0.15);
-    --accent-glow: rgba(255, 51, 51, 0.4);
-    --glass-dark: rgba(255, 255, 255, 0.05);
-    --glass-light: rgba(255, 255, 255, 0.1);
-    
-    --abyss-accent: 255, 51, 51;
-    --abyss-radius: 12px;
-    --abyss-indicator: 55, 55, 55;
-    --abyss-glass-tint: 42, 42, 42;
-    --abyss-ease: cubic-bezier(0.16, 1, 0.3, 1);
-    --abyss-ease-snappy: cubic-bezier(0.4, 0.0, 0.2, 1);
-    
-    --logo-url: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');
-    --transition-default: all 0.3s ease;
-}
+:root{--primary-color:#1a0a0a;--secondary-color:#ffffff;--accent-color:#ff3333;--accent-light:#ff6666;--accent-soft:rgba(255,51,51,.15);--accent-glow:rgba(255,51,51,.4);--glass-dark:rgba(255,255,255,.05);--glass-light:rgba(255,255,255,.1);--abyss-accent:255,51,51;--abyss-radius:12px;--abyss-indicator:55,55,55;--abyss-glass-tint:42,42,42;--abyss-ease:cubic-bezier(.16,1,.3,1);--abyss-ease-snappy:cubic-bezier(.4,0,.2,1);--logo-url:url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png');--transition-default:all .3s ease}
 
 /* ================================================= */
 /* 3. BASE / GLOBAL STYLES ======================== */
 /* ================================================= */
 
-#reactRoot {
-    scrollbar-gutter: stable;
-}
-
-body {
-    font-family: "Google Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "GRAD" 0;
-    overscroll-behavior: none;
-    background: linear-gradient(135deg, #1a0a0a 0%, #2d0f0f 100%) !important;
-}
-
-.material-icons {
-    font-family: 'Material Icons Round' !important;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    font-feature-settings: 'liga';
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-}
-
-* {
-    scrollbar-color: var(--accent-color) #0000 !important;
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
-}
-
-::-webkit-scrollbar-track-piece {
-    background-color: #0000;
-}
-
-::-webkit-scrollbar-corner {
-    background-color: #0000;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, var(--accent-color), var(--accent-light));
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(180deg, var(--accent-light), var(--accent-color));
-}
-
-fieldset {
-    border: 1px solid rgba(40, 40, 40, 0.8);
-    border-radius: 0.4em;
-}
+#reactRoot{scrollbar-gutter:stable}body{font-family:"Google Sans",sans-serif;font-optical-sizing:auto;font-style:normal;font-variation-settings:"GRAD" 0;overscroll-behavior:none;background:linear-gradient(135deg,#1a0a0a 0%,#2d0f0f 100%)!important}.material-icons{font-family:'Material Icons Round'!important;font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;font-feature-settings:'liga';-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}*{scrollbar-color:var(--accent-color) #0000!important}::-webkit-scrollbar{width:12px}::-webkit-scrollbar-track{background:rgba(255,255,255,.05)}::-webkit-scrollbar-track-piece{background-color:#0000}::-webkit-scrollbar-corner{background-color:#0000}::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--accent-color),var(--accent-light));border-radius:10px}::-webkit-scrollbar-thumb:hover{background:linear-gradient(180deg,var(--accent-light),var(--accent-color))}fieldset{border:1px solid rgba(40,40,40,.8);border-radius:.4em}
 
 /* ================================================= */
 /* 4. ANIMATIONS ================================== */
 /* ================================================= */
 
-@keyframes logoGlow {
-    0% { filter: drop-shadow(0 0 5px var(--accent-glow)); }
-    50% { filter: drop-shadow(0 0 15px var(--accent-glow)); }
-    100% { filter: drop-shadow(0 0 5px var(--accent-glow)); }
-}
-
-@keyframes sidebarGlow {
-    0% { box-shadow: 0 0 8px rgba(255, 51, 51, 0.3); }
-    50% { box-shadow: 0 0 18px rgba(255, 51, 51, 0.6); }
-    100% { box-shadow: 0 0 8px rgba(255, 51, 51, 0.3); }
-}
-
-@keyframes ballBounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
-@keyframes lds-ring {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+@keyframes logoGlow{0%{filter:drop-shadow(0 0 5px var(--accent-glow))},50%{filter:drop-shadow(0 0 15px var(--accent-glow))},100%{filter:drop-shadow(0 0 5px var(--accent-glow))}}@keyframes sidebarGlow{0%{box-shadow:0 0 8px rgba(255,51,51,.3)},50%{box-shadow:0 0 18px rgba(255,51,51,.6)},100%{box-shadow:0 0 8px rgba(255,51,51,.3)}}@keyframes ballBounce{0%,100%{transform:translateY(0)},50%{transform:translateY(-10px)}}@keyframes lds-ring{0%{transform:rotate(0deg)},100%{transform:rotate(360deg)}}
 
 /* ================================================= */
 /* 5. FOCUS & SELECTION STATES =================== */
 /* ================================================= */
 
-*:focus {
-    outline: 2px solid var(--accent-color) !important;
-}
-
-::selection {
-    background: rgba(255, 51, 51, 0.25);
-    color: rgb(255, 51, 51);
-}
-
-::-moz-selection {
-    background: rgba(255, 51, 51, 0.25);
-    color: rgb(255, 51, 51);
-}
-
-:focus-visible {
-    outline-color: rgba(255, 51, 51, 0.6) !important;
-}
-
-input:focus,
-textarea:focus,
-select:focus,
-.emby-input:focus,
-.emby-textarea:focus,
-.emby-select:focus,
-.emby-select-withcolor:focus,
-.checkboxOutline:focus {
-    border-color: rgba(255, 51, 51, 0.4) !important;
-}
-
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
-    accent-color: rgb(255, 51, 51);
-}
-
-* {
-    accent-color: rgb(255, 51, 51);
-}
+*:focus{outline:2px solid var(--accent-color)!important}::selection{background:rgba(255,51,51,.25);color:rgb(255,51,51)}::-moz-selection{background:rgba(255,51,51,.25);color:rgb(255,51,51)}:focus-visible{outline-color:rgba(255,51,51,.6)!important}input:focus,textarea:focus,select:focus,.emby-input:focus,.emby-textarea:focus,.emby-select:focus,.emby-select-withcolor:focus,.checkboxOutline:focus{border-color:rgba(255,51,51,.4)!important}input[type=checkbox]:checked,input[type=radio]:checked{accent-color:rgb(255,51,51)}*{accent-color:rgb(255,51,51)}
 
 /* ================================================= */
 /* 6. PROGRESS & INDICATORS ====================== */
 /* ================================================= */
 
-progress {
-    border-radius: var(--abyss-radius);
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(255, 51, 51, 0.22);
-}
-
-progress::-webkit-progress-bar {
-    border-radius: var(--abyss-radius);
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 0px solid rgba(255, 51, 51, 0.22);
-}
-
-progress::-moz-progress-bar {
-    border-radius: var(--abyss-radius);
-    background-color: rgba(255, 51, 51, 0.75);
-}
-
-progress::-webkit-progress-value {
-    border-radius: var(--abyss-radius);
-    background-color: rgba(255, 51, 51, 0.75);
-}
-
-.taskProgressOuter,
-.taskProgressInner {
-    border-radius: var(--abyss-radius) !important;
-}
-
-.taskProgressOuter {
-    background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(255, 51, 51, 0.22);
-}
-
-.taskProgressInner,
-#videoOsdPage .sliderMarker.watched {
-    background: rgb(255, 51, 51) !important;
-}
-
-#videoOsdPage .sliderMarker.unwatched {
-    background: hsl(0deg 0% 30%) !important;
-}
-
-.mdl-slider-background-flex {
-    background: hsl(0deg 0% 30%) !important;
-}
-
-#divRunningTasks span,
-#scheduledTasksPage span {
-    color: rgba(255, 51, 51, 0.75) !important;
-}
+progress{border-radius:var(--abyss-radius);background:rgba(0,0,0,.5)!important;border:1px solid rgba(255,51,51,.22)}progress::-webkit-progress-bar{border-radius:var(--abyss-radius);background:rgba(0,0,0,.5)!important;border:0 solid rgba(255,51,51,.22)}progress::-moz-progress-bar{border-radius:var(--abyss-radius);background-color:rgba(255,51,51,.75)}progress::-webkit-progress-value{border-radius:var(--abyss-radius);background-color:rgba(255,51,51,.75)}.taskProgressOuter,.taskProgressInner{border-radius:var(--abyss-radius)!important}.taskProgressOuter{background:rgba(0,0,0,.5)!important;border:1px solid rgba(255,51,51,.22)}.taskProgressInner,#videoOsdPage .sliderMarker.watched{background:rgb(255,51,51)!important}#videoOsdPage .sliderMarker.unwatched{background:hsl(0deg 0% 30%)!important}.mdl-slider-background-flex{background:hsl(0deg 0% 30%)!important}#divRunningTasks span,#scheduledTasksPage span{color:rgba(255,51,51,.75)!important}
 
 /* ================================================= */
 /* 7. LAYOUT COMPONENTS - HEADER ================== */
 /* ================================================= */
 
-.skinHeader, div.header {
-    background: rgba(255, 51, 51, 0.1) !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    border-bottom: 1px solid rgba(255, 51, 51, 0.3) !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3) !important;
-    position: relative;
-    transition: var(--transition-default);
-    height: 115px !important;
-    padding: 8px 15px !important;
-}
-
-/* Replace default Jellyfin logo */
-.headerLogo {
-    background-image: var(--logo-url) !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    width: 180px !important;
-    height: 50px !important;
-    filter: brightness(1.2) contrast(1.3);
-    transition: var(--transition-default);
-    animation: logoGlow 3s infinite ease-in-out;
-    position: relative !important;
-    z-index: 1 !important;
-}
-
-.headerLogo:hover {
-    transform: scale(1.05);
-    animation-duration: 1.5s;
-    filter: brightness(1.4) drop-shadow(0 0 15px rgba(255, 51, 51, 0.8));
-}
-
-.headerLogo img {
-    opacity: 0 !important;
-}
-
-/* Login Page Logo */
-.loginPage .headerLogo {
-    width: 250px !important;
-    height: 70px !important;
-    margin: 0 auto 30px !important;
-}
+.skinHeader,div.header{background:rgba(255,51,51,.1)!important;backdrop-filter:blur(10px)!important;-webkit-backdrop-filter:blur(10px)!important;border-bottom:1px solid rgba(255,51,51,.3)!important;box-shadow:0 0 15px rgba(255,51,51,.3)!important;position:relative;transition:var(--transition-default);height:115px!important;padding:8px 15px!important}.headerLogo{background-image:var(--logo-url)!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:center!important;width:180px!important;height:50px!important;filter:brightness(1.2) contrast(1.3);transition:var(--transition-default);animation:logoGlow 3s infinite ease-in-out;position:relative!important;z-index:1!important}.headerLogo:hover{transform:scale(1.05);animation-duration:1.5s;filter:brightness(1.4) drop-shadow(0 0 15px rgba(255,51,51,.8))}.headerLogo img{opacity:0!important}.loginPage .headerLogo{width:250px!important;height:70px!important;margin:0 auto 30px!important}
 
 /* ================================================= */
 /* 8. LAYOUT COMPONENTS - SIDEBAR ================= */
 /* ================================================= */
 
-.mainDrawer {
-    background: rgba(255, 255, 255, 0.05) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    border-right: 1px solid rgba(255, 51, 51, 0.2) !important;
-    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.1);
-}
-
-.navMenuItem {
-    border-radius: 12px !important;
-    margin: 8px 8px !important;
-    transition: var(--transition-default);
-    position: relative !important;
-    z-index: 1 !important;
-    color: var(--secondary-color) !important;
-    font-weight: 500 !important;
-}
-
-.navMenuItem:hover {
-    background: rgba(255, 51, 51, 0.15) !important;
-    transform: translateX(4px);
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3);
-    color: var(--accent-color) !important;
-}
-
-.navMenuItem.active {
-    background: rgba(255, 51, 51, 0.25) !important;
-    border-left: 3px solid var(--accent-color) !important;
-    box-shadow: inset 0 0 20px rgba(255, 51, 51, 0.2), 0 0 15px rgba(255, 51, 51, 0.4);
-    animation: sidebarGlow 2.5s infinite;
-    color: var(--accent-color) !important;
-}
+.mainDrawer{background:rgba(255,255,255,.05)!important;backdrop-filter:blur(20px)!important;-webkit-backdrop-filter:blur(20px)!important;border-right:1px solid rgba(255,51,51,.2)!important;box-shadow:inset -1px 0 0 rgba(255,255,255,.1)}.navMenuItem{border-radius:12px!important;margin:8px 8px!important;transition:var(--transition-default);position:relative!important;z-index:1!important;color:var(--secondary-color)!important;font-weight:500!important}.navMenuItem:hover{background:rgba(255,51,51,.15)!important;transform:translateX(4px);box-shadow:0 0 15px rgba(255,51,51,.3);color:var(--accent-color)!important}.navMenuItem.active{background:rgba(255,51,51,.25)!important;border-left:3px solid var(--accent-color)!important;box-shadow:inset 0 0 20px rgba(255,51,51,.2),0 0 15px rgba(255,51,51,.4);animation:sidebarGlow 2.5s infinite;color:var(--accent-color)!important}
 
 /* ================================================= */
 /* 9. INTERACTIVE ELEMENTS - BUTTONS ============== */
 /* ================================================= */
 
-button,
-.emby-button {
-    background: rgba(255, 51, 51, 0.1) !important;
-    color: var(--accent-color) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    border-radius: 10px !important;
-    transition: var(--transition-default);
-    font-weight: 600 !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-button:hover,
-.emby-button:hover {
-    background: rgba(255, 51, 51, 0.25) !important;
-    border-color: var(--accent-color) !important;
-    box-shadow: 0 0 20px rgba(255, 51, 51, 0.6), inset 0 0 20px rgba(255, 51, 51, 0.1);
-    transform: scale(1.05);
-    color: var(--accent-light) !important;
-}
+button,.emby-button{background:rgba(255,51,51,.1)!important;color:var(--accent-color)!important;border:1px solid rgba(255,51,51,.3)!important;border-radius:10px!important;transition:var(--transition-default);font-weight:600!important;backdrop-filter:blur(10px)!important}button:hover,.emby-button:hover{background:rgba(255,51,51,.25)!important;border-color:var(--accent-color)!important;box-shadow:0 0 20px rgba(255,51,51,.6),inset 0 0 20px rgba(255,51,51,.1);transform:scale(1.05);color:var(--accent-light)!important}
 
 /* ================================================= */
 /* 10. INTERACTIVE ELEMENTS - SEARCH ============== */
 /* ================================================= */
 
-div.searchBox {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    border-radius: 10px !important;
-    color: var(--accent-color) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-div.searchBox input {
-    color: var(--accent-color) !important;
-    background: transparent !important;
-}
-
-div.searchBox input::placeholder {
-    color: rgba(255, 51, 51, 0.5) !important;
-}
+div.searchBox{background:rgba(255,255,255,.05)!important;border:1px solid rgba(255,51,51,.3)!important;border-radius:10px!important;color:var(--accent-color)!important;backdrop-filter:blur(10px)!important}div.searchBox input{color:var(--accent-color)!important;background:transparent!important}div.searchBox input::placeholder{color:rgba(255,51,51,.5)!important}
 
 /* ================================================= */
 /* 11. PLAYER CONTROLS ============================= */
 /* ================================================= */
 
-.videoOsdBottom {
-    background: rgba(26, 10, 10, 0.8) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    border-radius: 14px !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    max-width: 70% !important;
-    margin: 0 auto 20px !important;
-    padding: 12px !important;
-}
-
-.slider {
-    background: rgba(255, 255, 255, 0.1) !important;
-    height: 4px !important;
-    border-radius: 2px !important;
-}
-
-.sliderTrack {
-    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
-    height: 4px !important;
-    border-radius: 2px !important;
-    box-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
-}
-
-.sliderHandle {
-    background: radial-gradient(circle, var(--accent-light), var(--accent-color)) !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.8);
-    width: 14px !important;
-    height: 14px !important;
-    border-radius: 50% !important;
-    animation: ballBounce 1s ease-in-out infinite;
-}
-
-/* Control Buttons */
-.videoOsdBottom button,
-.videoOsdBottom .emby-button {
-    background: rgba(255, 51, 51, 0.1) !important;
-    color: var(--accent-color) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    border-radius: 6px !important;
-    transition: var(--transition-default);
-}
-
-.videoOsdBottom button:hover,
-.videoOsdBottom .emby-button:hover {
-    background: rgba(255, 51, 51, 0.25) !important;
-    color: var(--accent-light) !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.8);
-}
-
-/* Time & Labels */
-.videoOsdBottom .osdTimeText,
-.videoOsdBottom .osdText {
-    color: var(--accent-color) !important;
-    font-weight: 600 !important;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
-    font-size: 16px !important;
-}
-
-/* Volume Slider */
-.videoOsdBottom .volumeSlider .sliderTrack {
-    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
-    box-shadow: 0 0 8px rgba(255, 51, 51, 0.5);
-}
-
-.videoOsdBottom .volumeSlider .sliderHandle {
-    background: var(--accent-light) !important;
-    box-shadow: 0 0 12px rgba(255, 51, 51, 0.8);
-}
+.videoOsdBottom{background:rgba(26,10,10,.8)!important;backdrop-filter:blur(20px)!important;-webkit-backdrop-filter:blur(20px)!important;border-radius:14px!important;border:1px solid rgba(255,51,51,.3)!important;box-shadow:0 8px 32px rgba(0,0,0,.3);max-width:70%!important;margin:0 auto 20px!important;padding:12px!important}.slider{background:rgba(255,255,255,.1)!important;height:4px!important;border-radius:2px!important}.sliderTrack{background:linear-gradient(90deg,var(--accent-color),var(--accent-light))!important;height:4px!important;border-radius:2px!important;box-shadow:0 0 10px rgba(255,51,51,.6)}.sliderHandle{background:radial-gradient(circle,var(--accent-light),var(--accent-color))!important;box-shadow:0 0 15px rgba(255,51,51,.8);width:14px!important;height:14px!important;border-radius:50%!important;animation:ballBounce 1s ease-in-out infinite}.videoOsdBottom button,.videoOsdBottom .emby-button{background:rgba(255,51,51,.1)!important;color:var(--accent-color)!important;border:1px solid rgba(255,51,51,.3)!important;border-radius:6px!important;transition:var(--transition-default)}.videoOsdBottom button:hover,.videoOsdBottom .emby-button:hover{background:rgba(255,51,51,.25)!important;color:var(--accent-light)!important;box-shadow:0 0 15px rgba(255,51,51,.8)}.videoOsdBottom .osdTimeText,.videoOsdBottom .osdText{color:var(--accent-color)!important;font-weight:600!important;text-shadow:0 0 6px rgba(0,0,0,.8);font-size:16px!important}.videoOsdBottom .volumeSlider .sliderTrack{background:linear-gradient(90deg,var(--accent-color),var(--accent-light))!important;box-shadow:0 0 8px rgba(255,51,51,.5)}.videoOsdBottom .volumeSlider .sliderHandle{background:var(--accent-light)!important;box-shadow:0 0 12px rgba(255,51,51,.8)}
 
 /* ================================================= */
 /* 12. MODALS & DIALOGS =========================== */
 /* ================================================= */
 
-.dialog,
-.drawer,
-.menu {
-    background: rgba(26, 10, 10, 0.8) !important;
-    backdrop-filter: blur(20px) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    border-radius: 14px !important;
-    color: var(--secondary-color) !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
+.dialog,.drawer,.menu{background:rgba(26,10,10,.8)!important;backdrop-filter:blur(20px)!important;border:1px solid rgba(255,51,51,.3)!important;border-radius:14px!important;color:var(--secondary-color)!important;box-shadow:0 8px 32px rgba(0,0,0,.3)}
 
 /* ================================================= */
 /* 13. TEXT STYLING ================================ */
 /* ================================================= */
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--accent-color) !important;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
-    font-weight: 700 !important;
-}
-
-label, .info-text {
-    color: var(--secondary-color) !important;
-    font-weight: 500 !important;
-}
-
-/* Links */
-a, a:visited, a:active {
-    color: var(--accent-color) !important;
-}
-
-a:hover {
-    color: var(--accent-light) !important;
-    text-shadow: 0 0 10px rgba(255, 51, 51, 0.8);
-}
-
-/* SVG Elements */
-svg, svg path {
-    fill: var(--accent-color) !important;
-    stroke: var(--accent-color) !important;
-}
+h1,h2,h3,h4,h5,h6{color:var(--accent-color)!important;text-shadow:0 2px 8px rgba(0,0,0,.5)!important;font-weight:700!important}label,.info-text{color:var(--secondary-color)!important;font-weight:500!important}a,a:visited,a:active{color:var(--accent-color)!important}a:hover{color:var(--accent-light)!important;text-shadow:0 0 10px rgba(255,51,51,.8)}svg,svg path{fill:var(--accent-color)!important;stroke:var(--accent-color)!important}
 
 /* ================================================= */
 /* 14. UTILITY COMPONENTS ========================= */
 /* ================================================= */
 
-/* Dividers */
-hr, .divider {
-    background: linear-gradient(90deg, transparent, rgba(255, 51, 51, 0.3), transparent) !important;
-    border: none !important;
-    height: 1px !important;
-}
-
-/* Badges */
-.badge {
-    background: rgba(255, 51, 51, 0.2) !important;
-    color: var(--accent-color) !important;
-    font-weight: 700 !important;
-    box-shadow: 0 0 12px rgba(255, 51, 51, 0.5);
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-}
-
-/* Ratings/Stars */
-.rating, .stars {
-    color: var(--accent-color) !important;
-    text-shadow: 0 0 6px rgba(255, 51, 51, 0.5);
-}
-
-/* Progress Bars */
-.progress, progress {
-    background: rgba(255, 255, 255, 0.1) !important;
-    color: var(--accent-color) !important;
-}
-
-.progress-bar {
-    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
-    box-shadow: 0 0 10px rgba(255, 51, 51, 0.6);
-}
-
-/* Alerts and Notifications */
-.alert, .notification {
-    background: rgba(255, 51, 51, 0.1) !important;
-    border-left: 3px solid var(--accent-color) !important;
-    color: var(--secondary-color) !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-/* Loading Spinner */
-.lds-ring div,
-.spinner {
-    border-color: var(--accent-color) transparent transparent transparent !important;
-    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-}
+hr,.divider{background:linear-gradient(90deg,transparent,rgba(255,51,51,.3),transparent)!important;border:none!important;height:1px!important}.badge{background:rgba(255,51,51,.2)!important;color:var(--accent-color)!important;font-weight:700!important;box-shadow:0 0 12px rgba(255,51,51,.5);border:1px solid rgba(255,51,51,.3)!important}.rating,.stars{color:var(--accent-color)!important;text-shadow:0 0 6px rgba(255,51,51,.5)}.progress,progress{background:rgba(255,255,255,.1)!important;color:var(--accent-color)!important}.progress-bar{background:linear-gradient(90deg,var(--accent-color),var(--accent-light))!important;box-shadow:0 0 10px rgba(255,51,51,.6)}.alert,.notification{background:rgba(255,51,51,.1)!important;border-left:3px solid var(--accent-color)!important;color:var(--secondary-color)!important;backdrop-filter:blur(10px)!important}.lds-ring div,.spinner{border-color:var(--accent-color) transparent transparent transparent!important;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite}
 
 /* ================================================= */
 /* 15. FOOTER & BRANDING =========================== */
 /* ================================================= */
 
-.footer,
-.pageFooter {
-    background: rgba(26, 10, 10, 0.7) !important;
-    backdrop-filter: blur(20px) !important;
-    border-top: 1px solid rgba(255, 51, 51, 0.2) !important;
-}
-
-/* Footer Logo */
-.pageFooter:before {
-    content: '' !important;
-    display: block !important;
-    background-image: var(--logo-url) !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    width: 120px !important;
-    height: 35px !important;
-    margin: 0 auto 15px !important;
-    opacity: 0.8;
-    filter: drop-shadow(0 0 8px rgba(255, 51, 51, 0.5));
-}
-
-/* Bigger Logo Image Fix */
-.pageTitleWithLogo.pageTitleWithDefaultLogo {
-    background-image: url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png') !important;
-    background-size: 100% auto !important;
-    background-repeat: no-repeat !important;
-    background-position: left center !important;
-    width: 275px !important;
-    height: 50px !important;
-    margin-left: 15px !important;
-    display: inline-block !important;
-    text-indent: -9999px;
-}
-
-/* Hide default Jellyfin SVG/text completely */
-.pageTitleWithLogo.pageTitleWithDefaultLogo svg,
-.pageTitleWithLogo.pageTitleWithDefaultLogo img {
-    display: none !important;
-    opacity: 0 !important;
-}
+.footer,.pageFooter{background:rgba(26,10,10,.7)!important;backdrop-filter:blur(20px)!important;border-top:1px solid rgba(255,51,51,.2)!important}.pageFooter:before{content:''!important;display:block!important;background-image:var(--logo-url)!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:center!important;width:120px!important;height:35px!important;margin:0 auto 15px!important;opacity:.8;filter:drop-shadow(0 0 8px rgba(255,51,51,.5))}.pageTitleWithLogo.pageTitleWithDefaultLogo{background-image:url('https://raw.githubusercontent.com/idealclasses/SELF-HOST/main/images/Copilot_20260127_010822.png')!important;background-size:100% auto!important;background-repeat:no-repeat!important;background-position:left center!important;width:275px!important;height:50px!important;margin-left:15px!important;display:inline-block!important;text-indent:-9999px}.pageTitleWithLogo.pageTitleWithDefaultLogo svg,.pageTitleWithLogo.pageTitleWithDefaultLogo img{display:none!important;opacity:0!important}
 
 /* ================================================= */
 /* 16. LOGIN PAGE ================================== */
 /* ================================================= */
 
-/* Login Container - Red Glass Theme */
-.loginContainer {
-    background: rgba(26, 10, 10, 0.9) !important;
-    backdrop-filter: blur(20px) !important;
-}
-
-/* Login Page Background */
-.loginPage {
-    background: rgba(26, 10, 10, 0.95) !important;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Subtle grid pattern on login background */
-.loginPage:after {
-    content: '' !important;
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    background-image: 
-        linear-gradient(rgba(255, 51, 51, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 51, 51, 0.03) 1px, transparent 1px);
-    background-size: 50px 50px;
-    pointer-events: none;
-    z-index: 0;
-}
-
-/* Login Form Box */
-.loginForm, .form-container {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    border-radius: 15px !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px) !important;
-}
-
-/* Login Input Fields */
-.loginForm input,
-.loginForm input[type="text"],
-.loginForm input[type="password"],
-.loginForm input[type="email"] {
-    background: rgba(255, 255, 255, 0.05) !important;
-    border: 1px solid rgba(255, 51, 51, 0.2) !important;
-    color: var(--accent-color) !important;
-    border-radius: 8px !important;
-    backdrop-filter: blur(10px) !important;
-}
-
-.loginForm input::placeholder {
-    color: rgba(255, 51, 51, 0.4) !important;
-}
-
-.loginForm input:focus {
-    background: rgba(255, 51, 51, 0.1) !important;
-    border-color: var(--accent-color) !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.5), inset 0 0 10px rgba(255, 51, 51, 0.1) !important;
-}
-
-/* Login Button */
-.loginForm button,
-.loginFormSubmitButton {
-    background: linear-gradient(135deg, rgba(255, 51, 51, 0.2), rgba(255, 51, 51, 0.1)) !important;
-    color: var(--accent-color) !important;
-    border: 1px solid rgba(255, 51, 51, 0.4) !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-    padding: 12px 30px !important;
-    border-radius: 8px !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.3);
-    backdrop-filter: blur(10px) !important;
-}
-
-.loginForm button:hover,
-.loginFormSubmitButton:hover {
-    box-shadow: 0 0 25px rgba(255, 51, 51, 0.8), inset 0 0 15px rgba(255, 51, 51, 0.2);
-    transform: scale(1.05);
-    color: var(--accent-light) !important;
-}
-
-/* Login Disclaimer Styling */
-.loginDisclaimer {
-    background: rgba(255, 51, 51, 0.08);
-    border: 1px solid rgba(255, 51, 51, 0.3);
-    border-radius: 10px;
-    padding: 18px;
-    margin: 20px auto;
-    max-width: 500px;
-    color: var(--accent-color);
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.2);
-    backdrop-filter: blur(10px);
-    font-weight: 500;
-}
-
-.loginDisclaimer:hover {
-    box-shadow: 0 0 25px rgba(255, 51, 51, 0.5);
-    transform: scale(1.02);
-    transition: all 0.3s ease;
-    border-color: var(--accent-color);
-}
+.loginContainer{background:rgba(26,10,10,.9)!important;backdrop-filter:blur(20px)!important}.loginPage{background:rgba(26,10,10,.95)!important;position:relative;overflow:hidden}.loginPage:after{content:''!important;position:fixed!important;top:0!important;left:0!important;right:0!important;bottom:0!important;background-image:linear-gradient(rgba(255,51,51,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,51,51,.03) 1px,transparent 1px);background-size:50px 50px;pointer-events:none;z-index:0}.loginForm,.form-container{background:rgba(255,255,255,.05)!important;border:1px solid rgba(255,51,51,.3)!important;border-radius:15px!important;box-shadow:0 8px 32px rgba(0,0,0,.3);backdrop-filter:blur(10px)!important}.loginForm input,.loginForm input[type=text],.loginForm input[type=password],.loginForm input[type=email]{background:rgba(255,255,255,.05)!important;border:1px solid rgba(255,51,51,.2)!important;color:var(--accent-color)!important;border-radius:8px!important;backdrop-filter:blur(10px)!important}.loginForm input::placeholder{color:rgba(255,51,51,.4)!important}.loginForm input:focus{background:rgba(255,51,51,.1)!important;border-color:var(--accent-color)!important;box-shadow:0 0 15px rgba(255,51,51,.5),inset 0 0 10px rgba(255,51,51,.1)!important}.loginForm button,.loginFormSubmitButton{background:linear-gradient(135deg,rgba(255,51,51,.2),rgba(255,51,51,.1))!important;color:var(--accent-color)!important;border:1px solid rgba(255,51,51,.4)!important;font-weight:700!important;font-size:16px!important;padding:12px 30px!important;border-radius:8px!important;box-shadow:0 0 15px rgba(255,51,51,.3);backdrop-filter:blur(10px)!important}.loginForm button:hover,.loginFormSubmitButton:hover{box-shadow:0 0 25px rgba(255,51,51,.8),inset 0 0 15px rgba(255,51,51,.2);transform:scale(1.05);color:var(--accent-light)!important}.loginDisclaimer{background:rgba(255,51,51,.08);border:1px solid rgba(255,51,51,.3);border-radius:10px;padding:18px;margin:20px auto;max-width:500px;color:var(--accent-color);font-size:14px;line-height:1.6;text-align:center;box-shadow:0 0 15px rgba(255,51,51,.2);backdrop-filter:blur(10px);font-weight:500}.loginDisclaimer:hover{box-shadow:0 0 25px rgba(255,51,51,.5);transform:scale(1.02);transition:all .3s ease;border-color:var(--accent-color)}
 
 /* ================================================= */
 /* 17. RESPONSIVE LAYOUTS =========================== */
 /* ================================================= */
 
-/* TV Layout Specific */
-.layout-tv .navMenuItem {
-    font-size: 115%;
-    font-weight: 600;
-}
-
-.layout-tv .videoOsdBottom {
-    padding: 14px !important;
-}
-
-/* TV Logo */
-.layout-tv .headerLogo {
-    width: 220px !important;
-    height: 60px !important;
-}
-
-/* Mobile Logo */
-@media (max-width: 768px) {
-    .headerLogo {
-        width: 140px !important;
-        height: 40px !important;
-    }
-
-    .loginPage .headerLogo {
-        width: 180px !important;
-        height: 50px !important;
-    }
-
-    .mainDrawer {
-        border-right: 1px solid rgba(255, 51, 51, 0.2) !important;
-    }
-}
-
-/* No Logo Fallback */
-.headerLogo:not([style*="background-image"]) {
-    background: linear-gradient(90deg, var(--accent-color), var(--accent-light)) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    color: transparent !important;
-    font-weight: bold !important;
-    font-size: 24px !important;
-    text-align: center !important;
-    line-height: 50px !important;
-}
+.layout-tv .navMenuItem{font-size:115%;font-weight:600}.layout-tv .videoOsdBottom{padding:14px!important}.layout-tv .headerLogo{width:220px!important;height:60px!important}@media (max-width:768px){.headerLogo{width:140px!important;height:40px!important}.loginPage .headerLogo{width:180px!important;height:50px!important}.mainDrawer{border-right:1px solid rgba(255,51,51,.2)!important}}.headerLogo:not([style*="background-image"]){background:linear-gradient(90deg,var(--accent-color),var(--accent-light))!important;-webkit-background-clip:text!important;background-clip:text!important;color:transparent!important;font-weight:bold!important;font-size:24px!important;text-align:center!important;line-height:50px!important}
 
 /* ================================================= */
 /* 18. JELLYFIN-ENHANCED PLUGIN SUPPORT ========== */
 /* ================================================= */
 
-#jellyfin-enhanced-panel {
-    background-color: rgba(42, 42, 42, 0.69) !important;
-    margin: 24px 0;
-    border-radius: 32px !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 51, 51, 0.2) !important;
-    backdrop-filter: blur(15px) !important;
-}
-
-#jellyfin-enhanced-panel>div:first-of-type {
-    border-bottom: none !important;
-    background: transparent !important;
-}
-
-#jellyfin-enhanced-panel .panel-main-content {
-    background: rgba(42, 42, 42, 0.69) !important;
-}
-
-#jellyfin-enhanced-panel .tabs {
-    padding: 4px !important;
-    background-color: rgba(42, 42, 42, 0.8);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(87, 87, 87, 0.18);
-    border-radius: 50px;
-    margin: 8px 56px;
-}
-
-#jellyfin-enhanced-panel .tab-button {
-    border-radius: 50px;
-    border-bottom: none !important;
-    background: none !important;
-}
-
-#jellyfin-enhanced-panel .tab-button.active {
-    border-radius: 50px;
-    border-bottom: none !important;
-    background: rgb(255, 51, 51) !important;
-    color: black !important;
-}
-
-#jellyfin-enhanced-panel h3,
-#jellyfin-enhanced-panel summary {
-    color: rgb(255, 51, 51) !important;
-    border-bottom-color: rgb(255, 51, 51) !important;
-}
-
-#jellyfin-enhanced-panel #clearTranslationCacheButton,
-#jellyfin-enhanced-panel #releaseNotesBtn {
-    background: rgba(255, 51, 51, 0.5) !important;
-    border-color: rgb(255, 51, 51) !important;
-}
-
-#jellyfin-enhanced-panel div[style*="border-left"],
-#jellyfin-enhanced-panel .style-preset[style*="border: 2px solid"] {
-    border-left-color: rgb(255, 51, 51) !important;
-    border-color: rgb(255, 51, 51) !important;
-}
-
-#jellyfin-enhanced-panel input[type="checkbox"],
-#jellyfin-enhanced-panel input[type="range"] {
-    accent-color: rgb(255, 51, 51) !important;
-}
-
-.genre-overlay-container *,
-.rating-overlay-container *,
-.quality-overlay-container *,
-.language-overlay-container * {
-    border-radius: 12px !important;
-}
-
-.language-overlay-container {
-    left: 12px !important;
-    bottom: 12px !important;
-    border-radius: 12px !important;
-}
-
-.quality-overlay-container {
-    left: 12px !important;
-    top: 12px !important;
-    border-radius: 12px !important;
-}
+#jellyfin-enhanced-panel{background-color:rgba(42,42,42,.69)!important;margin:24px 0;border-radius:32px!important;box-shadow:0 4px 30px rgba(0,0,0,.1);border:1px solid rgba(255,51,51,.2)!important;backdrop-filter:blur(15px)!important}#jellyfin-enhanced-panel>div:first-of-type{border-bottom:none!important;background:transparent!important}#jellyfin-enhanced-panel .panel-main-content{background:rgba(42,42,42,.69)!important}#jellyfin-enhanced-panel .tabs{padding:4px!important;background-color:rgba(42,42,42,.8);box-shadow:0 4px 30px rgba(0,0,0,.1);border:1px solid rgba(87,87,87,.18);border-radius:50px;margin:8px 56px}#jellyfin-enhanced-panel .tab-button{border-radius:50px;border-bottom:none!important;background:none!important}#jellyfin-enhanced-panel .tab-button.active{border-radius:50px;border-bottom:none!important;background:rgb(255,51,51)!important;color:black!important}#jellyfin-enhanced-panel h3,#jellyfin-enhanced-panel summary{color:rgb(255,51,51)!important;border-bottom-color:rgb(255,51,51)!important}#jellyfin-enhanced-panel #clearTranslationCacheButton,#jellyfin-enhanced-panel #releaseNotesBtn{background:rgba(255,51,51,.5)!important;border-color:rgb(255,51,51)!important}#jellyfin-enhanced-panel div[style*="border-left"],#jellyfin-enhanced-panel .style-preset[style*="border: 2px solid"]{border-left-color:rgb(255,51,51)!important;border-color:rgb(255,51,51)!important}#jellyfin-enhanced-panel input[type=checkbox],#jellyfin-enhanced-panel input[type=range]{accent-color:rgb(255,51,51)!important}.genre-overlay-container *,.rating-overlay-container *,.quality-overlay-container *,.language-overlay-container *{border-radius:12px!important}.language-overlay-container{left:12px!important;bottom:12px!important;border-radius:12px!important}.quality-overlay-container{left:12px!important;top:12px!important;border-radius:12px!important}
 
 /* ================================================= */
 /* 19. MISC ENHANCEMENTS ============================ */
 /* ================================================= */
 
-/* Additional SVG styling for consistency */
-svg, svg path {
-    fill: var(--accent-color) !important;
-    stroke: var(--accent-color) !important;
-}
-
-/* Consistent glowing effects */
-[class*="icon"], [class*="button"], [class*="interactive"] {
-    transition: var(--transition-default);
-}
-
-/* End of Ultimate Jellyfin Theme */
+svg,svg path{fill:var(--accent-color)!important;stroke:var(--accent-color)!important}[class*="icon"],[class*="button"],[class*="interactive"]{transition:var(--transition-default)}
