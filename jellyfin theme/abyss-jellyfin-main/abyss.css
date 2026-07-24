@@ -1,6 +1,12 @@
 /* 1. IMPORTS & FONTS
    - Override this to customise font of abyss for your setup. */
 
+/* Working import for Jellyfin Custom CSS:
+   @import url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/jellyfin%20theme/abyss-jellyfin-main/abyss.css');
+   If Jellyfin still loads a stale copy, add a cache-busting query:
+   @import url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/jellyfin%20theme/abyss-jellyfin-main/abyss.css?v=2');
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 @font-face {
@@ -234,14 +240,23 @@ input[type="radio"]:checked {
 }
 
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-    display: inline-block !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: auto !important;
+    min-width: 280px !important;
+    height: 70px !important;
+    padding: 0 1rem 0 92px !important;
     background-image: var(--logo-url) !important;
-    background-size: contain !important;
+    background-size: auto 70% !important;
     background-repeat: no-repeat !important;
     background-position: left center !important;
-    width: 275px !important;
-    height: 50px !important;
     text-indent: -9999px;
+}
+
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
+    content: '';
+    position: absolute;
 }
 
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo svg,
