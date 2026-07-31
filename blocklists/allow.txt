@@ -21,3 +21,5 @@ download.zerotier.com
 install.zerotier.com
 
 api.zerotier.com
+
+central.zerotier.com
