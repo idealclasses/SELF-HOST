@@ -23,3 +23,8 @@ install.zerotier.com
 api.zerotier.com
 
 central.zerotier.com
+
+login.zerotier.com
+
+billing.zerotier.com
+
