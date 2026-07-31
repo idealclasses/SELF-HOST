@@ -5,3 +5,19 @@ account.proton.me
 account-api.proton.me
 
 protonstatus.com
+
+www.zerotier.com
+
+my.zerotier.com
+
+docs.zerotier.com
+
+discuss.zerotier.com
+
+blog.zerotier.com
+
+download.zerotier.com
+
+install.zerotier.com
+
+api.zerotier.com
