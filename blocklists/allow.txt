@@ -28,3 +28,31 @@ login.zerotier.com
 
 billing.zerotier.com
 
+zerotier.com
+
+status.zerotier.com
+
+updates.zerotier.com
+
+cdn.zerotier.com
+
+controller.zerotier.com
+
+moon.zerotier.com
+
+moon1.zerotier.com
+
+moon2.zerotier.com
+
+planet.zerotier.com
+
+*.central.zerotier.com
+
+app.zerotier.com
+
+support.zerotier.com
+
+mail.zerotier.com
+
+repo.zerotier.com
+
