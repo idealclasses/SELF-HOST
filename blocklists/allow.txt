@@ -56,3 +56,7 @@ mail.zerotier.com
 
 repo.zerotier.com
 
+# Janitor AI
+janitorai.com
+www.janitorai.com
+
