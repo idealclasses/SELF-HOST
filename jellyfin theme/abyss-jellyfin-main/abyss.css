@@ -154,21 +154,11 @@ body {
     color: transparent !important;
 }
 
-/* Jellyfin 12 home-page logo location: the home-page title is rendered in the pageTitle container
-   for the My Media/Index page rather than the legacy pageTitleWithLogo class chain. */
-#indexPage .pageTitle,
-#indexPage.homePage .pageTitle,
-body:has(#indexPage.homePage:not(.hide)) .pageTitle {
-    background-image: var(--logo-url) !important;
-    background-repeat: no-repeat !important;
-    background-position: left center !important;
-    background-size: 280px auto !important;
-    padding-left: 310px !important;
-    min-width: 280px !important;
-    min-height: 70px !important;
-    text-indent: -9999px !important;
-    color: transparent !important;
-}
+
+
+
+
+
 
 #root .sectionTitleTextButton > .material-icons,
 #reactRoot .sectionTitleTextButton > .material-icons,

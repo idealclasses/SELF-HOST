@@ -78,6 +78,171 @@ body {
     background: linear-gradient(135deg, #1a0a0a, #2d0f0f) !important;
 }
 
+/* Jellyfin 12.0 compatibility layer.
+   Jellyfin 12 moved some UI surface elements behind newer app/root/view wrappers,
+   so we make the theme apply across both the old and the newer containers. */
+#root,
+#reactRoot,
+.app,
+.application,
+.main-view,
+.mainView,
+.mainContent,
+.page,
+.pageRoot,
+.content,
+.layout,
+.appContent,
+.jellyfin-app,
+.jellyfin-root,
+.mainDrawer,
+.drawer {
+    background: linear-gradient(135deg, #1a0a0a, #2d0f0f) !important;
+    color: #f5f5f7 !important;
+}
+
+#root .skinHeader,
+#reactRoot .skinHeader,
+.app .skinHeader,
+.application .skinHeader,
+.main-view .skinHeader,
+.mainView .skinHeader,
+.appContent .skinHeader {
+    background: rgba(0, 0, 0, 0.35) !important;
+    border-bottom: 1px solid rgba(var(--abyss-accent), 0.24) !important;
+}
+
+#root .card,
+#reactRoot .card,
+.app .card,
+.application .card,
+.main-view .card,
+.mainView .card {
+    border-radius: var(--abyss-radius) !important;
+}
+
+/* Jellyfin 12 CSS compatibility for page/title and control buttons */
+#root .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+#reactRoot .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+.app .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+.application .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+.main-view .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+.mainView .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+#root .pageTitleWithDefaultLogo,
+#reactRoot .pageTitleWithDefaultLogo,
+.app .pageTitleWithDefaultLogo,
+.application .pageTitleWithDefaultLogo,
+.main-view .pageTitleWithDefaultLogo,
+.mainView .pageTitleWithDefaultLogo,
+#root .pageTitle,
+#reactRoot .pageTitle,
+.app .pageTitle,
+.application .pageTitle,
+.main-view .pageTitle,
+.mainView .pageTitle {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: auto !important;
+    min-width: 280px !important;
+    height: 70px !important;
+    padding: 0 1rem 0 92px !important;
+    background-image: var(--logo-url) !important;
+    background-size: 350px auto !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    color: transparent !important;
+}
+
+
+
+/* Restore the visible home/brand logo only on the Material-UI route-home link in Jellyfin 12.
+   Hide the transparent icon and the text label, then paint the configured theme logo itself. */
+a[href="#/"][class*="MuiButton"] {
+    color: transparent !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    min-height: 70px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+a[href="#/"][class*="MuiButton"]::before {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+a[href="#/"][class*="MuiButton"] .MuiButton-icon,
+a[href="#/"][class*="MuiButton"] .MuiButton-startIcon,
+a[href="#/"][class*="MuiButton"] .MuiButton-iconSizeLarge,
+a[href="#/"][class*="MuiButton"] .MuiButton-icon img,
+a[href="#/"][class*="MuiButton"] img {
+    display: none !important;
+}
+
+a[href="#/"][class*="MuiButton"] .MuiTouchRipple-root {
+    display: none !important;
+}
+
+a[href="#/"][class*="MuiButton"]::before {
+    content: '' !important;
+    display: inline-block !important;
+    width: 360px !important;
+    height: 70px !important;
+    min-width: 360px !important;
+    background-image: var(--logo-url) !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+    vertical-align: middle !important;
+    object-fit: cover !important;
+    transform-origin: left center !important;
+}
+
+#root .sectionTitleTextButton > .material-icons,
+#reactRoot .sectionTitleTextButton > .material-icons,
+.app .sectionTitleTextButton > .material-icons,
+.application .sectionTitleTextButton > .material-icons,
+.main-view .sectionTitleTextButton > .material-icons,
+.mainView .sectionTitleTextButton > .material-icons {
+    margin-right: 0.2em !important;
+}
+
+#root .paper-icon-button-light,
+#reactRoot .paper-icon-button-light,
+.app .paper-icon-button-light,
+.application .paper-icon-button-light,
+.main-view .paper-icon-button-light,
+.mainView .paper-icon-button-light {
+    border-radius: var(--abyss-radius) !important;
+}
+
+#root .paper-icon-button-light:hover,
+#reactRoot .paper-icon-button-light:hover,
+.app .paper-icon-button-light:hover,
+.application .paper-icon-button-light:hover,
+.main-view .paper-icon-button-light:hover,
+.mainView .paper-icon-button-light:hover {
+    color: rgb(var(--abyss-accent)) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+#root .playstatebutton-icon-played::before,
+#reactRoot .playstatebutton-icon-played::before,
+.app .playstatebutton-icon-played::before,
+.application .playstatebutton-icon-played::before,
+.main-view .playstatebutton-icon-played::before,
+.mainView .playstatebutton-icon-played::before {
+    background-color: rgba(var(--abyss-accent), 0.8);
+    border-radius: 8px;
+    color: #000;
+}
+
 /* Glass Morphism - Add to all containers */
 .mainDrawer, .drawer, .dialog, .menu, 
 .emby-input, .emby-select, .emby-textarea,
@@ -244,7 +409,7 @@ input[type="radio"]:checked {
     align-items: center !important;
     justify-content: flex-start !important;
     width: auto !important;
-    min-width: 240px !important;
+    min-width: 280px !important;
     height: 70px !important;             /* area height */
     padding: 0 1rem 0 92px !important;   /* spacing for text */
     background-image: var(--logo-url) !important;
