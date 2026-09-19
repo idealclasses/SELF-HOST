@@ -1,12 +1,6 @@
 /* 1. IMPORTS & FONTS
    - Override this to customise font of abyss for your setup. */
 
-/* Working import for Jellyfin Custom CSS:
-   @import url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/jellyfin%20theme/abyss-jellyfin-main/abyss.css');
-   If Jellyfin still loads a stale copy, add a cache-busting query:
-   @import url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/jellyfin%20theme/abyss-jellyfin-main/abyss.css?v=2');
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
 
 @font-face {
@@ -43,16 +37,14 @@
 :root {
     /* Primary accent colour — used for highlights, active states, progress bars.
        Format: R, G, B (no rgb() wrapper) so opacity variants work cleanly. */
-    --abyss-accent: 255, 51, 51;
-    --logo-url: url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/images/Copilot_20260127_010822.png');
+    --abyss-accent: 245, 245, 247;
+    /* Space-separated twin used by Jellyfin 12's MUI channel variables. */
+    --abyss-accent-channel: 245 245 247;
 
     /* Corner rounding applied globally */
     --abyss-radius: 12px;
 
     /* Fixed defaults */
-
-    /* Indicator pill background (episode count, etc.) */
-    --abyss-indicator: 55, 55, 55;
 
     /* Backgorund for drawers and dialogs */
     --abyss-glass-tint: 42, 42, 42;
@@ -60,6 +52,25 @@
     /* Custom cubic-bezier */
     --abyss-ease: cubic-bezier(0.16, 1, 0.3, 1);
     --abyss-ease-snappy: cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    /* Rendering controls used by the optional Lite override */
+    --abyss-backdrop-blur: 23px;
+    --abyss-glass-blur: 15px;
+}
+
+/* Jellyfin 12 exposes the built-in theme palette as CSS variables. Keep the
+   MUI and legacy surfaces on the same Abyss palette without relying on
+   generated Emotion class names. */
+html[data-theme="dark"] {
+    --jf-palette-primary-main: rgb(var(--abyss-accent));
+    --jf-palette-primary-mainChannel: var(--abyss-accent-channel);
+    --jf-palette-primary-contrastText: #121212;
+    --jf-palette-secondary-main: rgb(var(--abyss-accent));
+    --jf-palette-secondary-mainChannel: var(--abyss-accent-channel);
+    --jf-palette-secondary-contrastText: #121212;
+    --jf-palette-AppBar-defaultBg: rgba(var(--abyss-glass-tint), 0.92);
+    --jf-palette-AppBar-transparentBg: rgba(var(--abyss-glass-tint), 0.72);
+    --jf-card-borderRadius: var(--abyss-radius);
 }
 
 
@@ -75,136 +86,6 @@ body {
     font-style: normal;
     font-variation-settings: "GRAD" 0;
     overscroll-behavior: none;
-    background: linear-gradient(135deg, #1a0a0a, #2d0f0f) !important;
-}
-
-/* Jellyfin 12.0 compatibility layer.
-   Jellyfin 12 moved some UI surface elements behind newer app/root/view wrappers,
-   so we make the theme apply across both the old and the newer containers. */
-#root,
-#reactRoot,
-.app,
-.application,
-.main-view,
-.mainView,
-.mainContent,
-.page,
-.pageRoot,
-.content,
-.layout,
-.appContent,
-.jellyfin-app,
-.jellyfin-root,
-.mainDrawer,
-.drawer {
-    background: linear-gradient(135deg, #1a0a0a, #2d0f0f) !important;
-    color: #f5f5f7 !important;
-}
-
-#root .skinHeader,
-#reactRoot .skinHeader,
-.app .skinHeader,
-.application .skinHeader,
-.main-view .skinHeader,
-.mainView .skinHeader,
-.appContent .skinHeader {
-    background: rgba(0, 0, 0, 0.35) !important;
-    border-bottom: 1px solid rgba(var(--abyss-accent), 0.24) !important;
-}
-
-#root .card,
-#reactRoot .card,
-.app .card,
-.application .card,
-.main-view .card,
-.mainView .card {
-    border-radius: var(--abyss-radius) !important;
-}
-
-/* Jellyfin 12 CSS compatibility for page/title and control buttons */
-#root .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-#reactRoot .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-.app .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-.application .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-.main-view .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-.mainView .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
-#root .pageTitleWithDefaultLogo,
-#reactRoot .pageTitleWithDefaultLogo,
-.app .pageTitleWithDefaultLogo,
-.application .pageTitleWithDefaultLogo,
-.main-view .pageTitleWithDefaultLogo,
-.mainView .pageTitleWithDefaultLogo,
-#root .pageTitle,
-#reactRoot .pageTitle,
-.app .pageTitle,
-.application .pageTitle,
-.main-view .pageTitle,
-.mainView .pageTitle {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    width: auto !important;
-    min-width: 280px !important;
-    height: 70px !important;
-    padding: 0 1rem 0 92px !important;
-    background-image: var(--logo-url) !important;
-    background-size: 350px auto !important;
-    background-repeat: no-repeat !important;
-    background-position: left center !important;
-    color: transparent !important;
-}
-
-
-
-
-
-
-
-#root .sectionTitleTextButton > .material-icons,
-#reactRoot .sectionTitleTextButton > .material-icons,
-.app .sectionTitleTextButton > .material-icons,
-.application .sectionTitleTextButton > .material-icons,
-.main-view .sectionTitleTextButton > .material-icons,
-.mainView .sectionTitleTextButton > .material-icons {
-    margin-right: 0.2em !important;
-}
-
-#root .paper-icon-button-light,
-#reactRoot .paper-icon-button-light,
-.app .paper-icon-button-light,
-.application .paper-icon-button-light,
-.main-view .paper-icon-button-light,
-.mainView .paper-icon-button-light {
-    border-radius: var(--abyss-radius) !important;
-}
-
-#root .paper-icon-button-light:hover,
-#reactRoot .paper-icon-button-light:hover,
-.app .paper-icon-button-light:hover,
-.application .paper-icon-button-light:hover,
-.main-view .paper-icon-button-light:hover,
-.mainView .paper-icon-button-light:hover {
-    color: rgb(var(--abyss-accent)) !important;
-    background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-#root .playstatebutton-icon-played::before,
-#reactRoot .playstatebutton-icon-played::before,
-.app .playstatebutton-icon-played::before,
-.application .playstatebutton-icon-played::before,
-.main-view .playstatebutton-icon-played::before,
-.mainView .playstatebutton-icon-played::before {
-    background-color: rgba(var(--abyss-accent), 0.8);
-    border-radius: 8px;
-    color: #000;
-}
-
-/* Glass Morphism - Add to all containers */
-.mainDrawer, .drawer, .dialog, .menu, 
-.emby-input, .emby-select, .emby-textarea,
-.formSubmitButton, .emby-button, button {
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
 }
 
 .material-icons {
@@ -223,7 +104,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-* {
+:root {
     scrollbar-color: rgba(var(--abyss-accent), 0.8) #0000 !important;
 }
 
@@ -330,7 +211,7 @@ input[type="radio"]:checked {
 }
 
 /* Override Chromium/Electron blue accent globally */
-* {
+:root {
     accent-color: rgb(var(--abyss-accent));
 }
 
@@ -361,30 +242,7 @@ input[type="radio"]:checked {
 }
 
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    width: auto !important;
-    min-width: 280px !important;
-    height: 70px !important;             /* area height */
-    padding: 0 1rem 0 92px !important;   /* spacing for text */
-    background-image: var(--logo-url) !important;
-    background-size: 350px auto !important; /* force logo image bigger */
-    background-repeat: no-repeat !important;
-    background-position: left center !important;
-    text-indent: -9999px;
-}
-
-
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-    content: '';
-    position: absolute;
-}
-
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo svg,
-.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo img {
     display: none !important;
-    opacity: 0 !important;
 }
 
 
@@ -494,6 +352,12 @@ input[type="radio"]:checked {
     padding: 2em 0 !important;
 }
 
+#indexPage .headerTop,
+#homeTab .headerTop {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 .skinHeader {
     background-color: transparent;
     display: flex !important;
@@ -528,15 +392,165 @@ input[type="radio"]:checked {
     border-radius: 50px !important;
 }
 
-/* Main content */
-.withSectionTabs .backdropImage {
-    -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-    filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
+/* Jellyfin 12 modern app shell (React / MUI) [BETA] */
+
+/*
+.mainAnimatedPage,
+.skinBody {
+   margin-top: 6%;
+}
+*/
+
+html[data-theme="dark"] .MuiAppBar-root {
+    color: rgb(var(--abyss-accent));
+    background-color: rgba(var(--abyss-glass-tint), 0.72) !important;
+    background-image: none !important;
+    border: none;
+    border-bottom: 1px solid rgba(var(--abyss-accent), 0.16);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.18);
+    -webkit-backdrop-filter: blur(var(--abyss-glass-blur));
+    backdrop-filter: blur(var(--abyss-glass-blur));
 }
 
+/*
+html[data-theme="dark"] .MuiAppBar-root.MuiAppBar-positionFixed {
+    top: 24px !important;
+    left: 24px !important;
+    right: 24px !important;
+    width: auto !important;
+    border-radius: var(--abyss-radius) !important;
+    border: none;
+    border-bottom: 1px solid rgba(var(--abyss-accent), 0.16);
+}
+*/
+
+html[data-theme="dark"] .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-dense.padded-left {
+    padding-left: 1.8% !important;
+}
+
+html[data-theme="dark"] .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-dense.padded-right {
+    padding-right: 1.8% !important;
+}
+
+html[data-theme="dark"] .MuiToolbar-root {
+    min-height: 64px;
+    gap: 0.25rem;
+    font-family: "Google Sans", sans-serif;
+}
+
+html[data-theme="dark"] .MuiButtonGroup-root {
+    gap: 0.25rem;
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiButton-root,
+html[data-theme="dark"] .MuiToolbar-root .MuiIconButton-root {
+    color: rgba(var(--abyss-accent), 0.78);
+    border-radius: var(--abyss-radius);
+    transition: background-color 0.25s var(--abyss-ease),
+        color 0.25s var(--abyss-ease),
+        transform 0.25s var(--abyss-ease);
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiButton-root {
+    min-width: auto;
+    padding: 0.5rem 0.85rem;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.25;
+    text-transform: none;
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiIconButton-root {
+    padding: 0.6rem;
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiButton-root:hover,
+html[data-theme="dark"] .MuiToolbar-root .MuiIconButton-root:hover {
+    color: rgb(var(--abyss-accent));
+    background-color: rgba(var(--abyss-accent), 0.12);
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiButton-root.MuiButton-colorPrimary {
+    color: #121212;
+    background-color: rgb(var(--abyss-accent));
+}
+
+html[data-theme="dark"] .MuiToolbar-root .MuiButton-root.MuiButton-colorPrimary:hover {
+    color: #121212;
+    background-color: rgba(var(--abyss-accent), 0.88);
+}
+
+html[data-theme="dark"] .MuiDrawer-paper,
+html[data-theme="dark"] .MuiMenu-paper,
+html[data-theme="dark"] .MuiDialog-paper {
+    color: rgb(var(--abyss-accent));
+    background-color: rgba(var(--abyss-glass-tint), 0.92);
+    background-image: none;
+    border: 1px solid rgba(var(--abyss-accent), 0.16);
+    box-shadow: 0 8px 36px rgba(0, 0, 0, 0.32);
+    -webkit-backdrop-filter: blur(var(--abyss-glass-blur));
+    backdrop-filter: blur(var(--abyss-glass-blur));
+}
+
+html[data-theme="dark"] .MuiDrawer-paper {
+    border-radius: 0 var(--abyss-radius) var(--abyss-radius) 0;
+}
+
+html[data-theme="dark"] .MuiMenu-paper,
+html[data-theme="dark"] .MuiDialog-paper {
+    border-radius: var(--abyss-radius);
+}
+
+html[data-theme="dark"] .MuiListItemButton-root {
+    margin: 2px 8px;
+    border-radius: var(--abyss-radius);
+    transition: background-color 0.25s var(--abyss-ease),
+        color 0.25s var(--abyss-ease);
+}
+
+html[data-theme="dark"] .MuiListItemButton-root:hover {
+    color: #121212;
+    background-color: rgba(var(--abyss-accent), 0.82);
+}
+
+html[data-theme="dark"] .MuiListItemButton-root.Mui-selected,
+html[data-theme="dark"] .MuiListItemButton-root.Mui-selected:hover {
+    color: #121212;
+    background-color: rgb(var(--abyss-accent));
+}
+
+html[data-theme="dark"] .MuiFilledInput-root,
+html[data-theme="dark"] .MuiOutlinedInput-root {
+    border-radius: var(--abyss-radius);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Let the Modern app bar float over Spotlight instead of reserving an opaque
+   strip above it. The loader owns this state so other routes keep their
+   normal app-bar spacing. */
+html.abyss-spotlight-visible[data-theme="dark"] .MuiAppBar-root.MuiAppBar-colorTransparent:has(+div[aria-hidden="true"]) {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-bottom-color: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+html.abyss-spotlight-visible[data-theme="dark"] .MuiAppBar-root+div[aria-hidden="true"] {
+    height: 0 !important;
+}
+
+/* Main content */
+.withSectionTabs .backdropImage,
 body:has(#itemDetailPage) .backdropImage {
-    -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
-    filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
+    -webkit-filter: blur(var(--abyss-backdrop-blur)) saturate(120%) contrast(120%) brightness(25%);
+    filter: blur(var(--abyss-backdrop-blur)) saturate(120%) contrast(120%) brightness(25%);
+}
+
+.hideMainDrawer .backdropImage {
+    -webkit-filter: none;
+    filter: none;
 }
 
 .backdropContainer {
@@ -554,13 +568,11 @@ body:has(#itemDetailPage) .backdropImage {
 /* Navigation / drawer */
 .editPageSidebar,
 .mainDrawer {
-    background-color: rgba(26, 10, 10, 0.7) !important;
+    background-color: rgba(var(--abyss-glass-tint), 0.69);
     margin: 24px 0;
     border-radius: 32px;
-    box-shadow: 0 8px 32px rgba(255, 51, 51, 0.2) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(245, 245, 247, 0.2) !important;
 }
 
 .mainDrawer.drawer-open {
@@ -638,11 +650,13 @@ body:has(#itemDetailPage) .backdropImage {
 }
 
 /* Backdrop / detail ribbon */
-.itemBackdrop {
-    height: 31vh !important;
+.layout-tv .itemBackdrop,
+.layout-desktop .itemBackdrop {
+    height: 20vh !important;
     display: inherit;
 }
 
+.layout-tv .detailRibbon,
 .layout-desktop .detailRibbon {
     background: rgba(0, 0, 0, .2) !important;
     margin-top: 0;
@@ -654,11 +668,6 @@ body:has(#itemDetailPage) .backdropImage {
     background: rgba(0, 0, 0, .5) !important;
 }
 
-/* Detail logo */
-.detailLogo {
-    display: none;
-}
-
 #itemDetailPage .detailLogo {
     position: static;
     margin-left: 32.5%;
@@ -667,7 +676,6 @@ body:has(#itemDetailPage) .backdropImage {
     -webkit-filter: drop-shadow(0 0 10px rgba(2, 2, 2, 0.75));
     flex-shrink: 0;
     background-position: 0 50%;
-    margin-top: -18vh;
     margin-bottom: 2vh;
 }
 
@@ -678,7 +686,7 @@ body:has(#itemDetailPage) .backdropImage {
 
 /* Blurhash canvas */
 .blurhash-canvas {
-   -webkit-filter: blur(23px) saturate(120%) contrast(120%) brightness(25%);
+    -webkit-filter: blur(var(--abyss-backdrop-blur)) saturate(120%) contrast(120%) brightness(25%);
     filter: opacity(60%) saturate(60%);
 }
 
@@ -742,6 +750,23 @@ body:has(#itemDetailPage) .backdropImage {
     opacity: 0.4 !important;
 }
 
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="theme"]),
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="dashboardTheme"]) {
+    cursor: not-allowed !important;
+}
+
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="theme"]) .MuiInputLabel-root,
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="theme"]) .MuiInputBase-root,
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="dashboardTheme"]) .MuiInputLabel-root,
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="dashboardTheme"]) .MuiInputBase-root {
+    opacity: 0.4 !important;
+}
+
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="theme"]) .MuiInputBase-root,
+html[data-theme="dark"] #displayPreferencesPage .MuiFormControl-root:has(input[name="dashboardTheme"]) .MuiInputBase-root {
+    pointer-events: none !important;
+}
+
 
 /* 6. COMPONENTS */
 
@@ -750,11 +775,7 @@ body:has(#itemDetailPage) .backdropImage {
 .raised,
 .fab,
 a[data-role="button"] {
-    background: rgba(26, 10, 10, 0.6) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
-    box-shadow: 0 0 15px rgba(255, 51, 51, 0.2) !important;
+    background: rgba(40, 40, 40, 0.8) !important;
     transition: background 0.37s var(--abyss-ease),
         color 0.37s var(--abyss-ease),
         border-color 0.37s var(--abyss-ease),
@@ -764,19 +785,16 @@ a[data-role="button"] {
 .raised:hover,
 .fab:hover,
 a[data-role="button"]:hover {
-    background: rgba(255, 51, 51, 0.3) !important;
-    border-color: rgb(var(--abyss-accent)) !important;
-    box-shadow: 0 0 25px rgba(255, 51, 51, 0.6) !important;
+    background: rgba(var(--abyss-accent), 0.5) !important;
 }
 
 .raised:hover,
 .fab:hover,
 .navMenuOption:hover,
 .listItem:hover,
-.actionSheetMenuItem:hover,
-.css-17c09up:hover {
-    background: rgba(255, 51, 51, 0.4) !important;
-    color: #fff;
+.actionSheetMenuItem:hover {
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212;
     font-weight: 700;
 }
 
@@ -805,23 +823,16 @@ a[data-role="button"]:hover {
     border-radius: var(--abyss-radius);
 }
 
-.emby-button.show-focus:focus {
-    background: rgba(var(--abyss-accent), 0.5) !important;
-}
-
-.paper-icon-button-light.show-focus:focus {
-    color: rgb(var(--abyss-accent)) !important;
-}
-
 .emby-tab-button {
     padding: 0.5em 1.5em;
     margin: 0 2.5px;
     border-radius: 50px;
+    border: 3px solid transparent;
 }
 
 .emby-tab-button-active {
-    background: rgb(var(--abyss-accent));
-    color: #121212;
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
     border-radius: 50px;
 }
 
@@ -845,6 +856,21 @@ a[data-role="button"]:hover {
     margin-top: 48px !important;
     box-shadow: 0 0 24px 2px rgba(var(--abyss-accent), 0.2);
     z-index: 2;
+    color: rgba(245, 245, 247);
+}
+
+html[data-theme="dark"] #displayPreferencesPage form button[type="submit"].MuiButton-root {
+    min-height: 3.25rem;
+    border-radius: var(--abyss-radius);
+    color: #121212;
+    background-color: rgb(var(--abyss-accent)) !important;
+    box-shadow: 0 0 24px 2px rgba(var(--abyss-accent), 0.2);
+    font-weight: 700;
+}
+
+html[data-theme="dark"] #displayPreferencesPage form button[type="submit"].MuiButton-root:hover {
+    color: #121212;
+    background-color: rgba(var(--abyss-accent), 0.88) !important;
 }
 
 /* Active / played / link states */
@@ -864,7 +890,7 @@ a[data-role="button"]:hover {
 }
 
 #itemDetailPage .button-link {
-    color: inherit !important;
+    text-align: left;
 }
 
 .ratingbutton-icon-withrating {
@@ -1016,7 +1042,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 }
 
 .countIndicator {
-    background: rgba(var(--abyss-indicator), 0.8);
+    background: rgba(var(--abyss-accent), 0.8);
     box-shadow: none;
     border-radius: 10px !important;
     padding: 4px;
@@ -1070,17 +1096,17 @@ div[data-role="controlgroup"] a[data-role="button"] {
 }
 
 .mdl-slider::-moz-range-thumb {
-    border-radius: var(--abyss-radius);
+    border-radius: 50%;
     background: rgb(var(--abyss-accent));
 }
 
 .mdl-slider::-ms-thumb {
-    border-radius: var(--abyss-radius);
+    border-radius: 50%;
     background: rgb(var(--abyss-accent));
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    border-radius: var(--abyss-radius);
+    border-radius: 50%;
     background: rgb(var(--abyss-accent));
 }
 
@@ -1120,7 +1146,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 /* Progress Ring */
 
 .progressring-spiner {
-    border-color: rgb(var(--abyss-accent));
+    border-color: rgb(var(--abyss-accent)) !important;
     border-width: .35em;
 }
 
@@ -1142,9 +1168,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .listItem bdi:first-of-type {
     font-weight: 500;
     font-variation-settings: "wght" 500;
-    transition:
-        color 0.3s ease,
-        font-variation-settings 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .listItem bdi p {
@@ -1286,10 +1310,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .emby-input:focus,
 .emby-textarea:focus,
 .emby-select-withcolor:focus {
-    background: rgba(26, 10, 10, 0.5) !important;
-    border: 1px solid rgba(255, 51, 51, 0.3) !important;
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(40, 40, 40, 0.8);
 }
 
 .checkboxOutline {
@@ -1721,14 +1742,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     background-color: rgba(var(--abyss-accent), 0.35) !important;
 }
 
-.css-4yt2of {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-right: 1px solid rgba(var(--abyss-accent), 0.12);
-}
-
-.navMenuOption-selected,
-.css-17c09up.Mui-selected {
-    color: rgb(var(--abyss-accent));
+.navMenuOption-selected {
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
 }
 
 
@@ -1738,16 +1754,8 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     font-size: 120%;
 }
 
-#itemDetailPage .itemName.infoText.parentNameLast {
-    display: none;
-}
-
 .hide+.detailPageWrapperContainer .itemName {
     display: block !important;
-}
-
-#itemDetailPage .button-link {
-    color: inherit !important;
 }
 
 .sectionTitleTextButton:hover {
@@ -1785,6 +1793,55 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     margin: .5em .8em;
 }
 
+#itemDetailPage .detailButton {
+    padding: 8px !important;
+    margin-right: 8px !important;
+}
+
+#itemDetailPage .btnPlay {
+    background: rgba(255, 255, 255, 0.95);
+    color: #111;
+    max-width: none !important;
+}
+
+#itemDetailPage .btnPlay:hover {
+    background: #fff;
+    color: #111 !important;
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+}
+
+#itemDetailPage .btnPlay .detailButton-content {
+    flex-direction: row !important;
+}
+
+#itemDetailPage .btnReplay {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#itemDetailPage .btnReplay:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.9) !important;
+    transform: scale(1.05);
+}
+
+#itemDetailPage:has(.btnReplay.hide) .btnPlayTrailer {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#itemDetailPage:has(.btnReplay.hide) #itemDetailPage .btnPlayTrailer:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.9) !important;
+    transform: scale(1.05);
+}
 
 /* 11. LOGIN PAGE */
 
@@ -1825,168 +1882,69 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 /* 12. CAST THUMBNAILS (responsive sizing) */
 
-@media all and (min-width: 131.25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 6.3vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(6.3vw - 0.6em) !important;
-        height: calc(6.3vw - 0.6em) !important;
-    }
+.layout-desktop #castContent .card.overflowPortraitCard,
+.layout-desktop #guestCastContent .card.overflowPortraitCard {
+    width: 10vw !important;
+    font-size: 90% !important;
 }
 
-@media all and (min-width: 120em) and (max-width: 131.25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 6.4vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(6.4vw - 0.6em) !important;
-        height: calc(6.4vw - 0.6em) !important;
-    }
+.layout-desktop #castContent .cardScalable,
+.layout-desktop #guestCastContent .cardScalable {
+    width: calc(10vw - 0.6em) !important;
+    height: calc(14vw - 0.6em) !important;
 }
 
-@media all and (min-width: 100em) and (max-width: 120em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 7.6vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(7.6vw - 0.6em) !important;
-        height: calc(7.6vw - 0.6em) !important;
-    }
+.layout-tablet #castContent .card.overflowPortraitCard,
+.layout-tablet #guestCastContent .card.overflowPortraitCard {
+    width: 17vw !important;
+    font-size: 90% !important;
 }
 
-@media all and (min-width: 87.5em) and (max-width: 100em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 9.3vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(9.3vw - 0.6em) !important;
-        height: calc(9.3vw - 0.6em) !important;
-    }
+.layout-tablet #castContent .cardScalable,
+.layout-tablet #guestCastContent .cardScalable {
+    width: calc(17vw - 0.6em) !important;
+    height: calc(12vw - 0.6em) !important;
 }
 
-@media all and (min-width: 75em) and (max-width: 87.5em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 10.5vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(10.5vw - 0.6em) !important;
-        height: calc(10.5vw - 0.6em) !important;
-    }
+.layout-mobile #castContent .card.overflowPortraitCard,
+.layout-mobile #guestCastContent .card.overflowPortraitCard {
+    width: 35vw !important;
+    font-size: 90% !important;
 }
 
-@media all and (min-width: 50em) and (max-width: 75em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 15vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(15vw - 0.6em) !important;
-        height: calc(15vw - 0.6em) !important;
-    }
+.layout-mobile #castContent .cardScalable,
+.layout-mobile #guestCastContent .cardScalable {
+    width: calc(35vw - 0.6em) !important;
+    height: calc(35vw - 0.6em) !important;
 }
 
-@media all and (min-width: 43.75em) and (max-width: 50em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 20.1vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(20.1vw - 0.6em) !important;
-        height: calc(20.1vw - 0.6em) !important;
-    }
+.layout-mobile .innerCardFooterClear {
+    padding-right: 24px !important;
 }
 
-@media all and (min-width: 25em) and (max-width: 43.75em) {
+@media (orientation: landscape) and (max-height: 500px) {
 
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
+    .layout-mobile #castContent .card.overflowPortraitCard,
+    .layout-mobile #guestCastContent .card.overflowPortraitCard {
         width: 31.2vw !important;
         font-size: 90% !important;
     }
 
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
+    .layout-mobile #castContent .cardScalable,
+    .layout-mobile #guestCastContent .cardScalable {
         width: calc(31.2vw - 0.6em) !important;
         height: calc(31.2vw - 0.6em) !important;
     }
 
-    .innerCardFooterClear {
+    .layout-mobile .innerCardFooterClear {
         padding-right: 24px !important;
     }
 }
-
-@media (max-width: 1024px) and (orientation: landscape) and (max-height: 500px) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 31.2vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(31.2vw - 0.6em) !important;
-        height: calc(31.2vw - 0.6em) !important;
-    }
-
-    .innerCardFooterClear {
-        padding-right: 24px !important;
-    }
-}
-
-@media all and (max-width: 25em) {
-
-    #castContent .card.overflowPortraitCard,
-    #guestCastContent .card.overflowPortraitCard {
-        width: 40vw !important;
-        font-size: 90% !important;
-    }
-
-    #castContent .cardScalable,
-    #guestCastContent .cardScalable {
-        width: calc(40vw - 0.6em) !important;
-        height: calc(40vw - 0.6em) !important;
-    }
-}
-
 
 /* 13. RESPONSIVE / MEDIA QUERIES */
 
 /* Mobile layout tweaks */
+
 .layout-mobile .detailPagePrimaryContainer {
     background: transparent;
 }
@@ -1995,12 +1953,42 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     border-bottom: none;
 }
 
+.layout-mobile #itemDetailPage .parentName,
+.layout-mobile #itemDetailPage .parentNameLast,
+.layout-mobile #itemDetailPage .itemName.subtitle {
+    text-align: left;
+    justify-content: left;
+}
+
+.layout-mobile #itemDetailPage .mainDetailButtons,
+.layout-mobile #itemDetailPage .itemMiscInfo {
+    justify-content: left;
+}
+
 .layout-mobile .itemBackdrop {
-    margin-top: 4rem;
+    position: relative;
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    z-index: 0;
+    -webkit-mask-image:
+        linear-gradient(to bottom, black 40%, transparent 100%),
+        linear-gradient(to right, transparent 0%, black 25%, black 70%, transparent 100%),
+        linear-gradient(to bottom, transparent 0%, black 8%);
+    -webkit-mask-composite: source-in;
+    mask-image:
+        linear-gradient(to bottom, black 40%, transparent 100%),
+        linear-gradient(to right, transparent 0%, black 25%, black 70%, transparent 100%),
+        linear-gradient(to bottom, transparent 0%, black 8%);
+    mask-composite: intersect;
 }
 
 .layout-mobile .detailLogo {
-    display: none !important;
+    margin-top: -15vh;
+    margin-bottom: 4vh !important;
+    margin-left: 40vw !important;
+    width: 50vw !important;
 }
 
 .layout-mobile .sectionTitleTextButton>.material-icons {
@@ -2019,19 +2007,138 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     display: block;
 }
 
-/* Desktop layout */
-.layout-desktop .detailImageContainer .card {
-    position: fixed !important;
-    top: 10% !important;
-}
-
-.layout-mobile .detailImageContainer .card {
-    position: absolute !important;
-}
-
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
     padding-top: 0em;
 }
+
+/* TV Layout */
+
+.card:focus .cardBox.visualCardBox,
+.card:focus .cardBox:not(.visualCardBox) .cardScalable {
+    border-radius: 24px !important;
+    border: 0.3em solid rgb(var(--abyss-accent)) !important;
+    transition: all 0.5s !important;
+}
+
+.layout-tv .pageTitle,
+.layout-tv .cardText {
+    font-size: revert;
+}
+
+.layout-tv .emby-tab-button {
+    padding: 0.3em 1.2em;
+    margin: 4px;
+}
+
+.layout-tv .sliderMarker {
+    height: 24px !important;
+}
+
+.layout-tv .chapterThumbContainer {
+    transform: scale(1.5) !important;
+    top: -72px !important;
+}
+
+.emby-button.show-focus:focus,
+.headerButton.show-focus:focus,
+.actionSheetMenuItem.show-focus:focus {
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
+}
+
+.headerButton.show-focus:focus,
+.raised.button-submit.emby-button.show-focus:focus {
+    transform: scale(1.02) !important;
+    transition: transform 0.3s !important;
+    margin-top: .4em !important;
+    margin-bottom: .4em !important;
+}
+
+.headerUserButton.show-focus:focus {
+    transform: none !important;
+}
+
+#itemDetailPage .emby-button.show-focus:focus {
+    transform: scale(1.1) !important;
+    padding: 0 .4em;
+    margin: .4em;
+    border-radius: 10px;
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
+}
+
+.emby-tab-button.show-focus {
+    background: transparent;
+    transform: none !important;
+    color: #999;
+}
+
+.emby-button.emby-tab-button.show-focus:focus {
+    background: transparent !important;
+    transform: none !important;
+    border-color: rgb(var(--abyss-accent));
+    color: rgb(var(--abyss-accent)) !important;
+}
+
+.emby-tab-button.show-focus:focus .emby-button-foreground {
+    transform: scale(1.1) !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.emby-tab-button.show-focus:focus.emby-tab-button-active {
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
+    border-color: transparent !important;
+    border-radius: 50px;
+}
+
+.emby-select-withcolor {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.libraryPage .paper-icon-button-light.show-focus:focus,
+#videoOsdPage .paper-icon-button-light.show-focus:focus {
+    background: rgb(var(--abyss-accent)) !important;
+    color: #121212 !important;
+    padding: 4px !important;
+}
+
+/* Desktop layout & TV*/
+.layout-desktop #itemDetailPage .btnPlay,
+.layout-tv #itemDetailPage .btnPlay {
+    margin-right: 12px !important;
+    padding: .4em 1.4em .4em 1em !important;
+}
+
+.layout-desktop #itemDetailPage .btnPlay .detailButton-content::after,
+.layout-tv #itemDetailPage .btnPlay .detailButton-content::after {
+    content: "Play";
+    margin-left: 0.45em;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.layout-desktop #itemDetailPage:has(.btnReplay:not(.hide)) .btnPlay .detailButton-content::after,
+.layout-tv #itemDetailPage:has(.btnReplay:not(.hide)) .btnPlay .detailButton-content::after {
+    content: "Resume";
+}
+
+.layout-tv .detailImageContainer .card,
+.layout-desktop .detailImageContainer .card {
+    position: fixed !important;
+    top: 15% !important;
+}
+
+.layout-tv .detailPageSecondaryContainer.padded-left,
+.layout-desktop .detailPageSecondaryContainer.padded-left {
+    padding-left: max(env(safe-area-inset-left), 32.9%);
+}
+
+
 
 .withSectionTabs .headerTop {
     width: 100% !important;
@@ -2224,7 +2331,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /* Backdrop filter support */
-@supports (backdrop-filter: blur(15px)) {
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
 
     .manualLoginForm,
     .dialog,
@@ -2239,7 +2346,8 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     .selectionCommandsPanel,
     .playerStats-stats,
     .appfooter {
-        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(var(--abyss-glass-blur)) !important;
+        backdrop-filter: blur(var(--abyss-glass-blur)) !important;
         background-color: rgba(var(--abyss-glass-tint), 0.69) !important;
     }
 
@@ -2248,7 +2356,8 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     .pageTitle,
     .videoOsdBottom,
     .headerButton {
-        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(var(--abyss-glass-blur)) !important;
+        backdrop-filter: blur(var(--abyss-glass-blur)) !important;
     }
 
     .paper-icon-button-light:hover,
@@ -2275,8 +2384,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
         background: rgba(0, 0, 0, 0.35) !important;
     }
 
-    body:has(.nowPlayingBar) .backgroundContainer.withBackdrop {
-        backdrop-filter: blur(15px);
+    body:has(.nowPlayingBar:not(.hide)) .backgroundContainer.withBackdrop {
+        -webkit-backdrop-filter: blur(var(--abyss-glass-blur));
+        backdrop-filter: blur(var(--abyss-glass-blur));
     }
 }
 
@@ -2356,10 +2466,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     background: transparent;
 }
 
-#searchPage .scrollSlider {
-    overflow: hidden !important;
-}
-
 .noItemsMessage.centerMessage {
     font-weight: 100 !important;
     font-size: 36px;
@@ -2394,16 +2500,12 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     transition: background 0.37s var(--abyss-ease),
         color 0.37s var(--abyss-ease),
         border-color 0.37s var(--abyss-ease),
-        border-radius 0.37s var(--abyss-ease),
         opacity 0.37s var(--abyss-ease),
-        box-shadow 0.37s var(--abyss-ease),
         transform 0.37s var(--abyss-ease) !important;
 }
 
 .mainDrawer {
-    transition: transform 0.18s var(--abyss-ease-snappy),
-        left 0.18s var(--abyss-ease-snappy),
-        width 0.18s var(--abyss-ease-snappy) !important;
+    transition: transform 0.18s var(--abyss-ease-snappy) !important;
 }
 
 /* Favourite button heart animation — all contexts */
@@ -2491,4 +2593,162 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 .verticalSection:nth-child(n+9) {
     animation: abyss-section-fade-up 0.7s var(--abyss-ease) both 0.45s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+:root {
+    --abyss-accent: 255, 51, 51;
+    --abyss-accent-channel: 255 51 51;
+    --abyss-indicator: 55, 55, 55;
+    --logo-url: url('https://cdn.jsdelivr.net/gh/idealclasses/SELF-HOST@main/images/Copilot_20260127_010822.png');
+}
+
+html[data-theme="dark"] {
+    --jf-palette-primary-main: rgb(var(--abyss-accent));
+    --jf-palette-primary-mainChannel: var(--abyss-accent-channel);
+    --jf-palette-primary-contrastText: #121212;
+    --jf-palette-secondary-main: rgb(var(--abyss-accent));
+    --jf-palette-secondary-mainChannel: var(--abyss-accent-channel);
+    --jf-palette-secondary-contrastText: #121212;
+}
+
+html:not(.sleekfin-main-ui) a[href="#/"][class*="MuiButton"] {
+    color: transparent !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+    min-height: 70px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+html:not(.sleekfin-main-ui) a[href="#/"][class*="MuiButton"] .MuiButton-icon,
+html:not(.sleekfin-main-ui) a[href="#/"][class*="MuiButton"] .MuiButton-startIcon,
+html:not(.sleekfin-main-ui) a[href="#/"][class*="MuiButton"] img {
+    display: none !important;
+}
+
+html:not(.sleekfin-main-ui) a[href="#/"][class*="MuiButton"]::before {
+    content: '' !important;
+    display: inline-block !important;
+    width: 360px !important;
+    height: 70px !important;
+    min-width: 360px !important;
+    background-image: var(--logo-url) !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: cover !important;
+}
+
+/* SleekFin owns the home hero and header when its main UI is active. */
+html.sleekfin-main-ui .headerTop,
+html.sleekfin-main-ui #indexPage .headerTop,
+html.sleekfin-main-ui #homeTab .headerTop {
+    padding: 0 !important;
+}
+
+html.sleekfin-main-ui .homeSectionsContainer,
+html.sleekfin-main-ui #indexPage .sections {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+html.sleekfin-main-ui .sleekfin-hero,
+html.sleekfin-main-ui .sleekfin-hero + .sections {
+    margin-top: 0 !important;
+}
+
+html.sleekfin-main-ui .verticalSection {
+    animation: none !important;
+}
+
+html.sleekfin-main-ui #indexPage:has(.sleekfin-hero) #favoritesTab {
+    margin-top: 0 !important;
+}
+
+/* Abyss palette for SleekFin-owned surfaces. */
+html.sleekfin-main-ui {
+    --sleekfin-header-active-background: rgba(255, 51, 51, 0.18) !important;
+    --sleekfin-header-active-opacity: 1 !important;
+    --sleekfin-header-active-text: #ffffff !important;
+    --sleekfin-header-item-background: rgba(24, 24, 24, 0.86) !important;
+    --sleekfin-header-item-text: rgba(245, 245, 247, 0.78) !important;
+    --sleekfin-header-hover-opacity: 1 !important;
+}
+
+html.sleekfin-main-ui header[data-sleekfin-header],
+html.sleekfin-main-ui header[data-sleekfin-header] .MuiToolbar-root,
+html.sleekfin-main-ui header[data-sleekfin-header] [data-sleekfin-header-segment] {
+    background: rgba(18, 18, 18, 0.88) !important;
+    border-color: rgba(255, 51, 51, 0.2) !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.32) !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+}
+
+html.sleekfin-main-ui [data-sleekfin-header-link][data-sleekfin-current="true"],
+html.sleekfin-main-ui [data-sleekfin-header-link]:hover,
+html.sleekfin-main-ui [data-sleekfin-header-toggle]:hover {
+    color: #ffffff !important;
+    background: rgba(255, 51, 51, 0.18) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-hero {
+    background: #120909 !important;
+}
+
+html.sleekfin-main-ui .sleekfin-hero-facts,
+html.sleekfin-main-ui .sleekfin-fact {
+    color: rgba(245, 245, 247, 0.78) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-hero-score,
+html.sleekfin-main-ui .sleekfin-meta-accent {
+    color: rgb(var(--abyss-accent)) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-button-primary {
+    color: #121212 !important;
+    background: rgb(var(--abyss-accent)) !important;
+    border-color: rgb(var(--abyss-accent)) !important;
+    box-shadow: 0 0 24px rgba(var(--abyss-accent), 0.2) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-button-control,
+html.sleekfin-main-ui .sleekfin-icon-button {
+    color: rgba(245, 245, 247, 0.9) !important;
+    background: rgba(40, 40, 40, 0.82) !important;
+    border-color: rgba(245, 245, 247, 0.16) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-button-primary:hover,
+html.sleekfin-main-ui .sleekfin-button-control:hover,
+html.sleekfin-main-ui .sleekfin-icon-button:hover {
+    color: #121212 !important;
+    background: rgb(var(--abyss-accent)) !important;
+    border-color: rgb(var(--abyss-accent)) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-section-heading,
+html.sleekfin-main-ui .sleekfin-section-title {
+    color: rgba(245, 245, 247, 0.92) !important;
+}
+
+html.sleekfin-main-ui .sleekfin-section-subtitle,
+html.sleekfin-main-ui .sleekfin-media-meta {
+    color: rgba(245, 245, 247, 0.62) !important;
 }

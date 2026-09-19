@@ -6,15 +6,15 @@ set -euo pipefail
 # https://github.com/AumGupta/abyss-jellyfin
 # ==============================================================================
 
-REPO="AumGupta/abyss-jellyfin"
-BRANCH="main"
+REPO="${ABYSS_REPO:-AumGupta/abyss-jellyfin}"
+BRANCH="${ABYSS_BRANCH:-main}"
 RAW="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 REPO_URL="https://github.com/${REPO}"
 
 SPOTLIGHT_FILES=(
     "scripts/spotlight/spotlight.html"
     "scripts/spotlight/spotlight.css"
-    "scripts/spotlight/home-html.chunk.js"
+    "scripts/spotlight/spotlight-loader.js"
 )
 
 # Detect OS once at startup
@@ -153,6 +153,84 @@ sync_spotlight_files() {
     echo ""
 }
 
+transform_branding_json() {
+    local mode="$1"
+    python3 -c '
+import json, re, sys
+
+mode, repo, branch = sys.argv[1:]
+data = json.load(sys.stdin)
+css = data.get("CustomCss") or ""
+start = "/* ABYSS THEME START */"
+end = "/* ABYSS THEME END */"
+css = re.sub(re.escape(start) + r".*?" + re.escape(end) + r"(?:\r?\n)?", "", css, flags=re.S)
+legacy_import = rf"^[ \t]*@import\s+url\([\"\x27]?https://cdn\.jsdelivr\.net/gh/{re.escape(repo)}@[^/\"\x27)]+/abyss\.css[\"\x27]?\);[ \t]*(?:\r?\n)?"
+css = re.sub(legacy_import, "", css, flags=re.M | re.I)
+css = re.sub(r"^[ \t]*/\* Customise Abyss: https://aumgupta\.github\.io/abyss-jellyfin/ \*/[ \t]*(?:\r?\n)?", "", css, flags=re.M)
+
+if mode == "install":
+    block = f"{start}\n@import url(\x27https://cdn.jsdelivr.net/gh/{repo}@{branch}/abyss.css\x27);\n/* Customise Abyss: https://aumgupta.github.io/abyss-jellyfin/ */\n{end}"
+    css = block + ("\n" if css else "") + css
+
+data["CustomCss"] = css
+print(json.dumps(data))
+' "$mode" "$REPO" "$BRANCH"
+}
+
+restore_legacy_chunk() {
+    local web_dir="$1"
+    local chunk_file
+    for chunk_file in "$web_dir"/home-html.*.chunk.js; do
+        [[ -f "$chunk_file" ]] || continue
+        if [[ -f "${chunk_file}.bak" ]] && grep -Eq "featurediframe|abyss-spotlight-frame" "$chunk_file"; then
+            cp -f "${chunk_file}.bak" "$chunk_file"
+            if cmp -s "${chunk_file}.bak" "$chunk_file"; then
+                rm -f "${chunk_file}.bak"
+                ok "Restored legacy home chunk backup."
+            else
+                exit_error "Could not verify restored home chunk: ${chunk_file}"
+            fi
+        fi
+    done
+}
+
+set_spotlight_index() {
+    local index_file="$1"
+    local mode="$2"
+    if [[ ! -f "$index_file" ]]; then
+        [[ "$mode" == "uninstall" ]] && return
+        exit_error "Missing Jellyfin index: ${index_file}"
+    fi
+    python3 -c '
+import os, re, shutil, sys, tempfile
+
+path, action = sys.argv[1:]
+metadata = os.stat(path)
+with open(path, "r", encoding="utf-8") as handle:
+    html = handle.read()
+html = re.sub(r"<script[^>]*\bdata-abyss-spotlight\b[^>]*></script>", "", html, flags=re.I)
+if action == "install":
+    tag = "<script src=\"ui/spotlight-loader.js\" data-abyss-spotlight></script>"
+    if "</body>" not in html.lower():
+        raise SystemExit("index.html has no closing body tag")
+    html = re.sub(r"</body>", tag + "</body>", html, count=1, flags=re.I)
+fd, temp_path = tempfile.mkstemp(dir=os.path.dirname(path), prefix=".abyss-index-", text=True)
+try:
+    with os.fdopen(fd, "w", encoding="utf-8") as handle:
+        handle.write(html)
+    shutil.copystat(path, temp_path)
+    try:
+        os.chown(temp_path, metadata.st_uid, metadata.st_gid)
+    except PermissionError:
+        pass
+    os.replace(temp_path, path)
+except BaseException:
+    if os.path.exists(temp_path):
+        os.unlink(temp_path)
+    raise
+' "$index_file" "$mode"
+}
+
 # ------------------------------------------------------------------------------
 # Authenticate
 # ------------------------------------------------------------------------------
@@ -189,7 +267,7 @@ print(json.dumps({'Username': u, 'Pw': p}))
         _response=$(curl -fsSL \
             -X POST "${server_url}/Users/AuthenticateByName" \
             -H "Content-Type: application/json" \
-            -H "X-Emby-Authorization: ${auth_header}" \
+            -H "Authorization: ${auth_header}" \
             -d "$body" 2>/dev/null) && break || true
 
         if ((try == max_tries)); then
@@ -225,7 +303,7 @@ restart_jellyfin() {
     # Try API restart first (works for all install methods)
     if curl -fsSL \
         -X POST "${server_url}/System/Restart" \
-        -H "X-Emby-Authorization: ${api_header}" >/dev/null 2>&1; then
+        -H "Authorization: ${api_header}" >/dev/null 2>&1; then
         ok "Restart triggered via API. Wait a few seconds then refresh."
         return
     fi
@@ -299,27 +377,27 @@ install_abyss() {
     # Download spotlight files
     sync_spotlight_files "$abyss_dir"
 
+    local index_file="${web_dir}/index.html"
+    [[ ! -f "$index_file" ]] && exit_error "Missing Jellyfin index: ${index_file}"
+    [[ ! -w "$index_file" ]] && exit_error "Jellyfin index is not writable: ${index_file}"
+    python3 -c 'import sys; raise SystemExit(0 if "</body>" in open(sys.argv[1], encoding="utf-8").read().lower() else 1)' "$index_file" \
+        || exit_error "Jellyfin index.html has no closing body tag."
+
     # Apply CSS
     step "Applying Abyss CSS..."
-    local css="@import url('https://cdn.jsdelivr.net/gh/${REPO}@${BRANCH}/abyss.css');\n/* Customise Abyss: https://aumgupta.github.io/abyss-jellyfin/ */"
     local branding
     branding=$(curl -fsSL \
         -X GET "${server_url}/Branding/Configuration" \
-        -H "X-Emby-Authorization: ${api_header}" 2>/dev/null) || true
+        -H "Authorization: ${api_header}" 2>/dev/null) || true
 
     if [[ -n "$branding" ]]; then
         local updated_branding
-        updated_branding=$(echo "$branding" | python3 -c "
-import sys, json
-d = json.load(sys.stdin)
-d['CustomCss'] = sys.argv[1]
-print(json.dumps(d))
-" "$(printf '%b' "$css")")
+        updated_branding=$(printf '%s' "$branding" | transform_branding_json install)
 
         curl -fsSL \
             -X POST "${server_url}/System/Configuration/Branding" \
             -H "Content-Type: application/json" \
-            -H "X-Emby-Authorization: ${api_header}" \
+            -H "Authorization: ${api_header}" \
             -d "$updated_branding" >/dev/null 2>&1 \
             && ok "Abyss CSS applied." \
             || { fail "Failed to apply CSS."; info "Add manually: Dashboard > General > Custom CSS"; }
@@ -335,7 +413,7 @@ print(json.dumps(d))
     local display_prefs
     display_prefs=$(curl -fsSL \
         -X GET "${server_url}/DisplayPreferences/usersettings?userId=${user_id}&client=emby" \
-        -H "X-Emby-Authorization: ${api_header}" 2>/dev/null) || true
+        -H "Authorization: ${api_header}" 2>/dev/null) || true
 
     if [[ -n "$display_prefs" ]]; then
         # Ask before reordering home sections
@@ -348,12 +426,18 @@ print(json.dumps(d))
         # [Y/n] convention: ENTER (empty) defaults to Yes
         [[ -z "${reorder_choice// }" ]] && reorder_choice="Y"
 
+        local reorder_sections=false
+        case "$reorder_choice" in
+            [Yy]) reorder_sections=true ;;
+        esac
+
         local updated_prefs
-        if [[ "${reorder_choice^^}" == "Y" ]]; then
+        if [[ "$reorder_sections" == true ]]; then
             updated_prefs=$(echo "$display_prefs" | python3 -c "
 import sys, json
 d = json.load(sys.stdin)
 p = d.setdefault('CustomPrefs', {})
+p['appTheme']       = 'dark'
 p['dashboardTheme'] = 'dark'
 p['homesection0']   = 'resume'
 p['homesection1']   = 'nextup'
@@ -368,6 +452,7 @@ print(json.dumps(d))
 import sys, json
 d = json.load(sys.stdin)
 p = d.setdefault('CustomPrefs', {})
+p['appTheme']       = 'dark'
 p['dashboardTheme'] = 'dark'
 print(json.dumps(d))
 ")
@@ -376,10 +461,10 @@ print(json.dumps(d))
         curl -fsSL \
             -X POST "${server_url}/DisplayPreferences/usersettings?userId=${user_id}&client=emby" \
             -H "Content-Type: application/json" \
-            -H "X-Emby-Authorization: ${api_header}" \
+            -H "Authorization: ${api_header}" \
             -d "$updated_prefs" >/dev/null 2>&1 \
-            && ok "Dashboard theme set to Dark." \
-            && { [[ "${reorder_choice^^}" == "Y" ]] && ok "Home screen sections configured." || skip "Home screen sections left unchanged."; } \
+            && ok "Client and dashboard themes set to Dark." \
+            && { [[ "$reorder_sections" == true ]] && ok "Home screen sections configured." || skip "Home screen sections left unchanged."; } \
             || warn "Could not configure theme settings. Set manually in Settings > Display."
     else
         warn "Could not fetch display preferences."
@@ -398,7 +483,7 @@ print(json.dumps(d))
         skip "ui folder exists."
     fi
 
-    for f in "spotlight.html" "spotlight.css"; do
+    for f in "spotlight.html" "spotlight.css" "spotlight-loader.js"; do
         local src="${abyss_dir}/${f}"
         local dest="${ui_dir}/${f}"
         [[ ! -f "$src" ]] && exit_error "Missing file: ${f} - try running setup again to re-download."
@@ -406,29 +491,9 @@ print(json.dumps(d))
         ok "Copied: ${f}"
     done
 
-    # Find chunk file
-    local chunk_file
-    chunk_file=$(find "$web_dir" -maxdepth 1 -name "home-html.*.chunk.js" | head -1)
-
-    if [[ -z "$chunk_file" ]]; then
-        warn "Could not find home-html.*.chunk.js automatically."
-        read -rp "  Enter the exact filename: " chunk_name
-        chunk_file="${web_dir}/${chunk_name}"
-        [[ ! -f "$chunk_file" ]] && exit_error "Chunk file not found: ${chunk_file}"
-    fi
-    ok "Found chunk: $(basename "$chunk_file")"
-
-    if [[ ! -f "${chunk_file}.bak" ]]; then
-        cp -f "$chunk_file" "${chunk_file}.bak"
-        ok "Backup created."
-    else
-        skip "Backup already exists."
-    fi
-
-    local chunk_src="${abyss_dir}/home-html.chunk.js"
-    [[ ! -f "$chunk_src" ]] && exit_error "Missing home-html.chunk.js - try running setup again."
-    cp -f "$chunk_src" "$chunk_file"
-    ok "Chunk patched."
+    restore_legacy_chunk "$web_dir"
+    set_spotlight_index "$index_file" install
+    ok "Spotlight loader installed."
     echo ""
 
     # Restart
@@ -445,7 +510,7 @@ print(json.dumps(d))
     echo -e "${yellow}    2. Hard refresh your browser (Ctrl+F5)${reset}"
     echo -e "${gray}    3. Relaunch Jellyfin Media Player if using the desktop app${reset}"
     echo ""
-    echo -e "${yellow}  Important: Go to Settings > Display > Theme and set it to Dark${reset}"
+    echo -e "${green}  Dark theme configured for the client and dashboard.${reset}"
     info "Abyss requires the Dark base theme to display correctly."
     echo ""
     echo -e "${green}  Tip: Turn on 'Show Backdrops' in display settings for best experience.${reset}"
@@ -485,58 +550,36 @@ uninstall_abyss() {
     ok "Found: ${web_dir}"
     echo ""
 
-    # Clear CSS
-    step "Clearing custom CSS..."
+    # Remove Abyss CSS
+    step "Removing Abyss CSS..."
     local branding
     branding=$(curl -fsSL \
         -X GET "${server_url}/Branding/Configuration" \
-        -H "X-Emby-Authorization: ${api_header}" 2>/dev/null) || true
+        -H "Authorization: ${api_header}" 2>/dev/null) || true
 
     if [[ -n "$branding" ]]; then
         local updated_branding
-        updated_branding=$(echo "$branding" | python3 -c "
-import sys, json
-d = json.load(sys.stdin)
-d['CustomCss'] = ''
-print(json.dumps(d))
-")
+        updated_branding=$(printf '%s' "$branding" | transform_branding_json uninstall)
         curl -fsSL \
             -X POST "${server_url}/System/Configuration/Branding" \
             -H "Content-Type: application/json" \
-            -H "X-Emby-Authorization: ${api_header}" \
+            -H "Authorization: ${api_header}" \
             -d "$updated_branding" >/dev/null 2>&1 \
-            && ok "Custom CSS cleared." \
-            || { fail "Failed to clear CSS."; info "Clear manually in Dashboard > General > Custom CSS."; }
+            && ok "Abyss CSS removed." \
+            || { fail "Failed to remove Abyss CSS."; info "Remove the marked Abyss block manually in Dashboard > General > Custom CSS."; }
     fi
     echo ""
 
-    # Restore chunk
-    step "Restoring home-html chunk..."
-    local chunk_file
-    chunk_file=$(find "$web_dir" -maxdepth 1 -name "home-html.*.chunk.js" | head -1)
-
-    if [[ -z "$chunk_file" ]]; then
-        warn "Could not find home-html.*.chunk.js automatically."
-        read -rp "  Enter the exact filename: " chunk_name
-        chunk_file="${web_dir}/${chunk_name}"
-        [[ ! -f "$chunk_file" ]] && exit_error "Chunk file not found: ${chunk_file}"
-    fi
-
-    if [[ -f "${chunk_file}.bak" ]]; then
-        cp -f "${chunk_file}.bak" "$chunk_file"
-        rm -f "${chunk_file}.bak"
-        ok "Chunk restored."
-        ok "Backup removed."
-    else
-        warn "No backup found. Chunk could not be restored."
-        info "You may need to reinstall Jellyfin web."
-    fi
+    step "Removing Spotlight loader..."
+    set_spotlight_index "${web_dir}/index.html" uninstall
+    restore_legacy_chunk "$web_dir"
+    ok "Spotlight loader removed."
     echo ""
 
     # Remove spotlight files
     step "Removing spotlight files..."
     local ui_dir="${web_dir}/ui"
-    for f in "spotlight.html" "spotlight.css"; do
+    for f in "spotlight.html" "spotlight.css" "spotlight-loader.js"; do
         local path="${ui_dir}/${f}"
         if [[ -f "$path" ]]; then
             rm -f "$path"
@@ -576,29 +619,35 @@ print(json.dumps(d))
 # Entry point
 # ------------------------------------------------------------------------------
 
-if [[ "$EUID" -ne 0 ]]; then
-    if [[ "$OS" == "Darwin" ]]; then
-        warn "Not running as root. Some file operations may require sudo."
-        info "If you encounter permission errors, re-run with: sudo bash setup.sh"
-        echo ""
-    else
-        echo -e "${red}  This script must be run as root (sudo).${reset}"
-        exit 1
+main() {
+    if [[ "$EUID" -ne 0 ]]; then
+        if [[ "$OS" == "Darwin" ]]; then
+            warn "Not running as root. Some file operations may require sudo."
+            info "If you encounter permission errors, re-run with: sudo bash setup.sh"
+            echo ""
+        else
+            echo -e "${red}  This script must be run as root (sudo).${reset}"
+            exit 1
+        fi
     fi
+
+    check_dependencies
+
+    show_header "Setup"
+
+    echo "  What would you like to do?"
+    echo ""
+    echo -e "${green}   [1] Install${reset}        ${yellow}[2] Uninstall${reset}"
+    echo ""
+    read -rp "  Enter 1 or 2: " choice
+
+    case "$choice" in
+        1) install_abyss ;;
+        2) uninstall_abyss ;;
+        *) exit_error "Invalid choice. Please enter 1 or 2." ;;
+    esac
+}
+
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+    main "$@"
 fi
-
-check_dependencies
-
-show_header "Setup"
-
-echo "  What would you like to do?"
-echo ""
-echo -e "${green}   [1] Install${reset}        ${yellow}[2] Uninstall${reset}"
-echo ""
-read -rp "  Enter 1 or 2: " choice
-
-case "$choice" in
-    1) install_abyss ;;
-    2) uninstall_abyss ;;
-    *) exit_error "Invalid choice. Please enter 1 or 2." ;;
-esac
